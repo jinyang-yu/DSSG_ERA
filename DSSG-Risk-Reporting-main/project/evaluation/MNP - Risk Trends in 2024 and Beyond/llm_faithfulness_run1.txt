@@ -1,0 +1,5 @@
+- Verdict: Somewhat Faithful
+
+- Justification: The generated summary captures the essence of the source report by highlighting key risk trends such as cyber security, AI, privacy, and data governance. However, it introduces some details not explicitly mentioned in the source, such as specific regulations like Québec’s Law 25 and the Great Resignation, which were not present in the original text. Additionally, the summary lacks the interconnectedness theme emphasized in the source report, where risks are described as a set of dominos.
+
+- Missing or Hallucinated Details: The summary includes hallucinated details like Québec’s Law 25 and the Great Resignation. It also omits the source's emphasis on the interconnectedness of risks and the importance of proactive risk management.

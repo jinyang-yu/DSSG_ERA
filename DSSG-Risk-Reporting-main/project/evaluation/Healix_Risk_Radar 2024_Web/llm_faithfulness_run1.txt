@@ -1,0 +1,3 @@
+- Verdict: Not Faithful
+- Justification: The generated summary introduces topics such as extreme weather, AI integration, and regional geopolitical risks, which are not mentioned in the source report. The source focuses on personalized risk management, the impact of recent global events, and the adoption of ISO 31030. The summary fails to accurately reflect the content and themes presented in the source report.
+- Important Missing or Hallucinated Details: The summary hallucinates details about extreme weather, AI integration, and regional geopolitical risks. It also omits key points from the source, such as the focus on ISO 31030 adoption and the impact of specific global events like the Hamas assault and the Wagner Group plane crash.

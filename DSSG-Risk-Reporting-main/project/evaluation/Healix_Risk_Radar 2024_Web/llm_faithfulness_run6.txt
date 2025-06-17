@@ -1,0 +1,3 @@
+- Verdict: Not Faithful
+- Justification: The generated summary introduces several risks (e.g., Extreme Weather Risk, Artificial Intelligence Integration Risk, MENA Geopolitical Risk) that are not mentioned in the source report. Additionally, it fails to accurately reflect the specific focus of the source, which emphasizes personalized travel risk, the importance of ISO 31030, and recent global events such as the Hamas assault and the Wagner Group plane crash.
+- Important missing or hallucinated details: The summary includes hallucinated risks like Extreme Weather Risk and Artificial Intelligence Integration Risk, which are not present in the source. It also omits the source's emphasis on the importance of ISO 31030 and the specific global events discussed.

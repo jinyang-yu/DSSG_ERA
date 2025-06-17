@@ -1,0 +1,3 @@
+- Verdict: Not Faithful
+- Justification: The generated summary introduces several topics, such as cybersecurity risk, IT risk, and various other risk areas, that are not mentioned in the source report. The source report focuses on the Pulse of Internal Audit survey, which includes topics like budget, staff, audit plans, and risk levels, but does not specifically address the detailed risk categories listed in the summary.
+- Important missing or hallucinated details: The summary mentions specific risk areas and statistics (e.g., cybersecurity risk at 78%) that are not present in the source report. The source report instead discusses survey logistics, respondent demographics, and general audit-related topics without detailing specific risk categories or percentages.

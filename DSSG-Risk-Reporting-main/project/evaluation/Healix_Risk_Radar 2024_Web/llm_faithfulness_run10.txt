@@ -1,0 +1,3 @@
+- Verdict: Not Faithful
+- Justification: The generated summary introduces several risks and details not present in the source report, such as extreme weather risk, AI integration risk, and geopolitical tensions in MENA. The source report primarily focuses on the findings from a survey of risk managers and the importance of personalized risk assessment, particularly in travel risk management, but does not mention the specific risks outlined in the summary.
+- Important Missing or Hallucinated Details: The summary includes hallucinated risks like extreme weather and AI integration, which are not mentioned in the source. Additionally, the source emphasizes the importance of ISO 31030 and personalized risk assessments, which are not adequately reflected in the summary.

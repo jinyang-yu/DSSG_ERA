@@ -1,0 +1,345 @@
+{
+  "risks": [
+    {
+      "Risk Name": "Cyber security risk",
+      "Risk Description": "Flagged as the number one risk in 2023, characterized by a high number of incidents and potential for state\u2010sponsored attacks, ransomware, and data breaches. Institutions face challenges due to a diverse, piecemeal IT environment, insufficient investment in technical controls, and widespread shadow IT.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Insufficient technical investment",
+          "Driver Description": "Many institutions have historically not invested significantly in technical IT controls and dedicated cyber security staff."
+        },
+        {
+          "Driver Name": "Diverse IT environment",
+          "Driver Description": "The piecemeal development of IT systems combined with common shadow IT increases the number of unauthorised entry points."
+        },
+        {
+          "Driver Name": "Recruitment challenges",
+          "Driver Description": "Recruiting talented cyber security staff is both challenging and costly."
+        },
+        {
+          "Driver Name": "Insurance challenges",
+          "Driver Description": "Obtaining insurance to transfer part of the cyber security risks is increasingly difficult."
+        }
+      ],
+      "Risk Recommendations": [
+        "Enhance investment in technical IT controls and dedicated cyber security staffing.",
+        "Consider centralizing IT processes to reduce shadow IT risks.",
+        "Prepare for potential regulatory action to enforce stronger cyber security measures."
+      ],
+      "Trend": "Has remained in the top two risks for the past three years with increasing average impact scores.",
+      "Likelihood": "N/A",
+      "Impact": "Potential for significant operational disruption, reputational damage, and financial instability due to data breaches or system failures.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Risk is higher in institutions with devolved IT models and diverse infrastructures where shadow IT is prevalent."
+      ]
+    },
+    {
+      "Risk Name": "Sustainability, Environment and Climate Change Risk",
+      "Risk Description": "Concerns related to meeting Net Zero targets and reducing carbon emissions, especially scope three emissions, amid challenges in funding, data collection, and achieving organization-wide buy-in.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Funding challenges",
+          "Driver Description": "Difficulty in obtaining funding for plans aimed at reducing carbon emissions."
+        },
+        {
+          "Driver Name": "Scope three data challenges",
+          "Driver Description": "Challenges in quantifying, monitoring, and reporting on indirect (scope three) emissions."
+        },
+        {
+          "Driver Name": "Devolved governance",
+          "Driver Description": "A legacy perspective where sustainability is treated as an estates problem rather than a university-wide responsibility."
+        }
+      ],
+      "Risk Recommendations": [
+        "Revise sustainability governance structures to operate centrally.",
+        "Invest in green energy supplies and diversify energy generation.",
+        "Develop comprehensive plans to reduce carbon emissions, with particular focus on scope three challenges."
+      ],
+      "Trend": "Newly identified risk for 2023, likely to persist as institutions strive to meet Net Zero targets.",
+      "Likelihood": "N/A",
+      "Impact": "Could affect institutional reputation, increase operational costs, and hinder the ability to secure strategic research partnerships.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Particularly relevant for institutions operating carbon\u2010intensive estates and with older buildings not designed for sustainability."
+      ]
+    },
+    {
+      "Risk Name": "Financial Sustainability & Infrastructure Risk",
+      "Risk Description": "Represents increasing financial challenges driven by rising operational costs\u2014including energy, staff, and pension expenses\u2014and the need for significant investment in both physical estates and digital infrastructure to support new educational delivery models.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Rising operational costs",
+          "Driver Description": "Increases in energy costs, inflation on non\u2010pay expenses, and higher staff costs are straining budgets."
+        },
+        {
+          "Driver Name": "Legacy estates",
+          "Driver Description": "Older, inefficient physical estates require refurbishment, right\u2010sizing, or repurposing."
+        },
+        {
+          "Driver Name": "Pension costs",
+          "Driver Description": "Rising pension expenses contribute to overall financial pressure."
+        },
+        {
+          "Driver Name": "Digital transformation demands",
+          "Driver Description": "The need to invest in digital infrastructure to support blended learning and operational efficiencies."
+        }
+      ],
+      "Risk Recommendations": [
+        "Optimize campus space usage by redistributing and right\u2010sizing facilities.",
+        "Review and upgrade estate strategies in light of new delivery models.",
+        "Enhance digital infrastructure investments to improve operational efficiency.",
+        "Implement robust budget monitoring and expenditure controls."
+      ],
+      "Trend": "Increasing, as institutions face escalating cost pressures with a historic lack of planning in some areas.",
+      "Likelihood": "N/A",
+      "Impact": "Could lead to reduced financial resilience, operational disruptions, and limited capacity for strategic investments.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Impacts vary by institution, particularly affecting those with high operational costs and legacy estates."
+      ]
+    },
+    {
+      "Risk Name": "Staff Recruitment and Retention Risk",
+      "Risk Description": "Challenges in attracting and retaining high-calibre academic and professional staff, leading to increased workloads, higher turnover, and the potential for prolonged industrial action.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Talent attraction challenges",
+          "Driver Description": "Difficulty in recruiting diverse, high-calibre academics and professional service staff."
+        },
+        {
+          "Driver Name": "Workload pressures",
+          "Driver Description": "Increased workloads and staff turnover diminish employee experience and morale."
+        },
+        {
+          "Driver Name": "Industrial action factors",
+          "Driver Description": "Issues including pay disputes, precarious contracts, and pension concerns that contribute to industrial unrest."
+        }
+      ],
+      "Risk Recommendations": [
+        "Enhance recruitment and retention strategies.",
+        "Strengthen support for staff wellbeing, including mental health initiatives.",
+        "Effectively manage change and address employment issues at both national and local levels."
+      ],
+      "Trend": "Concerns are increasing, as evidenced by recent industrial action and ongoing disputes impacting staff morale.",
+      "Likelihood": "N/A",
+      "Impact": "Significant impact on operational resilience, staff morale, and the institution\u2019s ability to achieve strategic objectives.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "Industrial action taken by thousands of staff in recent months.",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Variations may occur based on institution size and regional employment conditions."
+      ]
+    },
+    {
+      "Risk Name": "Student Recruitment Risk",
+      "Risk Description": "Relates to the volatility of the student market, with challenges in accurately forecasting and achieving recruitment targets amid global competition and shifting demographics.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Market volatility",
+          "Driver Description": "The student recruitment market is inherently unpredictable, with changing student priorities complicating forecasts."
+        },
+        {
+          "Driver Name": "Global competition",
+          "Driver Description": "Increased international competition, underscored by changes in immigration and foreign policy, heightens recruitment challenges."
+        },
+        {
+          "Driver Name": "Demographic shifts",
+          "Driver Description": "Mixed trends in international student applications, including declines among certain cohorts such as Chinese students, contrast with growth in other regions."
+        }
+      ],
+      "Risk Recommendations": [
+        "Adapt recruitment strategies to target diverse student demographics.",
+        "Optimize international partnerships and leverage digital recruitment channels.",
+        "Enhance support services to meet the evolving needs of prospective students."
+      ],
+      "Trend": "Mixed trends; while overall international applications are growing, certain markets (e.g., Chinese students) are experiencing declines.",
+      "Likelihood": "N/A",
+      "Impact": "Fluctuating student numbers can affect academic achievement, institutional reputation, and financial stability.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "Notable decrease in Chinese student applications despite increases from other international markets.",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Risk varies by region and country, influenced by differing immigration policies and student demographics."
+      ]
+    },
+    {
+      "Risk Name": "Student Experience & Welfare Risk",
+      "Risk Description": "Focuses on the overall quality of the student lifecycle\u2014including learning, teaching, pastoral support, and wellbeing\u2014which is critical for student success and the institution\u2019s reputation.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Hybrid learning challenges",
+          "Driver Description": "The shift to hybrid/blended learning reduces on-campus engagement, potentially delaying the identification of student issues."
+        },
+        {
+          "Driver Name": "Support service demands",
+          "Driver Description": "Increasing demands for comprehensive and accessible support services to cater to diverse student needs."
+        },
+        {
+          "Driver Name": "Wellbeing concerns",
+          "Driver Description": "Rising mental health issues underscore the need for robust pastoral and support mechanisms."
+        }
+      ],
+      "Risk Recommendations": [
+        "Prioritize student welfare by ensuring robust support services.",
+        "Enhance mental health and pastoral support frameworks.",
+        "Adapt educational delivery models to sustain high levels of student engagement."
+      ],
+      "Trend": "While these risks have dropped in perceived severity, they remain prevalent in institutional risk registers.",
+      "Likelihood": "N/A",
+      "Impact": "Can adversely affect academic outcomes, student wellbeing, and the overall reputation of the institution.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Variations may depend on the balance between digital and in-person learning and the quality of support services offered."
+      ]
+    },
+    {
+      "Risk Name": "Regulatory Compliance Risk",
+      "Risk Description": "Encompasses the risk of failing to meet evolving regulatory and legislative requirements, which can undermine institutional autonomy and strategic initiatives.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Changing regulations",
+          "Driver Description": "Frequent updates and shifts in external regulatory and legislative requirements challenge compliance efforts."
+        },
+        {
+          "Driver Name": "Excessive regulatory burden",
+          "Driver Description": "Heavy compliance demands may limit strategic agility and burden institutional governance."
+        }
+      ],
+      "Risk Recommendations": [
+        "Monitor regulatory changes proactively and engage in scenario planning.",
+        "Enhance internal compliance and risk reporting mechanisms."
+      ],
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "Non-compliance can lead to financial, reputational, and operational challenges.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Impact may vary with institution size and the regional regulatory environment."
+      ]
+    },
+    {
+      "Risk Name": "Policy and Engagement Risk",
+      "Risk Description": "Covers risks arising from shifts in government education policy and the external policy environment, which can affect strategic planning and operational execution.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Government policy changes",
+          "Driver Description": "Significant shifts in government policy and funding mechanisms challenge institutional planning."
+        },
+        {
+          "Driver Name": "Executive burden",
+          "Driver Description": "Increased pressure on leadership due to complex regulatory landscapes impacts strategic decision-making."
+        }
+      ],
+      "Risk Recommendations": [
+        "Conduct scenario planning for emerging policy shifts.",
+        "Proactively adjust institutional strategies to align with new policy directions."
+      ],
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "Can affect student recruitment, income generation, and the attainment of strategic goals.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Impacts may vary based on regional differences and national policy changes."
+      ]
+    },
+    {
+      "Risk Name": "Research Risk",
+      "Risk Description": "Relates to challenges in strengthening research culture, ensuring research quality, and securing sufficient grant funding, all of which are vital to sustaining institutional reputation and financial health.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Insufficient funding",
+          "Driver Description": "Inadequate research grant funding limits the ability to build world-leading research capacity."
+        },
+        {
+          "Driver Name": "Lack of strategic partnerships",
+          "Driver Description": "Failure to forge alliances with leading research institutions undermines collaborative opportunities."
+        },
+        {
+          "Driver Name": "Research capacity challenges",
+          "Driver Description": "Difficulty in recruiting and retaining high-quality research staff adversely affects research outcomes."
+        }
+      ],
+      "Risk Recommendations": [
+        "Invest in initiatives that strengthen research culture and quality.",
+        "Develop strategic partnerships to support collaborative research.",
+        "Enhance efforts to secure research funding and attract top research talent."
+      ],
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "Could significantly affect research output, reputation, and income generation.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Impact may differ based on the institution\u2019s research focus and external funding environment."
+      ]
+    },
+    {
+      "Risk Name": "Organisational/Operating Model Risk",
+      "Risk Description": "Concerns the risk that an institution's operating model may not adapt effectively to changing academic, technological, and organisational needs, thereby hindering strategic goal attainment.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Ineffective change management",
+          "Driver Description": "Poor handling of technical, educational, and people-related changes can impede progress."
+        },
+        {
+          "Driver Name": "Misaligned operating model",
+          "Driver Description": "Failure to update the operating model to reflect evolving teaching, research, and operational requirements."
+        }
+      ],
+      "Risk Recommendations": [
+        "Enhance change management processes and ensure the operating model aligns with strategic objectives.",
+        "Monitor the pace and scope of change to mitigate associated risks."
+      ],
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "May lead to operational inefficiencies and hinder the achievement of strategic goals.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Differences may arise based on institution size and the effectiveness of internal change management capabilities."
+      ]
+    },
+    {
+      "Risk Name": "Partnerships Risk",
+      "Risk Description": "Relates to the risk of failing to develop and manage a diversified network of academic and operational partnerships, which can undermine competitiveness, reduce research income, and limit educational opportunities.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Over-reliance on single regions",
+          "Driver Description": "Dependence on one geographical region increases vulnerability to political and macroeconomic changes."
+        },
+        {
+          "Driver Name": "Insufficient collaborative networks",
+          "Driver Description": "A failure to build a diversified portfolio of partnerships that align with strategic objectives can limit innovation and income."
+        }
+      ],
+      "Risk Recommendations": [
+        "Develop a broader, diversified network of partnerships and collaborative initiatives.",
+        "Ensure partnership strategies are closely aligned with institutional strategic goals."
+      ],
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "May negatively affect research collaborations, innovation capabilities, and revenue streams.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Impact may vary based on the institution's level of international engagement and regional focus."
+      ]
+    }
+  ]
+}

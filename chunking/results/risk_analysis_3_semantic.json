@@ -1,0 +1,230 @@
+{
+  "risks": [
+    {
+      "Risk Name": "Cyber security",
+      "Risk Description": "Risk involving the increasing number and severity of cyber security incidents, including state\u2010sponsored attacks and ransomware, which can disrupt operations, harm reputation, and affect financial stability.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Underinvestment in IT controls",
+          "Driver Description": "Many institutions have historically not invested significantly in technical IT controls and dedicated cyber security staff."
+        },
+        {
+          "Driver Name": "Shadow IT",
+          "Driver Description": "Widespread use of unmonitored, non\u2010centralized IT systems increases unauthorized entry points."
+        },
+        {
+          "Driver Name": "Devolved IT models",
+          "Driver Description": "Decentralized or devolved IT management leads to a reduced level of central oversight and increased vulnerabilities."
+        },
+        {
+          "Driver Name": "Increased external threat",
+          "Driver Description": "There is a high potential for state\u2010sponsored cyber attacks and ransomware incidents impacting institutions."
+        }
+      ],
+      "Risk Recommendations": [
+        "Increase investment in cyber security staff and technical controls",
+        "Centralize IT management to reduce the risks associated with shadow IT",
+        "Consider regulatory action to enhance cyber security preparedness"
+      ],
+      "Trend": "Has remained in the top two risks for the past three years and is flagged as the number one risk in 2023, with increased average impact scores.",
+      "Likelihood": "N/A",
+      "Impact": "Potential disruption of operations, harm to reputation, and financial instability due to the costs and challenges of mitigating attacks.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Sustainability, environment and climate change",
+      "Risk Description": "Risk related to meeting Net Zero targets and managing energy usage while reducing carbon emissions, which requires significant investment and poses challenges in monitoring especially scope 3 emissions.",
+      "Risk Driver": [
+        {
+          "Driver Name": "High capital investment requirements",
+          "Driver Description": "Net Zero ambitions demand significant investment that many institutions are not financially prepared to deliver."
+        },
+        {
+          "Driver Name": "Carbon-intensive estates",
+          "Driver Description": "Many institutions operate highly carbon-intensive estates, making the transition to sustainability difficult."
+        },
+        {
+          "Driver Name": "Emission monitoring challenges",
+          "Driver Description": "There is difficulty in quantifying and reporting scope 3 emissions, such as those from student travel and supply chain activities."
+        },
+        {
+          "Driver Name": "Energy crisis",
+          "Driver Description": "Current energy challenges drive the need for re-assessment of energy usage and sustainability measures."
+        }
+      ],
+      "Risk Recommendations": [
+        "Develop and implement robust sustainability governance structures",
+        "Invest in capital improvements and green energy solutions",
+        "Enhance measurement and monitoring of carbon emissions, including scope 3"
+      ],
+      "Trend": "A newly identified risk that is likely to remain high on the agenda due to ongoing sustainability challenges and external pressures.",
+      "Likelihood": "N/A",
+      "Impact": "Failure to meet sustainability targets could damage reputation and lead to significant financial and operational constraints.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Financial Sustainability & Infrastructure",
+      "Risk Description": "Risk revolving around rising institutional costs\u2014including energy, staff, pension, and estate maintenance\u2014and the challenges of adapting physical and digital infrastructure to evolving teaching and operational models.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Rising operational costs",
+          "Driver Description": "Increases in energy costs, inflation on non\u2010pay expenses, staff costs, and pension expenses are driving financial pressure."
+        },
+        {
+          "Driver Name": "Legacy estate challenges",
+          "Driver Description": "A historic lack of planning and investment has led to outdated and underused estates."
+        },
+        {
+          "Driver Name": "Digital transformation demands",
+          "Driver Description": "There is a growing need for investment in digital infrastructure to support blended learning and improve operational efficiency."
+        },
+        {
+          "Driver Name": "Changing student needs",
+          "Driver Description": "Shifts in teaching models and reduced demand for traditional physical space call for more flexible estate usage."
+        }
+      ],
+      "Risk Recommendations": [
+        "Conduct thorough analysis of cost drivers and income streams",
+        "Invest in digital infrastructure to improve operational efficiencies",
+        "Reassess and optimize estate usage, including the potential divestment of underutilized spaces",
+        "Review procurement and budgeting controls to manage rising costs"
+      ],
+      "Trend": "Financial challenges are increasing, exacerbated by the pandemic and evolving operational needs.",
+      "Likelihood": "N/A",
+      "Impact": "Potential budget deficits, compromised financial resilience, and an inability to invest in strategic priorities.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Risk may be heightened for institutions with decentralized control of estates"
+      ]
+    },
+    {
+      "Risk Name": "Staff Recruitment and Retention",
+      "Risk Description": "Risk concerning the ability to attract and retain high-calibre academic and professional staff, leading to increased workloads, higher turnover, and potential industrial action.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Talent attraction challenges",
+          "Driver Description": "Difficulty in attracting and retaining diverse, high-calibre staff increases workloads and turnover."
+        },
+        {
+          "Driver Name": "Employment disputes",
+          "Driver Description": "Issues related to pay, precarious contracts, and pension disputes are contributing to industrial action."
+        },
+        {
+          "Driver Name": "Policy changes",
+          "Driver Description": "Frequent changes in government policy regarding education and employment add uncertainty to staffing."
+        }
+      ],
+      "Risk Recommendations": [
+        "Develop robust recruitment and retention strategies",
+        "Effectively manage change and respond to shifts in employment policy",
+        "Enhance support services to improve staff well-being"
+      ],
+      "Trend": "A persistent risk evidenced by 100% occurrence in risk registers and ongoing industrial action in recent months.",
+      "Likelihood": "N/A",
+      "Impact": "Increased workloads, deteriorating staff morale, prolonged industrial action, and negative effects on institutional performance.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "Recent industrial action taken by thousands of staff",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Student Recruitment",
+      "Risk Description": "Risk arising from volatility in student recruitment numbers, influenced by global competition, policy changes, and shifting international student demographics.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Market volatility",
+          "Driver Description": "The recruitment market is unpredictable, making it challenging to accurately forecast student numbers."
+        },
+        {
+          "Driver Name": "International dynamics",
+          "Driver Description": "Shifts such as declining numbers of Chinese students and increased competition from other countries affect recruitment."
+        },
+        {
+          "Driver Name": "Policy and economic factors",
+          "Driver Description": "Changes in immigration, foreign policy, and the cost of living crisis contribute to fluctuations in recruitment."
+        }
+      ],
+      "Risk Recommendations": [
+        "Develop and implement robust student recruitment strategies",
+        "Enhance forecasting models to better predict student numbers",
+        "Diversify recruitment efforts across different international markets"
+      ],
+      "Trend": "Overall growth in international applications with notable shifts\u2014such as a decrease in Chinese student numbers and increased enrollments from countries like India, Nigeria, France, and Italy.",
+      "Likelihood": "N/A",
+      "Impact": "Failure to recruit adequately may lead to budget deficits and negatively affect strategic goals and tuition fee income.",
+      "Risk Indicator": "Home UK undergraduate applicant numbers dropped by approximately 2%",
+      "Risk Event": "A drop in home UK undergraduate applicants by around 2% in 2022/23",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Variations observed between different international recruitment markets"
+      ]
+    },
+    {
+      "Risk Name": "Student Experience and Welfare",
+      "Risk Description": "Risk related to the quality and inclusivity of the student experience\u2014including academic provision, pastoral care, and mental health support\u2014which can affect satisfaction and outcomes.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Digital transition challenges",
+          "Driver Description": "The shift to hybrid learning models may reduce on-campus engagement and impact the quality of student support."
+        },
+        {
+          "Driver Name": "Insufficient support services",
+          "Driver Description": "A lack of comprehensive mental health and pastoral services can deteriorate the overall student experience."
+        },
+        {
+          "Driver Name": "Evolving student expectations",
+          "Driver Description": "Rising expectations for innovative and supportive educational experiences increase pressure on institutions."
+        }
+      ],
+      "Risk Recommendations": [
+        "Restructure institutional processes to prioritize student experience in a digital/hybrid environment",
+        "Enhance mental health and pastoral support services"
+      ],
+      "Trend": "Although student experience risks have dropped out of the top five ratings, the risk remains common across risk registers.",
+      "Likelihood": "N/A",
+      "Impact": "Poor student experience can negatively affect academic outcomes, satisfaction metrics, and institutional reputation.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "IT Infrastructure Challenges",
+      "Risk Description": "Risk stemming from challenges in updating and integrating IT systems, including costly cloud migrations, legacy piecemeal environments, and the need to support a modern digital learning environment.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Cost and technical challenges",
+          "Driver Description": "Transitioning to cloud-based systems is often both costly and technically demanding."
+        },
+        {
+          "Driver Name": "Fragmented IT systems",
+          "Driver Description": "Legacy, piecemeal IT environments combined with widespread shadow IT increase vulnerability and inefficiency."
+        },
+        {
+          "Driver Name": "Increased digital demand",
+          "Driver Description": "Growing expectations for innovative digital learning solutions drive the need for robust and integrated IT infrastructure."
+        }
+      ],
+      "Risk Recommendations": [
+        "Invest in modernizing and integrating IT systems",
+        "Centralize IT controls to reduce vulnerabilities from shadow IT",
+        "Align IT infrastructure upgrades with digital transformation objectives"
+      ],
+      "Trend": "As the sector enters a new digital age, emphasis on IT infrastructure modernization is increasing despite ongoing challenges.",
+      "Likelihood": "N/A",
+      "Impact": "Inadequate IT infrastructure can hinder digital learning, reduce operational efficiencies, and compromise system security.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    }
+  ]
+}

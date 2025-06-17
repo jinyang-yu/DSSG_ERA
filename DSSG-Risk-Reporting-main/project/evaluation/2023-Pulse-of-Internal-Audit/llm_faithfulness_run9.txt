@@ -1,0 +1,5 @@
+- Verdict: Not Faithful
+
+- Justification: The generated summary introduces several specific risk categories and related statistics that are not present in the source report. The source report focuses on the structure and content of the 2023 North American Pulse of Internal Audit survey, including details about budget, staff, audit plans, and risk levels, but it does not provide specific data or analysis on cybersecurity, IT risk, third-party relationships, or other detailed risk areas mentioned in the summary.
+
+- Important Missing or Hallucinated Details: The summary includes hallucinated details such as specific percentages and risk assessments (e.g., "Cybersecurity Risk A ubiquitous concern identified by 78% of respondents"), which are not found in the source report. Additionally, the source report does not mention specific risk categories like "Third-Party Relationships Risk" or "Sustainability/Non-Financial Reporting Risk," which are included in the summary.

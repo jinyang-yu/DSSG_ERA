@@ -1,0 +1,434 @@
+{
+  "risks": [
+    {
+      "Risk Name": "Cyber security",
+      "Risk Description": "Cyber security is flagged as the number one risk in our analysis for 2023 and has remained in the top two risks facing the sector in the last three years. Given the significant number and severity of cyber security incidents experienced by the sector in the last few years, the sector remains an attractive target for cyber security attackers.",
+      "Risk Driver": [
+        {
+          "Driver Name": "External threat actors",
+          "Driver Description": "The sector remains an attractive target for cyber security attackers and the likelihood of state sponsored attacks could increase."
+        },
+        {
+          "Driver Name": "Underinvestment in technical controls and staff",
+          "Driver Description": "Many institutions have historically not invested in technical IT controls and dedicated cyber security staff."
+        },
+        {
+          "Driver Name": "Diverse, piecemeal IT environment",
+          "Driver Description": "The IT environment across institutions is diverse and has been built up in a piecemeal fashion over a number of years."
+        },
+        {
+          "Driver Name": "Shadow IT",
+          "Driver Description": "Shadow IT is common and widespread across many institutions."
+        },
+        {
+          "Driver Name": "Staffing challenges",
+          "Driver Description": "Recruiting talented cyber security staff is challenging and costly."
+        },
+        {
+          "Driver Name": "Insurance difficulties",
+          "Driver Description": "Obtaining insurance to transfer at least part of the cyber security risk is increasingly difficult."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "Cyber security has remained in the top two risks facing the sector for the last three years and is flagged as the number one risk in 2023.",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Sustainability, environment and climate change",
+      "Risk Description": "Institutions are worried about the impact of climate change and the work required to meet Net Zero targets, particularly around the difficulty of calculating and reducing scope three emissions.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Scope three emissions complexity",
+          "Driver Description": "Scope three indirect emissions have proved much more difficult to calculate than scope one and two emissions."
+        },
+        {
+          "Driver Name": "Funding challenges",
+          "Driver Description": "Some institutions have found it challenging to obtain the funding for plans to reduce carbon emissions and gaining buy-in from the whole organisation."
+        },
+        {
+          "Driver Name": "Aging estates",
+          "Driver Description": "The estate has a number of old buildings which were not built with sustainability in mind."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "This is the first time sustainability, environment and climate change has appeared in the top five risks for 2023.",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Financial sustainability",
+      "Risk Description": "All of the risk registers we reviewed included risks around the medium to long term financial sustainability of institutions, balancing increasing costs with flat revenue streams.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Rising energy costs",
+          "Driver Description": "Rising energy costs are increasing the institutional cost base."
+        },
+        {
+          "Driver Name": "Inflation on non-pay expenses",
+          "Driver Description": "Inflation on non-pay expense is putting additional strain on budgets."
+        },
+        {
+          "Driver Name": "Increasing staff costs",
+          "Driver Description": "Staff costs are rising to support staff through the cost of living crisis."
+        },
+        {
+          "Driver Name": "Increasing pension costs",
+          "Driver Description": "Employer contributions to pensions have risen, impacting long-term sustainability."
+        },
+        {
+          "Driver Name": "Tuition fee cap",
+          "Driver Description": "Undergraduate tuition fees are capped at \u00a39,250 until at least 2024/25."
+        },
+        {
+          "Driver Name": "Decline in home UK applicants",
+          "Driver Description": "The total number of home UK undergraduate applicants dropped by approximately 2% in 2022/23."
+        },
+        {
+          "Driver Name": "International competition",
+          "Driver Description": "Competition for international students is increasing exponentially."
+        }
+      ],
+      "Risk Recommendations": [
+        "Better understand the drivers of the cost base and the relative income generated on a granular level (e.g., course by course).",
+        "Assess how new income streams will contribute to the overall financial position.",
+        "Evaluate whether investments will generate a sufficient return within an appropriate timeframe.",
+        "Ensure effective controls over procurement, contract management, and budgetary performance.",
+        "Consider bold decisions such as course closures or stopping certain activities to improve resilience.",
+        "Seek out innovative ways in which income can be generated."
+      ],
+      "Trend": "Medium to long term financial sustainability has become a greater concern in 2023, appearing in 100% of risk registers.",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Infrastructure - university estates and technology capacity / capability",
+      "Risk Description": "With many universities operating in aging estates and a lack of funding into physical facilities in recent years, infrastructure was identified as a new challenge in 2023, exacerbated by historic underinvestment.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Aging estates",
+          "Driver Description": "Many institutions operate old buildings not designed with sustainability or modern teaching needs in mind."
+        },
+        {
+          "Driver Name": "Historic underinvestment",
+          "Driver Description": "There has been a historic lack of planning and investment across the estate."
+        },
+        {
+          "Driver Name": "Pandemic maintenance backlog",
+          "Driver Description": "Backlog in estate maintenance due to the pandemic disruption over the past three years."
+        },
+        {
+          "Driver Name": "Changing delivery models",
+          "Driver Description": "Restructuring of campus layouts in response to new blended and innovative delivery models."
+        },
+        {
+          "Driver Name": "Future energy concerns",
+          "Driver Description": "Concerns about future energy usage as estates become more energy-intensive."
+        },
+        {
+          "Driver Name": "Student demand for innovation",
+          "Driver Description": "Increasing demand from students for education in innovative ways affects space utilisation."
+        }
+      ],
+      "Risk Recommendations": [
+        "Conduct data-driven analysis of space utilisation to inform strategic decision making.",
+        "Redistribute and right-size space, and consider selling spare capacity to raise additional finance.",
+        "Explore self-generation of energy and investment in green energy supplies."
+      ],
+      "Trend": "Infrastructure risks have significantly increased in relevance in 2023, appearing as a new top theme.",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "IT infrastructure",
+      "Risk Description": "The sector must adapt to a new digital age, integrating systems and implementing blended learning while maintaining quality; failure to improve digital capabilities may lead to operational inefficiencies and reputational damage.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Neglected digital investment",
+          "Driver Description": "Digital infrastructure investment has historically been neglected due to perceived cost and complexity."
+        },
+        {
+          "Driver Name": "Supply chain challenges",
+          "Driver Description": "Moves to the cloud are both costly and technically challenging, with increased costs and delays."
+        },
+        {
+          "Driver Name": "Diversified IT landscape",
+          "Driver Description": "Diversification of data, software, systems and users without centralised controls increases risk."
+        },
+        {
+          "Driver Name": "Emerging AI technologies",
+          "Driver Description": "The advent of AI technologies brings a new set of academic and operational risks."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "In the past year, risks around digital infrastructure have increased significantly.",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Staff recruitment and retention",
+      "Risk Description": "Attracting and keeping the best people is pivotal; inability to recruit and retain diverse, high calibre staff leads to increased workloads, turnover and impacts on the student experience.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Pay and contract disputes",
+          "Driver Description": "The current national dispute includes pay, precarious contracts, workloads and the gender/BAME pay gap, contributing to strike action."
+        },
+        {
+          "Driver Name": "Workload pressures",
+          "Driver Description": "Inability to attract and retain staff is leading to increased workloads and a reduced student experience."
+        },
+        {
+          "Driver Name": "Pension disputes",
+          "Driver Description": "Ongoing USS pension issues are driving staff unrest."
+        },
+        {
+          "Driver Name": "Competition for talent",
+          "Driver Description": "Competition to recruit talented staff is challenging and costly."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Policy and engagement",
+      "Risk Description": "Government and Department for Education policy shapes the sector\u2019s risk environment; failure to anticipate and respond to policy changes may impact recruitment, funding and strategic goals.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Policy changes",
+          "Driver Description": "Government policy changes, including those affecting student recruitment and funding, directly influence university operations."
+        },
+        {
+          "Driver Name": "Regulatory oversight",
+          "Driver Description": "Increased regulatory burden from bodies such as the Office for Students."
+        },
+        {
+          "Driver Name": "Levelling-up priorities",
+          "Driver Description": "Levelling-up ambitions will impact how research funding is directed in future."
+        },
+        {
+          "Driver Name": "Immigration policy",
+          "Driver Description": "Changes in immigration policy could radically impact long-term sector viability."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Student recruitment",
+      "Risk Description": "Volatile recruitment market, including a 2% drop in home UK undergraduate applicants in 2022/23 and increased global competition, risks missing enrollment targets and financial impacts.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Decline in home applications",
+          "Driver Description": "Home UK undergraduate applicants dropped by approximately 2%."
+        },
+        {
+          "Driver Name": "Immigration policy changes",
+          "Driver Description": "Changes in immigration policy and international relations may affect recruitment."
+        },
+        {
+          "Driver Name": "Global competition",
+          "Driver Description": "Growing global competition for international students."
+        },
+        {
+          "Driver Name": "Demographic shifts",
+          "Driver Description": "Increase in applications from Indian and Nigerian students, offset by a decrease in Chinese student numbers."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "Home UK undergraduate applications fell by around 2% in 2022/23.",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Student experience",
+      "Risk Description": "Failure to deliver a high quality, inclusive student experience across the lifecycle can negatively affect satisfaction, academic achievement, National Student Survey results and league table rankings.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Teaching adaptation",
+          "Driver Description": "Failure to adapt teaching and learning methods to meet the needs of large and diverse cohorts."
+        },
+        {
+          "Driver Name": "Hybrid learning support challenges",
+          "Driver Description": "Hybrid/blended learning reduces campus interactions, making it harder to provide support."
+        },
+        {
+          "Driver Name": "Resource constraints",
+          "Driver Description": "Lack of resources to support growing student numbers."
+        },
+        {
+          "Driver Name": "Weak student voice",
+          "Driver Description": "Failure to develop a vibrant student voice and community undermines engagement."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "Student experience remains the most common risk but has dropped out of the top five in impact and likelihood.",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Student welfare",
+      "Risk Description": "Failure to offer suitable support on health and wellbeing, including mental health, and to prevent harassment and sexual misconduct, risks student safety and regulatory non-compliance.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Mental health issues",
+          "Driver Description": "An increasing number of students are suffering with their mental health."
+        },
+        {
+          "Driver Name": "Hybrid learning support challenges",
+          "Driver Description": "Hybrid/blended learning makes it harder for institutions to spot those in need of support."
+        },
+        {
+          "Driver Name": "Harassment and misconduct",
+          "Driver Description": "Risk of failure to prevent and address harassment and sexual misconduct."
+        },
+        {
+          "Driver Name": "Inadequate welfare services",
+          "Driver Description": "Insufficient student welfare and pastoral support services."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Research",
+      "Risk Description": "Inability to deliver impactful, high quality research, build strategic alliances, secure funding and maintain research integrity threatens reputation and financial sustainability.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Insufficient grant funding",
+          "Driver Description": "Insufficient research grant funding to deliver a critical mass of world leading research."
+        },
+        {
+          "Driver Name": "Lack of partnerships",
+          "Driver Description": "Failure to forge strategic alliances and academic partnerships."
+        },
+        {
+          "Driver Name": "Research culture and standards",
+          "Driver Description": "Failure to strengthen research culture, quality and standards."
+        },
+        {
+          "Driver Name": "Academic freedom constraints",
+          "Driver Description": "Risk of constraints on academic freedom due to external pressures."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Equality and diversity",
+      "Risk Description": "Failure to deliver on an approved Access & Participation plan, including failing to recruit, retain and maintain diverse student profiles and to remove attainment gaps, risks culture, morale and reputation.",
+      "Risk Driver": "N/A",
+      "Risk Recommendations": "N/A",
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Operating model",
+      "Risk Description": "Failure to ensure that our operating model adapts as needed to support academic teaching and research objectives may limit the ability to deliver strategic goals.",
+      "Risk Driver": "N/A",
+      "Risk Recommendations": "N/A",
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Strategic change programmes",
+      "Risk Description": "Risk of failure to lead and manage the substantial amount of technical, educational and people-related change required by strategic initiatives.",
+      "Risk Driver": "N/A",
+      "Risk Recommendations": "N/A",
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Partnerships",
+      "Risk Description": "Failure to develop a critical mass of partnerships aligned to strategic objectives makes the university uncompetitive in innovation, enterprise and revenue generation.",
+      "Risk Driver": "N/A",
+      "Risk Recommendations": "N/A",
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Compliance - regulatory breach",
+      "Risk Description": "N/A",
+      "Risk Driver": "N/A",
+      "Risk Recommendations": "N/A",
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    }
+  ]
+}

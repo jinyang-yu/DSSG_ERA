@@ -1,0 +1,169 @@
+{
+  "risks": [
+    {
+      "Risk Name": "Cyber security",
+      "Risk Description": "The sector remains an attractive target for cyber attackers and the likelihood of state sponsored attacks could increase as many institutions hold research data and other information that is likely to be of value.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Lack of investment in technical IT controls and dedicated cyber security staff",
+          "Driver Description": "Many institutions have historically not invested significantly in technical IT controls and dedicated cyber security staff."
+        },
+        {
+          "Driver Name": "Diverse, piecemeal built IT environment",
+          "Driver Description": "The IT environment across institutions is diverse and has been built up in a piecemeal fashion over a number of years."
+        },
+        {
+          "Driver Name": "Prevalence of Shadow IT",
+          "Driver Description": "Shadow IT is common and widespread across many institutions."
+        },
+        {
+          "Driver Name": "Difficulty recruiting talented cyber security staff",
+          "Driver Description": "Recruiting talented staff in this area is challenging and costly."
+        },
+        {
+          "Driver Name": "Difficulty obtaining insurance for cyber security risks",
+          "Driver Description": "Obtaining insurance to transfer (at least part of) cyber security risks is increasingly difficult."
+        }
+      ],
+      "Risk Recommendations": [
+        "Invest in technical IT controls and dedicated cyber security staff.",
+        "Obtain insurance to transfer at least part of cyber security risks.",
+        "Place significant investment into staff and technology resources to mitigate cyber security risks.",
+        "Consider regulatory action to prevent cyber security incidents."
+      ],
+      "Trend": "Cyber security has remained in the top two risks for the sector over the last three years with increasing average impact scores.",
+      "Likelihood": "N/A",
+      "Impact": "Significant number and severity of cyber security incidents experienced by the sector in the last few years.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Sustainability, environment and climate change",
+      "Risk Description": "Institutions are worried about the impact of climate change and the work required to meet Net Zero targets.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Net Zero targets",
+          "Driver Description": "Driven by institutions' goals of achieving net zero by 2030, requiring significant planning and investment."
+        },
+        {
+          "Driver Name": "Scope three emissions complexity",
+          "Driver Description": "Scope three (indirect emissions) have proved much more difficult to calculate and develop plans to reduce."
+        },
+        {
+          "Driver Name": "Funding and buy-in challenges",
+          "Driver Description": "Some institutions have found it challenging to obtain the funding for plans to reduce carbon emissions and to gain organisation-wide buy-in."
+        },
+        {
+          "Driver Name": "Aging estates",
+          "Driver Description": "Many institutions operate highly carbon-intensive estates, with a number of old buildings not built with sustainability in mind."
+        },
+        {
+          "Driver Name": "Student travel emissions",
+          "Driver Description": "Student travel emissions data is often reliant on assumptions due to challenges in engagement with student travel surveys."
+        },
+        {
+          "Driver Name": "Supply chain emissions",
+          "Driver Description": "Engagement with suppliers on scope three emissions is dependent on the skills and experience of procurement teams."
+        }
+      ],
+      "Risk Recommendations": [
+        "Focus on diversifying energy sources, including self-generation and green energy supplies.",
+        "Develop robust processes to quantify, monitor and report on scope three emissions.",
+        "Include environmental sustainability criteria in procurement and contract management processes."
+      ],
+      "Trend": "Included in the top five risks for the first time in 2023.",
+      "Likelihood": "N/A",
+      "Impact": "Will impact on reputation if Net Zero targets are not achieved.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Financial sustainability",
+      "Risk Description": "The institutional cost base is increasing due to rising energy costs, inflation, staff and pension costs, while undergraduate tuition fees remain capped and research funding may be impacted by government levelling-up policy.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Rising energy costs",
+          "Driver Description": "The institutional cost base is increasing because of rising energy costs."
+        },
+        {
+          "Driver Name": "Inflation on non-pay expenses",
+          "Driver Description": "The institutional cost base is increasing because of inflation on non-pay expenses."
+        },
+        {
+          "Driver Name": "Increasing staff costs",
+          "Driver Description": "The institutional cost base is increasing because of increasing staff costs needed to support staff through the cost of living crisis."
+        },
+        {
+          "Driver Name": "Increasing pension costs",
+          "Driver Description": "The institutional cost base is increasing because of increasing pension costs."
+        },
+        {
+          "Driver Name": "Tuition fee cap",
+          "Driver Description": "Undergraduate tuition fees are capped at \u00a39,250 until at least 2024/25 with little political appetite to increase."
+        },
+        {
+          "Driver Name": "Government levelling-up policy",
+          "Driver Description": "Government\u2019s levelling-up ambitions may impact where research funding is directed in future."
+        }
+      ],
+      "Risk Recommendations": [
+        "Understand the drivers of the cost base and the relative income generated on a granular level.",
+        "Evaluate how new income streams will contribute to an improved financial position.",
+        "Assess whether investments will generate a sufficient return in an appropriate time frame.",
+        "Enhance controls over procurement, contracts and budgetary performance.",
+        "Consider bold strategic decisions such as course closures or stopping certain activities.",
+        "Explore innovative ways to generate income."
+      ],
+      "Trend": "Remained consistent as a key risk theme since 2021/22, with its nature evolving due to changing cost pressures.",
+      "Likelihood": "N/A",
+      "Impact": "Potential institutional failure if financial challenges are not adequately managed.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Infrastructure \u2013 university estates and technology capacity/capability",
+      "Risk Description": "With many universities operating in aging estates and a lack of funding into physical facilities, infrastructure was identified as a new challenge in 2023, while institutions must also implement digital technologies to attract talent, promote growth and maintain the quality of the student experience and reputation.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Aging estates",
+          "Driver Description": "Many universities operate in aging estates with a lack of funding into physical facilities."
+        },
+        {
+          "Driver Name": "Need for digital technologies",
+          "Driver Description": "Institutions must effectively implement digital technologies to attract talent, promote growth and survive."
+        },
+        {
+          "Driver Name": "System integration",
+          "Driver Description": "It is key to integrate systems to support institutional strategies."
+        },
+        {
+          "Driver Name": "Blended learning demand",
+          "Driver Description": "Institutions need to implement blended learning programmes whilst maintaining the quality of the student experience and reputation."
+        },
+        {
+          "Driver Name": "Emerging AI academic risks",
+          "Driver Description": "The advent of AI technologies brings a new set of academic risks."
+        }
+      ],
+      "Risk Recommendations": [
+        "Invest in digital infrastructure to drive improved efficiencies.",
+        "Integrate systems to support blended learning programmes.",
+        "Develop and maintain blended learning programmes effectively.",
+        "Monitor and manage emerging academic risks associated with AI technologies."
+      ],
+      "Trend": "Identified as a new key risk in 2023 with potential to increase in relevance.",
+      "Likelihood": "N/A",
+      "Impact": "Failure to maintain and invest in physical and digital infrastructure may hinder the ability to attract talent, promote growth and maintain the quality of student experience and reputation.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    }
+  ]
+}

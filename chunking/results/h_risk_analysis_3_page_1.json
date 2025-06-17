@@ -1,0 +1,171 @@
+{
+  "risks": [
+    {
+      "Risk Name": "Personalised Travel Risk Management",
+      "Risk Description": "Challenges in integrating individual risk profiles into travel risk assessments, including sensitive factors such as gender identity, sexual orientation, mental and physical health, which are critical yet underutilized in current frameworks.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Sensitive Data Collection",
+          "Driver Description": "Employees may be hesitant to share personal information, leading to gaps in personal risk assessment."
+        },
+        {
+          "Driver Name": "Trust Issues",
+          "Driver Description": "Difficulty in demonstrating the benefits of opting in for sharing sensitive data, as evidenced by only 39% of respondents incorporating personal profiles despite 80% having managed related incidents."
+        }
+      ],
+      "Risk Recommendations": [
+        "Evolve travel risk management programmes to incorporate personalized risk factors.",
+        "Develop transparent and secure methods for collecting and using sensitive personal data.",
+        "Tailor risk management strategies to individual traveller profiles, as reflected in initiatives like the expanded Healix Travel Safe."
+      ],
+      "Trend": "Increasing recognition of the importance of personalized risk, with 76% of respondents reviewing travel risk programmes in line with ISO 31030 and 80% reporting management of incidents related to personal risk profiles.",
+      "Likelihood": "High (80% of respondents reported managing incidents related to personal risk profiles)",
+      "Impact": "Potential for compromised traveller safety and operational inefficiencies, particularly in sectors (e.g., Higher Education) where factors like gender identity and sexual orientation are significant.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Higher Education sector places heightened emphasis on gender identity and sexual orientation.",
+        "Adoption rates vary by industry, with only 39% integrating personal profiles despite frequent risk incidents."
+      ]
+    },
+    {
+      "Risk Name": "Extreme Weather and Natural Disasters",
+      "Risk Description": "Encompasses hazards from extreme heat, heavy rainfall, wildfires, flooding, and other climate-related events that directly impact operations, infrastructure, and personnel.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Climate Change",
+          "Driver Description": "Increasing frequency and intensity of extreme weather events due to global climate change."
+        },
+        {
+          "Driver Name": "Geographical Exposure",
+          "Driver Description": "Operations dispersed across varied physical environments, notably in sectors like manufacturing and media."
+        },
+        {
+          "Driver Name": "Operational Vulnerability",
+          "Driver Description": "Extreme heat can lead to high electricity demand for cooling, potentially compromising infrastructure."
+        }
+      ],
+      "Risk Recommendations": [
+        "Develop and test actionable crisis management plans, including evacuation procedures.",
+        "Establish primary and secondary communication channels and ensure provision of necessary protective equipment.",
+        "Integrate climate risks into day-to-day risk management and business continuity planning."
+      ],
+      "Trend": "Extreme weather events are increasing in frequency and severity; 73% of organisations have been directly affected, making this the top operational risk projected through 2030.",
+      "Likelihood": "High (73% of organisations reported direct impacts)",
+      "Impact": "Severe consequences including infrastructure damage, supply chain disruptions, operational downtime, and risks to human life (e.g., wildfires, flooding, extreme heat-related events).",
+      "Risk Indicator": "N/A",
+      "Risk Event": [
+        "Wildfires in Hawaii and Canada",
+        "Flooding in China",
+        "50\u00b0C temperatures in South America",
+        "Heat-related deaths in Europe"
+      ],
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Manufacturing sector shows an 86% impact rate and Media 83%, indicating higher vulnerability.",
+        "Regional differences exist based on local climate conditions and preparedness levels."
+      ]
+    },
+    {
+      "Risk Name": "Artificial Intelligence (AI) in Travel Risk Management",
+      "Risk Description": "Pertains to the integration of AI into travel risk management, including concerns around data trust, bias, regulatory compliance, and the risk of premature adoption without full understanding of its limitations.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Rapid Technological Evolution",
+          "Driver Description": "The fast pace of AI development creates uncertainties in its effective implementation."
+        },
+        {
+          "Driver Name": "Data and Trust Concerns",
+          "Driver Description": "Generative AI requires data inputs that raise issues regarding GDPR compliance, data security, and potential manipulation."
+        },
+        {
+          "Driver Name": "Reputational Risk",
+          "Driver Description": "Premature or unverified use of AI may lead to errors and bias that can damage an organisation's reputation."
+        }
+      ],
+      "Risk Recommendations": [
+        "Utilize AI as an additional intelligence source alongside traditional methods.",
+        "Develop internal protocols for secure data input, verification, and regulatory compliance.",
+        "Proceed cautiously with the adoption of generative AI until its benefits and limitations are fully understood."
+      ],
+      "Trend": "There is a strong appetite for AI integration, with 72% of respondents likely to integrate AI within the next 6-12 months, though organisations remain cautious.",
+      "Likelihood": "High (72% of respondents indicated likelihood of AI integration)",
+      "Impact": "Potential to affect the accuracy and reliability of risk assessments, with risks of data manipulation, regulatory non-compliance, and reputational harm.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "UK organisations are proceeding cautiously, with about one in six already using some AI elements.",
+        "Adoption trends vary across industries and organisational readiness."
+      ]
+    },
+    {
+      "Risk Name": "Regional Geopolitical and Security Risks",
+      "Risk Description": "Encompasses region-specific risks including geopolitical tensions, militant insurgencies, autocratic governance, economic instability, and social unrest that disrupt business operations.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Regional Conflicts",
+          "Driver Description": "Ongoing conflicts such as the Hamas-Israel assault and the Russian invasion of Ukraine contribute to instability."
+        },
+        {
+          "Driver Name": "Political and Economic Instability",
+          "Driver Description": "Sanctions, regime changes, and economic turbulence exacerbate uncertainty and risk."
+        },
+        {
+          "Driver Name": "Transnational Threats",
+          "Driver Description": "The activities of narcotics organisations and the spread of militancy add complexity to the security landscape."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "Increasing volatility is evident with protracted conflicts and rising incident levels, as reflected in recent high-profile events and survey responses.",
+      "Likelihood": "N/A",
+      "Impact": "High potential impact including supply chain disruptions, economic slowdowns, political instability, and operational challenges across affected sectors.",
+      "Risk Indicator": "N/A",
+      "Risk Event": [
+        "Hamas assault in Israel (October 2023)",
+        "Wagner Group plane crash (August 2023)",
+        "Al-Qaeda attack on Tigantourine gas facility in Amenas (2013)",
+        "Russian invasion of Ukraine",
+        "Daily Chinese incursions near Taiwan",
+        "Multiple attempted coups in West and Central Africa since 2020"
+      ],
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "MENA: Geopolitical tensions, Islamist insurgencies, and autocratic rule.",
+        "Europe & CIS: Macroeconomic risks, energy supply issues, and the Russia-Ukraine conflict.",
+        "Americas: Narcotics organisation activity, political violence, and corruption.",
+        "Asia Pacific: Food insecurity, China/Taiwan tensions, and North Korea hostility.",
+        "Africa: Spread of militancy, regime changes, and increasing influence from Russia/China."
+      ]
+    },
+    {
+      "Risk Name": "Key Personnel Concentration Risk",
+      "Risk Description": "Represents the vulnerability associated with relying on a concentrated group of key personnel, where the loss of a few critical leaders can cause significant operational disruption.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Leadership Concentration",
+          "Driver Description": "A critical dependency on a small number of influential leaders increases organizational vulnerability."
+        },
+        {
+          "Driver Name": "Operational Dependency",
+          "Driver Description": "Heavy reliance on specific individuals can lead to severe disruptions if those key figures are lost."
+        }
+      ],
+      "Risk Recommendations": [
+        "Regularly revisit and stress-test crisis management plans.",
+        "Diversify key personnel and redistribute critical responsibilities to mitigate concentration risk.",
+        "Update succession plans to ensure organisational resilience."
+      ],
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "Substantial operational disruption and loss of institutional knowledge, as demonstrated by the impact of the Wagner Group plane crash.",
+      "Risk Indicator": "N/A",
+      "Risk Event": [
+        "Wagner Group plane crash (August 2023)"
+      ],
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    }
+  ]
+}

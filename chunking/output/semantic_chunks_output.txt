@@ -1,0 +1,692 @@
+Industry in Focus
+Managing risk
+in higher education
+Higher education sector risk profile 2023
+Locked for edits
+Contents
+1 Introduction and scope 3
+2 Current risks 5
+3 Appendices 10
+4 Appendix A – Risk themes and subcategories 11
+5 Contacts 17
+PwC | Managing risk in higher education 2
+Introduction and scope
+The Higher Education (HE) sector has faced
+another year where the resilience of institutions
+has been tested by an ever changing risk
+environment.
+In particular, over the last 12 months, Financial sustainability
+the sector has become more aware of the instant All of the risk registers we reviewed included risks
+impact operational, strategic and global events can around the medium to long term financial sustainability
+have, whilst having to place greater focus on the of institutions.
+This is not a surprise, given that
+longer-term risks which could impact the stability challenges in this area have been noted in our
+of most institutions.
+previous analyses, but our 2023 analysis showed that
+Our annual risk register benchmarking exercise institutions have greater concerns about balancing
+has identified a number of key risk ‘themes’ faced increasing costs with flat revenue streams.
+This
+by the sector and how institutions are dealing with uncertainty means that institutions are having to pay
+them.
+We look at each one below, discussing how closer attention to balancing the need to invest with a
+institutions are worrying less about pension requirement to maintain cash reserves.
+At the same
+security and the political landscape (as seen in time, student demands are increasing, it’s becoming
+previous years)
+and more about the risks of cyber more challenging to make a return on research, and
+security and sustainability.
+Interestingly, with many the competition for students is increasing
+universities operating in aging estates and a lack exponentially, particularly internationally.
+of funding into physical facilities in recent years, What’s clear is that management are now
+infrastructure was also a new challenge identified increasing their scrutiny over investment cases and
+in 2023, with a potential to see this increase in demanding better and quicker returns on
+relevance in the future.
+investment.
+In some cases, financial controls over
+budgeting, budget monitoring and expenditure
+Technology processes have been enhanced.
+Whether this will
+Cyber security is flagged as the number one risk in our be sufficient to mitigate against an institutional
+analysis for 2023 and has remained in the top two failure is yet to be seen, but many in the sector
+risks facing the sector in the last three years.
+Given expect that regulatory action may be needed to
+the significant number and severity of cyber security prevent this in the near future.
+incidents experienced by the sector in the last few Environmental sustainability
+years, this could have been predicted and it’s likely to
+Our analysis also showed that institutions are worried
+remain high on the risk agenda for some time.
+about the impact of climate change and the work
+The sector remains an attractive target for cyber required to meet Net Zero targets.
+The HE sector is
+attackers and the likelihood of state sponsored attacks increasingly seen as being key to solving
+could increase as many institutions hold research data environmental sustainability challenges, especially
+and other information that is likely to be of value.
+given the academic talent and focus of research for
+Mitigating the likelihood and impact of cyber attacks is many institutions.
+challenging and costly, not least because: Whilst scope one (direct emissions from owned
+•
+Many institutions have historically not invested sources) and scope two (indirect emissions from
+significantly in technical IT controls and dedicated purchased energy) emissions have been relatively
+cyber security staff.
+straightforward for the sector to calculate and
+develop plans to reduce, scope three (indirect)
+•
+The IT environment across institutions is diverse
+emissions have proved much more difficult.
+Our
+and has been built up in a piecemeal fashion over
+analysis also noted that some institutions have
+a number of years.
+found it challenging to obtain the funding for plans
+• Shadow IT is common and widespread across to reduce carbon emissions and gaining buy-in
+many institutions.
+from the whole organisation has been difficult.
+The
+• Recruiting talented staff in this area is challenging estate clearly has a huge role to play in reducing
+and costly.
+carbon emissions and some institutions have a
+number of old buildings, which were not built with
+• Obtaining insurance to transfer (at least part of) the
+sustainability in mind.
+cyber security risks is increasingly difficult.
+In addition to cyber security risks, many institutions
+face challenges in their broader IT infrastructure.
+The focus on resilience has also moved away from
+Some are finding a move to the cloud both costly and withstanding one off shocks, to being confident that
+technically challenging and there is an increasing institutions can thrive regardless of the challenges that
+demand and desire from students to receive education
+arise.
+This is, of course not isolated to the HE sector, as
+in innovative ways.
+PwC’s recent rethink risk/rethink resilience thought
+leadership has shown Find out more here.
+PwC | Managing risk in higher education
+Introduction and scope (continued)
+Our sample, scope, and methodology Year on year trends
+We reviewed the risk registers of 35 Higher Education The table below summarises the top five themes for
+Institutions (HEIs).
+For each institution, we examined the last five academic years, providing an overview of
+the risks cited, identified those similar in nature and how they have evolved.
+These are the top themes
+grouped them by theme.
+We also calculated the noted in terms of both impact and likelihood.
+average likelihood of each risk theme materialising
+A number of trends have remained consistent with the
+and its possible impact, which allowed us to determine
+2021/22 year, such as cyber security and financial
+the greatest threats to an institution and the severity of
+sustainability, although as noted in the detailed
+individual risks.
+The detailed findings of our analysis
+commentary below, the nature of these risks has
+are set out in the remainder of this paper, along with
+evolved between the two years.
+a commentary on the top themes, a comparison
+In the past year we have seen the risk around
+with prior years, and the types of individual
+infrastructure, both digital and physical, increase
+challenges included within each theme.
+significantly.
+This has been driven by challenges with:
+Risk reporting is a developing topic across the HE
+• Restructuring of campus layouts in response to
+sector, particularly as governance bodies (Council /
+new delivery models.
+Board / Audit Committee etc.) are keen to digest risk
+information in different formats.
+The risk registers we • A backlog in estate maintenance due to the
+reviewed were in a variety of formats, but all included pandemic disruption over the past three years.
+key information such as key risks, risk descriptions,
+• Concerns about future energy usage.
+risk scoring and mitigations in place.
+Some had clear
+• Sustainability, environment and climate change is
+links to strategic priorities, details of assurance
+included in the top five risks for the first time,
+sources and visualisations such as heat maps.
+perhaps unsurprisingly given the external attention
+The majority of institutions used the 5x5 risk scoring
+this topic receives.
+This risk is driven by many
+methodology, some use a 4x4 methodology,
+institutions’ goals of achieving net zero by 2030,
+and in a small number of cases no quantitative
+which for many will require significant planning and
+scoring mechanism was used (instead a critical
+investment and will impact on reputation if targets
+to low or RAG rating was used).
+To support our
+are not achieved.
+analysis, we normalised the risk assessment scores
+across all registers reviewed to a 5x5 matrix.
+Finally, whilst student experience risks have dropped
+out of the top five risks this year, it remains the most
+common risk in the risk registers we reviewed
+(albeit not deemed as significant in terms of impact
+and likelihood).
+2018/19 2019/20 2020/21 2021/22 2022/23
+1 Pensions Pensions Cyber security and Financial Cyber security
+information sustainability
+governance
+Government policy International student COVID-19
+Cyber security Sustainability,
+2 and political recruitment environment and
+landscape climate change
+Student recruitment Business continuity / Student experience Student Financial
+3 cyber security experience sustainability
+Reputation Postgraduate student Mental wellbeing Research Infrastructure:
+4 recruitment university estates
+and capacity
+Information security / Undergraduate Student recruitment Infrastructure IT infrastructure
+5 cyber security student recruitment
+PPwwCC
+||
+MMaannaaggiinngg rriisskk iinn hhiigghheerr eedduuccaattiioonn 4
+Current risks
+Cyber security Sustainability, environment
+and climate change (new)
+A number of high profile issues in the sector have HEIs have an important role to play in the sustainability of
+meant that cyber security is again included in the top their communities, as well as working to reduce emissions
+five risks from our analysis this year.
+On the whole, the and minimise costs on their campuses.
+Whilst many
+sector has a much better understanding of the cyber institutions do critical research on sustainability and
+risks it faces, which is likely to be a contributor to the educate their students on sustainability as a matter of
+increase in average impact scores seen in this risk course, the reality of a net zero campus requires high
+over the last few years.
+The external threat remains levels of investment which many institutions are
+high and many across the sector are still concerned strategically committed to, but not financially prepared for.
+about the potential for an increase in state sponsored
+Institutions often operate highly carbon-intensive estates,
+cyber security incidents, as well as individuals/ groups
+especially where on-site combined heat and power plants
+perpetrating ransomware attacks.
+At the same time,
+are in place and changing this requires leadership
+many institutions have placed significant investment
+support and focus.
+We noted trends in:
+into staff and technology resources to support in
+• Sustainability governance structures being revised to
+mitigating this risk (although staff resources in this
+sit centrally in institutions.
+area are scarce).
+•
+The sector’s focus being on scope 1
+Education institutions continue to be viewed by
+and 2 emissions.
+attackers as low-effort targets, with potentially high
+rewards.
+The sector has seen real diversification of its • A legacy viewpoint remains in that sustainability
+data, software, systems and users and whilst in some is an ‘estates problem’ rather than
+cases, progress on centralising controls has been a university-wide responsibility.
+made, many institutions persist with a devolved model,
+The current energy crisis may also bring about positive
+which increases the attack surfaces available for
+change, as many universities are being driven by energy
+unauthorised entry.
+security requirements to focus on diversifying their energy
+The use of a devolved model and the fact that the IT sources.
+This clearly includes consideration of greater self
+requirements across most institutions is broad and generation, either alone or in partnership, as well as
+varied means that shadow IT, which refers to seeking to invest in green energy supplies.
+information technology (IT) systems deployed by
+One of the most complex challenges faced by universities
+departments other than the central IT department, is
+is how best to quantify, monitor and report on scope 3
+common.
+This may occur because certain research
+emission sources.
+Two of the key challenges in this area
+initiatives or academic provision require specific IT
+include:
+hardware or software.
+Shadow IT introduces risk by
+• Student travel, where engagement with student travel
+broadening an organisation’s attack surface and
+surveys has been a challenge for the sector and
+increasing the number of unauthorised injection points
+therefore emissions data is often reliant on
+in the environment.
+It can also lead to a situation
+assumptions around student travel, which may not
+where the IT department does not have full visibility
+reflect reality.
+into its environment, leading to a false sense
+of security.
+• Supply chain, where the level of engagement with
+suppliers on scope 3 emissions is largely dependent
+Our analysis shows that the most common security
+on the skills and experience of institutes’ procurement
+vulnerabilities for the HE sector are in application
+teams.
+We have noted a lack of consistency in the
+security, endpoint security, and software and patching
+inclusion of environmental sustainability questions in
+updates.
+tendering and monitoring of carbon reduction as part
+With new cyber security trends and variations on
+of contract management processes.
+This is also
+existing trends more prevalent than ever, HEIs need a
+impacted by a reticence to move away from the
+comprehensive response.
+traditional ‘most economically advantageous tender’
+Further information on the broader issues around and towards a cost-benefit analysis including long
+cyber security can be found in our Cyber Security term benefits to the environment and alignment with
+Outlook 2023 report: Link institutional sustainability strategy.
+PwC | Managing risk in higher education 5
+Current risks (continued)
+Financial Sustainability Infrastructure - university estates and technology
+capacity / capability (new)
+It’s clear from our analysis that the HE sector is facing During the Covid-19 pandemic, many institutions
+refreshed their estates strategies to ensure that the
+increasing financial challenges.
+The institutional cost
+physical infrastructure was fit for new strategic plans, new
+base is increasing because of:
+ways of learning and teaching and the need to ensure the
+• Rising energy costs.
+estate is environmentally sustainable.
+This highlighted a
+• Inflation on non-pay expense.
+number of risks, which have been exacerbated by a
+historic lack of planning an investment across the estate.
+• Increasing staff costs which are needed
+to support staff through the cost of living crisis.
+Developing an estate which takes account of the
+changing ways that campus spaces are used to reflect
+• The demand from the student population
+current needs of students and teaching methods is
+for increases in support services.
+complex.
+The continued move to blended tuition as well
+• Increasing pension costs.
+as more flexible working models has obvious implications
+At the same time, undergraduate tuition fees will be on the estates’ footprint given the reduced need for
+capped at £9,250 until at least 2024/25 and there is physical space for professional services staff and the
+little political appetite to increase these fees in the increased need for facilitation and co-working spaces for
+medium term.
+This means that competition for students, whilst also representing a challenge for
+students, from the UK and abroad, is rising, institutions in ensuring ongoing, visible and active support
+particularly for 2022/23 where the total number of services for students.
+home UK undergraduate applicants dropped
+Investment in estates now represents a significant
+unexpectedly by c2%.
+opportunity to redistribute space to right-size, better use
+The Government’s levelling-up ambitions will also facilities and in some cases sell spare capacity to raise
+impact where research funding is directed in future.
+additional finance.
+Devolved control of buildings and
+This is a risk for some if the opportunity to work research facilities means that many institutions currently
+collaboratively within regions is overlooked.
+operate a number of spaces with very low usage rates
+and some have taken the step of building data models to
+Explored further in our Good growth fully understand the existing use of space to inform
+strategic decision making in this area.
+for cities:
+The UK’s HE sector is entering a new digital age, where
+Unlocking the potential of UK cities HEIs must effectively implement digital technologies in
+order to attract talent, promote growth and to survive.
+It is
+key to integrate systems and implement blended learning
+To meet the financial challenges, institutions need
+programmes whilst still maintaining the quality of the
+to better understand:
+student experience and reputation.
+At the same time, the
+• The drivers of their cost base and the relative advent of AI technologies brings a whole new set of
+income that is being generated on a more granular academic risks, which many institutions are working
+level for key activities (e.g. on a course by course through.
+basis, including resource allocation).
+There has been increasing focus and investment being
+• How new income streams will contribute to an undertaken across digital infrastructure to drive
+improved financial position.
+efficiencies.
+This is also enabling a new way of working,
+and teaching, driven in part due to the pandemic and
+• Where investments are being made, whether they
+changing expectations of students.
+will generate a sufficient return in an appropriate
+time frame.
+HEIs that are not adapting to the digital challenge may
+struggle to compete, in a world where students embrace
+•
+How effective ongoing controls over procurement
+and expect digital learning.
+This comes with a significant
+activity, ongoing contracts and budgetary
+investment cost to create an increasingly digital campus,
+performance are operating.
+especially where that investment has been neglected in
+This may need institutions to take some bold decisions
+some institutions over many years either because they
+e.g. course closure / stopping certain activities and to
+have been perceived as too complicated or too expensive
+be brave at seeking out new / innovative ways in
+to deliver.
+which income can be generated.
+In the long term
+though, these types of decisions can result in
+improved financial resilience.
+PwC | Managing risk in higher education 6
+Current risks (continued)
+Other common risk areas include:
+Staff recruitment and retention 1 Policy and engagement 2
+Attracting and keeping the best people is a pivotal Government and Department for Education policy
+issue for HEIs.
+This risk was highlighted in 100% of shapes the risk environment of HEIs.
+It also influences
+the risk registers we analysed and attracting and the way in which the Office for Students shapes its
+retaining talented, high calibre academics and policies and regulations and can have an impact on an
+professional service staff is a growing challenge.
+The institution’s ability to achieve its strategic goals.
+If
+sector’s inability to attract and retain diverse, high institutions fail to adequately prepare for, and respond
+calibre staff is leading to increased workloads, to, changes in UK government policy in relation to HE,
+increased staff turnover and a reduced student it may have consequential effects in the recruitment of
+experience.
+This then may be detrimental to the students nationally and globally, and the regional
+mental health and wellbeing of staff and has played a economy.
+role in the current industrial action taken by thousands
+Some institutions have already started considering
+of staff in recent months.
+If HEIs do not effectively
+future policy changes, including the drive towards
+manage change and national and local employment
+more vocational education (e.g. apprenticeships) and
+issues effectively, then it may result in more prolonged
+the potential introduction of the lifelong learning
+industrial action, which will increase the risks around
+entitlement.
+organisational and financial resilience even further.
+Student recruitment 3 Student experience/student welfare 4
+Student recruitment remains a key operational and Student experience is of paramount importance
+strategic risk for many institutions.
+Changing student throughout the whole student lifecycle.
+From
+priorities represent both an attrition risk and an recruitment, learning and teaching, pastoral support
+opportunity to target new demographics.
+and beyond, there are many touchpoints that are
+pivotal to ensuring students are experiencing the best
+The recruitment market can be volatile, which can be
+the institution has to offer.
+It also has an impact on
+challenging to accurately forecast student numbers.
+In
+academic achievement, student wellbeing, the
+recent years, the UK sector has seen continued
+National Student Survey and league tables, which
+growth in international student applications.
+This
+often impact institutions’ strategic goals and KPIs.
+This
+increase is despite of the turbulence caused by the
+is therefore an area we would always expect to feature
+pandemic, growing global competition for students and
+highly on institutions risk registers and we have noted
+the current cost of living crisis.
+one or more risks relating to student experience on the
+The number of Chinese students coming to the UK is
+risk registers we have reviewed.
+decreasing, but still make up the largest group of
+It is well known that an increasing number of students
+international students according to Higher Education
+are suffering with their mental health while at
+Statistics Agency (HESA) statistics.
+Much of the
+university.
+Support for students is key to ensuring
+current growth in international student numbers is
+students have a positive experience, and the
+driven by Indian and Nigerian students, with French
+all-rounded support becomes increasingly important in
+and Italian students being the two largest cohorts from
+the new digital hybrid learning experience, where
+the EU.
+Changes in immigration policy and wider
+students spend less time on campus and arguably, it is
+foreign policy and security could have a radical impact
+harder for institutions to spot those in need of support.
+long term on sector viability.
+Many institutions are now considering how their
+structures and processes are set up to ensure student
+experience remains a priority in a new educational
+delivery model (e.g. hybrid/blended learning).
+PwC | Managing risk in higher education 7
+Occurrence of risks
+Whilst our analysis is based upon averaging out risk ratings, it is also worthwhile noting the number of times that
+issues occur on registers.
+Below are the top ten risk purely based on the number of registers they appear on.
+Risk area Occurrence
+(% of risk registers)
+1 Financial sustainability 100%
+2 Cyber security 100%
+3 Student experience 100%
+4 Research 100%
+5 Infrastructure 100%
+6 Staff recruitment and retention 100%
+7 Student recruitment 100%
+8 Compliance - regulatory breach 82%
+9 Policy and engagement 70%
+Infrastructure - estates and capacity
+10
+60%
+Occurrence of key risks
+PwC | Managing risk in higher education 8
+2023 Higher education sector risk profile
+HE risk register – Average outcome
+PwC | Managing risk in higher education 9
+Appendix
+PwC | Managing risk in higher education
+Appendix A
+Risk themes and subcategories
+Below we provide examples of quotes from the anonymised risks included in institutions’ risk registers to give some
+context for the individual risks within risk themes.
+This is not an exhaustive list and is included for illustrative
+purposes only.
+Risk theme Subcategories of risk
+Cyber security • Failure to plan and invest in maintaining and enhancing the information technology
+infrastructure, capabilities and security.
+• Unprepared and unable to respond to cyber security attacks.
+• Inadequate data security systems and processes on an individual and organisational
+basis, such that a successful cyber attack could occur and/or a serious breach of data.
+• Security related risks in internationalisation, including foreign interference, theft of IP and
+data, breaches of security, or breaching export controls.
+•
+If sufficient cyber and information security governance and practice is not maintained, then
+there might be detrimental impacts on the university’s ability to operate, reputation and
+financial stability.
+•
+Failure to implement and operate effective controls to provide assurance of cyber and
+information security resulting in the inability to avoid a major data breach or significant
+disruption to university hardware and software systems.
+•
+Failure to deliver on an institutional approved Access & Participation plan, including: a
+Equality and
+failure to recruit, retain and maintain diverse student profiles; and failure to remove a
+diversity
+student attainment gap
+• Risk of a failure to deliver an inclusive educational experience.
+• Risk that not tackling inequalities will impact culture, damage morale and impact reputation
+(both staff and students).
+• Increasing staff diversity and inclusion.
+•
+Failure to manage and diversify income or manage the cost base and levels of investment,
+Financial
+such that levels of shorter term cash flow, cash holdings, and surplus are not achieved
+sustainability
+(and insufficient headroom is maintained) leading to a longer-term impact on the
+university’s ability to invest and deliver the strategy.
+• Capital investment programmes fail to focus resources on strategically important priorities.
+•
+Failure to meet bank covenant thresholds, resulting in loan foreclosure.
+• Changes to the funding rules for QR funding/dual support mechanism in the future reduces
+research income.
+• Does not respond effectively to changes in the external environment leading to a financial
+impact which cannot be mitigated without changes to university strategy (e.g. poor UK
+economic performance, policy changes, freezing of UK undergraduate tuition fees).
+• Challenge to financial sustainability due to increased employer contributions to pensions,
+constraints to universities ongoing capacity to raise debt finance.
+Student • Student satisfaction and outcomes do not improve in line with planned expectations and
+experience investment and fail to outperform competitors.
+•
+Failure to deliver a consistently high quality inclusive education, caused by a failure to
+adapt and resource teaching and learning methods to meet the needs of large student
+cohorts due to accelerated growth.
+•
+Failure to provide subject specific, professional development and employability skills to
+help all students’ secure graduate employment and meet career aspirations.
+•
+Failure to develop a vibrant, student voice and community that supports institutional
+learning and individual student satisfaction and engagement.
+•
+Failure to develop and deliver apprenticeships.
+•
+Failure to provide good quality accommodation.
+PwC | Managing risk in higher education 11
+Appendix A
+Risk themes and subcategories (continued)
+Risk theme Subcategories of risk
+Infrastructure - •
+We fail to plan, invest and maintain the university’s physical estate to ensure that its size,
+university estates shape and structure are aligned to the university’s strategic ambitions, is environmentally
+and capacity sustainable and compliant with relevant health and safety legislation.
+• Lack of internal capacity to deliver capital investment programmes.
+• Student accommodation: demand for accommodation (both university provision and
+private providers) outstrips supply, impacting on the university’s strategy for growth.
+•
+If adequate research and teaching infrastructure, including the physical and digital estate,
+are not developed and sustained, then our ability to deliver a high-quality student
+experience and excellence in teaching and research may be adversely affected.
+IT infrastructure •
+IT - Failure to meet changing and increasing demand for IT caused by increased costs,
+delays and supply chain challenges leading to an impact on business capabilities,
+operational efficiencies and future growth.
+• Fit for purpose and resilient business processes are not in place and working risk that
+digital and physical infrastructure is not fit for purpose.
+•
+Failure to adapt the physical and digital infrastructure will impact on the achievement of the
+future strategic direction and changing individual and societal expectations.
+•
+Failure to improve our digital capabilities to conduct high-quality, collaborative and globally
+impactful challenge-based research and innovation.
+Organisational • Operating model - Failure to ensure that our operating model adapts as needed to best
+change support our academic teaching and research objectives.
+• Risk that ineffective change management, particularly around new ways of working will
+limit abilities to make changes around our business model and to successfully deliver
+strategic goals and objectives.
+• Strategic change programmes: Risk of failure to lead and manage the substantial amount
+of technical, educational and people related change.
+• Risk that the pace and volume of change related to our long term plan is not appropriate to
+meet overall aims and objectives leading to poorly managed actions and low quality
+implementation.
+Partnerships • Failure to manage impacts due to a potential change in partners for international campus.
+• Over reliance on a single geographical region and/or country means vulnerability to
+political or macroeconomic factors.
+•
+If the university fails to develop a critical mass of partnerships that spans its academic and
+operational activities and that are closely aligned to our strategic objectives, then the
+university will become uncompetitive in innovation and enterprise, and will fail to secure
+income, research collaborations and educational opportunities.
+Student •
+If the university fails to sustain the recent growth in student numbers from international
+recruitment markets, a serious budget deficit would result.
+•
+Failure to have an appropriate portfolio, attracting prospective students, meeting student
+expectation, or preparing them for their chosen profession.
+•
+We fail to achieve planned retention levels from the previous academic year, resulting in a
+reduced forecast tuition fee income and/or over-reliance on budget contingencies.
+•
+Failure to optimise the university international partnerships, presence, and enrolments in
+light of changes in UK and International Government Policies and trade blocks and
+changes in competitive intensity, student expectations and recruitment channels.
+• A destabilised sector, and aggressive competition leads to failure to meet planned
+recruitment targets and associated income impacts long term financial sustainability
+limiting opportunities for investment in strategic priorities.
+PwC | Managing risk in higher education 12
+Appendix A
+Risk themes and subcategories (continued)
+Risk theme Subcategories of risk
+Policy and • Failure to anticipate, understand and respond to significant changes in the external
+engagement policy environment.
+• Changing nature of education including
+government led changes to undergraduate and
+postgraduate teaching quality measures.
+• Explore options and scenario planning for new funding landscape coming from
+government and education policy.
+• Due to changing and heavy regulatory burden and political environment, the executive is
+overburdened as they revise strategy.
+Regulatory • OfS/Ofsted inspection and compliance.
+compliance • Risk that the university fails to comply with regulatory body and/or legislative
+requirements or that excessive regulation undermines universities autonomy. • Risk that the University fails to identify and respond to new / changing compliance
+requirements.
+Research • Failure to strengthen research culture, quality and standards leading to increased risk of
+failure to achieve related university objectives.
+•
+Failure to forge strategic alliances and academic partnerships with leading individuals or
+organisations, including national and international research relationships.
+•
+Inability to deliver impactful research, loss of research reputation, research becomes
+financially unsustainable, failure to recruit and retain high quality staff, non-compliance
+with good practice on research integrity, reduction in PGR students.
+• Insufficient research grant funding to deliver critical mass of world leading research.
+•
+Inability to develop research capacity and grow revenues in line with the university’s
+financial forecasts.
+• Risk of constraints on academic freedom/spread of self-censorship due to external
+disruption, threats, or pressure
+Staff recruitment •
+The current national dispute, which includes pay, precarious contracts, workloads and
+the gender/ BAME pay gap alongside ongoing USS pension issues, will lead to strike
+action and ASOS by UCU.
+•
+We fail to develop and align the profile of our workforce (skills, size, cost, structure) to
+deliver our strategic ambitions, leading to an inability to achieve both educational and
+financial sustainability.
+•
+We fail to support the physical, emotional and mental health, safety and wellbeing of our
+diverse university community leading to a lack of motivation and engagement and an
+increase in behaviour that is not aligned to our values.
+• Staff are not engaged which impacts culture and the achievement of objectives.
+• Staff retention, recruitment and satisfaction is impacted by us not delivering the right
+capacity, capability, and culture in our workforce.
+Student welfare • Failure to prevent and address harassment and sexual misconduct.
+• Risk that university fails to offer a suitable range of support on health and wellbeing issues,
+including for the mental health of all staff and students.
+•
+Failure to create a culture where the full community feels safe and supported in
+compliance regulatory expectations or provider sexual misconduct and
+harassment policies.
+PwC | Managing risk in higher education 13
+Contact
+Ali Breadon
+Risk Education Lead Partner
+E: alison.breadon@pwc.com
+Ben Connor
+Director
+E: Benjamin.e.connor@pwc.com
+Danny Harvey
+Senior Manager
+E: daniel.m.harvey@pwc.com
+Sophie Harold
+Manager
+E: Sophie.harold@pwc.com
+PwC | Managing risk in higher education 14
+Thank you
+pwc.co.uk
+This publication has been prepared for general guidance on matters of interest only, and does not constitute professional advice.
+You should not act upon the information contained in this publication without obtaining specific professional advice.
+No
+representation or warranty (express or implied) is given as to the accuracy or completeness of the information contained in this
+publication, and, to the extent permitted by law, PricewaterhouseCoopers LLP, its members, employees and agents do not accept
+or assume any liability, responsibility or duty of care for any consequences of you or anyone else acting, or refraining to act, in
+reliance on the information contained in this publication or for any decision based on it.
+© 2023 PricewaterhouseCoopers LLP.
+All rights reserved.
+‘PwC’ refers to the UK member firm, and may sometimes refer to the
+PwC network.
+Each member firm is a separate legal entity.
+Please see www.pwc.com/structure for further details.
+RITM12607017

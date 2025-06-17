@@ -1,0 +1,203 @@
+{
+  "risks": [
+    {
+      "Risk Name": "Concentration of Key Personnel",
+      "Risk Description": "The Wagner Group plane crash in August 2023, which resulted in the loss of three senior influential leaders including the head of the organisation, highlights the vulnerability of having key personnel concentrated in single positions.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Concentration Vulnerability",
+          "Driver Description": "Reliance on a few key individuals creates a single point of failure in operations."
+        }
+      ],
+      "Risk Recommendations": [
+        "Revisit and stress-test existing incident management and crisis plans",
+        "Maintain and activate a capable Incident Management Team (IMT) for immediate response"
+      ],
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "Potential for severe operational and reputational disruption, though not quantified.",
+      "Risk Indicator": "N/A",
+      "Risk Event": [
+        "Wagner Group plane crash in August 2023",
+        "Assault by Hamas from the Gaza Strip in October 2023"
+      ],
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Inadequate Personalised Travel Risk Assessment",
+      "Risk Description": "There is a significant gap in integrating traveller's personal risk profiles into travel risk assessments, with only 39% incorporating these profiles despite 80% having managed related incidents.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Sensitive Data Collection",
+          "Driver Description": "Challenges in collecting and using sensitive personal data without breaching trust hinder effective personal risk assessment."
+        },
+        {
+          "Driver Name": "Gender Identity and Sexual Orientation Factors",
+          "Driver Description": "In sectors like Higher Education, gender identity and sexual orientation are key factors impacting a traveller\u2019s personal risk, influenced by legal, social, and cultural risks."
+        }
+      ],
+      "Risk Recommendations": [
+        "Demonstrate the benefits of opting in for sharing personal information",
+        "Evolve travel risk management programmes (e.g., Healix Travel Safe) to encompass a wider array of personal risk factors",
+        "Develop transparent data collection methods to build trust"
+      ],
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "N/A",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Higher Education sector specifically ranks gender identity and sexual orientation as primary impacts",
+        "Varied adoption of ISO 31030 across sectors: Energy and Mining lag behind Manufacturing and Construction"
+      ]
+    },
+    {
+      "Risk Name": "Extreme Weather and Climate Risk",
+      "Risk Description": "Extreme weather events such as extreme heat, heavy rainfall, flooding, wildfires, and natural disasters pose direct physical threats and operational disruptions.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Extreme Heat",
+          "Driver Description": "Extreme heat can cause health issues (e.g., heatstroke, dehydration) and drive up electricity demand, potentially resulting in outages and operational challenges."
+        },
+        {
+          "Driver Name": "Heavy Rainfall and Flooding",
+          "Driver Description": "Excessive rainfall and flooding can disrupt operations and damage critical infrastructure."
+        },
+        {
+          "Driver Name": "Wildfires",
+          "Driver Description": "Wildfires, often linked to extreme heat, create immediate physical damage and safety risks."
+        },
+        {
+          "Driver Name": "Natural Disasters",
+          "Driver Description": "Broader natural disaster events continuously challenge operational continuity and safety."
+        }
+      ],
+      "Risk Recommendations": [
+        "Develop and regularly test actionable crisis management and evacuation plans",
+        "Establish multiple communication methods and equip personnel and assets with protective equipment",
+        "Integrate climate risk considerations into day-to-day risk management plans"
+      ],
+      "Trend": "Extreme weather events are escalating, with increasing frequency and tangible impacts on organizations as evidenced by high percentages of those directly affected.",
+      "Likelihood": "High likelihood, with 73% of organizations reporting direct effects from extreme weather events.",
+      "Impact": "Significant impact on operations, staff safety, infrastructure, and supply chains, particularly in sectors like Manufacturing and Media.",
+      "Risk Indicator": "N/A",
+      "Risk Event": [
+        "Wildfires in Hawaii and Canada",
+        "50\u00b0C extreme heat events in South America",
+        "Flooding in China",
+        "Europe\u2019s hottest summer with nearly 62,000 heat-related deaths"
+      ],
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Manufacturing sector experiences higher exposure (86% impacted)",
+        "Media sector has high impact (83%) due to risks in reporting on extreme weather events"
+      ]
+    },
+    {
+      "Risk Name": "AI Integration and Trust Risk",
+      "Risk Description": "While there is strong interest in integrating AI into travel risk management, concerns remain over unqualified information sources, unconscious bias, data manipulation, and regulatory compliance.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Rapid Evolution of AI",
+          "Driver Description": "Organizations are eager to adopt AI but remain uncertain about its proper integration and utilization."
+        },
+        {
+          "Driver Name": "Data Manipulation and Trust Concerns",
+          "Driver Description": "Generative use of AI involves inputting sensitive data, raising concerns about data security, GDPR compliance, and potential manipulation."
+        },
+        {
+          "Driver Name": "Unconscious Bias",
+          "Driver Description": "Limitations in AI datasets may introduce unconscious bias into risk assessments."
+        }
+      ],
+      "Risk Recommendations": [
+        "Use AI in conjunction with traditional intelligence sources to verify accuracy",
+        "Develop internal processes for secure input and configuration of AI-generated content",
+        "Exercise caution in rapid deployment to avoid reputational damage"
+      ],
+      "Trend": "Adoption of AI is on the rise, with 72% of respondents likely to integrate AI in their travel risk management within the next six to twelve months, though organizations are proceeding cautiously.",
+      "Likelihood": "High likelihood based on reported intent (72% integration plan)",
+      "Impact": "Potential for reputational damage and operational disruption if AI integration is mishandled, though no high-profile failures have occurred so far.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Geopolitical and Regional Instability",
+      "Risk Description": "Diverse geopolitical risks across regions\u2014including tensions, insurgencies, economic instability, and territorial conflicts\u2014pose significant operational and strategic challenges for organizations.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Geopolitical Tensions",
+          "Driver Description": "Rivalries and conflicts, such as the Hamas-Israel conflict and tensions across Europe and Asia, contribute to widespread instability."
+        },
+        {
+          "Driver Name": "Political Violence and Insurgencies",
+          "Driver Description": "Regions face risks from insurgencies, military takeovers, and political violence, as observed in MENA and Africa."
+        },
+        {
+          "Driver Name": "Macroeconomic Instability",
+          "Driver Description": "High inflation, energy supply issues, and economic turbulence\u2014exacerbated by conflicts like Russia-Ukraine\u2014impact overall stability."
+        },
+        {
+          "Driver Name": "Criminal and Corruption Risks",
+          "Driver Description": "In the Americas, the influence of narcotics organisations and corruption significantly heighten operational risks."
+        },
+        {
+          "Driver Name": "Food Insecurity and Territorial Tensions",
+          "Driver Description": "In Asia Pacific, food insecurity coupled with China/Taiwan tensions and North Korea hostility adds another layer of risk."
+        }
+      ],
+      "Risk Recommendations": [
+        "Develop region-specific crisis management and evacuation plans",
+        "Monitor the evolving geopolitical environment and adjust risk policies accordingly",
+        "Implement travel risk policies tailored to address regional instability"
+      ],
+      "Trend": "Geopolitical risks are evolving with regional variations; in many areas, such as Europe and Africa, tensions and instability are expected to persist or escalate.",
+      "Likelihood": "N/A",
+      "Impact": "High potential impact on operations, supply chains, and strategic planning across multiple regions.",
+      "Risk Indicator": "N/A",
+      "Risk Event": [
+        "Hamas assault in Israel (October 2023)",
+        "Al-Qaeda attack on the Tigantourine gas facility in Amenas in 2013",
+        "Multiple military coup attempts in Africa since 2020"
+      ],
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "MENA: Geopolitical tensions (53%), Islamist insurgencies (49%), autocratic rule (48%)",
+        "Europe & CIS: Macroeconomic risk (52%), energy supply concerns (51%), Russia-Ukraine conflict (46%)",
+        "Americas: Narcotics organisations (55%), political violence (49%), corruption (48%)",
+        "Asia Pacific: Food insecurity (50%), China/Taiwan tensions (47%), North Korea hostility (44%)",
+        "Africa: Spread of militancy (54%), regime changes (49%), Russia/China influence (44%)"
+      ]
+    },
+    {
+      "Risk Name": "ISO 31030 Compliance Risk",
+      "Risk Description": "Despite ISO 31030 emerging as a benchmark for travel risk management, its adoption remains inconsistent across industries, potentially leading to gaps in overall risk preparedness.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Industry-Specific Adoption Rates",
+          "Driver Description": "Variations in review rates \u2014 with Energy and Mining at 59% versus Manufacturing at 96% and Construction at 84% \u2014 highlight underlying challenges in adopting the standard."
+        }
+      ],
+      "Risk Recommendations": [
+        "Review and update travel risk management programmes in alignment with ISO 31030",
+        "Integrate ISO 31030 frameworks into operational risk management processes",
+        "Leverage industry-specific best practices to improve compliance"
+      ],
+      "Trend": "Awareness and adoption of ISO 31030 have increased over the past two years, with momentum building toward it becoming an industry standard.",
+      "Likelihood": "N/A",
+      "Impact": "Inconsistent adoption may create vulnerabilities in travel risk management and operational preparedness.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Energy and Mining: 59% adoption",
+        "Manufacturing: 96% adoption",
+        "Construction: 84% adoption"
+      ]
+    }
+  ]
+}

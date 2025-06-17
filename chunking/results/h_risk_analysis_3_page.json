@@ -1,0 +1,260 @@
+{
+  "risks": [
+    {
+      "Risk Name": "Key Personnel Concentration Risk",
+      "Risk Description": "The concentration of key personnel in a single, vulnerable situation may result in severe operational disruptions, as illustrated by the Wagner Group plane crash in August 2023 where key leaders were lost.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Centralization of Leadership",
+          "Driver Description": "Critical roles concentrated in few individuals increases vulnerability during unforeseen events."
+        }
+      ],
+      "Risk Recommendations": [
+        "Revisit and stress-test existing risk management plans",
+        "Develop redundancy and succession planning measures",
+        "Activate Incident Management Team (IMT) during crises"
+      ],
+      "Trend": "N/A",
+      "Likelihood": "N/A",
+      "Impact": "Potential severe operational and strategic disruption across the organization.",
+      "Risk Indicator": "N/A",
+      "Risk Event": [
+        "Wagner Group plane crash in August 2023 resulting in the loss of Yevgeny Prigozhin and three other key figures"
+      ],
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "Inadequate Personalised Travel Risk Management",
+      "Risk Description": "Incomplete integration of travellers' personal risk profiles, including sensitive factors such as gender identity and sexual orientation, leads to challenges in mitigating travel-related incidents.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Sensitive Data Collection Challenges",
+          "Driver Description": "Employees are hesitant to share personal information, hindering accurate risk profiling."
+        },
+        {
+          "Driver Name": "Discrepancy in Risk Integration",
+          "Driver Description": "80% of respondents managed incidents related to personal risk while only 39% integrate these profiles into assessments."
+        }
+      ],
+      "Risk Recommendations": [
+        "Evolve travel risk management programmes to integrate personalised risk factors",
+        "Develop transparent and secure methods for collecting sensitive personal data",
+        "Implement tailored mitigation measures for individual risk profiles"
+      ],
+      "Trend": "Increasing recognition of personalised risk importance as seen in recent survey responses.",
+      "Likelihood": "N/A",
+      "Impact": "Could lead to significant physical, reputational, and operational consequences if not addressed.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "More prominent in the Higher Education sector where gender identity and sexual orientation are key risk factors"
+      ]
+    },
+    {
+      "Risk Name": "Extreme Weather Risk",
+      "Risk Description": "Extreme weather events, including extreme heat, heavy rainfall, wildfires, and flooding, pose tangible long-term risks to operations and personnel.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Climate Change",
+          "Driver Description": "Rising global temperatures and changing weather patterns are increasing the frequency and severity of extreme weather events."
+        }
+      ],
+      "Risk Recommendations": [
+        "Develop and regularly test emergency and evacuation plans",
+        "Establish primary and secondary communication methods during crises",
+        "Ensure personnel, assets, and sites have necessary protective equipment"
+      ],
+      "Trend": "Risk severity is increasing, with more frequent and severe events reported.",
+      "Likelihood": "High, with 73% of organizations reporting direct impacts from extreme weather.",
+      "Impact": "Operational disruptions, physical risks to personnel, and potential infrastructural damage, as evidenced by record statistics like 62,000 heat\u2010related deaths in Europe.",
+      "Risk Indicator": "N/A",
+      "Risk Event": [
+        "Wildfires in Hawaii and Canada",
+        "50\u00b0C temperatures in South America",
+        "Flooding in China",
+        "Europe\u2019s record hottest summer with 62,000 heat\u2010related deaths"
+      ],
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Higher impact on Manufacturing (86%) and Media (83%) sectors"
+      ]
+    },
+    {
+      "Risk Name": "AI Integration and Data Trust Risk",
+      "Risk Description": "Integrating AI into travel risk management introduces risks related to data manipulation, unverified information, and compliance issues such as GDPR.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Rapid AI Evolution",
+          "Driver Description": "Organizations are eager to adopt AI, yet many are unsure how to integrate it safely without incurring reputational risks."
+        },
+        {
+          "Driver Name": "Data Privacy and Security Concerns",
+          "Driver Description": "Generative AI use involves inputting sensitive data, raising issues around data manipulation, GDPR compliance, and server security."
+        }
+      ],
+      "Risk Recommendations": [
+        "Develop internal processes for verifying AI-generated outputs",
+        "Use AI in conjunction with traditional intelligence gathering methods",
+        "Establish clear guidelines for handling sensitive data in AI applications",
+        "Ensure compliance with relevant regulatory frameworks"
+      ],
+      "Trend": "Adoption is increasing, with 72% of respondents likely to integrate AI within the next 6-12 months.",
+      "Likelihood": "High, given the strong appetite for AI adoption despite existing uncertainties.",
+      "Impact": "Potential reputational, operational, and legal risks if AI systems fail or mishandle sensitive information.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": "N/A"
+    },
+    {
+      "Risk Name": "MENA Geopolitical and Insurgency Risks",
+      "Risk Description": "In the MENA region, geopolitical tensions, Islamist insurgencies, and autocratic rule contribute to an unstable environment that can disrupt business operations and supply chains.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Geopolitical Tensions",
+          "Driver Description": "Rivalries between MENA states and unresolved political issues create unpredictable conditions."
+        },
+        {
+          "Driver Name": "Islamist Insurgencies",
+          "Driver Description": "Attacks on critical infrastructure, such as energy facilities, driven by groups like al-Qaeda and ISIS."
+        },
+        {
+          "Driver Name": "Autocratic Rule",
+          "Driver Description": "Non-democratic governance leads to sudden policy shifts and potential sanctions."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "Persistent, with long-lasting political issues despite a decrease in capabilities of some insurgent groups.",
+      "Likelihood": "N/A",
+      "Impact": "Can result in abrupt trade restrictions, sanctions, and commodity price volatility.",
+      "Risk Indicator": "N/A",
+      "Risk Event": [
+        "Hamas assault in Israel (October 2023)",
+        "Al-Qaeda attack on the Tigantourine gas facility in Amenas (2013)"
+      ],
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Specific to the Middle East & North Africa region"
+      ]
+    },
+    {
+      "Risk Name": "European Macroeconomic and Geopolitical Risks",
+      "Risk Description": "The ongoing conflict in Ukraine, combined with high inflation, energy supply concerns, and a post-COVID economic slowdown, poses significant risks to organizations across Europe and the CIS.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Russian Invasion of Ukraine",
+          "Driver Description": "Ongoing conflict affecting energy prices and economic stability."
+        },
+        {
+          "Driver Name": "High Energy Prices",
+          "Driver Description": "Sanctions and supply uncertainties drive prices up, impacting multiple sectors."
+        },
+        {
+          "Driver Name": "Economic Slowdown",
+          "Driver Description": "Residual impacts of COVID-19 contribute to high inflation and reduced consumer spending."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "A protracted conflict with continued uncertainties, suggesting prolonged impact into 2024 and beyond.",
+      "Likelihood": "N/A",
+      "Impact": "Significant operational and financial disruptions, particularly in sectors like manufacturing and construction.",
+      "Risk Indicator": "N/A",
+      "Risk Event": [
+        "Russian invasion of Ukraine"
+      ],
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Applies to Europe and CIS regions"
+      ]
+    },
+    {
+      "Risk Name": "Narcotics Organisations and Violence Risk in the Americas",
+      "Risk Description": "Narcotics organisations pose serious risks through drug-related violence, including kidnappings, extortion, and threats to security personnel and media, destabilizing operations in the Americas.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Drug Trafficking",
+          "Driver Description": "Sustained revenue from drug trafficking fuels the growing influence of narcotics groups."
+        },
+        {
+          "Driver Name": "Under-equipped Security Forces",
+          "Driver Description": "Ineffective law enforcement and security responses exacerbate vulnerabilities."
+        },
+        {
+          "Driver Name": "Inefficient Judicial Systems",
+          "Driver Description": "Slow legal processes contribute to a lack of accountability and increased corruption."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "Expected to grow as narcotics groups maintain strong income from drug trafficking.",
+      "Likelihood": "High, with 55% of respondents ranking it as a top risk in the Americas.",
+      "Impact": "Significant risks to safety, operational stability, and potential economic disruptions in sectors like energy and media.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Particularly relevant to regions in the Americas, including Mexico and areas with high media exposure"
+      ]
+    },
+    {
+      "Risk Name": "Food Insecurity Risk in Asia Pacific",
+      "Risk Description": "Food insecurity, exacerbated by the Ukraine war and climate-induced disasters, threatens supply chains and political stability in the Asia Pacific region.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Rising Global Food Prices",
+          "Driver Description": "Increases in food prices driven by geopolitical tensions and market disruptions."
+        },
+        {
+          "Driver Name": "Climate-Induced Disasters",
+          "Driver Description": "Extreme weather events negatively affect crop yields and agricultural infrastructure."
+        },
+        {
+          "Driver Name": "Supply Chain Disruptions",
+          "Driver Description": "Post-COVID economic challenges contribute to instability in food supply chains."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "Food insecurity risks are projected to worsen, potentially leading to further supply chain disruptions and political instability.",
+      "Likelihood": "N/A",
+      "Impact": "High impact on regional trade, agricultural sectors, and overall political stability in affected countries.",
+      "Risk Indicator": "N/A",
+      "Risk Event": "N/A",
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Specific to Asia Pacific countries such as Afghanistan, Bangladesh, and others dependent on agriculture"
+      ]
+    },
+    {
+      "Risk Name": "Spread of Militancy Risk in Africa",
+      "Risk Description": "The rapid expansion of militant activities, particularly in the Sahel and Somalia, coupled with frequent coup attempts, is destabilizing the political landscape in Africa and threatening operational continuity.",
+      "Risk Driver": [
+        {
+          "Driver Name": "Multiple Militant Groups",
+          "Driver Description": "Numerous Islamist militant groups are increasing their operations, contributing to a 68% rise in civilian fatalities."
+        },
+        {
+          "Driver Name": "Political Instability",
+          "Driver Description": "Frequent coup attempts and military takeovers undermine democratic systems and create uncertainty."
+        },
+        {
+          "Driver Name": "Foreign Influence",
+          "Driver Description": "Intervention by external actors, such as the Wagner mercenary group, exacerbates regional instability."
+        }
+      ],
+      "Risk Recommendations": "N/A",
+      "Trend": "Increasing, as evidenced by a 68% rise in civilian fatalities and ten attempted coups since 2020.",
+      "Likelihood": "High",
+      "Impact": "Severe operational, security, and reputational risks due to ongoing instability and potential regime changes.",
+      "Risk Indicator": "N/A",
+      "Risk Event": [
+        "Ten attempted coups in West and Central Africa since 2020",
+        "Wagner group involvement in Mali and Burkina Faso"
+      ],
+      "Suggested Audits": "N/A",
+      "Contextual Variations": [
+        "Specific to Africa (excluding North Africa), particularly in the Sahel region"
+      ]
+    }
+  ]
+}

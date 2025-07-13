@@ -2,7 +2,8 @@
 
 from scraper.page_scraper import PageScraper
 from utils.url_tracker import save_visited
-from utils.content_cleaner import content_cleaner
+from utils.article_filter import filter_content
+from utils.sheets_writer import write_to_tab
 from datetime import datetime
 import json
 import asyncio
@@ -20,7 +21,7 @@ async def main():
 
   for url, keywords in scraper.url_dict.items():
       print(f"Processing: {url}")
-      results = await scraper.orchestrate_async_crawl(url, keywords)
+      results, pdf_list = await scraper.orchestrate_async_crawl(url, keywords)
       total_scraped += len(results)
 
       if results: 
@@ -28,17 +29,26 @@ async def main():
         extracted_url = tldextract.extract(url)
         domain = extracted_url.domain or "unknown"
         filename = f"data/raw_results/{domain}_{timestamp}.json"
-        # clean_filename = f"data/clean_results/{domain}_{timestamp}_clean.json"
         
         with open(filename, "w", encoding="utf-8") as f:
            json.dump(results, f, indent=2, ensure_ascii=False)
 
-        # clean_results = content_cleaner(results)
+        filtered_filename = f"data/filtered_results/filtered_{domain}_{timestamp}.json"
+        filtered_results = filter_content(results)
 
-        # with open(clean_filename, "w", encoding="utf-8") as f:
-        #    json.dump(clean_results, f, indent=2, ensure_ascii=False)
+        with open(filtered_filename, "w", encoding="utf-8") as f:
+           json.dump(filtered_results, f, indent=2, ensure_ascii=False)
            
-        print(f"Saved {len(results)} results to {filename}")
+        print(f"Saved {len(filtered_results)} results to {filtered_filename}")
+
+        for link in pdf_list:
+           if not any(item["url"]==link for item in filtered_results):
+              pdf_list.remove(link)        
+
+        if len(pdf_list) > 0:
+           write_to_tab(timestamp, pdf_list)
+
+        print(f"Saved {len(pdf_list)} links to download PDFs in Google Sheets: dssg_era_pdf_links.")
 
 
   print(f"Total pages scraped: {total_scraped}")

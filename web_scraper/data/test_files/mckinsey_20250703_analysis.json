@@ -1,0 +1,245 @@
+[
+  {
+    "risks": [
+      {
+        "Risk Name": "Geopolitical Risk Impacting Global IT Operations",
+        "Risk Description": "Global geopolitical developments—including divergent data protection laws, escalating cyberattacks, and local industrial policies—are putting traditional global IT operating models under pressure by increasing complexity, cost, and fragmentation.",
+        "Risk Driver": [
+          {
+            "Driver Name": "Fragmented Data and Privacy Regulations",
+            "Driver Description": "Over 70% of countries enforce distinct data protection and privacy laws, which complicates global IT operations."
+          },
+          {
+            "Driver Name": "Cyberattacks and Data Theft",
+            "Driver Description": "Escalating cyberattacks and data theft, some state-guided, are driving risk with projected annual damage of $10.5 trillion in 2025 (a 300% increase from 2015)."
+          },
+          {
+            "Driver Name": "Local Industrial Policies",
+            "Driver Description": "Industrial and trade policies favoring local providers are increasing reliance on local operations, thereby raising complexity and cost."
+          }
+        ],
+        "Risk Recommendations": [
+          "Revise existing risk practices and develop new ones that address the full spectrum of geopolitical risks.",
+          "Rebalance the global IT footprint by mapping where critical assets and people are located and assessing their exposure.",
+          "Integrate geopolitical risk considerations into business leadership decision-making."
+        ],
+        "Trend": "Geopolitical risks are increasingly significant, with cyberattack damage projections surging by 300% from 2015 to 2025 and a continual rise in regulatory fragmentation.",
+        "Likelihood": "High likelihood due to an increasingly fluid and dynamic geopolitical environment and escalating cyber threats.",
+        "Impact": "Potential for catastrophic disruption of critical business systems (e.g., payment systems, e-commerce) along with increased operational complexity and costs.",
+        "Risk Indicator": "Projected Annual Cyberattack Damage ($10.5 trillion in 2025, 300% increase from 2015)",
+        "Risk Event": "Companies are already experiencing risks such as data or IP theft based on the geographic location of their operations.",
+        "Suggested Audits": "N/A",
+        "Contextual Variations": [
+          "Varies by region due to differing local regulations such as GDPR and China’s Personal Information Protection Law.",
+          "Impacts differ based on the concentration of assets and talent across geographies."
+        ]
+      },
+      {
+        "Risk Name": "IT Architecture Vulnerability and Asset Concentration Risk",
+        "Risk Description": "IT architectures that are vulnerable to disruptions—especially when assets are overly concentrated in one or a few geographies—pose significant risks to system availability and overall business operations.",
+        "Risk Driver": [
+          {
+            "Driver Name": "Asset Concentration",
+            "Driver Description": "Overreliance on assets in specific regions increases exposure to localized geopolitical disturbances."
+          },
+          {
+            "Driver Name": "Vulnerable Network Architecture",
+            "Driver Description": "Systems with critical nodes and linkages can be disrupted by geopolitical events, compromising essential functions."
+          }
+        ],
+        "Risk Recommendations": [
+          "Map and triage tech assets to identify which systems are critical for business operations.",
+          "Rebalance the tech estate to diversify asset distribution geographically.",
+          "Implement redundancy measures and duplication of operations to enhance resilience."
+        ],
+        "Trend": "This risk is emerging as companies become more aware of vulnerabilities inherent in concentrated IT architectures amid heightened geopolitical tensions.",
+        "Likelihood": "Increasing likelihood as geopolitical tensions persist in key regions.",
+        "Impact": "High impact with potential catastrophic consequences for critical systems such as payment processing and e-commerce platforms.",
+        "Risk Indicator": "N/A",
+        "Risk Event": "Some companies are already at risk of data or IP theft linked to the concentration of their assets.",
+        "Suggested Audits": "N/A",
+        "Contextual Variations": [
+          "More acute in regions with volatile or rapidly changing regulatory landscapes (e.g., China)."
+        ]
+      },
+      {
+        "Risk Name": "Compliance and Regulatory Fragmentation Risk",
+        "Risk Description": "The proliferation of local data protection and privacy laws creates a fragmented regulatory landscape that complicates IT operations and inhibits effective data usage.",
+        "Risk Driver": [
+          {
+            "Driver Name": "Local Regulation Fragmentation",
+            "Driver Description": "Distinct data protection and privacy laws across more than 70% of countries lead to operational and compliance challenges."
+          },
+          {
+            "Driver Name": "Inhibited Data Utilization",
+            "Driver Description": "Diverse privacy regulations can restrict the insight and use of data critical to business operations."
+          }
+        ],
+        "Risk Recommendations": [
+          "Develop a global IT strategy that balances local regulatory compliance with overall operational efficiency.",
+          "Build flexible IT architectures capable of adapting to local regulatory requirements by integrating localized tech solutions.",
+          "Undertake clear cost–benefit analysis to guide decisions on rebalancing operations."
+        ],
+        "Trend": "An increasing trend as more countries implement unique data protection laws, exacerbating regulatory fragmentation.",
+        "Likelihood": "High likelihood due to the evolving nature of global privacy and data protection regulations.",
+        "Impact": "Significant operational and compliance challenges resulting in increased costs and complexity.",
+        "Risk Indicator": "N/A",
+        "Risk Event": "N/A",
+        "Suggested Audits": "N/A",
+        "Contextual Variations": [
+          "Varies by region with stricter regulations in areas like the EU and China influencing the severity of impacts."
+        ]
+      },
+      {
+        "Risk Name": "Reactive IT Intervention Risk",
+        "Risk Description": "Modeling and responding to geopolitical risks only after events have commenced leaves companies vulnerable, as the slow-moving nature of IT makes rapid mitigation difficult.",
+        "Risk Driver": [
+          {
+            "Driver Name": "Slow IT Processes",
+            "Driver Description": "The inherent slow pace of technological change delays effective intervention when risks materialize."
+          },
+          {
+            "Driver Name": "Reactive Risk Management",
+            "Driver Description": "Organizations often only address risks when they are already unfolding, missing opportunities for proactive mitigation."
+          }
+        ],
+        "Risk Recommendations": [
+          "Proactively plan intervention strategies using scenario-based approaches.",
+          "Establish a cascading set of triggers and actions based on escalating warning signs.",
+          "Invest in preemptive technology development to facilitate rapid response when risks emerge."
+        ],
+        "Trend": "While not quantified, there is a growing recognition of the need to shift from reactive to proactive risk management approaches.",
+        "Likelihood": "High likelihood given that many organizations currently rely on reactive measures.",
+        "Impact": "Delayed intervention can lead to severe operational disruptions and substantially higher mitigation costs.",
+        "Risk Indicator": "N/A",
+        "Risk Event": "N/A",
+        "Suggested Audits": "N/A",
+        "Contextual Variations": "N/A"
+      },
+      {
+        "Risk Name": "Disjointed Geopolitical Risk Management",
+        "Risk Description": "Fragmented and siloed IT risk functions, which do not integrate geopolitical risks into a unified framework, undermine the overall effectiveness of risk mitigation efforts.",
+        "Risk Driver": [
+          {
+            "Driver Name": "Fragmented IT Risk Functions",
+            "Driver Description": "Separate management of cybersecurity, availability, data protection, and other IT risks leads to gaps in addressing interconnected geopolitical threats."
+          },
+          {
+            "Driver Name": "Lack of Unified Governance",
+            "Driver Description": "CIOs are often not fully integrated into broader, company-wide geopolitical risk programs, resulting in uncoordinated responses."
+          }
+        ],
+        "Risk Recommendations": [
+          "Establish a unified asset-and-service-management capability to consolidate various IT risk areas.",
+          "Form a dedicated team to monitor geopolitical developments and integrate findings into the overall risk management strategy.",
+          "Embed comprehensive geopolitical risk management into existing risk registers and treatment plans."
+        ],
+        "Trend": "There is an increasing awareness of the need for integrated risk management as geopolitical risks become more interdependent with other business functions.",
+        "Likelihood": "High likelihood, given that many organizations still operate with disjointed risk management structures.",
+        "Impact": "Can significantly weaken overall business resilience by failing to adequately mitigate interconnected risks.",
+        "Risk Indicator": "N/A",
+        "Risk Event": "N/A",
+        "Suggested Audits": "N/A",
+        "Contextual Variations": [
+          "May vary by organization size and industry, with larger multinationals facing more pronounced fragmentation."
+        ]
+      },
+      {
+        "Risk Name": "Vendor and nth-Party Concentration Risk",
+        "Risk Description": "Insufficient insight into the geographic concentration of vendor operations—including the locations of vendors' vendors—can expose organizations to unforeseen supply chain vulnerabilities under geopolitical stress.",
+        "Risk Driver": [
+          {
+            "Driver Name": "Vendor Concentration",
+            "Driver Description": "A lack of comprehensive mapping of vendor locations leads to gaps in risk assessment."
+          },
+          {
+            "Driver Name": "nth-Party Risk",
+            "Driver Description": "Not fully understanding the locations of vendors' vendors exacerbates overall exposure to geopolitical risks."
+          }
+        ],
+        "Risk Recommendations": [
+          "Enhance vendor mapping efforts to include detailed information on vendor and nth-party geographic locations.",
+          "Integrate vendor location data into the overall risk management framework to better assess and mitigate exposure."
+        ],
+        "Trend": "While not explicitly quantified, the risk is growing as global supply chains become more complex and interdependent.",
+        "Likelihood": "N/A",
+        "Impact": "Could result in supply chain disruptions and increased operational vulnerabilities when geopolitical events occur.",
+        "Risk Indicator": "N/A",
+        "Risk Event": "N/A",
+        "Suggested Audits": "N/A",
+        "Contextual Variations": [
+          "Risk severity may vary depending on company size and industry, with multinational organizations being particularly exposed."
+        ]
+      }
+    ]
+  },
+  {
+    "risks": [
+      {
+        "Risk Name": "Tariff Uncertainty Risk",
+        "Risk Description": "The recent surge of tariffs and trade controls has created radical uncertainty for businesses by affecting cost structures, demand, and competitive advantages.",
+        "Risk Driver": [
+          {
+            "Driver Name": "US Tariff Policy",
+            "Driver Description": "Reciprocal tariffs raised the US weighted‐average tariff rate from approximately 2% to over 20% within days."
+          },
+          {
+            "Driver Name": "Global Trade Responses",
+            "Driver Description": "Varied responses—such as China imposing 125% tariffs on US imports and over 75 countries entering negotiations—increase the overall uncertainty."
+          },
+          {
+            "Driver Name": "Policy Evolution Pause",
+            "Driver Description": "A 90-day pause on most country-specific tariffs contributes to uncertainty regarding the future evolution of trade measures."
+          }
+        ],
+        "Risk Recommendations": [
+          "Analyze relative positioning to assess how tariffs impact both internal cost structures and competitors’ cost structures.",
+          "Evaluate demand shifts by examining macroeconomic conditions and price elasticity in key customer markets.",
+          "Define strategic posture by considering options such as driving commercial acceleration, capturing market share, resetting the cost structure, or rationalizing focus.",
+          "Pressure test decisions through scenario analysis to determine tariff thresholds that would necessitate different actions."
+        ],
+        "Trend": "Tariffs have escalated rapidly—from about 2% to over 20% in a very short period—marking the highest level in 100 years, with the future evolution remaining highly uncertain.",
+        "Likelihood": "High",
+        "Impact": "Substantial impact on business cost structures, market demand, and competitive positioning, potentially eroding margins and altering growth prospects.",
+        "Risk Indicator": "Weighted-average tariff rate",
+        "Risk Event": "US announcement of reciprocal tariffs on April 2, 2025 and China imposing 125% tariffs on US imports.",
+        "Suggested Audits": "N/A",
+        "Contextual Variations": [
+          "Impact varies widely by country, sector, product mix, operations footprint, and supply chain configuration."
+        ]
+      },
+      {
+        "Risk Name": "National Security Trade Restriction Risk",
+        "Risk Description": "Trade restrictions and tariffs imposed on sectors deemed critical for national security may disrupt supply chains and market access.",
+        "Risk Driver": [
+          {
+            "Driver Name": "National Security Prioritization",
+            "Driver Description": "The US government is targeting sectors critical to protecting sensitive and dual-use technologies, as seen with tariffs on steel and aluminum and anticipated actions on semiconductors."
+          },
+          {
+            "Driver Name": "US Manufacturing Promotion",
+            "Driver Description": "Policies aimed at boosting domestic manufacturing, including initiatives to bring back manufacturing jobs, drive measures that penalize foreign production practices."
+          },
+          {
+            "Driver Name": "Trade Relationship Balancing",
+            "Driver Description": "Efforts to reduce persistent trade deficits are prompting negotiations and trade controls on sectors outside the national security priorities."
+          }
+        ],
+        "Risk Recommendations": [
+          "Reassess the ability to maintain market and supply access relative to competitors in sectors impacted by national security measures.",
+          "Evaluate the operational and supply chain impacts for products in critical sectors.",
+          "Adjust strategic positioning to mitigate exposure to anticipated and existing trade restrictions."
+        ],
+        "Trend": "There is an increasing focus on national security in trade policy, with explicit measures already implemented on steel and aluminum and anticipated actions on semiconductors.",
+        "Likelihood": "High",
+        "Impact": "Potential for significant disruption including increased costs, supply chain challenges, and reduced market access for industries in sectors deemed critical to national security.",
+        "Risk Indicator": "N/A",
+        "Risk Event": "Implementation of tariffs on steel and aluminum along with explicit identification of sectors such as automotive, basic metals, and technology products for further trade restrictions.",
+        "Suggested Audits": "N/A",
+        "Contextual Variations": [
+          "The risk is more pronounced in industries identified as critical to national security, including automotive, metals, batteries, biomanufacturing, machine tools, microelectronics, pharmaceuticals, shipbuilding, technology products, and transportation equipment."
+        ]
+      }
+    ]
+  }
+]

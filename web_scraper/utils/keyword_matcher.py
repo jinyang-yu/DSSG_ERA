@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer, CrossEncoder, util
 from typing import List, Dict
 
 class KeywordMatcher: 
-  def __init__(self, threshold: float = 0.2, 
+  def __init__(self, threshold: float = 0.6, 
                cosine_name: str = "all-MiniLM-L6-v2",
                cross_name: str = "cross-encoder/stsb-roberta-large",
                fallback_min: float = 0.15, 

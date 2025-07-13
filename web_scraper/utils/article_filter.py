@@ -4,7 +4,9 @@ from datetime import datetime
 from dateutil import parser as date_parser
 from urllib.parse import urlparse
 from htmldate import find_date
-from typing import Optional
+from typing import List, Optional, Dict
+
+from models.chat4o_mini import check_relevancy
 
 UNWANTED_SUBSTRINGS = [
     "tag", "author", "about", "contact", "team", "cookie",
@@ -113,4 +115,28 @@ def extract_published_date(soup: BeautifulSoup) -> Optional[datetime]:
       pass
 
   return None
+
+def filter_content(raw_results: List[Dict]) -> List[Dict]:
+  """
+  Takes raw results and calls model GPT4o-mini to filter for more refined relevance 
+
+  Args:
+    raw_results (List[Dict]): Raw saved results of content
+
+  Returns:
+    List[Dict]: Filtered content results 
+  """
+
+  filtered_results = []
+
+  for result in raw_results:
+    scraped_content = result.get("content")
+    if check_relevancy(scraped_content) == "True":
+      filtered_results.append(result)
+    else: 
+      continue
+  
+  return filtered_results
+
+
 

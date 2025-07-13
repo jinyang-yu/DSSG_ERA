@@ -1,3 +1,13 @@
 {
-"https://www.cbc.ca/": []
+  "https://www.universityworldnews.com/page.php?page=UW_Main": ["North America", "Canada", "international student", "postgrad"],
+  "https://www.chronicle.com/": [],
+  "https://thepienews.com/": [],
+  "https://universityaffairs.ca/category/news/": [],
+  "https://www.strategic-risk-global.com/risk-type": [],
+  "https://www.cbc.ca/": ["university", "post-secondary", "international student", "UBC", "University of British Columbia"],
+  "https://www.ctvnews.ca/": ["university", "post-secondary", "international student", "UBC", "University of British Columbia"],
+  "https://globalnews.ca/": ["university", "post-secondary", "international student", "UBC", "University of British Columbia"],
+  "https://www.esgtoday.com/": ["risk", "sustainability reporting", "sustainability disclosures"],
+  "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights": [], 
+  "https://enterpriseriskmag.com/latest-articles/": []
 }

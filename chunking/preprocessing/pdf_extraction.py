@@ -26,7 +26,8 @@ def extract_pdf(path, remove_first: int = 0, remove_last: int = 0):
     
 
 # Path to your PDF file
-path = 'chunking/data/15-higher-education-sector-risk-profile-2023.pdf'
-raw = extract_pdf(path)
-with open('15raw.txt', 'w', encoding='utf-8') as f:
+path = 'chunking/data/162-nc-state-protiviti-survey-top-risks-2024-2034-report.pdf'
+raw = extract_pdf(path, 0, 3)
+txt_path = 'chunking/raw_text/162raw.txt'
+with open(txt_path, 'w', encoding='utf-8') as f:
     f.write(raw)

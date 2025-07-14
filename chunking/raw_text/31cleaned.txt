@@ -1,0 +1,1163 @@
+
+
+Why IT Matters to Higher Education
+
+EDUCAUSE
+
+2024 EDUCAUSE Top 10:
+Institutional Resilience
+
+Susan Grajek and the 2023-2024 EDUCAUSE Top 10 Panel
+Monday, October 16, 2023 Emerging Technologies and Trends
+
+20 min read
+
+Listen
+
+The 2024 EDUCAUSE Top 10 describes the contributions that
+technology, data, and the workforce will make to advance
+three dimensions of institutional resilience: mission resilience,
+operational resilience, and financial resilience.
+
+ 1/31
+
+
+
+
+Credit: Zach Peil/ EDUCAUSE © 2023
+
+"Supporting resiliency and adaptation is a
+major priority. We're using resiliency and
+adaptation here as a very broad definition. Do
+we have single points of failure in our
+organization? Where do we have gaps in
+business continuity plans? And | actually think
+resiliency is the most critical attribute that will
+
+sustain us in a strong future."
+
+—Sarah Latham, Executive Vice President for Finance
+and Administration, Brown University
+
+The COVID-19 pandemic has left us with a changed world. As
+we look ahead, the future appears even more challenging than
+the one we once foresaw.
+
+ 2/31
+
+
+
+
+Unfortunately, the pandemic isn't the only problem we need to
+worry about. Higher education may have returned from the
+unpredictable and always evolving pandemic land of Oz, but
+the hard truths back in Kansas, our current reality, have
+progressed. We're afloat in an ever-shifting sea of challenges:
+the public's lack of confidence in higher education, the ongoing
+student debt crisis, climate change and weather disasters,
+cybersecurity breaches, deep fakes, culture polarization,
+mental health crises, the campus demographic cliff, Al
+overlords, hate crimes, global instability, or, yes, the next
+pandemic. We can no longer assume that business as usual is
+punctuated by the occasional unforeseen bad event. Anomaly
+is the new normal.
+
+We must adapt and evolve to thrive in a world of ongoing
+change and unpredictability. Today's leadership agenda must
+expand beyond growth and innovation to address risk and to
+prepare for what may be ahead. In 2024, institutional and
+technology leaders will focus their efforts on developing
+institutional resilience. Institutional resilience is the ability to
+anticipate, respond to, and adapt to rapidly changing
+circumstances in ways that maximize opportunities and
+minimize consequences of unforeseen events. The 2024
+EDUCAUSE Top 10 describes the contributions that
+technology, data, and the workforce will make to advance
+three dimensions of institutional resilience: mission resilience,
+
+operational resilience, and financial resilience.?
+
+2024 EDUCAUSE Top 10
+
+ 3/31
+
+
+
+
+#1.
+
+#2.
+
+#3.
+
+#4,
+
+#5.
+
+#6.
+
+#7.
+
+#8.
+
+#9.
+
+2024 EDUCAUSE Top 10: Institutional Resilience | EDUCAUSE Review
+
+Cybersecurity as a Core Competency: Balancing
+cost and risk
+
+Driving to Better Decisions: |mproving data quality
+and governance
+
+The Enrollment Crisis: Harnessing data to
+empower decision-makers
+
+Diving Deep into Data: Leveraging analytics for
+actionable insights to improve learning and student
+success
+
+Administrative Cost Reduction: Streamlining
+processes, data, and technologies
+
+Meeting Students Where They Are: Providing
+universal access to institutional services
+
+Hiring Resilience: Recruiting and retaining IT talent
+under adverse circumstances
+
+Financial Keys to the Future: Using technology and
+data to help make tough choices
+
+Balancing Budgets: Taking control of IT cost and
+vendor management
+
+#10. Adapting to the Future: Cultivating institutional
+
+agility
+
+ 4/31
+
+
+
+
+Credit: Zach Peil/ EDUCAUSE © 2023
+
+Mission Resilience
+
+Institutional missions—most commonly education, research,
+and service—are enduring, but their expression and
+advancement must adapt to the needs and opportunities of the
+times. Education is the focal point of mission resilience for the
+2024 Top 10.
+
+The "student journey" is a way of describing the phases of a
+student's relationship with the institution. It encompasses a
+lifecycle starting with recruitment, admissions, and enrollment,
+then moving to the many touchpoints and dimensions of an
+enrolled student's academic work and extracurricular life, and
+finally extending to the student's alumni relationship with the
+institution. In 2024, technology leaders will be collaborating
+with institutional stakeholders on all three phases of the
+student journey.
+
+Unfavorable demographic changes, affordability, and lessening
+confidence in higher education are all contributing to an
+enrollment crisis in higher education. Leaders are looking
+
+ 5/31
+
+
+
+
+beyond traditional-aged students, the traditional degree, and
+existing academic programs to identify new potential
+audiences and to develop more relevant offerings to maintain
+and increase enrollments. Data is essential to make good
+choices about potential innovations and to understand which
+choices are working and which should be discarded (issue #3).
+
+Much of students’ relationships to their institution is mediated
+by technology. Today's students want digital experiences on
+par with Amazon, Spotify, and Instagram, and they want choice
+in where, when, and how they learn and interact with their
+institution. Student life leaders recognize the many barriers to
+students' achievement and are advocating for better and more
+support services. This year, technology leaders are working to
+develop multimodal channels to individualized services and
+learning experiences (issue #6).
+
+Students invest in higher education to achieve specific
+outcomes. Analytics can help both students and their
+institutional support team track and adjust their academic
+progress at the course and credential levels. Contemporary
+data sources and analysis and visualization tools are
+increasingly abundant and helpful. The challenge is to
+understand how to gain insights from these sources and then
+how to act on those insights (issue #4).
+
+#3. The Enrollment Crisis
+Harnessing data to empower decision-makers
+
+#4. Diving Deep into Data
+Leveraging analytics for actionable insights to improve
+learning and student success
+
+ 6/31
+
+
+
+
+#6. Meeting Students Where They Are
+Providing universal access to institutional services
+
+Back to Issues list
+
+\ x te -.
+d , |
+- = f j
+ee ail j y
+‘ yr
+
+Credit: Zach Peil / EDUCAUSE © 2023
+
+Operational Resilience
+
+Operational resilience extends to institutional assets and
+workforce and to its planning, risk management, and decision-
+making processes.
+
+Cybersecurity remains (and will continue to remain) a major
+institutional risk to institutional and constituents’ data.
+Cybersecurity continues to be in an arms race, with security
+devices and programs in an endless punch-counterpunch
+between institutional investments and new cyberattacks.
+Leaders must target their investments on the greatest, most
+likely risks (issue #1).
+
+Institutional leaders are increasingly turning to data to advise
+their decision-making. It's possible today to get rapid and
+relevant answers from data. That's important, because neither
+
+ 7/31
+
+
+
+
+crises nor opportunities are willing to pause and wait for
+weeks to gather data or settle debates with anecdotes and
+counterarguments (issue #2).
+
+Comparatively low salaries, poorly expressed value packages
+for existing and prospective staff, and rigid workplace policies
+are impeding hiring managers from filling open positions. HR
+and technology leaders need to improve the employee value
+
+proposition in order to recruit and retain good technology and
+data staff (issue #7).
+
+During the pandemic, higher education overcame its reputation
+for slow, grudging, and incremental change. Institutional
+leaders can now use the pace, flexibility, and widespread
+collaboration that characterized pandemic-era operations as a
+catalyst for fostering enduring institutional agility (issue #10).
+
+#1. Cybersecurity as a Core Competency
+Balancing cost and risk
+
+#2. Driving to Better Decisions
+Improving data quality and governance
+
+#7. Hiring Resilience
+Recruiting and retaining IT talent under adverse
+circumstances
+
+#10. Adapting to the Future
+Cultivating institutional agility
+
+Back to Issues list
+
+ 8/31
+
+
+
+
+Credit: Zach Peil/ EDUCAUSE © 2023
+
+Financial Resilience
+
+Many college and university fiscal foundations have been
+based on decades-long trends and tactics. Enrollments, grants,
+investments, gifts, and capital and operating costs have had a
+certain range that shaped good or bad financial performance,
+but leaders understood the levers to pull to adapt. Now the
+trend lines at many institutions are grim, and outcomes are
+unresponsive to the traditional levers.
+
+While expansion of technology adds costs, it can also be an
+efficiency driver and value enabler. Add the decision support
+affordances of data, and technology leaders become powerful
+partners in improving financial resilience. Technology and data
+transformed into information can help reduce administrative
+costs (issue #5) and provide estimates and projections to help
+leaders make tough choices with more confidence (issue #8).
+
+Technology costs have risen steeply, and in many cases faster
+than inflation can account for. Technology and procurement
+leaders are working with internal stakeholders and corporate
+
+ 9/31
+
+
+
+
+partners to address this financial risk, as well as the risk of
+prematurely divesting from technologies that could lead to
+future savings or new sources of income (issue #9).
+
+#5. Administrative Cost Reduction
+Streamlining processes, data, and technologies
+
+#8. Financial Keys to the Future
+Using technology and data to help make tough choices
+
+#9. Balancing Budgets
+Taking control of IT cost and vendor management
+
+MISSION RESILIENCE
+
+#3. The Enrollment Crisis
+
+#4. Diving Deep into Data
+
+#6. Meeting Students Where
+They Are
+
+. INSTITUTIONAL
+RESILIENCE
+
+oye
+‘
+wy Seer ae
+
+FINANCIAL RESILIENCE
+
+#5. Administrative Cost Reduction
+#8. Financial Keys to the Future
+#9. Balancing Budgets
+
+ 10/31
+
+
+
+
+The last several years have shown us that the unthinkable can
+happen and that we need more than tradition, hope, and luck
+to survive. We need to cultivate resilient institutions. In 2024,
+leaders will be using technology and data to help higher
+education increase its mission, operational, and financial
+resilience.
+
+Resources on the 2024 EDUCAUSE
+Top 10 Website
+
+e A video summary of the 2024 Top 10
+
+e An infographic for the 2024 Top 10
+
+e A corporate perspective on the 2024 Top 10
+
+e The 2024 Top 10 general session at the
+EDUCAUSE 2023 Annual Conference
+
+e 2024 Higher Education Trend Watch (report)
+
+2023-2024 EDUCAUSE Top 10 Panel
+Members
+
+Name Title Organization
+
+Vipin Ahlawat Director of IT Loughborough
+Services University, United
+Kingdom
+
+ 11/31
+
+
+
+
+Midhat
+Asghar
+
+Param Bedi
+
+Tracey
+Birdwell
+
+Susan Bowen
+
+George
+Claffey
+
+Sarah Cockrill
+
+Mike
+Dieckmann
+
+John Fritz
+
+
+
+2024 EDUCAUSE Top 10: Institutional Resilience | EDUCAUSE Review
+
+Deputy ClO
+
+Vice President
+and Chief
+Operating
+Officer
+
+Program
+Director,
+Mosaic
+
+Initiative
+
+Vice President,
+Chief Campus
+Operations
+Officer
+
+Vice President
+and ClO
+
+Director of
+Digital
+Strategy and
+Information
+Technology
+
+Associate Vice
+President and
+ClO
+
+Associate Vice
+President,
+
+Prairie View A&M
+University
+
+Bucknell
+University
+
+Indiana University
+Bloomington
+
+Durham Technical
+Community
+College
+
+Central
+Connecticut State
+University
+
+Canterbury Christ
+Church
+
+University, United
+Kingdom
+
+Florida
+Polytechnic
+University
+
+University of
+Maryland,
+Baltimore County
+
+12/31
+
+
+
+
+Liv Gjestvang
+
+Brian
+
+Henderson
+
+Jodi Ito
+
+Kelli Renee
+Jackson
+
+Vince Kellen
+
+Carolyn
+
+Lightfoot
+
+Dale Pike
+
+
+
+2024 EDUCAUSE Top 10: Institutional Resilience | EDUCAUSE Review
+
+Instructional
+Technology
+
+ClO
+
+CIO, Director of
+Digital and
+Information
+Services
+
+CISO
+
+Director,
+Digital User
+Experience
+Team
+
+ClO
+
+ClO, Office of
+Information
+Technology
+
+Executive
+Director and
+Associate Vice
+Provost for
+Technology-
+Enhanced
+Learning
+
+Denison
+University
+
+University of
+Aberdeen, United
+Kingdom
+
+University of
+Hawai'i System
+Office
+
+Coppin State
+University
+
+University of
+California San
+Diego
+
+Lee College
+
+Virginia Tech
+
+13/31
+
+
+
+
+Mike Richichi
+
+Jim Russell
+
+loannis
+Salmatzidis
+
+Carol Smith
+
+Standish
+Stewart
+
+Catherine
+Zabriskie
+
+
+
+2024 EDUCAUSE Top 10: Institutional Resilience | EDUCAUSE Review
+
+AVP for IT and
+Deputy CIO,
+Baruch
+Computing and
+Technology
+Center
+
+CIO and Vice
+President for
+Digital
+Strategy and
+Planning
+
+Director of IT
+
+ClO
+
+Vice President
+and ClO, ITS
+
+Senior Director,
+Digital
+Learning &
+Design
+
+Baruch College,
+City University of
+New York
+
+Manhattanville
+College
+
+Aristotle
+University of
+Thessaloniki,
+Greece
+
+DePauw
+University
+
+Cuyahoga
+Community
+College
+
+Brown University
+
+14/31
+
+
+
+
+#1: Cybersecurity as a Core
+Competency
+
+Balancing cost and risk
+
+Vipin Ahlawat, Brian Henderson, loannis Salmatzidis, and
+Standish Stewart
+
+Worsening cyberthreats, more abundant and distributed data,
+changing regulations, and the advent of Al are all good
+reasons to pay further attention to cybersecurity in 2024.
+Incorporating effective cybersecurity into the institutional DNA
+by making it a core institutional competency can instill the
+needed continuous investments and practices. One of those
+practices is adopting a formal risk management framework to
+help leaders find a balance among risk, cost, and opportunity.
+Cybersecurity paired with effective risk management can help
+institutions avoid a reputationally and financially crippling
+cyberattack. But more than that, this pairing can increase trust
+in the institution by internal and external constituents and
+partners—trust that fosters growth and resilience.
+
+Go deeper...
+
+#2: Driving to Better Decisions
+Improving data quality and governance
+Param Bedi, Vipin Ahlawat, and Catherine Zabriskie
+
+Data can help leaders navigate challenges of finite and often
+shrinking resources and revenue. Data management and
+visualization technologies have improved significantly, and Al
+
+ 15/31
+
+
+
+
+shows enormous potential. But difficulties with data quality
+and governance continue to stall efforts in higher education to
+use data to inform decision-making. The key to progress is
+melding unified institutional leadership with input and
+participation by individual constituents. If leaders value data as
+a strategic asset, they will fund and prioritize data initiatives
+and change the campus culture that creates data silos. Those
+initiatives must provide all stakeholders with data and tools
+that will simplify their work and improve the validity and
+outcomes of the decisions they make.
+
+Go deeper...
+
+#3: The Enrollment Crisis
+
+Harnessing data to empower decision-makers
+
+Tracey Birdwell, George Claffey, Sarah Cockrill, and Dale
+Pike
+
+The enrollment crisis compels institutional leaders to
+reexamine and redefine their academic offerings and their
+support services to meet changing needs and tap into new
+markets. Data can help decision-makers better understand and
+identify prospective students, as well as which programs and
+credentials to invest in. However, harnessing that data to
+improve enrollment requires centralized, reliable data that can
+be accessed by all who need it, the ability to use both data and
+signals of change to anticipate emergent opportunities, a
+culture of flexibility and adaptation, and external partnerships.
+
+Go deeper...
+
+ 16/31
+
+
+
+
+#4: Diving Deep into Data
+
+Leveraging analytics for actionable insights to improve
+learning and student success
+
+John Fritz, Mike Richichi, and Catherine Zabriskie
+
+Decision-makers have more access than ever to data and
+analytics related to learning and student success. Data sources
+are increasing, and analytics tools are more sophisticated. The
+questions that instructors, students, and institutional leaders
+are asking range from which tools, modalities, and learning
+spaces are most effective for the content and the student, to
+what kinds of support students need to succeed and to what
+the return on investment is for specific initiatives to improve
+learning and student success. Leaders need to invest in their
+data and analytics infrastructure and staffing, but only after
+they develop a clear vision and concrete priorities that can
+guide analytics initiatives and ensure they deliver actionable
+insights.
+
+Go deeper...
+
+#5: Administrative Cost
+Reduction
+
+Streamlining processes, data, and technologies
+Sarah Cockrill, Mike Richichi, and loannis Salmatzidis
+
+Institutions can't not reduce their administrative costs.
+Revenues and public confidence are both declining. New
+sources of income may offset other revenue losses, but
+
+ 17/31
+
+
+
+
+students and legislators alike expect institutions to provide
+more affordable credentials. Al may ultimately offer significant
+opportunities to reinvent operations. But there are savings to
+be had today through simplifying and standardizing processes,
+data, and technologies. Leaders need to focus stakeholders on
+the future of the institution and on the greater good, and they
+need to make difficult trade-offs so that streamlining will
+actually lower costs. The benefits not only will result in cost
+savings but also will increase the institution's agility and Its
+ability to innovate.
+
+Go deeper...
+
+#6: Meeting Students Where
+They Are
+
+Providing universal access to institutional services
+Param Bedi, Susan Bowen, John Fritz, and Carolyn Lightfoot
+
+The pandemic brought the depth and range of students' needs
+to everyone's attention. Students with the greatest needs are
+also those for whom an affordable postsecondary credential
+may be the most transformative. Faculty, staff, and institutional
+leaders are still freshly attuned to students' needs. Many
+recognize the ways in which current institutional services, and
+access to them, fall short of addressing those needs. But the
+pandemic also saw the deployment of digital forms of many
+previously campus-based services, along with a digital
+expansion in additional student support services. Today's
+opportunity is to transition from stop-gap measures to stable,
+scalable services that benefit students. Success will hinge on
+
+ 18/31
+
+
+
+
+institutional agility, effective governance and leadership, and a
+commitment to ensuring that all students benefit.
+
+Go deeper...
+
+#7: Hiring Resilience
+
+Recruiting and retaining IT talent under adverse
+circumstances
+
+Liv Gjestvang, Kelli Renee Jackson, Mike Richichi, and Carol
+Smith
+
+Financial constraints and traditional workplace rigidity are
+making it hard for technology and data managers to recruit,
+hire, and retain staff. Compensation is important, but staff also
+want work-life balance. Work-life balance boils down to
+having workplace and schedule flexibility that can change over
+time and to having reasonable workloads. Technology leaders
+need to work with HR leaders to revise hiring, compensation,
+and work policies to develop an employee value proposition
+that fits today's needs and workforce. Hiring and work policies
+must become flexible enough to support individuals' needs
+and adapt to the unfolding impact of Al on higher education
+and work. Best practices for workplace and workforce
+management are in a great deal of flux as both employers and
+employees struggle to understand and optimize post-
+pandemic work.
+
+Go deeper...
+
+#8: Financial Keys to the Future
+
+ 19/31
+
+
+
+
+Using technology and data to help make tough choices
+Mike Dieckmann, Carolyn Lightfoot, and loannis Salmatzidis
+
+Higher education institutions are struggling with shrinking
+revenues and increasing costs. The task of modeling and
+forecasting financial futures is particularly difficult today.
+Higher education is undergoing a kind of identity crisis, cost
+drivers are increasing, and previously stable business models
+are in flux. Technology leaders can help reduce administrative
+costs through consolidation and process automation. They can
+manage the technology organization more efficiently. But
+perhaps today's biggest opportunity for contributing to
+financial health is by leading analytics initiatives that will
+develop dynamic financial models and projections. The
+groundwork requires significant data management,
+reconciliation, and integration. This groundwork will help
+establish the foundation for near-term financial models and
+will also make it easier to incorporate Al and machine learning
+later on.
+
+Go deeper...
+
+#9: Balancing Budgets
+Taking control of IT cost and vendor management
+Brian Henderson and Carol Smith
+
+Prices of technology service and solution providers have risen
+abruptly, often by double digits, for many core applications and
+services. These increases are driven primarily by inflation,
+supply chain disruptions, and a strong job market. Higher
+
+ 20/31
+
+
+
+
+education budgets are already precarious. Incorporating
+significant technology cost increases with no offsetting return
+on investment will lead to service and staffing reductions.
+Leaders' best options are to build strong relationships with
+solution providers and join consortia or form partnerships with
+peer institutions to negotiate the most favorable pricing
+possible.
+
+Go deeper...
+
+#10: Adapting to the Future
+
+Cultivating institutional agility
+George Claffey, Mike Dieckmann, and Dale Pike
+
+Higher education leaders must learn how to adapt more
+rapidly to change, opportunities, and crises. To do so, they
+must go beyond spearheading the institutional response to
+events. They must develop the institutional community's ability
+to anticipate and prepare for a broad range of possible futures.
+Institutional agility entails identifying differing future scenarios
+and creating adaptive and flexible governance structures,
+processes, and work. Since technology is often both a driver of
+and a solution to change, technologists have years of
+experience leading cross-institutional change initiatives. They
+understand the institution, change, and technology. They
+understand how to learn quickly from, and respond to, failure.
+Technology leaders can help the institution better adapt to the
+future by cultivating institutional agility.
+
+Go deeper...
+
+ 21/31
+
+
+
+
+Honorary Issue: Al... Friend or
+Foe
+
+Developing an institutional approach
+Vince Kellen and Jim Russell
+
+The impact of generative Al has preoccupied many of us in
+higher education since the release of ChatGPT in November
+2022. The higher education community is trying to make
+meaning of this extraordinary breakthrough technology and
+figure out whether it spells the end of higher education as we
+know it... or the end of higher education itself. The impact of
+generative Al on institutional strategy and priorities is still
+incipient. Although the 2024 Top 10 slate of 16 candidate
+issues included two related to Al, neither made the Top 10.
+The Al issues were ranked #13 (A/... Friend or Foe:
+Developing an institutional approach) and #16 (A/ Comes to
+Class: Leveraging Al for authentic teaching and learning). But
+because we believe that Al is poised to have a very large and
+disruptive effect on our lives and our sector, we've given issue
+#13 "honorary Top 10" status, enabling us to describe its
+expanding influence.
+
+Go deeper...
+
+Reflections and Conclusion
+
+In 2024, higher education leaders are focused on helping their
+institutions to become more resilient in order to weather the
+serious challenges ahead. The EDUCAUSE Institutional
+Resilience Task Force defines higher education institutional
+
+ 22/31
+
+
+
+
+resilience as "the ability to anticipate, respond to, and adapt to
+rapidly changing circumstances in ways that maximize
+opportunities and minimize consequences of unforeseen
+events." The task force adds: "More resilient institutions
+anticipate stakeholders' needs to advance the mission and
+objective of the institution, foster collaboration, and improve
+equity by involving all impacted communities and resource
+
+ecosystems."
+
+What Do Resilient Institutions Look Like?
+
+The 2024 Top 10 summarizes the important institutional
+issues through which technology and data organizations will
+be increasing institutional resilience. But what does a more
+resilient institution look like? What institutional attributes, or
+capabilities, are needed?
+
+As the panel members deliberated about the Top 10, they
+consistently described particular characteristics that
+institutions will need to increase or acquire in order to be
+successful. Six attributes were mentioned repeatedly: decisive;
+trustworthy; interdependent; prepared; data-fluent; and
+adaptive.*
+
+ 23/31
+
+
+
+
+Trus¢
+Wo,
+7)
+Ly
+
+ye
+Bes
+2%)
+
+MISSION RESILIENCE
+
+#3. The Enrollment Crisis
+
+#4. Diving Deep into Data
+
+#6. Meeting Students Where
+They Are
+
+INSTITUTIONAL
+RESILIENCE
+
+RY)
+
+adaptive
+1Uapuadapies
+
+FINANCIAL RESILIENCE
+
+#5. Administrative Cost Reduction
+#8. Financial Keys to the Future
+#9. Balancing Budgets
+
+9
+4
+ce
+
+Decisive. Making decisions involves the risk of failure if the
+decision turns out to be flawed. But many emergencies and
+new opportunities won't wait for leaders to iteratively consult
+numerous layers of stakeholders and slowly find consensus.
+The 2024 Top 10 panelists stressed the importance of
+governance structures with the experience and empowerment
+to make rapid and sometimes difficult decisions.
+
+Trustworthy. Trust is the most important characteristic of an
+organizational culture.° Deloitte describes three dimensions of
+trust that resilient institutions must have: physical trust,
+emotional trust, and digital trust.© The Top 10 panel
+
+ 24/31
+
+
+
+
+emphasized emotional trust and digital trust as particularly
+important to attract and retain students, faculty, and staff and
+to restore public confidence in higher education.
+
+Interdependent. None of the Top 10 issues can be addressed
+by a single institutional unit. Hiring Resilience (#7) requires
+collaboration among the IT, HR, and finance organizations. The
+Enrollment Crisis (#3) calls on admissions staff, marketing
+staff, IT staff, chief academic officers, and others. Independence
+and silos will break higher education institutions because we
+are all dependent on one another. Interdependence also has an
+external facet. Increasingly, Top 10 panelists and their
+institutional leaders whom we interviewed in the spring of
+2023 are recognizing the need to partner with employers,
+community leaders, and colleagues at other institutions to
+recruit students, offer job-ready credentials, and ensure
+seamless educational continuity.
+
+Prepared. It's more difficult to adapt to change when no one
+has made the effort to imagine alternative futures with
+different possible crises and opportunities and then taken the
+steps to prepare. Prepared institutions can respond quickly to
+changing circumstances because leaders have already
+anticipated the crises and opportunities (or something similar)
+and have readied the organization for such eventualities.
+
+Data-fluent. Resilient institutions need all constituents to
+understand how to use data to ask questions and make
+decisions and how to distinguish reliable data from poor data
+and accurate information from false information. Data is the
+bedrock of the ability to make informed decisions and prepare
+for whatever the future may bring.
+
+ 25/31
+
+
+
+
+Adaptive. Higher education's notorious resistance to change
+needs to change. The pandemic showed us all that even
+entrenched individuals will adapt and upend the most sacred
+rules in response to extreme circumstances. But it also showed
+us that emergency pivots can be makeshift. The 10 Top
+panelists emphasized that to be ready for a future filled with
+change and edge cases, leaders must develop adaptive
+institutions that can swiftly adjust to new realities.
+
+Institutional Resilience and Digital
+Transformation
+
+For several years, EDUCAUSE has been talking about digital
+transformation (Dx) and how a series of deep and coordinated
+culture, workforce, and technology shifts can enable new
+educational and operating models and transform institutional
+operations, strategic directions, and value proposition. Much of
+this work has been focused on innovation and on initiatives to
+attract new students or funding sources, offer new credentials,
+expand to new physical or digital campuses, and help more
+students earn credentials more affordably. Implicit in all this
+work is the notion of improvement.
+
+But risk is becoming a larger ongoing element of life. Our
+world is changing quickly and dramatically. That change fuels
+innovation, but it also powers risk. Digital transformation
+needn't be directed just toward improving operating models
+and advancing missions; it can also be motivated by reducing
+risk. Institutional resilience has been a missing element of Dx
+frameworks, and that needs to change. EDUCAUSE is working
+to incorporate attributes and outcomes of institutional
+resilience into our Dx resources. This will enable higher
+
+ 26/31
+
+
+
+
+education leaders to build on current Dx initiatives rather than
+try to figure out how to take on yet another "big new thing"
+when they are already overwhelmed.
+
+Higher education still powers individual success. In the United
+States, college graduates experience far lower unemployment
+and poverty rates than their peers whose highest credential is
+a high school degree.” They also earn, on average, $1.2 million
+more over their lifetime. But the resultant net wealth from that
+income premium is eroded when students are burdened with
+student loan debt. Even worse off are the millions of people
+who, even with student loans, weren't able to earn the
+credentials that would lead to higher-paying jobs. In a recent
+article, Paul Tough looked at this situation through the lens of
+net wealth, rather than income, and concluded, "For most
+people, the new economics of higher ed make going to college
+a risky bet."8
+
+Yet Tough's article ended with the projection for increased
+employment opportunities for college graduates in the coming
+years and a shortage of 6.5 to 8.5 million graduates available
+to fill those jobs. Postsecondary credentials remain vital to the
+health of our economy. We must ensure they also contribute to
+individuals’ economic health. But to do so, we must make
+changes. We must reduce the financial burden that students
+are taking on, and we must make it possible for every
+matriculating student to earn a credential. For years,
+institutional change has been focused on innovation. It is time
+to learn how to adapt to a world in which risks proliferate—for
+students as well as institutions. It is time to develop
+institutional resilience and, in that way, contribute to individual
+students' success. In 2024, higher education leaders will be
+
+ 27/31
+
+
+
+
+using data and technology to increase mission, operational,
+and financial resilience. Don't be left behind.
+
+Acknowledgments
+
+The EDUCAUSE Top 10 is one of our most heavily used
+resources, and so we take its development very seriously. The
+project relies on the dedicated EDUCAUSE members who
+agree to participate in the Top 10 panel every year. | am so
+thankful to the panelists for their expertise and dedication to
+the project and for the access they provide to leaders at their
+institutions.
+
+Producing the article and associated content calls on staff
+throughout EDUCAUSE. My colleagues make this effort fun
+and feasible. Teddy Diggs doesn't just edit the article after
+we've drafted it; she participates throughout the life of the
+project to provide advice on how to improve the process and
+the final product. And she offers welcome encouragement
+when we try something new ... which we almost always do.
+Greg Dobbin joins her in helping ensure the publication lives
+up to EDUCAUSE standards and is worth your time. Kathe
+Pelletier, Joe Potchanant, Betsy Reinitz, Mark McCormack, John
+O'Brien, Jamie Reeves, and Catherine Yang are just some of the
+EDUCAUSE staff who give substantive feedback on the
+approach, content, and tone of the article. Zach Peil is our data
+and graphics designer. He is as productive as he is talented
+and as talented as he is efficient (and he is terrific at all three!).
+Nicole Muscanell, Mark McCormack, and Jamie Reeves make
+sure the survey and data are fielded and analyzed well and on
+time. This year those efforts were particularly time-consuming,
+as we had transitioned to new people and a new process. | am
+
+ 28/31

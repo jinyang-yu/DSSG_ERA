@@ -18,11 +18,11 @@ def is_image_only_pdf(path, min_chars_per_page=600):
     return True
 
 
-def extract_pdf(path):
+def extract_pdf(path, remove_first: int = 0, remove_last: int = 0):
     if is_image_only_pdf(path):
-        return pdf_ocr.extract_image(path)
+        return pdf_ocr.extract_image(path, remove_first, remove_last)
     else:
-        return pdf_text.extract_text(path)
+        return pdf_text.extract_text(path, remove_first, remove_last)
     
 
 # Path to your PDF file

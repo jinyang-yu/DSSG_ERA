@@ -29,7 +29,9 @@ def extract_text(pdf_path: str,remove_first: int = 0,remove_last: int = 0) -> st
     texts = []
     for pg in range(start_page, end_page):
         page = doc.load_page(pg)
-        texts.append(page.get_text())
+        text = page.get_text()
+        texts.append(text)
+        print(f"Page {pg}: {len(text)} chars")
 
     doc.close()
     return "\n\n".join(texts)

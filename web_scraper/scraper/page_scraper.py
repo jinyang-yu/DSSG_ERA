@@ -8,11 +8,12 @@ from bs4 import BeautifulSoup, Tag
 from urllib.parse import urljoin, urlparse
 from typing import List, Tuple, Optional, Dict
 from playwright.async_api import async_playwright
+import re
 
 from utils.url_tracker import load_visited, load_urls
 from utils.keyword_matcher import KeywordMatcher
 from utils.site_rules import SITE_RULES
-from utils.article_filter import extract_published_date, is_article_url, has_long_title, check_valid_article
+from utils.article_filter import extract_published_date, extract_all_published_dates, is_article_url, has_long_title, check_valid_article, has_article_structure
 from utils.pdf_filter import report_filter
 
 class PageScraper:
@@ -67,195 +68,288 @@ class PageScraper:
     async with self.semaphore:
         while retry_count <= max_retries:
             try:
-                async with session.get(url, headers=headers, timeout=timeout) as response:
-                    if response.status == 200:
-                      raw = await response.read()
-                      encoding = response.charset or 'utf-8'
-                      try:
-                        html = raw.decode(encoding)
-                      except UnicodeDecodeError:
-                      # fallback decoding if utf-8 or declared charset fails
-                        html = raw.decode('latin-1', errors='replace')
+              async with session.get(url, headers=headers, timeout=timeout) as response:
+                  if response.status == 200:
+                    raw = await response.read()
+                    encoding = response.charset or 'utf-8'
+                    try:
+                      html = raw.decode(encoding)
+                    except UnicodeDecodeError:
+                    # fallback decoding if utf-8 or declared charset fails
+                      html = raw.decode('latin-1', errors='replace')
 
-                      soup = BeautifulSoup(html, "html.parser")
-                      text, title = self.extract_clean_text(html)
+                    soup = BeautifulSoup(html, "html.parser")
+                    title, text = self.extract_clean_text(html)
 
-                      await asyncio.sleep(random.uniform(1, 3))
+                    await asyncio.sleep(random.uniform(1, 3))
 
-                      return text, title, soup
+                    return title, text, soup
 
-                    elif response.status == 429:
-                        retry_after = int(response.headers.get("Retry-After", 10))
-                        print(f"429 Too Many Requests. Sleeping for {retry_after}s before retrying {url}")
-                        await asyncio.sleep(retry_after)
-                        retry_count += 1
-                        continue
+                  elif response.status == 429:
+                    retry_after = int(response.headers.get("Retry-After", 10))
+                    print(f"429 Too Many Requests. Sleeping for {retry_after}s before retrying {url}")
+                    await asyncio.sleep(retry_after)
+                    retry_count += 1
+                    continue
 
-                    else:
-                        print(f"Error {response.status} fetching {url}")
-                        return "", "", None
+                  else:
+                    print(f"Error {response.status} fetching {url}")
+                    return "", "", None
 
             except (aiohttp.ClientError, asyncio.TimeoutError) as e:
-                print(f"Error scraping {url}: {repr(e)} (attempt {retry_count + 1}/{max_retries})")
-                traceback.print_exc()
-                if retry_count == max_retries:
-                    break
+              print(f"Error scraping {url}: {repr(e)} (attempt {retry_count + 1}/{max_retries})")
+              traceback.print_exc()
+              if retry_count == max_retries:
+                break
 
-                await asyncio.sleep(backoff_delay)
-                backoff_delay *= 2
-                retry_count += 1
+              await asyncio.sleep(backoff_delay)
+              backoff_delay *= 2
+              retry_count += 1
 
     return "", "", None
   
+  #   return cleaned_text, title
   def extract_clean_text(self, html: str) -> Tuple[str, str]:
     """
-    Clean HTML content & attempt to find article content only 
-    
+    Extracts a cleaned-up title and article content from raw HTML.
+
     Args:
-      html (str): HTML content from BeautifulSoup
-      
+        html (str): The raw HTML string.
+
     Returns:
-      Tuple[str, str]: cleaned text and title
-    
+        Tuple[str, str]: (title, cleaned_content)
     """
-    
     soup = BeautifulSoup(html, "html.parser")
-    title = soup.title.string.strip() if soup.title and soup.title.string else ""
 
-    # Remove unwanted tags early
-    for tag in soup(["script", "style", "noscript", "video", "iframe", "embed", "object"]):
-        tag.decompose()
-    for hidden in soup.select('[style*="display:none"], [style*="visibility:hidden"]'):
-        hidden.decompose()
+    # Extract the title
+    title = ""
+    og_title = soup.find("meta", property="og:title")
+    if og_title and og_title.get("content"):
+        title = og_title["content"].strip()
+    else:
+        h1 = soup.find("h1")
+        if h1 and h1.get_text(strip=True):
+            title = h1.get_text(strip=True)
+        elif soup.title and soup.title.string:
+            title = soup.title.string.strip()
 
-    # Remove irrelevant div/section/aside blocks based on class or id
-    for tag in soup.find_all(['div', 'section', 'aside']):
-      if tag is None or not hasattr(tag, 'get'):
-          # Can't safely print tag because it might crash; just skip it
-          continue
+    # Look for article container first (specific to your sites, can add more site rules)
+    article_div = soup.find("div", class_="single-content")
+    if article_div:
+        paragraphs = article_div.find_all("p")
+        lines = [p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)]
+        cleaned_text = "\n\n".join(lines)
+    else:
+        # Fallback: full page text with simple whitespace cleanup
+        text = soup.get_text(separator="\n")
+        lines = [line.strip() for line in text.split("\n") if line.strip()]
+        cleaned_text = "\n".join(lines)
 
-      # Defensive: if 'tag' object has .name attribute and it's None, skip too
-      if getattr(tag, 'name', None) is None:
-          continue
-
-      try:
-          tag_classes = tag.get('class')
-      except Exception:
-          # Skip tags that raise any exception on .get()
-          continue
-
-      class_str = " ".join(tag_classes) if isinstance(tag_classes, list) else str(tag_classes or "")
-      tag_id = tag.get('id') or ""
-
-      if any(keyword in class_str.lower() for keyword in [
-          "related", "recommend", "trending", "ad", "advertisement", "sponsored", "more-article"
-      ]) or any(keyword in tag_id.lower() for keyword in [
-          "related", "recommend", "trending", "ad", "promo", "footer"
-      ]):
-          tag.decompose()
-
-
-    # Locate main article content heuristically
-    article_container = soup.find('article') or next(
-      (tag for tag in soup.find_all('div', class_=lambda c: c and any(cls in c for cls in
-          ['article__body', 'ArticlePage-articleBody', 'main-article', 'content-body'])))
-      , None)
-
-    if not article_container:
-        # Fallback: find <div> with the most <p> tags
-        divs = soup.find_all('div')
-        article_container = max(divs, key=lambda d: len(d.find_all('p')), default=None)
-
-    container = article_container if article_container else soup
-
-    # Insert newlines before block elements to preserve structure
-    for tag in container.find_all([
-        "p", "div", "br", "li", "ul", "ol",
-        "h1", "h2", "h3", "h4", "h5", "h6",
-        "section", "article"
-    ]):
-        tag.insert_before("\n")
-
-    text = container.get_text()
-    lines = [line.strip() for line in text.split("\n") if line.strip()]
-    cleaned_text = "\n".join(lines)
-
-    return cleaned_text, title
-
+    return title, cleaned_text
   
-  def should_use_playwright(self, url: str) -> bool:
+  def no_playwright(self, url: str) -> bool:
     """
-    Checks if source is McKinsey & Company
+    Checks if source is universityworldnews.com or esgtoday.com
 
     Args:
       url (str): URL of source
 
     Returns:
-      bool: True if URL under Mckinsey
+      bool: True if URL not needing playwright
 
     """
 
-    return any(domain in url for domain in ["mckinsey.com", "ctvnews.ca"])
+    return any(domain in url for domain in ["universityworldnews.com", "esgtoday.com"])
   
+  # NEW UTILITY: Scroll page fully (used across methods)
+  async def scroll_page_to_bottom(self, page):
+      try:
+          await page.evaluate("""async () => {
+              await new Promise(resolve => {
+                  let totalHeight = 0;
+                  const distance = 300;
+                  const timer = setInterval(() => {
+                      window.scrollBy(0, distance);
+                      totalHeight += distance;
+                      if (totalHeight >= document.body.scrollHeight) {
+                          clearInterval(timer);
+                          resolve();
+                      }
+                  }, 200);
+              });
+          }""")
+          await page.wait_for_timeout(1000)
+      except Exception as e:
+          print("Scroll failed:", e)
 
-  async def fetch_playwright(self, url: str) -> Tuple[str, str, Optional[BeautifulSoup]]:
+  
+  async def paginate_and_collect_links(self, page, base_url: str, max_pages: int = 1) -> dict:
     """
-    Extracts dynamic Javascript content, currently implemented only for McKinsey & Company 
+    Navigates through paginated pages, collects and returns all links found.
 
-    Args: 
-      url (str): URL to extract content from 
+    Args:
+        page: Playwright page object
+        base_url (str): Base URL for link extraction
+        max_pages (int): Max pagination depth
 
     Returns:
-    Tuple containing: 
-      - text (str): visible text from the page
-      - title (str): title of the page, empty str if none
-      - soup (BeautifulSoup or none): Parsed HTML or None if error
+        dict: All links collected from pagination
     """
+    all_links = {}
+
+    for page_num in range(max_pages):
+      await page.wait_for_timeout(2000)
+
+      html = await page.content()
+      soup = BeautifulSoup(html, "html.parser")
+
+      new_links = self.extract_links(base_url, soup)
+      all_links.update(new_links)
+
+      dates = extract_all_published_dates(soup)
+      if any(d.year != 2025 for d in dates):
+        print("Found non-2025 content. Stopping pagination.")
+        break
+
+      try:
+          older_button = page.locator("a.page-older", has_text="Older")
+          if await older_button.count() == 0:
+            print("No 'Older' button found. Reached last page.")
+            break
+          await older_button.first.click()
+          print(f"Clicked 'Older' button to go to next page ({page_num + 1})")
+          await page.wait_for_timeout(2000)
+      except Exception as e:
+        print(f"Pagination stopped or failed to click 'Older': {e}")
+        break
+
+      # Scroll after clicking 'Older' to load lazy content
+      await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+      await page.wait_for_timeout(1000)
+
+    return all_links
   
+  async def handle_cookie_banner(self, page):
+    try:
+      await page.locator("#onetrust-accept-btn-handler").click(timeout=5000)
+      await page.wait_for_timeout(1000)
+      print("Accepted cookies.")
+    except Exception:
+      print("No cookie banner found or failed to click.")
+      
+  async def playwright_and_crawl(self, main_url: str, keywords: List[str], max_pages: int = 5) -> Tuple[str, str, Optional[BeautifulSoup]]:
+    
+    results = []
+    pdf_list = []
+    visited = set()
+
     try:
       async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True, args=["--disable-http2"])
         context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-            locale="en-US",
-            java_script_enabled=True,
-            viewport={"width": 1366, "height": 768},
+          user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          locale="en-US",
+          java_script_enabled=True,
+          viewport={"width": 1366, "height": 768},
         )
         page = await context.new_page()
-        try: 
-          await page.goto(url, timeout=60000, wait_until="domcontentloaded")
+
+        try:
+          await page.goto(main_url, timeout=60000, wait_until="domcontentloaded")
         except Exception as e:
           print(f"[Retrying once] Playwright goto failed: {e}")
           await asyncio.sleep(3)
-          await page.goto(url, timeout=60000, wait_until="domcontentloaded")
+          await page.goto(main_url, timeout=60000, wait_until="domcontentloaded")
 
-        # Wait for and click the cookie banner if it exists
-        try:
-            # Try the most reliable ID-based selector first
-            await page.wait_for_selector("#onetrust-accept-btn-handler", timeout=5000)
-            await page.click("#onetrust-accept-btn-handler")
-            await page.wait_for_timeout(1000)
-            print("Accepted cookies.")
-        except Exception:
-            print("No cookie banner found or failed to click.")
+        await self.handle_cookie_banner(page)
+        
+        await page.evaluate("""async () => {await new Promise(resolve => {let totalHeight = 0;
+                            const distance = 300;const timer = setInterval(() => {
+                        window.scrollBy(0, distance); totalHeight += distance;
+                        if(totalHeight >= document.body.scrollHeight){
+                            clearInterval(timer);
+                            resolve();
+                        }
+                    }, 200);
+                });
+            }""")
+        
+        all_links = await self.paginate_and_collect_links(page, main_url, max_pages=max_pages)
+        
+        filtered_links = self.matcher.batch_match(all_links, keywords)
 
-        for _ in range(10): 
-          await page.mouse.wheel(0, 3000)
-          await page.wait_for_timeout(3000)
+        prefiltered_links = {
+          url: title
+          for url, title in filtered_links.items()
+          if (is_article_url(url) or has_long_title(title))
+            and url not in visited
+            and url not in self.visited_urls
+            and not self.is_url_blocked(url)
+         }
+        
+        for link in all_links:
+          visited.add(link)
+          if link.rstrip("/") != main_url.rstrip("/"):
+            self.visited_urls.add(link)
 
-        html = await page.content()
-        soup = BeautifulSoup(html, "html.parser")
-        text, title = self.extract_clean_text(html)
+        for link, title in prefiltered_links.items():
+          
+          article_title, text, soup = await self.fetch_playwright(page, link)
+          if (not soup or 
+            not check_valid_article(link, soup, title) or 
+            link.rstrip("/") == main_url.rstrip("/")):
+            continue
+          
+          published = None
+          try:
+            published = extract_published_date(soup)
+          except Exception:
+            pass
 
+            # Only include articles from 2025, or those without a date + not report in Mckinsey (PDF)
+          if published and published.year != 2025:
+            continue
+          
+          if link.startswith("https://www.mckinsey.com") and report_filter(soup):
+            pdf_list.append(link)
+
+          if text:
+            results.append({
+              "url": link,
+              "title": article_title,
+              "content": text,
+              "published": published.isoformat() if published else None
+              })
+            
         await browser.close()
-
-        return text, title, soup
-    
+          
+      return results, pdf_list
+        
     except Exception as e:
-      print(f"Playwright Error for {url}: {e}")
+      print(f"Playwright Error for {main_url}: {e}")
       traceback.print_exc()
       return "", "", None
 
+    
+  #   return results, pdf_list
+  # Optimized: Reuse existing Playwright page object
+  async def fetch_playwright(self, page, url: str) -> Tuple[str, str, Optional[BeautifulSoup]]:
+    try:
+        await page.goto(url, timeout=60000, wait_until="domcontentloaded")
+
+        await self.handle_cookie_banner(page)
+        await self.scroll_page_to_bottom(page)
+
+        html = await page.content()
+        soup = BeautifulSoup(html, "html.parser")
+        title, text = self.extract_clean_text(html)
+
+        return title, text, soup
+
+    except Exception as e:
+        print(f"Playwright Error during fetch of {url}: {e}")
+        traceback.print_exc()
+        return "", "", None
 
   def extract_links(self, base_url: str, soup: BeautifulSoup) -> dict:
     """
@@ -290,9 +384,9 @@ class PageScraper:
       # skip blocked URLs
       if self.is_url_blocked(clean_url):
         continue
-      link_title = a_tag.get_text(strip=True) or ""
+      link_title = a_tag.get("title") or a_tag.get_text(strip=True) or ""
       links[clean_url] = link_title
-
+      
     return links
   
   def is_url_blocked(self, url: str) -> bool: 
@@ -317,7 +411,7 @@ class PageScraper:
     allowed_paths = domain_rules.get("allowed_paths", [])
 
     if blocked_paths:
-        if any(path.startswith(p) for p in blocked_paths):
+        if any(substr in path for substr in blocked_paths):
             return True
 
     if allowed_paths:
@@ -327,7 +421,6 @@ class PageScraper:
     else:
       return False
 
-  
   
   async def orchestrate_async_crawl(self, main_url: str, keywords: List[str]) -> List[Dict]:
     """
@@ -347,58 +440,54 @@ class PageScraper:
       visited = set()
 
       # 1) fetch and parse main page data 
-      if self.should_use_playwright(main_url): 
-         text, title, soup = await self.fetch_playwright(main_url)
-      else: 
-        text, title, soup = await self.fetch_html_async(session, main_url)
-      if not soup:
-         return results, pdf_list
-      
-      # 2) extract article links directly from main page
-      links = self.extract_links(main_url, soup)
-      filtered_links = self.matcher.batch_match(links, keywords)
-
-      prefiltered_links = {
-        url: title
-        for url, title in filtered_links.items()
-        if (is_article_url(url) or has_long_title(title))
-          and url not in visited
-          and url not in self.visited_urls
-          and not self.is_url_blocked(url)
-    }
-      
-      for link in links:
-        visited.add(link)
-        if link.rstrip("/") != main_url.rstrip("/"):
-          self.visited_urls.add(link)
-
-      for link, title in prefiltered_links.items():
-
-        text, title, soup = await self.fetch_html_async(session, link)
-        if (not soup or 
+      if self.no_playwright(main_url): 
+        title, text, soup = await self.fetch_html_async(session, main_url)
+        
+        links = self.extract_links(main_url, soup)
+        filtered_links = self.matcher.batch_match(links, keywords)
+        
+        prefiltered_links = {
+          url: title
+          for url, title in filtered_links.items()
+          if (is_article_url(url) or has_long_title(title))
+            and url not in visited
+            and url not in self.visited_urls
+            and not self.is_url_blocked(url)
+          }
+        
+        for link in links:
+          visited.add(link)
+          if link.rstrip("/") != main_url.rstrip("/"):
+            self.visited_urls.add(link)
+            
+        for link, title in prefiltered_links.items():
+        
+          title, text, soup = await self.fetch_html_async(session, link)
+          if (not soup or 
             not check_valid_article(link, soup, title) or 
             link.rstrip("/") == main_url.rstrip("/")):
             continue
-        
-        published = None
-        try:
-          published = extract_published_date(soup)
-        except Exception:
-           pass
+          
+          published = None
+          try:
+            published = extract_published_date(soup)
+          except Exception:
+            pass
 
-          # Only include articles from 2025, or those without a date + not report in Mckinsey (PDF)
-        if published and published.year != 2025:
-           continue
-        
-        if link.startswith("https://www.mckinsey.com") and report_filter(soup):
-           pdf_list.append(link)
-
-        if text:
-           results.append({
+            # Only include articles from 2025, or those without a date + not report in Mckinsey (PDF)
+          if published and published.year != 2025:
+            continue
+          
+          if text:
+            results.append({
               "url": link,
               "title": title,
               "content": text,
               "published": published.isoformat() if published else None
-            })
-           
+              })
+          
+      else:
+        results, pdf_list = await self.playwright_and_crawl(main_url, keywords, max_pages=20)
+          
       return results, pdf_list
+    

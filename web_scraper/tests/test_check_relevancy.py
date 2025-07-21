@@ -1,5 +1,5 @@
 # test_4o_filter.py
-from models.content_filter import check_relevancy
+from web_scraper.models.chat4o_mini import check_relevancy
 import json
 
 def load_test_article(filepath: str): 

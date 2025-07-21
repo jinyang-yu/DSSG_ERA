@@ -116,6 +116,26 @@ def extract_published_date(soup: BeautifulSoup) -> Optional[datetime]:
 
   return None
 
+def extract_all_published_dates(soup: BeautifulSoup) -> List[datetime]:
+    dates = []
+    articles = soup.find_all('article')
+    if not articles:
+        # fallback: look for all <time> tags with datetime attribute
+        time_tags = soup.find_all("time", {"datetime": True})
+        for tag in time_tags:
+            try:
+                dt = datetime.fromisoformat(tag["datetime"])
+                dates.append(dt)
+            except Exception:
+                continue
+    else:
+        for article in articles:
+            dt = extract_published_date(article)
+            if dt:
+                dates.append(dt)
+    return dates
+
+
 def filter_content(raw_results: List[Dict]) -> List[Dict]:
   """
   Takes raw results and calls model GPT4o-mini to filter for more refined relevance 

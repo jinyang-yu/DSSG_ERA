@@ -7,7 +7,7 @@ SITE_RULES = {
                                "/esg-whitepapers"]}, 
   "universityaffairs.ca": {
     "blocked_paths": ["/career-advice", "/subscribe-magazine", "/us", 
-                                          "/sponsored-content", "/article_topic/qa"]}, 
+                                          "/sponsored-content", "/article_topic/qa", "/profile", "/contact-us"]}, 
   "universityworldnews.com": {
     "allowed_paths": ["post.php"]},
     # "blocked_paths": ["/mbzuai-job.php", "/page.php?page=subscribe", "/jobs-hub", 

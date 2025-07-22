@@ -134,6 +134,10 @@ class PageScraper:
       h1 = soup.find("h1", class_="detailHeadline") or soup.find("h1")
       if h1 and h1.get_text(strip=True):
           title = h1.get_text(strip=True)
+    elif domain == "universityaffairs.ca":
+      h1 = soup.find("h1", class_="step--11")
+      if h1 and h1.get_text(strip=True):
+          title = h1.get_text(strip=True)
     elif og_title and og_title.get("content"):
         title = og_title["content"].strip()
     else:
@@ -151,6 +155,11 @@ class PageScraper:
       article_div = soup.find("div", class_="post-content u-align-justify u-blog-control u-post-content u-text u-text-2")
     elif domain == "cbc.ca":
       article_div = soup.find("div", class_="story")
+    elif domain == "chronicle.com": 
+      article_div = soup.find("div", class_="ArticlePage-articleBody contentBOdy fdIn")
+    elif domain == "universityaffairs.ca":
+      single_content_div = soup.find("div", class_="single__content") 
+      article_div = single_content_div.find("div", class_="content") if single_content_div else None
     if article_div:
         paragraphs = article_div.find_all("p")
         lines = [p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)]
@@ -199,7 +208,7 @@ class PageScraper:
           print("Scroll failed:", e)
 
   
-  async def paginate_and_collect_links(self, page, base_url: str, max_pages: int = 1) -> dict:
+  async def paginate_and_collect_links(self, page, base_url: str, max_pages: int) -> dict:
     """
     Navigates through paginated pages, collects and returns all links found.
 
@@ -257,6 +266,67 @@ class PageScraper:
         except Exception as e:
           print(f"Pagination stopped or failed to click 'Show More': {e}")
           break
+        
+      if "universityaffairs.ca" in base_url:
+        try:
+            load_more_button = page.locator(".load-more__button", has_text="Load More")
+            if await load_more_button.count() == 0:
+              print("No 'Load More' button found. Reached end.")
+              break
+            
+            previous_count = await page.eval_on_selector_all(
+                    "li.article-block", "nodes => nodes.length"
+                )
+            await page.wait_for_timeout(1000)
+            await load_more_button.first.click()
+            await page.wait_for_function(
+                """(oldCount) => {
+                    return document.querySelectorAll('li.article-block').length > oldCount;
+                }""",
+                arg=previous_count,
+                timeout=5000
+            )
+            await page.wait_for_timeout(2000)
+        except Exception as e:
+          print(f"Pagination stopped or failed to click 'Load More': {e}")
+          break
+        
+      if "chronicle.com" in base_url:
+        try:
+          items_selector = "div.ListLoadMore-items-item[data-item]"
+          load_more_button = page.locator("div.ListLoadMore-nextPage a.button-primary", has_text = "Load More")
+          if await load_more_button.count() == 0:
+            print("No 'Load More' button found. Reached end.")
+            break
+          
+          prev_count = await page.eval_on_selector_all(items_selector, "nodes => nodes.length")       
+          print(f"Clicking 'Load More' button (page {page_num+1})")       
+          await load_more_button.first.click()
+          
+          for _ in range(10):
+            current_count = await page.eval_on_selector_all(items_selector, "nodes => nodes.length")
+            if current_count > prev_count:
+                print(f"New items loaded: {current_count} > {prev_count}")
+                break
+            else:
+              print("Timeout: no new items loaded after clicking 'Load More'.")
+              break
+          await page.evaluate("window.scrollBy(0, 500)")
+            
+            # await page.wait_for_timeout(1000)
+          
+          # await page.wait_for_function(
+          #   f"""(oldCount) => {{
+          #       return document.querySelectorAll("{items_selector}").length > oldCount;
+          #   }}""",
+          #   arg=prev_count,
+          #   timeout=8000
+          # )
+
+          await page.wait_for_timeout(2000)
+        except Exception as e:
+          print(f"Pagination stopped or failed to click 'Load More': {e}")
+          break
       
       html = await page.content()
       soup = BeautifulSoup(html, "html.parser")
@@ -288,7 +358,7 @@ class PageScraper:
     except Exception:
       print("No cookie banner found or failed to click.")
       
-  async def playwright_and_crawl(self, main_url: str, keywords: List[str], max_pages: int = 3) -> Tuple[str, str, Optional[BeautifulSoup]]:
+  async def playwright_and_crawl(self, main_url: str, keywords: List[str], max_pages: int) -> Tuple[str, str, Optional[BeautifulSoup]]:
     
     results = []
     pdf_list = []
@@ -373,7 +443,7 @@ class PageScraper:
               "published": published.isoformat() if published else None
               })
             
-        await browser.close()
+      await browser.close()
           
       return results, pdf_list
         
@@ -390,6 +460,16 @@ class PageScraper:
         await page.goto(url, timeout=60000, wait_until="domcontentloaded")
 
         await self.handle_cookie_banner(page)
+        if "chronicle" in url:
+          content = await page.content()
+          if ("Verifying you are human" in content or "Just a moment..." in content):
+            print(f"Cloudflare challenge detected on {url}. Waiting for manual solve...")
+            await page.wait_for_selector('div.ListLoadMore-items-item', timeout=0)
+            print("Challenge solved, continuing...")
+            await self.scroll_page_to_bottom(page)
+            
+            await page.wait_for_selector('div.ArticlePage-articleBody.contentBOdy.fdIn', timeout=30000)
+            
         await self.scroll_page_to_bottom(page)
 
         html = await page.content()
@@ -562,7 +642,7 @@ class PageScraper:
               })
           
       else:
-        results, pdf_list = await self.playwright_and_crawl(main_url, keywords, max_pages=10)
+        results, pdf_list = await self.playwright_and_crawl(main_url, keywords, max_pages=20)
           
       return results, pdf_list
     

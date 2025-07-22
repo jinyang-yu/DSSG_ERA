@@ -6,7 +6,7 @@ SITE_RULES = {
                                "/terms-of-service-cookies-and-privacy-policy", "/esg-newsletter", 
                                "/esg-whitepapers"]}, 
   "universityaffairs.ca": {
-    "blocked_paths": ["/career-advice", "/subscribe-magazine", "/us", 
+    "blocked_paths": ["/career-advice", "/subscribe-magazine", "/us", "/author",
                                           "/sponsored-content", "/article_topic/qa", "/profile", "/contact-us"]}, 
   "universityworldnews.com": {
     "allowed_paths": ["post.php"]},

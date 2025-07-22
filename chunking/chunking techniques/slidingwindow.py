@@ -1,10 +1,5 @@
-import spacy
-nlp = spacy.load("en_core_web_sm")
-sentences = [sent.text for sent in nlp(clean_text).sents]
-
-#########################
-from transformers import AutoTokenizer
-tokenizer = AutoTokenizer.from_pretrained("bert-base-cased")
+from transformers import LongformerTokenizerFast
+tokenizer = LongformerTokenizerFast.from_pretrained("allenai/longformer-base-4096")
 
 def tok_len(s: str) -> int:
     return len(tokenizer.encode(s, add_special_tokens=False))

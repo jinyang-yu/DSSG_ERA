@@ -138,6 +138,10 @@ class PageScraper:
       h1 = soup.find("h1", class_="step--11")
       if h1 and h1.get_text(strip=True):
           title = h1.get_text(strip=True)
+    elif domain == "globalnews.ca":
+      h1 = soup.find("h1", class_="l-article__title")
+      if h1 and h1.get_text(strip=True):
+          title = h1.get_text(strip=True)
     elif og_title and og_title.get("content"):
         title = og_title["content"].strip()
     else:
@@ -160,6 +164,8 @@ class PageScraper:
     elif domain == "universityaffairs.ca":
       single_content_div = soup.find("div", class_="single__content") 
       article_div = single_content_div.find("div", class_="content") if single_content_div else None
+    elif domain == "globalnews.ca":
+      article_div = soup.find("article", class_="l-article__text js-story-text")
     if article_div:
         paragraphs = article_div.find_all("p")
         lines = [p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)]
@@ -289,6 +295,30 @@ class PageScraper:
             await page.wait_for_timeout(2000)
         except Exception as e:
           print(f"Pagination stopped or failed to click 'Load More': {e}")
+          break
+        
+      if "globalnews.ca" in base_url:
+        try:
+            load_stories_button = page.locator("button#latestStories-button")
+            if await load_stories_button.count() == 0:
+              print("No 'Load More Stories' button found. Reached end.")
+              break
+            
+            previous_count = await page.eval_on_selector_all(
+                    "li.c-posts__item.c-posts__loadmore", "nodes => nodes.length"
+                )
+            await page.wait_for_timeout(1000)
+            await load_stories_button.first.click()
+            await page.wait_for_function(
+                """(oldCount) => {
+                    return document.querySelectorAll('li.c-posts__item.c-posts__loadmore').length > oldCount;
+                }""",
+                arg=previous_count,
+                timeout=5000
+            )
+            await page.wait_for_timeout(2000)
+        except Exception as e:
+          print(f"Pagination stopped or failed to click 'Load More Stories': {e}")
           break
         
       if "chronicle.com" in base_url:
@@ -642,7 +672,7 @@ class PageScraper:
               })
           
       else:
-        results, pdf_list = await self.playwright_and_crawl(main_url, keywords, max_pages=20)
+        results, pdf_list = await self.playwright_and_crawl(main_url, keywords, max_pages=40)
           
       return results, pdf_list
     

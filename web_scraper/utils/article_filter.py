@@ -104,6 +104,14 @@ def extract_published_date(soup: BeautifulSoup) -> Optional[datetime]:
         return date_parser.parse(time_tag["datetime"])
       except Exception:
         pass
+      
+  date_span = soup.find("span", class_="u-meta-date u-meta-icon")
+  if date_span:
+      date_text = date_span.get_text(strip=True)
+      try:
+          return date_parser.parse(date_text)
+      except Exception:
+          pass
   
   html = soup.decode()
   if html: 

@@ -1,5 +1,6 @@
 # scraper/article_scraper.py 
 
+from datetime import datetime
 import random
 import aiohttp
 import traceback
@@ -79,7 +80,7 @@ class PageScraper:
                       html = raw.decode('latin-1', errors='replace')
 
                     soup = BeautifulSoup(html, "html.parser")
-                    title, text = self.extract_clean_text(html)
+                    title, text = self.extract_clean_text(html, url)
 
                     await asyncio.sleep(random.uniform(1, 3))
 
@@ -109,7 +110,7 @@ class PageScraper:
     return "", "", None
   
   #   return cleaned_text, title
-  def extract_clean_text(self, html: str) -> Tuple[str, str]:
+  def extract_clean_text(self, html: str, url: str) -> Tuple[str, str]:
     """
     Extracts a cleaned-up title and article content from raw HTML.
 
@@ -120,11 +121,20 @@ class PageScraper:
         Tuple[str, str]: (title, cleaned_content)
     """
     soup = BeautifulSoup(html, "html.parser")
+    domain = urlparse(url).netloc
 
     # Extract the title
     title = ""
     og_title = soup.find("meta", property="og:title")
-    if og_title and og_title.get("content"):
+    if domain == "enterpriseriskmag.com":
+      h2 = soup.find("h2", class_="u-blog-control u-text u-text-1")
+      if h2 and h2.get_text(strip=True):
+        title = h2.get_text(strip=True)
+    elif domain == "cbc.ca":
+      h1 = soup.find("h1", class_="detailHeadline") or soup.find("h1")
+      if h1 and h1.get_text(strip=True):
+          title = h1.get_text(strip=True)
+    elif og_title and og_title.get("content"):
         title = og_title["content"].strip()
     else:
         h1 = soup.find("h1")
@@ -134,7 +144,13 @@ class PageScraper:
             title = soup.title.string.strip()
 
     # Look for article container first (specific to your sites, can add more site rules)
-    article_div = soup.find("div", class_="single-content")
+    article_div = None
+    if domain == "thepienews.com":
+      article_div = soup.find("div", class_="single-content")
+    elif domain == "enterpriseriskmag.com":
+      article_div = soup.find("div", class_="post-content u-align-justify u-blog-control u-post-content u-text u-text-2")
+    elif domain == "cbc.ca":
+      article_div = soup.find("div", class_="story")
     if article_div:
         paragraphs = article_div.find_all("p")
         lines = [p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)]
@@ -200,29 +216,64 @@ class PageScraper:
     for page_num in range(max_pages):
       await page.wait_for_timeout(2000)
 
+      if "enterpriseriskmag.com" in base_url:
+            paginated_url = base_url if page_num == 0 else f"{base_url.rstrip('/')}/page/{page_num + 1}/"
+            await page.goto(paginated_url)
+            await page.wait_for_timeout(2000)
+      
+      if "thepienews.com" in base_url:
+        try:
+            older_button = page.locator("a.page-older", has_text="Older")
+            if await older_button.count() == 0:
+              print("No 'Older' button found. Reached last page.")
+              break
+            await older_button.first.click()
+            print(f"Clicked 'Older' button to go to next page ({page_num + 1})")
+            await page.wait_for_timeout(2000)
+        except Exception as e:
+          print(f"Pagination stopped or failed to click 'Older': {e}")
+          break
+
+      if "cbc.ca" in base_url:
+        try:
+            show_more_button = page.locator("button", has_text="Show More")
+            if await show_more_button.count() == 0:
+              print("No 'Show More' button found. Reached end.")
+              break
+            
+            previous_count = await page.eval_on_selector_all(
+                    "a.cardWrapper-u5T0r", "nodes => nodes.length"
+                )
+            await page.wait_for_timeout(1000)
+            await show_more_button.first.click()
+            await page.wait_for_function(
+                """(oldCount) => {
+                    return document.querySelectorAll('a.cardWrapper-u5T0r').length > oldCount;
+                }""",
+                arg=previous_count,
+                timeout=5000
+            )
+            await page.wait_for_timeout(2000)
+        except Exception as e:
+          print(f"Pagination stopped or failed to click 'Show More': {e}")
+          break
+      
       html = await page.content()
       soup = BeautifulSoup(html, "html.parser")
+      dates = extract_all_published_dates(soup)
 
       new_links = self.extract_links(base_url, soup)
+      before_update = len(all_links)
       all_links.update(new_links)
 
-      dates = extract_all_published_dates(soup)
       if any(d.year != 2025 for d in dates):
-        print("Found non-2025 content. Stopping pagination.")
-        break
+          print("Found non-2025 content. Stopping pagination.")
+          break
 
-      try:
-          older_button = page.locator("a.page-older", has_text="Older")
-          if await older_button.count() == 0:
-            print("No 'Older' button found. Reached last page.")
-            break
-          await older_button.first.click()
-          print(f"Clicked 'Older' button to go to next page ({page_num + 1})")
-          await page.wait_for_timeout(2000)
-      except Exception as e:
-        print(f"Pagination stopped or failed to click 'Older': {e}")
-        break
-
+      if len(all_links) == before_update:
+          print("No new links found. Assuming end of pagination.")
+          break
+        
       # Scroll after clicking 'Older' to load lazy content
       await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
       await page.wait_for_timeout(1000)
@@ -237,7 +288,7 @@ class PageScraper:
     except Exception:
       print("No cookie banner found or failed to click.")
       
-  async def playwright_and_crawl(self, main_url: str, keywords: List[str], max_pages: int = 5) -> Tuple[str, str, Optional[BeautifulSoup]]:
+  async def playwright_and_crawl(self, main_url: str, keywords: List[str], max_pages: int = 3) -> Tuple[str, str, Optional[BeautifulSoup]]:
     
     results = []
     pdf_list = []
@@ -245,7 +296,7 @@ class PageScraper:
 
     try:
       async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True, args=["--disable-http2"])
+        browser = await p.chromium.launch(headless=False, args=["--disable-http2"])
         context = await browser.new_context(
           user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
           locale="en-US",
@@ -288,6 +339,7 @@ class PageScraper:
          }
         
         for link in all_links:
+          print(link)
           visited.add(link)
           if link.rstrip("/") != main_url.rstrip("/"):
             self.visited_urls.add(link)
@@ -342,7 +394,7 @@ class PageScraper:
 
         html = await page.content()
         soup = BeautifulSoup(html, "html.parser")
-        title, text = self.extract_clean_text(html)
+        title, text = self.extract_clean_text(html, url)
 
         return title, text, soup
 
@@ -384,7 +436,30 @@ class PageScraper:
       # skip blocked URLs
       if self.is_url_blocked(clean_url):
         continue
-      link_title = a_tag.get("title") or a_tag.get_text(strip=True) or ""
+      
+      # don't scrape content < 2025 for enterprisemag.com
+      if "enterpriseriskmag.com" in base_domain:
+        parent = a_tag.parent
+        if parent:
+          date_span = parent.find_next("span", class_="u-meta-date u-meta-icon")
+          if date_span:
+            date_text = date_span.get_text(strip=True)
+            try:
+              published_date = datetime.strptime(date_text, "%d %B %Y")
+              if published_date.year != 2025:
+                # Skip links not published in 2025
+                continue
+            except Exception:
+              # If date parsing fails, just keep the link (optional: you can also skip)
+              pass
+                  
+      link_title = (
+        a_tag.get("title")
+        or a_tag.get("aria-label")
+        or a_tag.get_text(strip=True)
+        or ""
+      )
+
       links[clean_url] = link_title
       
     return links
@@ -487,7 +562,7 @@ class PageScraper:
               })
           
       else:
-        results, pdf_list = await self.playwright_and_crawl(main_url, keywords, max_pages=20)
+        results, pdf_list = await self.playwright_and_crawl(main_url, keywords, max_pages=10)
           
       return results, pdf_list
     

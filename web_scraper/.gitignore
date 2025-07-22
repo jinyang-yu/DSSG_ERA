@@ -4,4 +4,6 @@ data/credentials.json
 .pytest_cache
 scraper/__pycache__
 models/__pycache__
-utils/__pycache__
+utils/__pycache__/
+*.pyc
+__pycache__/

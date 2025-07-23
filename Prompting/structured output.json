@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ExtractedRisks",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "risk_name": {
+        "type": "string",
+        "description": "A short yet descriptive title of the risk. Someone reading just the name should be able to grasp the nature of the risk.",
+        "examples": ["cyber security", "infrastructure", "financial sustainability", "climate change"]
+      },
+      "description": {
+        "type": ["string", "null"],
+        "description": "A concise explanation of what the risk entails, taken from the report. If the text does not provide such information, output null.",
+        "examples": [
+          "Significant price fluctuations in equity markets due to macroeconomic shifts.",
+          "Unauthorized access to customer data via phishing attacks.",
+          null
+        ]
+      },
+      "driver": {
+        "type": ["array", "null"],
+        "description": "List of dictionaries where each dictionary has the driver name as key and driver description as value. Use null if not available in source.",
+        "items": {
+          "type": "object",
+          "description": "Dictionary with driver name as key and description as value. Keys and values are both optional.",
+          "patternProperties": {
+            ".*": {
+              "type": ["string", "null"],
+              "description": "Driver description or null if no description available"
+            }
+          },
+          "additionalProperties": false
+        },
+        "examples": [
+          [
+            {"Interest Rate Hikes": "Regular increases in central bank rates reduce market liquidity"},
+            {"Weak Password Policies": "Simple passwords are easily cracked by automated tools"},
+            {"Economic Uncertainty": null}
+          ],
+          [
+            {"Supply Chain Issues": "Global disruptions affecting material availability"},
+            {"Regulatory Changes": null}
+          ],
+          null
+        ]
+      },
+      "recommendations": {
+        "type": ["array", "null"],
+        "description": "Actions suggested to mitigate the risk. Include ALL recommendations found in source.",
+        "items": {
+          "type": "string",
+          "examples": [
+            "Implement stop-loss orders at 5% intervals.",
+            "Enforce multifactor authentication for all user accounts.",
+            "Establish backup supplier relationships in different geographic regions."
+          ]
+        }
+      },
+      "trend": {
+        "type": ["string", "null"],
+        "description": "How the risk has evolved or is projected to change, with quantifiable data when available.",
+        "examples": [
+          "Increasing year-over-year - ranked #3 last year, now #1",
+          "Stable since 2020 with consistent 15% occurrence rate",
+          "Declining due to improved regulatory frameworks",
+          null
+        ]
+      },
+      "likelihood": {
+        "type": ["string", "null"],
+        "description": "Probability information as stated in source - can be qualitative or quantitative.",
+        "examples": [
+          "High",
+          "15% probability over next 12 months", 
+          "Increasing frequency - up 40% from last year",
+          "Low but rising due to new threat vectors",
+          null
+        ]
+      },
+      "impact": {
+        "type": ["string", "null"],
+        "description": "Potential severity, consequences, and magnitude if risk materializes, including any scoring information.",
+        "examples": [
+          "Up to $10M in losses with 6-month recovery period",
+          "Regulatory fines up to $5M plus reputational damage",
+          "Rated 8 out of 10 on severity scale by industry experts",
+          "Operational disruption affecting 70% of customer base",
+          null
+        ]
+      },
+      "risk_indicator": {
+        "type": ["string", "null"],
+        "description": "Specific quantifiable metric used to track the risk (exclude survey-based metrics).",
+        "examples": [
+          "Value at Risk (VaR)",
+          "Number of critical incidents per quarter",
+          "System uptime percentage",
+          "Credit default ratio",
+          null
+        ]
+      },
+      "events": {
+        "type": ["array", "null"],
+        "description": "Specific real-world incidents mentioned in source with concrete details.",
+        "items": {
+          "type": "string",
+          "examples": [
+            "March 2024 flash crash - S&P 500 dropped 4% in one day due to algorithmic trading errors",
+            "June 2023 data breach at XYZ Corp exposed 2M customer records via SQL injection",
+            "February 2024 supply chain disruption in Asia affected 15% of global semiconductor production"
+          ]
+        }
+      },
+      "suggested_audits": {
+        "type": ["array", "null"],
+        "description": "Explicit audit procedures recommended for this risk, distinct from general recommendations.",
+        "items": {
+          "type": "string",
+          "examples": [
+            "Annual penetration testing of customer-facing systems",
+            "Quarterly review of firewall configuration logs",
+            "Monthly assessment of vendor security certifications"
+          ]
+        }
+      },
+      "contextual_variations": {
+        "type": ["array", "null"],
+        "description": "How the risk varies by region, industry, company size, or other categories.",
+        "items": {
+          "type": "string",
+          "examples": [
+            "More severe in emerging markets due to less mature regulatory frameworks",
+            "Highest impact in financial services (8/10) vs. manufacturing (4/10)",
+            "Small companies face 3x higher likelihood due to limited security resources"
+          ]
+        }
+      }
+    },
+    "required": ["risk_id", "risk_name"],
+    "additionalProperties": false
+  }
+}

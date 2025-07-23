@@ -142,6 +142,10 @@ class PageScraper:
       h1 = soup.find("h1", class_="l-article__title")
       if h1 and h1.get_text(strip=True):
           title = h1.get_text(strip=True)
+    elif domain == "ctvnews.ca":
+      h1 = soup.find("h1", class_="b-headline")
+      if h1 and h1.get_text(strip=True):
+          title = h1.get_text(strip=True)
     elif og_title and og_title.get("content"):
         title = og_title["content"].strip()
     else:
@@ -166,7 +170,28 @@ class PageScraper:
       article_div = single_content_div.find("div", class_="content") if single_content_div else None
     elif domain == "globalnews.ca":
       article_div = soup.find("article", class_="l-article__text js-story-text")
-    if article_div:
+    elif domain == "ctvnews.ca":
+      article_div == soup.find("div", class_="b-article-body")
+    elif domain == "mckinsey.com":
+      article_div = soup.find("div", class_="mdc-o-content-body mck-u-dropcap")
+      lines = []
+      if article_div: 
+        for tag in article_div.find_all(["p", "h3"]):
+        # Skip if the tag is inside a sidebar or irrelevant module
+          if tag.find_parent(class_=lambda c: c and (
+              "DownloadsSidebar_" in c or
+              "MostPopularArticles_" in c or
+              "Table_" in c
+          )):
+              continue
+          text = tag.get_text(strip=True)
+          if text:
+            if tag.name == "h3":
+              lines.append(f"\n\n**{text}**\n")
+            else:
+              lines.append(text)
+      cleaned_text = "\n\n".join(lines)
+    if article_div and domain != "mckinsey.com":
         paragraphs = article_div.find_all("p")
         lines = [p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)]
         cleaned_text = "\n\n".join(lines)
@@ -319,6 +344,30 @@ class PageScraper:
             await page.wait_for_timeout(2000)
         except Exception as e:
           print(f"Pagination stopped or failed to click 'Load More Stories': {e}")
+          break
+      
+      if "mckinsey.com" in base_url:
+        try:
+            view_more_button = page.locator("button#viewMore")
+            if await view_more_button.count() == 0:
+              print("No 'View More' button found. Reached end.")
+              break
+            
+            previous_count = await page.eval_on_selector_all(
+                    "div.AllInsightsGrid_mck-c-all-insights-grid__grid-item__MhVkU", "nodes => nodes.length"
+                )
+            await page.wait_for_timeout(1000)
+            await view_more_button.first.click()
+            await page.wait_for_function(
+                """(oldCount) => {
+                    return document.querySelectorAll('div.AllInsightsGrid_mck-c-all-insights-grid__grid-item__MhVkU').length > oldCount;
+                }""",
+                arg=previous_count,
+                timeout=5000
+            )
+            await page.wait_for_timeout(2000)
+        except Exception as e:
+          print(f"Pagination stopped or failed to click 'View More': {e}")
           break
         
       if "chronicle.com" in base_url:
@@ -672,7 +721,7 @@ class PageScraper:
               })
           
       else:
-        results, pdf_list = await self.playwright_and_crawl(main_url, keywords, max_pages=40)
+        results, pdf_list = await self.playwright_and_crawl(main_url, keywords, max_pages=3)
           
       return results, pdf_list
     

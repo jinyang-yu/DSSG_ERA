@@ -1,0 +1,146 @@
+{
+  "risks": [
+    {
+      "risk_name": "Financial Sustainability",
+      "description": "Concerns about balancing increasing costs with flat revenue streams, leading to scrutiny over investment cases and potential institutional failure.",
+      "driver": [
+        {
+          "Financial Challenges": "Rising energy costs, inflation on non-pay expenses, increasing staff costs, and capped undergraduate tuition fees."
+        }
+      ],
+      "recommendations": [
+        "Enhance financial controls over budgeting and expenditure processes.",
+        "Understand drivers of cost base and income generation on a granular level.",
+        "Seek new income streams and innovative ways to generate revenue."
+      ],
+      "trend": "Financial challenges are increasing, with a significant focus on managing costs and diversifying income.",
+      "likelihood": "High likelihood of financial challenges due to rising costs and capped tuition fees.",
+      "impact": "Potential long-term impact on the university's ability to invest and deliver its strategy, with risks of loan foreclosure if bank covenants are not met.",
+      "risk_indicator": "Percentage of risk registers citing financial sustainability (100%)",
+      "risk_events": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Cyber Security",
+      "description": "Cyber security is flagged as the number one risk, with institutions facing significant threats from cyber attacks and ransomware.",
+      "driver": [
+        {
+          "Cyber Threats": "Increased state-sponsored attacks and diversification of data and systems."
+        }
+      ],
+      "recommendations": [
+        "Invest in technical IT controls and dedicated cyber security staff.",
+        "Centralize IT controls to reduce attack surfaces.",
+        "Implement comprehensive cyber security measures."
+      ],
+      "trend": "Cyber security risks have remained high over the last three years, with increasing awareness and impact scores.",
+      "likelihood": "High likelihood of cyber attacks due to the attractiveness of the sector to attackers.",
+      "impact": "Potential for significant disruption to university operations and reputational damage from data breaches.",
+      "risk_indicator": "Percentage of risk registers citing cyber security (100%)",
+      "risk_events": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Environmental Sustainability",
+      "description": "Concerns about climate change and the challenges of meeting Net Zero targets, particularly regarding scope three emissions.",
+      "driver": [
+        {
+          "Climate Change Impact": "Need for significant investment to achieve sustainability goals."
+        }
+      ],
+      "recommendations": [
+        "Revise sustainability governance structures to be more central.",
+        "Engage with suppliers on scope 3 emissions and include environmental questions in procurement processes."
+      ],
+      "trend": "Sustainability risks have increased in relevance, driven by external attention and institutional commitments to Net Zero.",
+      "likelihood": "Increasing likelihood of challenges in achieving sustainability targets due to funding and engagement issues.",
+      "impact": "Failure to meet sustainability targets could impact institutional reputation and operational costs.",
+      "risk_indicator": "Percentage of risk registers citing sustainability (newly included in top risks)",
+      "risk_events": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Infrastructure - University Estates and Technology Capacity",
+      "description": "Challenges in maintaining and investing in physical and digital infrastructure to meet strategic ambitions and changing educational needs.",
+      "driver": [
+        {
+          "Infrastructure Needs": "Backlog in estate maintenance and need for digital transformation."
+        }
+      ],
+      "recommendations": [
+        "Invest in physical and digital infrastructure to support new teaching models.",
+        "Conduct assessments of space usage to inform strategic decisions."
+      ],
+      "trend": "Infrastructure risks have increased significantly, particularly in the context of post-pandemic changes in campus usage.",
+      "likelihood": "High likelihood of infrastructure challenges due to historical lack of investment and planning.",
+      "impact": "Inadequate infrastructure could adversely affect student experience and institutional reputation.",
+      "risk_indicator": "Percentage of risk registers citing infrastructure (100%)",
+      "risk_events": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Staff Recruitment and Retention",
+      "description": "Challenges in attracting and retaining high-caliber staff, leading to increased workloads and potential impacts on student experience.",
+      "driver": [
+        {
+          "Workforce Challenges": "Increased turnover and inability to attract diverse talent."
+        }
+      ],
+      "recommendations": [
+        "Develop strategies to improve staff engagement and retention.",
+        "Address workload issues and support staff wellbeing."
+      ],
+      "trend": "Staff recruitment and retention risks are consistently high across institutions, impacting operational effectiveness.",
+      "likelihood": "High likelihood of ongoing recruitment challenges due to competitive job market.",
+      "impact": "Increased workloads and turnover could negatively affect student experience and institutional performance.",
+      "risk_indicator": "Percentage of risk registers citing staff recruitment (100%)",
+      "risk_events": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Student Recruitment",
+      "description": "Volatility in the student recruitment market, influenced by changing priorities and competition, particularly for international students.",
+      "driver": [
+        {
+          "Market Volatility": "Changes in immigration policy and global competition."
+        }
+      ],
+      "recommendations": [
+        "Monitor and adapt recruitment strategies to changing demographics and market conditions.",
+        "Enhance international partnerships to sustain growth in student numbers."
+      ],
+      "trend": "Student recruitment remains a key risk, with fluctuations in applicant numbers noted.",
+      "likelihood": "High likelihood of challenges in meeting recruitment targets due to market volatility.",
+      "impact": "Failure to meet recruitment targets could lead to budget deficits and impact financial sustainability.",
+      "risk_indicator": "Percentage of risk registers citing student recruitment (100%)",
+      "risk_events": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Student Experience and Welfare",
+      "description": "Increasing mental health issues among students and the need for effective support systems to ensure positive experiences.",
+      "driver": [
+        {
+          "Mental Health Challenges": "Rising number of students facing mental health issues."
+        }
+      ],
+      "recommendations": [
+        "Enhance support services for student wellbeing and mental health.",
+        "Adapt structures to prioritize student experience in hybrid learning environments."
+      ],
+      "trend": "Student experience risks remain prevalent, with a focus on mental health and support services.",
+      "likelihood": "High likelihood of challenges in maintaining student satisfaction and wellbeing.",
+      "impact": "Poor student experience could lead to lower academic achievement and reputational damage.",
+      "risk_indicator": "Percentage of risk registers citing student experience (100%)",
+      "risk_events": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

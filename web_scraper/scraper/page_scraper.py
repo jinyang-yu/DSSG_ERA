@@ -146,6 +146,10 @@ class PageScraper:
       h1 = soup.find("h1", class_="b-headline")
       if h1 and h1.get_text(strip=True):
           title = h1.get_text(strip=True)
+    elif domain == "strategic-risk-global.com":
+      h3 = soup.find("div", class_="storyDetails").find("h3")
+      if h3 and h3.get_text(strip=True):
+          title = h3.get_text(strip=True)
     elif og_title and og_title.get("content"):
         title = og_title["content"].strip()
     else:
@@ -191,7 +195,16 @@ class PageScraper:
             else:
               lines.append(text)
       cleaned_text = "\n\n".join(lines)
-    if article_div and domain != "mckinsey.com":
+    elif domain == "strategic-risk-global.com":
+      article_div = soup.find("div", class_="storytext")
+      if article_div:
+        parts = []
+        for tag in article_div.find_all(["p", "h2"]):
+            text = tag.get_text(strip=True)
+            if text:
+                parts.append(text)
+        cleaned_text = "\n\n".join(parts)
+    if article_div and domain not in ["mckinsey.com", "strategic-risk-global.com"]:
         paragraphs = article_div.find_all("p")
         lines = [p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)]
         cleaned_text = "\n\n".join(lines)
@@ -369,43 +382,51 @@ class PageScraper:
         except Exception as e:
           print(f"Pagination stopped or failed to click 'View More': {e}")
           break
-        
-      if "chronicle.com" in base_url:
-        try:
-          items_selector = "div.ListLoadMore-items-item[data-item]"
-          load_more_button = page.locator("div.ListLoadMore-nextPage a.button-primary", has_text = "Load More")
-          if await load_more_button.count() == 0:
-            print("No 'Load More' button found. Reached end.")
-            break
-          
-          prev_count = await page.eval_on_selector_all(items_selector, "nodes => nodes.length")       
-          print(f"Clicking 'Load More' button (page {page_num+1})")       
-          await load_more_button.first.click()
-          
-          for _ in range(10):
-            current_count = await page.eval_on_selector_all(items_selector, "nodes => nodes.length")
-            if current_count > prev_count:
-                print(f"New items loaded: {current_count} > {prev_count}")
-                break
-            else:
-              print("Timeout: no new items loaded after clicking 'Load More'.")
-              break
-          await page.evaluate("window.scrollBy(0, 500)")
-            
-            # await page.wait_for_timeout(1000)
-          
-          # await page.wait_for_function(
-          #   f"""(oldCount) => {{
-          #       return document.querySelectorAll("{items_selector}").length > oldCount;
-          #   }}""",
-          #   arg=prev_count,
-          #   timeout=8000
-          # )
 
-          await page.wait_for_timeout(2000)
-        except Exception as e:
-          print(f"Pagination stopped or failed to click 'Load More': {e}")
-          break
+      if "strategic-risk-global.com" in base_url:
+        if page_num == 0:
+          paginated_url = base_url
+        else: 
+          paginated_url = base_url if page_num == 0 else f"{base_url.rstrip('/')}&page={page_num + 1}"
+        await page.goto(paginated_url)
+        await page.wait_for_timeout(2000)
+        
+      # if "chronicle.com" in base_url:
+      #   try:
+      #     items_selector = "div.ListLoadMore-items-item[data-item]"
+      #     load_more_button = page.locator("div.ListLoadMore-nextPage a.button-primary", has_text = "Load More")
+      #     if await load_more_button.count() == 0:
+      #       print("No 'Load More' button found. Reached end.")
+      #       break
+          
+      #     prev_count = await page.eval_on_selector_all(items_selector, "nodes => nodes.length")       
+      #     print(f"Clicking 'Load More' button (page {page_num+1})")       
+      #     await load_more_button.first.click()
+          
+      #     for _ in range(10):
+      #       current_count = await page.eval_on_selector_all(items_selector, "nodes => nodes.length")
+      #       if current_count > prev_count:
+      #           print(f"New items loaded: {current_count} > {prev_count}")
+      #           break
+      #       else:
+      #         print("Timeout: no new items loaded after clicking 'Load More'.")
+      #         break
+      #     await page.evaluate("window.scrollBy(0, 500)")
+            
+      #       # await page.wait_for_timeout(1000)
+          
+      #     # await page.wait_for_function(
+      #     #   f"""(oldCount) => {{
+      #     #       return document.querySelectorAll("{items_selector}").length > oldCount;
+      #     #   }}""",
+      #     #   arg=prev_count,
+      #     #   timeout=8000
+      #     # )
+
+      #     await page.wait_for_timeout(2000)
+      #   except Exception as e:
+      #     print(f"Pagination stopped or failed to click 'Load More': {e}")
+      #     break
       
       html = await page.content()
       soup = BeautifulSoup(html, "html.parser")
@@ -721,7 +742,7 @@ class PageScraper:
               })
           
       else:
-        results, pdf_list = await self.playwright_and_crawl(main_url, keywords, max_pages=3)
+        results, pdf_list = await self.playwright_and_crawl(main_url, keywords, max_pages=1)
           
       return results, pdf_list
     

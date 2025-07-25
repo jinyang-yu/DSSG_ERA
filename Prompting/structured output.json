@@ -23,7 +23,7 @@
                         "examples": [
                         "Significant price fluctuations in equity markets due to macroeconomic shifts.",
                         "Unauthorized access to customer data via phishing attacks.",
-                        None
+                        null
                         ]
                     },
                     "driver": {
@@ -38,19 +38,19 @@
                             "description": "Driver description or null if no description available"
                             }
                         },
-                        "additionalProperties": False
+                        "additionalProperties": false
                         },
                         "examples": [
                         [
                             {"Interest Rate Hikes": "Regular increases in central bank rates reduce market liquidity"},
                             {"Weak Password Policies": "Simple passwords are easily cracked by automated tools"},
-                            {"Economic Uncertainty": None}
+                            {"Economic Uncertainty": null}
                         ],
                         [
                             {"Supply Chain Issues": "Global disruptions affecting material availability"},
-                            {"Regulatory Changes": None}
+                            {"Regulatory Changes": null}
                         ],
-                        None
+                        null
                         ]
                     },
                     "recommendations": {
@@ -106,17 +106,17 @@
                         ],
                         "description": "Provide information on how likely a risk is to happen. This information will usually be quantifiable, but might not be. Example: information on a risk increasing frequency, or changing nature, or gaining more exposure. If the text does not provide such information, use null.",
                         "examples": [
-                        "50%",
-                        "12.5%",
-                        "85%",
-                        "50 percent",
-                        "twenty-five percent",
-                        "15 percent probability",
-                        "High",
-                        "15% probability over next 12 months", 
-                        "Increasing frequency - up 40% from last year",
-                        "Low but rising due to new threat vectors",
-                        None
+                            "50%",
+                            "12.5%",
+                            "85%",
+                            "50 percent",
+                            "twenty-five percent",
+                            "15 percent probability",
+                            "High",
+                            "15% probability over next 12 months", 
+                            "Increasing frequency - up 40% from last year",
+                            "Low but rising due to new threat vectors",
+                            None
                         ]
                     },
                     "impact": {
@@ -134,11 +134,11 @@
                         "type": ["string", "null"],
                         "description": "If the text mentions a specific and quantifiable metric used to assess and track the risk, the response should be the name of a metric. This should be a quantifiable metric such as a certain Ratio, Number of Events/incidents, Frequency of Events, etc. If the indicator is related to the Reports' own research, such as 'Number of respondents who voted this risk as a top risk', this should not be included. If the text does not provide such information, use null.",
                         "examples": [
-                        "Value at Risk (VaR)",
-                        "Number of critical incidents per quarter",
-                        "System uptime percentage",
-                        "Credit default ratio",
-                        None
+                            "Value at Risk (VaR)",
+                            "Number of critical incidents per quarter",
+                            "System uptime percentage",
+                            "Credit default ratio",
+                            None
                         ]
                     },
                     "risk_events": {

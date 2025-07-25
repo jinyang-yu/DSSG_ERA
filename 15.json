@@ -2,142 +2,181 @@
   "risks": [
     {
       "risk_name": "Financial Sustainability",
-      "description": "Concerns about balancing increasing costs with flat revenue streams, leading to scrutiny over investment cases and potential institutional failure.",
+      "description": "Challenges related to balancing increasing costs with flat revenue streams, rising energy costs, and a need for investment against cash reserves.",
       "driver": [
         {
-          "Financial Challenges": "Rising energy costs, inflation on non-pay expenses, increasing staff costs, and capped undergraduate tuition fees."
+          "driver_name": "Increasing Costs",
+          "driver_description": "Rising energy and inflation costs, demand for student support, and pension obligations."
+        },
+        {
+          "driver_name": "Flat Revenue Streams",
+          "driver_description": "Capped undergraduate tuition fees limiting income growth."
+        },
+        {
+          "driver_name": "Student Competition",
+          "driver_description": "Increasing competition for students, especially from international markets."
         }
       ],
       "recommendations": [
-        "Enhance financial controls over budgeting and expenditure processes.",
-        "Understand drivers of cost base and income generation on a granular level.",
-        "Seek new income streams and innovative ways to generate revenue."
+        "Enhance financial monitoring and reporting capabilities.",
+        "Develop new income streams to improve financial position.",
+        "Invest in strategic priorities that yield long-term benefits."
       ],
-      "trend": "Financial challenges are increasing, with a significant focus on managing costs and diversifying income.",
-      "likelihood": "High likelihood of financial challenges due to rising costs and capped tuition fees.",
-      "impact": "Potential long-term impact on the university's ability to invest and deliver its strategy, with risks of loan foreclosure if bank covenants are not met.",
-      "risk_indicator": "Percentage of risk registers citing financial sustainability (100%)",
-      "risk_events": null,
-      "suggested_audits": null,
-      "contextual_variations": null
-    },
-    {
-      "risk_name": "Cyber Security",
-      "description": "Cyber security is flagged as the number one risk, with institutions facing significant threats from cyber attacks and ransomware.",
-      "driver": [
-        {
-          "Cyber Threats": "Increased state-sponsored attacks and diversification of data and systems."
-        }
-      ],
-      "recommendations": [
-        "Invest in technical IT controls and dedicated cyber security staff.",
-        "Centralize IT controls to reduce attack surfaces.",
-        "Implement comprehensive cyber security measures."
-      ],
-      "trend": "Cyber security risks have remained high over the last three years, with increasing awareness and impact scores.",
-      "likelihood": "High likelihood of cyber attacks due to the attractiveness of the sector to attackers.",
-      "impact": "Potential for significant disruption to university operations and reputational damage from data breaches.",
-      "risk_indicator": "Percentage of risk registers citing cyber security (100%)",
+      "trend": "Financial challenges are rising sharply for institutions, with significant scrutiny over finances.",
+      "likelihood": "High",
+      "impact": "Potential long-term financial instability affecting the ability to invest in institutional strategies.",
+      "risk_indicator": "Percentage increase in operational costs versus revenue change.",
       "risk_events": null,
       "suggested_audits": null,
       "contextual_variations": null
     },
     {
       "risk_name": "Environmental Sustainability",
-      "description": "Concerns about climate change and the challenges of meeting Net Zero targets, particularly regarding scope three emissions.",
+      "description": "Concerns about the effects of climate change and the necessity to reach Net Zero targets; challenges with measuring and reducing scope 3 emissions.",
       "driver": [
         {
-          "Climate Change Impact": "Need for significant investment to achieve sustainability goals."
+          "driver_name": "Net Zero Goals",
+          "driver_description": "Commitments to reduce emissions and meet regulatory frameworks."
+        },
+        {
+          "driver_name": "Funding Challenges",
+          "driver_description": "Difficulty in securing funding for carbon reduction initiatives."
         }
       ],
       "recommendations": [
-        "Revise sustainability governance structures to be more central.",
-        "Engage with suppliers on scope 3 emissions and include environmental questions in procurement processes."
+        "Establish a campus-wide sustainability strategy.",
+        "Improve engagement with stakeholders on emissions data and sustainability goals."
       ],
-      "trend": "Sustainability risks have increased in relevance, driven by external attention and institutional commitments to Net Zero.",
-      "likelihood": "Increasing likelihood of challenges in achieving sustainability targets due to funding and engagement issues.",
-      "impact": "Failure to meet sustainability targets could impact institutional reputation and operational costs.",
-      "risk_indicator": "Percentage of risk registers citing sustainability (newly included in top risks)",
+      "trend": "Increasing focus on environmental challenges within the sector.",
+      "likelihood": "Increasing",
+      "impact": "Failure to meet sustainability targets could damage reputation significantly.",
+      "risk_indicator": "Emission reduction target timelines.",
       "risk_events": null,
       "suggested_audits": null,
       "contextual_variations": null
     },
     {
-      "risk_name": "Infrastructure - University Estates and Technology Capacity",
-      "description": "Challenges in maintaining and investing in physical and digital infrastructure to meet strategic ambitions and changing educational needs.",
+      "risk_name": "Cyber Security",
+      "description": "Cyber security risks continue to escalate, with the sector becoming a target for attackers; issues include shadow IT and lack of centralised controls.",
       "driver": [
         {
-          "Infrastructure Needs": "Backlog in estate maintenance and need for digital transformation."
+          "driver_name": "Institutional Vulnerability",
+          "driver_description": "Diverse IT environments and decentralized IT governance."
+        },
+        {
+          "driver_name": "Shadow IT",
+          "driver_description": "Widespread deployment of IT systems outside of central control, heightening risk."
         }
       ],
       "recommendations": [
-        "Invest in physical and digital infrastructure to support new teaching models.",
-        "Conduct assessments of space usage to inform strategic decisions."
+        "Invest in comprehensive cyber security training for staff.",
+        "Centralise IT controls to mitigate the risk of shadows IT.",
+        "Regularly update and patch systems to address vulnerabilities."
       ],
-      "trend": "Infrastructure risks have increased significantly, particularly in the context of post-pandemic changes in campus usage.",
-      "likelihood": "High likelihood of infrastructure challenges due to historical lack of investment and planning.",
-      "impact": "Inadequate infrastructure could adversely affect student experience and institutional reputation.",
-      "risk_indicator": "Percentage of risk registers citing infrastructure (100%)",
+      "trend": "Cyber security remains the number one risk across the sector.",
+      "likelihood": "Very high",
+      "impact": "Potential for severe disruptions or breaches leading to data loss or compromised networks.",
+      "risk_indicator": "Number of reported cyber incidents per year.",
+      "risk_events": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Infrastructure - university estates and technology capacity",
+      "description": "Increasing risks associated with aged estates and inadequate technology capacity impacting institutional goals and student experiences.",
+      "driver": [
+        {
+          "driver_name": "Aging Facilities",
+          "driver_description": "Old buildings requiring updates to meet current standards."
+        },
+        {
+          "driver_name": "Changes in Learning Models",
+          "driver_description": "Shift to blended learning necessitating updated infrastructure."
+        }
+      ],
+      "recommendations": [
+        "Conduct a comprehensive audit of physical estates.",
+        "Develop strategies to improve digital infrastructure."
+      ],
+      "trend": "Infrastructure issues are rising and receiving strategic attention.",
+      "likelihood": "High",
+      "impact": "Failure to modernise could lead to poor service delivery and student dissatisfaction.",
+      "risk_indicator": "Percentage of facilities rated below acceptable standards.",
       "risk_events": null,
       "suggested_audits": null,
       "contextual_variations": null
     },
     {
       "risk_name": "Staff Recruitment and Retention",
-      "description": "Challenges in attracting and retaining high-caliber staff, leading to increased workloads and potential impacts on student experience.",
+      "description": "Challenges in attracting and retaining quality staff leading to increased workloads and a potential negative impact on student experience.",
       "driver": [
         {
-          "Workforce Challenges": "Increased turnover and inability to attract diverse talent."
+          "driver_name": "High Turnover Rates",
+          "driver_description": "Increasing numbers of staff leaving leading to operational challenges."
+        },
+        {
+          "driver_name": "Workload Challenges",
+          "driver_description": "Increased workloads affecting staff morale and retention."
         }
       ],
       "recommendations": [
-        "Develop strategies to improve staff engagement and retention.",
-        "Address workload issues and support staff wellbeing."
+        "Implement targeted recruitment strategies to attract diverse talent.",
+        "Enhance support systems for staff ensuring well-being and job satisfaction."
       ],
-      "trend": "Staff recruitment and retention risks are consistently high across institutions, impacting operational effectiveness.",
-      "likelihood": "High likelihood of ongoing recruitment challenges due to competitive job market.",
-      "impact": "Increased workloads and turnover could negatively affect student experience and institutional performance.",
-      "risk_indicator": "Percentage of risk registers citing staff recruitment (100%)",
+      "trend": "Consistent reporting of recruitment challenges, worsening due to economic factors.",
+      "likelihood": "High",
+      "impact": "Increased workload leading to enhanced risks around organizational resilience.",
+      "risk_indicator": "Staff turnover rates as a percentage of total staff.",
       "risk_events": null,
       "suggested_audits": null,
       "contextual_variations": null
     },
     {
       "risk_name": "Student Recruitment",
-      "description": "Volatility in the student recruitment market, influenced by changing priorities and competition, particularly for international students.",
+      "description": "The volatility of the student recruitment market presenting significant risks that could lead to budget deficits if targets are not met.",
       "driver": [
         {
-          "Market Volatility": "Changes in immigration policy and global competition."
+          "driver_name": "Competition for International Students",
+          "driver_description": "Rising competition impacting recruitment numbers."
+        },
+        {
+          "driver_name": "Policy Changes",
+          "driver_description": "Changes in immigration and foreign policies affecting international student numbers."
         }
       ],
       "recommendations": [
-        "Monitor and adapt recruitment strategies to changing demographics and market conditions.",
-        "Enhance international partnerships to sustain growth in student numbers."
+        "Utilise data analytics for better forecasting of student demographics and trends.",
+        "Diversify recruitment strategies targeting emerging markets."
       ],
-      "trend": "Student recruitment remains a key risk, with fluctuations in applicant numbers noted.",
-      "likelihood": "High likelihood of challenges in meeting recruitment targets due to market volatility.",
-      "impact": "Failure to meet recruitment targets could lead to budget deficits and impact financial sustainability.",
-      "risk_indicator": "Percentage of risk registers citing student recruitment (100%)",
+      "trend": "Challenges in recruitment persist but new opportunities may arise with evolving demographics.",
+      "likelihood": "Moderate to high",
+      "impact": "Failure to meet recruitment targets could result in severe financial implications.",
+      "risk_indicator": "Percentage change in student enrollment numbers year on year.",
       "risk_events": null,
       "suggested_audits": null,
       "contextual_variations": null
     },
     {
-      "risk_name": "Student Experience and Welfare",
-      "description": "Increasing mental health issues among students and the need for effective support systems to ensure positive experiences.",
+      "risk_name": "Student Experience",
+      "description": "Increasing concern for student mental health and the overall experience during their education leading to challenges in academic outcomes.",
       "driver": [
         {
-          "Mental Health Challenges": "Rising number of students facing mental health issues."
+          "driver_name": "Mental Health Issues",
+          "driver_description": "Growing number of students reporting mental health challenges."
+        },
+        {
+          "driver_name": "Digital Learning Adaptations",
+          "driver_description": "Transition to hybrid learning complicating student support."
         }
       ],
       "recommendations": [
-        "Enhance support services for student wellbeing and mental health.",
-        "Adapt structures to prioritize student experience in hybrid learning environments."
+        "Enhance mental health services across campuses.",
+        "Develop strategies to monitor and improve student engagement and experience."
       ],
-      "trend": "Student experience risks remain prevalent, with a focus on mental health and support services.",
-      "likelihood": "High likelihood of challenges in maintaining student satisfaction and wellbeing.",
-      "impact": "Poor student experience could lead to lower academic achievement and reputational damage.",
-      "risk_indicator": "Percentage of risk registers citing student experience (100%)",
+      "trend": "Focus on improving student experience is increasingly recognized as crucial for retention.",
+      "likelihood": "High",
+      "impact": "Poor student experience could affect institutional reputation and performance metrics.",
+      "risk_indicator": "Student satisfaction scores from surveys.",
       "risk_events": null,
       "suggested_audits": null,
       "contextual_variations": null

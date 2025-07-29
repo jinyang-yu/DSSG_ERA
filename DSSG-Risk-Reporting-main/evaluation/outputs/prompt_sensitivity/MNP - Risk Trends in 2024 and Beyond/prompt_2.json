@@ -1,0 +1,332 @@
+{
+  "risks": {
+    "risks": [
+      {
+        "Risk Name": "Increased Cyberattack Threats",
+        "Risk Description": "Cyberattacks are growing more aggressive and brazen, driven by remote work expansion, cloud-based operations, and geopolitical tensions that encourage state-sponsored hacking.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "Remote Work Environment",
+            "Driver Description": "Organizations\u2019 adoption of remote and hybrid work policies increases vulnerability to insider\u2010facilitated or collusive cyberattacks."
+          },
+          {
+            "Driver Name": "Cloud Service Vulnerabilities",
+            "Driver Description": "Reliance on cloud service providers exposes operational servers to hackers who may target these systems to gain access to multiple client networks."
+          },
+          {
+            "Driver Name": "State-Sponsored Hacking",
+            "Driver Description": "Geopolitical tensions (evidenced by events such as the 2022 invasion of Ukraine) and concerns regarding nations like China heighten the risk of state-sponsored cyberattacks."
+          }
+        ],
+        "Recommendations": "Verify that cloud service providers have adequate controls; use dark web scanning services to detect potential leaks; perform background checks on employees with access to sensitive data; update policies and procedures upon implementing new hardware or software.",
+        "Trend Over Time": "Cyberattacks are expected to increase in frequency and aggressiveness in 2024.",
+        "Likelihood": "High",
+        "Impact": "Could lead to significant financial and operational disruptions, including data breaches and ransomware incidents.",
+        "Indicators": "Increased frequency of phishing click rates, detection of ransomware on internal servers, and findings from dark web scans.",
+        "Real-world Risk Events": "Instances of ransomware being found on internal servers since 2020.",
+        "Audit Suggestions": "Audit reviews should verify cloud provider controls and assess the robustness of IT security and background check procedures.",
+        "Contextual Differences": "Particularly critical for public sector organizations, major infrastructure providers, and companies handling large volumes of personal and proprietary data."
+      },
+      {
+        "Risk Name": "Governance and Misuse of AI Systems",
+        "Risk Description": "Generative AI tools exhibit phenomena like output hallucinations and have the potential to leak sensitive or proprietary data, which raises concerns over privacy breaches and misuse.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "AI Hallucinations",
+            "Driver Description": "Instances where AI outputs incorrect or unsolicited data, even after updates have reduced the frequency."
+          },
+          {
+            "Driver Name": "Sensitive Data Input",
+            "Driver Description": "Inputting confidential or proprietary data into AI systems poses risks of privacy breaches and intellectual property theft."
+          }
+        ],
+        "Recommendations": "Apply significant scrutiny when engaging with AI; validate AI-generated outputs; update and enforce policies regarding acceptable use of AI tools.",
+        "Trend Over Time": "The technology is advancing rapidly, maintaining a persistent risk as full elimination of hallucinations may be unattainable.",
+        "Likelihood": "N/A",
+        "Impact": "Could result in significant privacy breaches, intellectual property theft, and reputational damage.",
+        "Indicators": "N/A",
+        "Real-world Risk Events": "N/A",
+        "Audit Suggestions": "N/A",
+        "Contextual Differences": "N/A"
+      },
+      {
+        "Risk Name": "Enhanced Privacy Regulation Compliance Risk",
+        "Risk Description": "Organizations face challenges adapting to stringent privacy laws\u2014exemplified by Qu\u00e9bec\u2019s Law 25\u2014which mandate more robust data governance beyond current federal standards.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "Stringent Privacy Legislation",
+            "Driver Description": "Qu\u00e9bec\u2019s Law 25, with severe penalties and broader requirements, drives the need for significant policy updates and enhanced stewardship of personal data."
+          }
+        ],
+        "Recommendations": "Update policies and procedures governing data collection, use, and transmission; increase transparency with data subjects regarding use and sharing of personal data.",
+        "Trend Over Time": "As other jurisdictions may follow Qu\u00e9bec\u2019s lead, the regulatory burden is expected to grow.",
+        "Likelihood": "N/A",
+        "Impact": "Potential financial penalties, increased operational costs, and reputational risks due to non-compliance.",
+        "Indicators": "N/A",
+        "Real-world Risk Events": "N/A",
+        "Audit Suggestions": "N/A",
+        "Contextual Differences": "Risk exposure varies based on the jurisdictions where an organization operates and the volume of personal data processed."
+      },
+      {
+        "Risk Name": "Legacy Systems and Inadequate IT/OT Upgrades Risk",
+        "Risk Description": "Limited budgets and suboptimal technology investments may result in outdated legacy systems persisting beyond their useful life, leading to inefficiencies and security vulnerabilities.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "Budget Constraints",
+            "Driver Description": "Organizations may forgo necessary technology upgrades due to tight budgets."
+          },
+          {
+            "Driver Name": "Siloed IT/OT Decisions",
+            "Driver Description": "Unilateral departmental decisions on technology investments can lead to fragmented solutions that do not address cross-organizational risks."
+          }
+        ],
+        "Recommendations": "Establish governance with input from IT, finance, operations, and risk management to prioritize and schedule timely upgrades.",
+        "Trend Over Time": "N/A",
+        "Likelihood": "N/A",
+        "Impact": "May reduce productivity, lower employee morale, and increase exposure to cybersecurity vulnerabilities.",
+        "Indicators": "N/A",
+        "Real-world Risk Events": "N/A",
+        "Audit Suggestions": "N/A",
+        "Contextual Differences": "N/A"
+      },
+      {
+        "Risk Name": "Increasing ESG Regulatory and Reputational Risk",
+        "Risk Description": "Emerging ESG regulations and heightened public demand for accountability place organizations at risk of non-compliance and reputational damage if they remain unprepared.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "New Regulatory Standards",
+            "Driver Description": "Introduction of ISSB standards and legislation like Bill S-211 increases expectations for transparency in ESG practices."
+          }
+        ],
+        "Recommendations": "Proactively align with emerging ESG standards; quantify greenhouse gas emissions; and improve transparency around corporate donations, sustainability reporting, and executive compensation.",
+        "Trend Over Time": "ESG concerns are evolving into long-term, nonpartisan expectations that will continue to intensify.",
+        "Likelihood": "N/A",
+        "Impact": "Failure to meet ESG standards may result in fines, increased scrutiny, and damage to reputation.",
+        "Indicators": "N/A",
+        "Real-world Risk Events": "N/A",
+        "Audit Suggestions": "N/A",
+        "Contextual Differences": "Risk levels may vary by industry, organizational size, and geographic location."
+      },
+      {
+        "Risk Name": "Third-Party Cybersecurity and Operational Risk",
+        "Risk Description": "Heavy reliance on third parties for IT functions increases exposure to cybersecurity breaches, fraud, and operational failures if third-party controls are insufficient.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "Outsourcing Challenges",
+            "Driver Description": "The labor shortage drives organizations to rely on external vendors for technological expertise, which may lead to complacency about third-party risk management."
+          }
+        ],
+        "Recommendations": "Conduct thorough risk assessments before onboarding third parties; regularly review and stress test third-party controls and access permissions; and implement tailored training and codes of conduct for vendors.",
+        "Trend Over Time": "Dependence on third parties is growing with the pace of digital innovation.",
+        "Likelihood": "N/A",
+        "Impact": "Inadequate oversight can lead to cybersecurity incidents, fraud, quality issues, or system outages.",
+        "Indicators": "N/A",
+        "Real-world Risk Events": "N/A",
+        "Audit Suggestions": "N/A",
+        "Contextual Differences": "N/A"
+      },
+      {
+        "Risk Name": "M&A Integration Due Diligence Risk",
+        "Risk Description": "Inadequate due diligence during mergers and acquisitions can result in inheriting undisclosed fraud, cybersecurity vulnerabilities, and cultural misalignments that affect integration success.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "Pandemic-era Fraud Increase",
+            "Driver Description": "Instances of fraud and corruption spiked during the pandemic and may not yet have been fully uncovered."
+          },
+          {
+            "Driver Name": "Digital Platform Adoption",
+            "Driver Description": "Haphazard implementation of new digital systems in target companies may introduce cybersecurity and operational vulnerabilities."
+          }
+        ],
+        "Recommendations": "Ensure due diligence processes include assessments of IT/OT controls, ESG exposures, and cultural alignment; define clear dealbreakers at the outset.",
+        "Trend Over Time": "M&A activity is resurging post-pandemic, increasing exposure to these risks.",
+        "Likelihood": "N/A",
+        "Impact": "Could lead to significant financial, operational, and reputational repercussions post-merger.",
+        "Indicators": "N/A",
+        "Real-world Risk Events": "N/A",
+        "Audit Suggestions": "N/A",
+        "Contextual Differences": "Risks may differ based on industry sector and the risk appetite of the acquiring organization."
+      },
+      {
+        "Risk Name": "Digital Transformation Integration Risk",
+        "Risk Description": "The accelerated adoption of digital platforms\u2014including cloud solutions and generative AI\u2014can introduce new cybersecurity points of entry and integration challenges with legacy systems.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "Rapid Cloud Adoption",
+            "Driver Description": "Shifting to cloud-based enterprise resource planning increases exposure to cyber criminals."
+          },
+          {
+            "Driver Name": "Ungoverned AI Usage",
+            "Driver Description": "Default user access settings and incomplete training for new digital tools may create vulnerabilities."
+          },
+          {
+            "Driver Name": "Legacy System Integration",
+            "Driver Description": "Inadequate planning for updating policies, procedures, and training materials when integrating with legacy systems."
+          }
+        ],
+        "Recommendations": "Conduct risk assessments for new digital technologies; update policies and training materials; and ensure integration requirements with legacy systems are clearly defined.",
+        "Trend Over Time": "Digital transformation initiatives continue to accelerate, compounding integration and cybersecurity risks.",
+        "Likelihood": "N/A",
+        "Impact": "May result in increased cyber risk, operational disruptions, and unforeseen cost overruns.",
+        "Indicators": "N/A",
+        "Real-world Risk Events": "N/A",
+        "Audit Suggestions": "N/A",
+        "Contextual Differences": "N/A"
+      },
+      {
+        "Risk Name": "Data Analytics Integrity Risk",
+        "Risk Description": "An overreliance on data analytics carries the risk that poor data quality or rushed implementation could lead to inaccurate insights and suboptimal decision making.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "Poor Data Quality",
+            "Driver Description": "Inadequate data governance and cleansing can compromise analytic outputs."
+          },
+          {
+            "Driver Name": "Rushed Analytics Adoption",
+            "Driver Description": "Pressure to rapidly adopt analytics can result in skipping critical steps in resourcing and governance."
+          }
+        ],
+        "Recommendations": "Incorporate analytic expertise at both board and operational levels; assess the quality of existing data; and develop a structured strategy for maturing the analytics program.",
+        "Trend Over Time": "The push for advanced analytics continues to grow, increasing both opportunity and risk.",
+        "Likelihood": "N/A",
+        "Impact": "Misguided insights can lead to poor business decisions and loss of competitive advantage.",
+        "Indicators": "N/A",
+        "Real-world Risk Events": "N/A",
+        "Audit Suggestions": "N/A",
+        "Contextual Differences": "N/A"
+      },
+      {
+        "Risk Name": "Workforce Transformation and Talent Retention Risk",
+        "Risk Description": "Shifts in workforce demographics, remote/hybrid work arrangements, and changing employee expectations create challenges in attracting and retaining key talent.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "Generational Shifts",
+            "Driver Description": "Differences between retiring baby boomers and the emerging expectations of Gen Z affect recruitment and retention."
+          },
+          {
+            "Driver Name": "Remote/Hybrid Work Challenges",
+            "Driver Description": "New work arrangements can impact employee morale and engagement, potentially increasing turnover."
+          }
+        ],
+        "Recommendations": "Enhance training, provide competitive compensation and benefits, implement effective succession planning, and support agile change management.",
+        "Trend Over Time": "Issues highlighted during the Great Resignation have shown persistent challenges likely to intensify in a volatile environment.",
+        "Likelihood": "N/A",
+        "Impact": "Could result in loss of critical skills, reduced operational performance, and increased disruption.",
+        "Indicators": "N/A",
+        "Real-world Risk Events": "N/A",
+        "Audit Suggestions": "N/A",
+        "Contextual Differences": "N/A"
+      },
+      {
+        "Risk Name": "Escalating Insurance Cost and Coverage Risk",
+        "Risk Description": "A record number of claims driven by natural disasters and cyber/ privacy breaches are leading to higher insurance costs, more complex claim terms, and potential reductions in coverage.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "Increased Natural Disasters",
+            "Driver Description": "Hurricanes, floods, wildfires, and droughts have driven a surge in insurance claims."
+          },
+          {
+            "Driver Name": "Cyber and Privacy Breaches",
+            "Driver Description": "Rising incidents of cyberattacks and data breaches contribute to increased claim frequencies."
+          }
+        ],
+        "Recommendations": "Engage an independent insurance advisor to review coverage amounts and rates; audit insurance renewals and claim processes; and consider improved risk management practices beyond reliance on insurance.",
+        "Trend Over Time": "Insurance costs are escalating as risks become more frequent and severe.",
+        "Likelihood": "N/A",
+        "Impact": "May impose significant financial strain and create gaps in risk transfer if coverage does not match emerging exposures.",
+        "Indicators": "N/A",
+        "Real-world Risk Events": "N/A",
+        "Audit Suggestions": "Audit recommendations include reviewing the optimization of insurance coverage and renewal processes.",
+        "Contextual Differences": "N/A"
+      },
+      {
+        "Risk Name": "Economic Downturn Impact Risk",
+        "Risk Description": "Uncertain economic conditions marked by high inflation, rising interest rates, and cost of living pressures can adversely affect business models and cash flow.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "Rising Interest Rates and Inflation",
+            "Driver Description": "Persistent inflation and high interest rates strain consumer spending and business investment decisions."
+          },
+          {
+            "Driver Name": "Cost of Living Increases",
+            "Driver Description": "Higher costs for food, fuel, and housing put pressure on consumer demand and employee retention."
+          }
+        ],
+        "Recommendations": "Pressure test business models for resilience; identify inefficiencies and underperforming areas; and implement cash flow management strategies.",
+        "Trend Over Time": "Economic uncertainty remains in play, with fears of recession influencing strategic decisions.",
+        "Likelihood": "N/A",
+        "Impact": "Could lead to shrinking margins, low cash flow, and a cautious approach to investment and hiring.",
+        "Indicators": "N/A",
+        "Real-world Risk Events": "N/A",
+        "Audit Suggestions": "N/A",
+        "Contextual Differences": "N/A"
+      },
+      {
+        "Risk Name": "Business Continuity and Crisis Response Risk",
+        "Risk Description": "A growing array of threats\u2014from pandemics to natural disasters and cyberattacks\u2014challenges organizations\u2019 ability to respond quickly and effectively, potentially leading to severe disruptions.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "Increasing Frequency of Crises",
+            "Driver Description": "Emerging threats such as global pandemics and significant natural disasters occur with decreasing intervals between events."
+          },
+          {
+            "Driver Name": "Third-Party Dependence",
+            "Driver Description": "Reliance on external vendors and service providers can exacerbate crisis response challenges if they are unprepared."
+          }
+        ],
+        "Recommendations": "Conduct scenario planning and regular tabletop exercises; analyze past disruptions to identify weaknesses; and update emergency response plans with clear roles for internal teams and key vendors.",
+        "Trend Over Time": "The threat of large\u2010scale disruptions is growing, with crises occurring in increasingly rapid succession.",
+        "Likelihood": "N/A",
+        "Impact": "Potentially severe business interruption, loss of revenue, and reputational damage if preparedness is lacking.",
+        "Indicators": "N/A",
+        "Real-world Risk Events": "Past crises and disruptions impacting peer organizations are noted.",
+        "Audit Suggestions": "N/A",
+        "Contextual Differences": "N/A"
+      },
+      {
+        "Risk Name": "Capital Project Overrun and Quality Risk",
+        "Risk Description": "Large-scale capital projects are at risk of cost overruns, timeline delays, billing errors, and quality issues, which can lead to significant financial and operational setbacks.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "Inflationary Pressures",
+            "Driver Description": "Rising costs of labor and materials can inflate project budgets."
+          },
+          {
+            "Driver Name": "Billing Errors",
+            "Driver Description": "Erroneous billing practices may inflate costs significantly, as evidenced by potential one to three percent overbilling on large projects."
+          }
+        ],
+        "Recommendations": "Utilize data analytics to compare invoices and requisitions; conduct rigorous risk assessments during planning; and enforce strict project management controls including clear vendor contract terms.",
+        "Trend Over Time": "Capital project risks remain persistent due to the inherent complexity and scale of such investments.",
+        "Likelihood": "N/A",
+        "Impact": "Can result in multi-million dollar overruns and operational disruptions.",
+        "Indicators": "N/A",
+        "Real-world Risk Events": "N/A",
+        "Audit Suggestions": "Audit capital projects focusing on cost control, timeline adherence, and quality assurance.",
+        "Contextual Differences": "N/A"
+      },
+      {
+        "Risk Name": "Increased Fraud Risk Amid Economic Pressure",
+        "Risk Description": "Economic pressures and rising living costs increase the likelihood that financial stress will drive individuals to commit fraud, while opportunities for fraudulent activities are amplified by weak controls and remote work environments.",
+        "Risk Drivers": [
+          {
+            "Driver Name": "Financial Pressure",
+            "Driver Description": "Increased cost of living pressures compel employees and third parties who are financially strained to commit fraudulent acts."
+          },
+          {
+            "Driver Name": "Ineffective Controls",
+            "Driver Description": "Remote work, incomplete policies, and inadequate training create opportunities for fraud and corruption."
+          }
+        ],
+        "Recommendations": "Implement measures such as dual signature requirements for large transactions; use AI tools to monitor for suspicious activities; restrict login access; and provide fraud awareness and training to encourage reporting of anomalies.",
+        "Trend Over Time": "Fraud risk components related to pressure and opportunity have been elevated over the past 18 months.",
+        "Likelihood": "N/A",
+        "Impact": "May result in financial loss, legal consequences, and reputational damage.",
+        "Indicators": "N/A",
+        "Real-world Risk Events": "N/A",
+        "Audit Suggestions": "Audit the effectiveness of internal controls and fraud risk assessments.",
+        "Contextual Differences": "N/A"
+      }
+    ]
+  }
+}

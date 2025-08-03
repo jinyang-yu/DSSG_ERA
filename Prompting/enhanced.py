@@ -183,10 +183,10 @@ def create_file(client, file_path):
     return result.id
 
 # Replace with your own file path or URL
-file_id = create_file(client, 'chunking/raw_text/56raw.txt')
+file_id = create_file(client, 'chunking/raw_text/124raw.txt')
 
 vector_store = client.vector_stores.create(
-        name="knowledge_base_56"
+        name="knowledge_base_124"
 )
 print(vector_store.id)
 
@@ -245,10 +245,42 @@ risk_name_list_schema = {
 
 
 # 3️⃣ Parse the returned count
-raw = count_resp.output_text.strip()
-risk_count = int(raw)  # e.g. 7
-print(f"Found {risk_count} risks.")
+# raw = count_resp.output_text.strip()
+# risk_count = int(raw)  # e.g. 7
+# print(f"Found {risk_count} risks.")
 
+name_resp = client.responses.create(
+    model="gpt-4.1-mini-2025-04-14",
+    input=[
+        {
+            "role": "developer",
+            "content": "You are a manager in the Enterprise Risk and Assurance Office."
+        },
+        {
+            "role": "user",
+            "content": (
+                "Extract and return a JSON array of all distinct risk names "
+                "mentioned in the uploaded file. Respond with only the array of strings, "
+                "e.g. [\"Cybersecurity Breach\", \"Regulatory Change\", …]."
+            )
+        }
+    ],
+    text={
+        "format": {
+            "type":   "json_schema",
+            "name":   "risk_name_list",
+            "schema": risk_name_list_schema,
+            "strict": True
+        }
+    },
+    tools=[{
+        "type": "file_search",
+        "vector_store_ids": [vector_store.id]
+    }],
+    temperature=0.0
+)
+
+risk_names = json.loads(name_resp.output_text)
 
 response = client.responses.create(
     model="gpt-4.1-mini-2025-04-14",
@@ -256,7 +288,7 @@ response = client.responses.create(
         {"role": "developer", 
          "content": prompt},
         {"role": "user", 
-         "content": f"Extract exactly {risk_count} distinct risks with the following fields as JSON." + PROMPT}
+         "content": f"I have these risk names: {risk_names}.For each of these risks, extract the following fields as JSON." + PROMPT}
     ],
     text={
         "format": {
@@ -286,7 +318,7 @@ result = parse_prefix_json(data)
 # result = json.loads(data)
 
 # 2. Write it to a file
-with open("56-fs-c.json", "w", encoding="utf-8") as f:
+with open("124-fs-c.json", "w", encoding="utf-8") as f:
     json.dump(result, f, ensure_ascii=False, indent=2)
 
-print("Saved results to 56-fs-c.json")
+print("Saved results to 124-fs-c.json")

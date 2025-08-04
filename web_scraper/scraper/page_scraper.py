@@ -9,8 +9,9 @@ from bs4 import BeautifulSoup, Tag
 from urllib.parse import urljoin, urlparse
 from typing import List, Tuple, Optional, Dict
 from playwright.async_api import async_playwright
+from contextlib import asynccontextmanager
 import re
-
+from newspaper import Article
 from utils.url_tracker import load_visited, load_urls
 from utils.keyword_matcher import KeywordMatcher
 from utils.site_rules import SITE_RULES
@@ -120,8 +121,18 @@ class PageScraper:
     Returns:
         Tuple[str, str]: (title, cleaned_content)
     """
+    
     soup = BeautifulSoup(html, "html.parser")
     domain = urlparse(url).netloc
+    
+    if "cbc.ca" in domain or "strategic-risk-global.com" in domain:
+    # Use newspaper3k for CBC
+      article = Article(url='')
+      article.set_html(html)
+      article.parse()
+      title = article.title or ""
+      cleaned_text = article.text or ""
+      return title.strip(), cleaned_text.strip()
 
     # Extract the title
     title = ""
@@ -130,10 +141,10 @@ class PageScraper:
       h2 = soup.find("h2", class_="u-blog-control u-text u-text-1")
       if h2 and h2.get_text(strip=True):
         title = h2.get_text(strip=True)
-    elif domain == "cbc.ca":
-      h1 = soup.find("h1", class_="detailHeadline") or soup.find("h1")
-      if h1 and h1.get_text(strip=True):
-          title = h1.get_text(strip=True)
+    # elif domain == "cbc.ca":
+    #   h1 = soup.find("h1", class_="story") or soup.find("h1")
+    #   if h1 and h1.get_text(strip=True):
+    #       title = h1.get_text(strip=True)
     elif domain == "universityaffairs.ca":
       h1 = soup.find("h1", class_="step--11")
       if h1 and h1.get_text(strip=True):
@@ -146,10 +157,10 @@ class PageScraper:
       h1 = soup.find("h1", class_="b-headline")
       if h1 and h1.get_text(strip=True):
           title = h1.get_text(strip=True)
-    elif domain == "strategic-risk-global.com":
-      h3 = soup.find("div", class_="storyDetails").find("h3")
-      if h3 and h3.get_text(strip=True):
-          title = h3.get_text(strip=True)
+    # elif domain == "strategic-risk-global.com":
+    #   h3 = soup.find("div", class_="storyDetails").find("h3")
+    #   if h3 and h3.get_text(strip=True):
+    #       title = h3.get_text(strip=True)
     elif og_title and og_title.get("content"):
         title = og_title["content"].strip()
     else:
@@ -165,8 +176,8 @@ class PageScraper:
       article_div = soup.find("div", class_="single-content")
     elif domain == "enterpriseriskmag.com":
       article_div = soup.find("div", class_="post-content u-align-justify u-blog-control u-post-content u-text u-text-2")
-    elif domain == "cbc.ca":
-      article_div = soup.find("div", class_="story")
+    # elif domain == "cbc.ca":
+    #   article_div = soup.find("div", class_="story")
     elif domain == "chronicle.com": 
       article_div = soup.find("div", class_="ArticlePage-articleBody contentBOdy fdIn")
     elif domain == "universityaffairs.ca":
@@ -175,7 +186,7 @@ class PageScraper:
     elif domain == "globalnews.ca":
       article_div = soup.find("article", class_="l-article__text js-story-text")
     elif domain == "ctvnews.ca":
-      article_div == soup.find("div", class_="b-article-body")
+      article_div = soup.find("div", class_="b-article-body")
     elif domain == "mckinsey.com":
       article_div = soup.find("div", class_="mdc-o-content-body mck-u-dropcap")
       lines = []
@@ -195,15 +206,15 @@ class PageScraper:
             else:
               lines.append(text)
       cleaned_text = "\n\n".join(lines)
-    elif domain == "strategic-risk-global.com":
-      article_div = soup.find("div", class_="storytext")
-      if article_div:
-        parts = []
-        for tag in article_div.find_all(["p", "h2"]):
-            text = tag.get_text(strip=True)
-            if text:
-                parts.append(text)
-        cleaned_text = "\n\n".join(parts)
+    # elif domain == "strategic-risk-global.com":
+    #   article_div = soup.find("div", class_="storytext")
+    #   if article_div:
+    #     parts = []
+    #     for tag in article_div.find_all(["p", "h2"]):
+    #         text = tag.get_text(strip=True)
+    #         if text:
+    #             parts.append(text)
+    #     cleaned_text = "\n\n".join(parts)
     if article_div and domain not in ["mckinsey.com", "strategic-risk-global.com"]:
         paragraphs = article_div.find_all("p")
         lines = [p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)]
@@ -216,6 +227,23 @@ class PageScraper:
 
     return title, cleaned_text
   
+  @asynccontextmanager
+  async def _get_playwright_context(self):
+      async with async_playwright() as p:
+          browser = await p.chromium.launch(headless=True, args=["--disable-http2"])
+          context = await browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            locale="en-US",
+            java_script_enabled=True,
+            viewport={"width": 1366, "height": 768},
+        )
+          page = await context.new_page()
+          await self.handle_cookie_banner(page)
+          try:
+              yield page
+          finally:
+              await browser.close()
+
   def no_playwright(self, url: str) -> bool:
     """
     Checks if source is universityworldnews.com or esgtoday.com
@@ -714,10 +742,15 @@ class PageScraper:
           visited.add(link)
           if link.rstrip("/") != main_url.rstrip("/"):
             self.visited_urls.add(link)
-            
-        for link, title in prefiltered_links.items():
         
-          title, text, soup = await self.fetch_html_async(session, link)
+        tasks = [
+              self.fetch_html_async(session, link)
+              for link in prefiltered_links.keys()
+          ]
+        
+        fetched_results = await asyncio.gather(*tasks)
+            
+        for (title, text, soup), url in zip(fetched_results, prefiltered_links.keys()):
           if (not soup or 
             not check_valid_article(link, soup, title) or 
             link.rstrip("/") == main_url.rstrip("/")):

@@ -1,0 +1,11 @@
+openai
+python-dotenv
+catboost
+sentence-transformers
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+torch
+tqdm

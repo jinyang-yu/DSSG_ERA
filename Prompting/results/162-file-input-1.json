@@ -1,0 +1,438 @@
+{
+  "risks": [
+    {
+      "risk_name": "Economic Conditions, Including Inflationary Pressures",
+      "risk_description": "Economic conditions, including inflationary pressures in markets served, may significantly restrict growth opportunities, impact margins or require new skill sets.",
+      "risk_driver": [
+        {
+          "driver_name": "Inflation and Interest Rates",
+          "driver_description": "Persistent inflation fueled by rising labor costs, government stimulus, geopolitical tensions, and uncertainty over central bank policies."
+        },
+        {
+          "driver_name": "Geopolitical Developments",
+          "driver_description": "Regional conflicts and global tensions impacting economic stability and growth."
+        }
+      ],
+      "risk_recommendations": [
+        "Focus on generating reliable information for decision-making using multiple, objective data sources.",
+        "Build dynamic forecasting and budgeting processes considering market-driven factors.",
+        "Monitor financial strength, credit capacity, and behavior of customers and vendors.",
+        "Prepare contingency plans including margin management and alternative sourcing strategies.",
+        "Communicate transparently with employees to manage morale and expectations."
+      ],
+      "trend": "Ranked as the top risk for 2024, stable year-over-year with slight increase in concern for 2034. Economic risk declined the least among risks that decreased from last year’s survey.",
+      "likelihood": null,
+      "impact": "Potential to restrict growth opportunities and squeeze margins due to higher operating costs and capital costs. Average impact score 5.96 for 2024 and 5.95 for 2034 on a 10-point scale.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More prominent concern for smaller organizations in 2024.",
+        "Top risk for Financial Services, Consumer Products and Services, Healthcare, and other industries.",
+        "Rated as a top risk in most geographic regions except India."
+      ]
+    },
+    {
+      "risk_name": "Ability to Attract, Develop and Retain Top Talent, Manage Shifts in Labor Expectations, and Address Succession Challenges",
+      "risk_description": "Challenges in attracting, developing, and retaining quality staff amid shifting labor expectations and succession challenges, impacting operational targets and strategic success.",
+      "risk_driver": [
+        {
+          "driver_name": "Labor Market Tightness",
+          "driver_description": "Shortages of skilled labor and competition for talent."
+        },
+        {
+          "driver_name": "Changing Workforce Expectations",
+          "driver_description": "Evolving employee priorities including work-life balance, compensation, and workplace flexibility."
+        },
+        {
+          "driver_name": "Succession Planning Challenges",
+          "driver_description": "Aging workforce and difficulty in preparing next-generation leaders."
+        }
+      ],
+      "risk_recommendations": [
+        "Adopt a new talent mindset focusing on skills over roles and diverse talent pools.",
+        "Align talent strategy with business strategy and perform regular talent inventories.",
+        "Institute rolling talent forecasts and analyze financial impacts of talent scenarios.",
+        "Deploy skills analytics and monitor organizational effectiveness and culture.",
+        "Develop innovative workforce models including reskilling and upskilling."
+      ],
+      "trend": "Consistently a top risk for 2024 and 2034, with some easing in 2024 but long-term concerns increasing. Ranked #2 for both 2024 and 2034.",
+      "likelihood": null,
+      "impact": "Significant impact on organizational resilience, operational performance, and ability to compete. Average impact score 5.93 for 2024 and 6.27 for 2034.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More acute concern for smaller organizations and healthcare industry.",
+        "Talent risk is a top concern across all geographic regions.",
+        "CHROs perceive this risk differently than other executives."
+      ]
+    },
+    {
+      "risk_name": "Cyber Threats",
+      "risk_description": "Risks from cyber attacks such as ransomware and other malicious activities that can disrupt operations, damage brand, and compromise data security.",
+      "risk_driver": [
+        {
+          "driver_name": "Expanding Attack Surface",
+          "driver_description": "Increased digitalization, cloud adoption, IoT devices, and third-party dependencies."
+        },
+        {
+          "driver_name": "Sophistication of Attackers",
+          "driver_description": "Nation-state actors and cybercriminals using advanced technologies including AI."
+        },
+        {
+          "driver_name": "Regulatory and Compliance Pressures",
+          "driver_description": "Growing requirements for breach disclosures and data privacy."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop robust cybersecurity and insider threat protection programs.",
+        "Invest in cybersecurity talent and consider managed services.",
+        "Establish governance and security around generative AI tools.",
+        "Prepare for quantum computing impacts on cryptography.",
+        "Continuously enhance cyber defenses and conduct rigorous testing.",
+        "Integrate cyber risk management with third-party risk oversight."
+      ],
+      "trend": "Ranked #3 for 2024 and #1 for 2034, with a significant increase in concern year-over-year. Cyber threats rose from 15th in 2023 to 3rd in 2024.",
+      "likelihood": "High likelihood given increasing frequency and sophistication of attacks.",
+      "impact": "Potential for severe operational disruption, data loss, reputational damage, and regulatory penalties. Average impact score 5.90 for 2024 and 6.44 for 2034.",
+      "risk_indicator": null,
+      "risk_event": [
+        "ICBC ransomware incident in November 2023 impacting financial institutions."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Higher concern in Financial Services, Technology, Media and Telecommunications, and Healthcare industries.",
+        "More prominent for larger organizations and public companies.",
+        "Geopolitical tensions elevate risk in certain regions."
+      ]
+    },
+    {
+      "risk_name": "Third-Party Risks",
+      "risk_description": "Risks arising from reliance on outsourcing, strategic sourcing, ecosystem partners, IT vendors, and joint ventures that may impact operational targets or brand image.",
+      "risk_driver": [
+        {
+          "driver_name": "Increased Reliance on Third Parties",
+          "driver_description": "Growing use of external partners to manage critical business services."
+        },
+        {
+          "driver_name": "Supply Chain and Vendor Vulnerabilities",
+          "driver_description": "Security breaches and operational disruptions originating from third parties."
+        },
+        {
+          "driver_name": "Regulatory Scrutiny",
+          "driver_description": "Heightened oversight of third-party relationships and compliance requirements."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement comprehensive third-party risk management strategies.",
+        "Monitor compliance and security posture of vendors and partners.",
+        "Integrate third-party risk with overall enterprise risk management.",
+        "Prepare for regulatory changes impacting third-party oversight."
+      ],
+      "trend": "Increased importance, rising from 17th in 2023 to 4th in 2024 and 6th in 2034.",
+      "likelihood": null,
+      "impact": "Potential for operational disruption, financial loss, regulatory penalties, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More notable for midsize organizations and private companies.",
+        "Top five risk for manufacturing, healthcare, and government sectors.",
+        "Elevated concern in regions with complex geopolitical environments."
+      ]
+    },
+    {
+      "risk_name": "Heightened Regulatory Changes and Scrutiny",
+      "risk_description": "Increasing regulatory requirements and oversight affecting processes, products, services, and compliance costs across industries.",
+      "risk_driver": [
+        {
+          "driver_name": "Expansion of Rules and Regulations",
+          "driver_description": "New laws related to data privacy, climate disclosures, sustainability reporting, cyber breach disclosures, and attestation requirements."
+        },
+        {
+          "driver_name": "Industry-Specific Regulatory Pressures",
+          "driver_description": "Financial services, technology, energy, and healthcare face unique regulatory challenges."
+        },
+        {
+          "driver_name": "Political and Social Developments",
+          "driver_description": "Polarizing legal and social issues influencing regulatory focus and enforcement."
+        }
+      ],
+      "risk_recommendations": [
+        "Engage in scenario planning and proactive strategy adjustments.",
+        "Map existing controls against evolving regulatory requirements.",
+        "Establish defensible compliance positions without obstructing business strategy.",
+        "Monitor regulatory developments and adapt governance accordingly."
+      ],
+      "trend": "Ranked #5 for 2024 and 2034, rising from 16th in 2023 to 5th in 2024. Increasing concern across all industries and regions.",
+      "likelihood": "High likelihood of continued regulatory expansion and enforcement.",
+      "impact": "Increased compliance costs, operational constraints, reputational risk, and potential financial penalties.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More prominent for larger organizations and public companies.",
+        "Top concern in financial services, energy, healthcare, and government sectors.",
+        "Higher concern in Europe and Middle East regions."
+      ]
+    },
+    {
+      "risk_name": "Adoption of Digital Technologies Requiring New Skills in Short Supply",
+      "risk_description": "Challenges in acquiring and developing the skills necessary to effectively implement and utilize emerging digital technologies such as AI, automation, and data analytics.",
+      "risk_driver": [
+        {
+          "driver_name": "Skills Shortage",
+          "driver_description": "Limited availability of cross-functional skills in Agile, Lean, design, AI, and other emerging technologies."
+        },
+        {
+          "driver_name": "Rapid Technological Change",
+          "driver_description": "Fast pace of innovation requiring continuous upskilling and reskilling of employees."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop comprehensive upskilling and reskilling programs.",
+        "Leverage external expertise and partnerships to supplement skills.",
+        "Align talent development with technology adoption strategies.",
+        "Monitor skills gaps and adjust workforce planning accordingly."
+      ],
+      "trend": "Ranked #6 for 2024 and #3 for 2034, with increasing concern over the long term.",
+      "likelihood": null,
+      "impact": "Potential to hinder technology adoption, reduce productivity, and impair competitive positioning.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More acute concern for smaller organizations and technology-intensive industries.",
+        "Top risk for all geographic regions except some emerging markets."
+      ]
+    },
+    {
+      "risk_name": "Existing Operations and Legacy IT Infrastructure Unable to Meet Performance Expectations",
+      "risk_description": "Outdated systems and legacy IT infrastructure limit operational efficiency, innovation, and ability to compete with 'born digital' competitors.",
+      "risk_driver": [
+        {
+          "driver_name": "Aging Technology",
+          "driver_description": "Legacy systems with limited capabilities and high maintenance costs."
+        },
+        {
+          "driver_name": "Competitive Pressure",
+          "driver_description": "Emergence of agile, technology-native competitors leveraging modern infrastructure."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in technology modernization and digital transformation.",
+        "Develop strategies to replace or upgrade legacy systems.",
+        "Integrate IT infrastructure with business strategy and innovation goals.",
+        "Monitor technology trends and competitor capabilities."
+      ],
+      "trend": "Ranked #7 for 2024 and #8 for 2034, with stable concern over time.",
+      "likelihood": null,
+      "impact": "Operational inefficiencies, reduced market competitiveness, increased cybersecurity vulnerabilities.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More significant for larger organizations and manufacturing, energy, and government sectors."
+      ]
+    },
+    {
+      "risk_name": "Increases in Labor Costs",
+      "risk_description": "Rising labor costs driven by skilled labor shortages, inflation, and competitive labor markets impacting profitability and operational budgets.",
+      "risk_driver": [
+        {
+          "driver_name": "Skilled Labor Shortages",
+          "driver_description": "Limited availability of qualified workers driving up wages."
+        },
+        {
+          "driver_name": "Inflationary Pressures",
+          "driver_description": "General increase in prices affecting compensation and benefits."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement workforce planning and cost management strategies.",
+        "Explore automation and technology to improve productivity.",
+        "Align compensation strategies with market conditions and organizational goals."
+      ],
+      "trend": "Ranked #9 for 2024 and #9 for 2034, with persistent concern over time.",
+      "likelihood": null,
+      "impact": "Margin erosion, increased operational costs, potential impact on competitiveness.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Particularly concerning for healthcare, consumer products, and government sectors."
+      ]
+    },
+    {
+      "risk_name": "Ensuring Privacy and Compliance with Growing Identity Protection Expectations",
+      "risk_description": "Risks related to data privacy, compliance with evolving identity protection regulations, and safeguarding sensitive information.",
+      "risk_driver": [
+        {
+          "driver_name": "Regulatory Requirements",
+          "driver_description": "Increasing data privacy laws and breach disclosure mandates."
+        },
+        {
+          "driver_name": "Digital Transformation",
+          "driver_description": "Greater data collection and processing increasing exposure."
+        }
+      ],
+      "risk_recommendations": [
+        "Establish comprehensive data governance and privacy programs.",
+        "Monitor regulatory developments and update compliance frameworks.",
+        "Invest in cybersecurity measures to protect sensitive data.",
+        "Train employees on data privacy and security best practices."
+      ],
+      "trend": "Ranked #10 for 2024 and #11 for 2034, with growing importance.",
+      "likelihood": null,
+      "impact": "Regulatory penalties, reputational damage, operational disruptions.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More prominent in public companies and technology-intensive industries."
+      ]
+    },
+    {
+      "risk_name": "Rapid Speed of Disruptive Innovations Enabled by New and Emerging Technologies and/or Other Market Forces",
+      "risk_description": "The fast pace of technological and market innovations that may disrupt existing business models and competitive positioning.",
+      "risk_driver": [
+        {
+          "driver_name": "Technological Advances",
+          "driver_description": "Emergence of AI, automation, blockchain, quantum computing, and other innovations."
+        },
+        {
+          "driver_name": "Market Dynamics",
+          "driver_description": "Changing customer preferences and new entrants altering competitive landscapes."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct scenario analyses to understand potential impacts.",
+        "Develop agile strategies to adapt to disruptive changes.",
+        "Invest in innovation and technology scouting.",
+        "Foster a culture open to change and experimentation."
+      ],
+      "trend": "Ranked #13 for 2024 and #4 for 2034, with increasing long-term concern.",
+      "likelihood": null,
+      "impact": "Potential obsolescence of current business models, loss of market share, revenue decline.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More significant for technology, media, telecommunications, and energy sectors.",
+        "Higher concern in Africa and emerging markets."
+      ]
+    },
+    {
+      "risk_name": "Sustaining Customer Loyalty and Retention",
+      "risk_description": "Challenges in maintaining customer loyalty and retention due to evolving preferences, increased competition, and market disruptions.",
+      "risk_driver": [
+        {
+          "driver_name": "Changing Customer Preferences",
+          "driver_description": "Shifts in product, service, and buying experience expectations."
+        },
+        {
+          "driver_name": "Market Competition",
+          "driver_description": "New entrants and mergers altering market dynamics."
+        }
+      ],
+      "risk_recommendations": [
+        "Enhance customer experience and engagement strategies.",
+        "Leverage data analytics to understand customer behavior.",
+        "Develop loyalty programs and personalized offerings."
+      ],
+      "trend": "Ranked #12 for 2024 and #not in top 10 for 2034, with moderate concern.",
+      "likelihood": null,
+      "impact": "Revenue loss, brand damage, reduced market share.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More prominent in consumer products and services, healthcare, and technology sectors."
+      ]
+    },
+    {
+      "risk_name": "Uncertainty Surrounding Core Supply Chain Ecosystem",
+      "risk_description": "Risks related to supply chain disruptions, supplier viability, scarcity of supplies, reshoring/offshoring initiatives, and logistical challenges.",
+      "risk_driver": [
+        {
+          "driver_name": "Supply Chain Disruptions",
+          "driver_description": "Pandemic-related congestion, geopolitical tensions, and energy price volatility."
+        },
+        {
+          "driver_name": "Supplier Risks",
+          "driver_description": "Financial instability and operational challenges among key suppliers."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in supply chain visibility and resilience.",
+        "Develop alternative sourcing and contingency plans.",
+        "Monitor supplier financial health and performance."
+      ],
+      "trend": "Ranked #19 for 2024 and #25 for 2034, with decreasing short-term concern but persistent long-term risk.",
+      "likelihood": null,
+      "impact": "Operational delays, increased costs, inability to meet customer demand.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More significant for manufacturing, energy, and government sectors.",
+        "Less concern in 2024 compared to pandemic peak years."
+      ]
+    },
+    {
+      "risk_name": "Resistance to Change Restricting Organization from Adjusting Business Model and Core Operations",
+      "risk_description": "Organizational culture and resistance to change hindering timely adjustments to business models and operations in response to evolving market conditions.",
+      "risk_driver": [
+        {
+          "driver_name": "Cultural Inertia",
+          "driver_description": "Established practices and mindsets resistant to innovation and transformation."
+        },
+        {
+          "driver_name": "Change Fatigue",
+          "driver_description": "Employee burnout and skepticism due to frequent or poorly managed change initiatives."
+        }
+      ],
+      "risk_recommendations": [
+        "Foster a culture of agility and continuous improvement.",
+        "Engage leadership in change management and communication.",
+        "Monitor cultural indicators and address resistance proactively."
+      ],
+      "trend": "Ranked #14 for 2024 and #18 for 2034, with decreasing concern over time.",
+      "likelihood": null,
+      "impact": "Delayed strategic initiatives, reduced competitiveness, employee disengagement.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Less concern in energy and utilities sector due to acceptance of change as new normal."
+      ]
+    },
+    {
+      "risk_name": "Meeting Expectations Around Protecting Health and Safety of Employees, Customers, Suppliers and Communities",
+      "risk_description": "Risks related to failure to protect health, safety, and well-being of employees, customers, suppliers, and communities, including mental health challenges.",
+      "risk_driver": [
+        {
+          "driver_name": "Workplace Safety and Well-being",
+          "driver_description": "Increasing expectations for mental health support and safe working environments."
+        },
+        {
+          "driver_name": "Regulatory and Social Pressure",
+          "driver_description": "Growing scrutiny on organizational responsibility for health and safety."
+        }
+      ],
+      "risk_recommendations": [
+        "Enhance health and safety programs and mental health services.",
+        "Engage stakeholders in safety culture initiatives.",
+        "Monitor compliance with health and safety regulations."
+      ],
+      "trend": "Ranked #32 for 2024 and #35 for 2034, with moderate concern.",
+      "likelihood": null,
+      "impact": "Legal liabilities, reputational damage, operational disruptions.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

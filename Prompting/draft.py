@@ -1,4 +1,4 @@
-{
+risk_schema = {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "ExtractedRisks",
     "type": "object",
@@ -187,3 +187,62 @@
         }
     }
 }
+
+name_resp = client.responses.create(
+    model="gpt-4.1-mini-2025-04-14",
+    input=[
+        {
+            "role": "developer",
+            "content": "You are a manager in the Enterprise Risk and Assurance Office."
+        },
+        {
+            "role": "user",
+            "content": (
+                "Extract and return an array of all distinct risk names "
+                "mentioned in the uploaded file. Respond with only the array of strings, "
+                "e.g. [\"Cybersecurity Breach\", \"Regulatory Change\", …]."
+            )
+        }
+    ],
+    text={ "format": { "type": "text" }},   
+    tools=[{
+        "type": "file_search",
+        "vector_store_ids": [vector_store.id]
+    }],
+    temperature=0.0
+)
+
+# 2️⃣ Parse the JSON array out of the plain-text response
+raw = name_resp.output_text.strip()
+risk_names = json.loads(raw)  # this turns '["A","B",…]' into a Python list
+
+print(risk_names)
+
+#f"I have these risk names: {risk_names}.For each of these risks, extract the following fields as JSON." + 
+response = client.responses.create(
+    model="o4-mini-2025-04-16",
+    input=[
+        {"role": "developer", 
+         "content": PROMPT},
+        {"role": "user", 
+         "content": PROMPT}
+    ],
+    text={
+        "format": {
+            "type":   "json_schema",
+            "name":   "risk_extraction",
+            "schema": risk_schema,
+            "strict": True
+        }
+    },
+    tools=[{
+        "type": "file_search",
+        "vector_store_ids": [vector_store.id]
+    }],
+    reasoning={"effort": "high"}
+    #temperature=0.0
+    #reasoning_effort='high'
+)
+
+#**Extract all risks mentioned in this file with the following fields:**
+#Based on the contents of the uploaded file, extract all risks mentioned in this file with the following fields **in details:**

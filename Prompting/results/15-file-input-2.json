@@ -1,0 +1,422 @@
+{
+  "risks": [
+    {
+      "risk_name": "Financial Sustainability",
+      "risk_description": "Challenges around the medium to long term financial sustainability of institutions, balancing increasing costs with flat revenue streams, and managing investment against cash reserves.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Costs",
+          "driver_description": "Rising energy costs, inflation on non-pay expenses, increasing staff costs due to cost of living crisis, demand for increased student support services, and increasing pension costs."
+        },
+        {
+          "driver_name": "Flat Revenue Streams",
+          "driver_description": "Undergraduate tuition fees capped at £9,250 until at least 2024/25 with little political appetite for increase, limiting income growth."
+        },
+        {
+          "driver_name": "Student Competition",
+          "driver_description": "Increasing competition for students domestically and internationally, with a noted 2% drop in home UK undergraduate applicants in 2022/23."
+        },
+        {
+          "driver_name": "Research Funding Direction",
+          "driver_description": "Government’s levelling-up ambitions impacting future research funding allocation, posing risks if regional collaboration opportunities are missed."
+        }
+      ],
+      "risk_recommendations": [
+        "Enhance understanding of cost drivers and income generation at granular levels (e.g., course by course).",
+        "Develop and pursue new income streams to improve financial position.",
+        "Scrutinize investment cases for better and quicker returns.",
+        "Maintain effective controls over procurement, contracts, and budget performance.",
+        "Consider bold decisions such as course closures or stopping certain activities to improve resilience."
+      ],
+      "trend": "Financial sustainability remains a top risk, consistently noted in risk registers with increasing concerns about balancing costs and revenues. It was ranked as a top risk in 2021/22 and continues to be critical in 2022/23.",
+      "likelihood": "100% occurrence in risk registers reviewed.",
+      "impact": "Potential long-term financial instability affecting the ability to invest in strategic priorities, with significant operational and reputational consequences.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Cyber Security",
+      "risk_description": "The sector faces significant cyber security risks including state-sponsored attacks, ransomware, and vulnerabilities due to diverse and decentralized IT environments.",
+      "risk_driver": [
+        {
+          "driver_name": "Devolved IT Model",
+          "driver_description": "Many institutions operate with decentralized IT governance, increasing attack surfaces."
+        },
+        {
+          "driver_name": "Shadow IT",
+          "driver_description": "Widespread use of IT systems outside central control, leading to increased vulnerabilities and lack of visibility."
+        },
+        {
+          "driver_name": "Underinvestment in Cyber Security",
+          "driver_description": "Historically limited investment in technical IT controls and dedicated cyber security staff."
+        },
+        {
+          "driver_name": "Talent Shortage",
+          "driver_description": "Difficulty and cost in recruiting skilled cyber security personnel."
+        },
+        {
+          "driver_name": "Insurance Challenges",
+          "driver_description": "Increasing difficulty in obtaining insurance to transfer cyber security risks."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest significantly in staff training and technology resources for cyber security.",
+        "Centralize IT controls to reduce attack surfaces.",
+        "Regularly update and patch software to address vulnerabilities.",
+        "Develop comprehensive cyber security governance and response plans."
+      ],
+      "trend": "Cyber security has been a top two risk for the last three years and remains the number one risk in 2023, with increasing average impact scores.",
+      "likelihood": "100% occurrence in risk registers reviewed.",
+      "impact": "Severe disruptions or breaches could lead to data loss, compromised networks, reputational damage, and financial loss.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Information Security Policy and Procedure Audit",
+        "Access Controls Audit",
+        "Network Security Audit"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Sustainability, Environment and Climate Change",
+      "risk_description": "Risks related to the impact of climate change and the challenges of meeting Net Zero targets, including difficulties in measuring and reducing scope 3 emissions.",
+      "risk_driver": [
+        {
+          "driver_name": "Net Zero Commitments",
+          "driver_description": "Institutions are strategically committed to achieving net zero by 2030, requiring significant planning and investment."
+        },
+        {
+          "driver_name": "Carbon-Intensive Estates",
+          "driver_description": "Many institutions operate highly carbon-intensive estates, including old buildings and on-site combined heat and power plants."
+        },
+        {
+          "driver_name": "Funding Challenges",
+          "driver_description": "Difficulty in securing funding for carbon reduction initiatives."
+        },
+        {
+          "driver_name": "Organizational Buy-In",
+          "driver_description": "Challenges in gaining buy-in across the whole institution for sustainability plans."
+        },
+        {
+          "driver_name": "Scope 3 Emissions Complexity",
+          "driver_description": "Difficulties in quantifying and monitoring indirect emissions from student travel and supply chains."
+        }
+      ],
+      "risk_recommendations": [
+        "Revise sustainability governance structures to centralize responsibility.",
+        "Focus on diversifying energy sources including self-generation and green energy supplies.",
+        "Improve engagement with students and suppliers to better measure and reduce scope 3 emissions.",
+        "Incorporate environmental sustainability criteria into procurement and contract management."
+      ],
+      "trend": "Sustainability and climate change risks have entered the top five risks for the first time in 2023, reflecting growing external attention and institutional focus.",
+      "likelihood": null,
+      "impact": "Failure to meet sustainability targets could damage institutional reputation and increase operational costs.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Infrastructure - University Estates and Technology Capacity",
+      "risk_description": "Risks arising from aging physical estates and inadequate technology infrastructure impacting institutional goals and student experience.",
+      "risk_driver": [
+        {
+          "driver_name": "Aging Physical Estate",
+          "driver_description": "Historic lack of investment and maintenance leading to outdated and inefficient buildings."
+        },
+        {
+          "driver_name": "Changing Campus Usage",
+          "driver_description": "Restructuring of campus layouts due to new delivery models like blended learning and flexible working."
+        },
+        {
+          "driver_name": "Digital Infrastructure Challenges",
+          "driver_description": "Costly and technically challenging cloud migration and need for integrated digital systems."
+        },
+        {
+          "driver_name": "Pandemic Disruption",
+          "driver_description": "Backlog in estate maintenance due to COVID-19 related disruptions."
+        },
+        {
+          "driver_name": "Energy Usage Concerns",
+          "driver_description": "Concerns about future energy consumption and sustainability of estates."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct comprehensive audits of physical estates and digital infrastructure.",
+        "Develop strategies to optimize space usage and right-size estates.",
+        "Invest in upgrading digital infrastructure to support blended learning and operational efficiency.",
+        "Use data models to understand space utilization for strategic decision making."
+      ],
+      "trend": "Infrastructure risks have increased significantly in 2023, entering the top five risks for the first time.",
+      "likelihood": "60% occurrence in risk registers reviewed.",
+      "impact": "Failure to modernize infrastructure could lead to poor service delivery, student dissatisfaction, and operational inefficiencies.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Staff Recruitment and Retention",
+      "risk_description": "Challenges in attracting and retaining high-caliber academic and professional staff, leading to increased workloads and potential negative impacts on student experience and institutional resilience.",
+      "risk_driver": [
+        {
+          "driver_name": "High Staff Turnover",
+          "driver_description": "Increasing numbers of staff leaving, exacerbated by national disputes over pay, contracts, workloads, and pension issues."
+        },
+        {
+          "driver_name": "Workload and Wellbeing",
+          "driver_description": "Increased workloads affecting staff morale, mental health, and wellbeing."
+        },
+        {
+          "driver_name": "Diversity and Inclusion Challenges",
+          "driver_description": "Difficulty in attracting and retaining a diverse workforce."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement targeted recruitment strategies to attract diverse and high-quality talent.",
+        "Enhance support systems for staff wellbeing and job satisfaction.",
+        "Effectively manage change and employment issues to reduce industrial action risks."
+      ],
+      "trend": "Consistently reported in 100% of risk registers, with worsening conditions due to economic and industrial factors.",
+      "likelihood": "100% occurrence in risk registers reviewed.",
+      "impact": "Increased workload and turnover may lead to operational disruptions and reduced organizational resilience.",
+      "risk_indicator": null,
+      "risk_event": "Recent industrial action by thousands of staff due to pay and working conditions disputes.",
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Student Recruitment",
+      "risk_description": "Volatility in student recruitment markets, with risks of failing to meet targets leading to budget deficits and financial instability.",
+      "risk_driver": [
+        {
+          "driver_name": "International Competition",
+          "driver_description": "Growing global competition for students, with shifts in international student demographics."
+        },
+        {
+          "driver_name": "Policy and Immigration Changes",
+          "driver_description": "Changes in immigration, foreign policy, and security impacting international student numbers."
+        },
+        {
+          "driver_name": "Market Volatility",
+          "driver_description": "Unpredictable student priorities and recruitment market fluctuations."
+        }
+      ],
+      "risk_recommendations": [
+        "Utilize data analytics for better forecasting of student demographics and trends.",
+        "Diversify recruitment strategies targeting emerging markets.",
+        "Optimize international partnerships and presence."
+      ],
+      "trend": "Student recruitment remains a key operational and strategic risk, with continued growth in international applications despite challenges.",
+      "likelihood": "100% occurrence in risk registers reviewed.",
+      "impact": "Failure to meet recruitment targets could result in severe financial implications and limit investment opportunities.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Student Experience and Welfare",
+      "risk_description": "Risks related to the quality of student experience, mental health challenges, and the ability to provide adequate support in evolving educational delivery models.",
+      "risk_driver": [
+        {
+          "driver_name": "Mental Health Issues",
+          "driver_description": "Increasing numbers of students reporting mental health challenges."
+        },
+        {
+          "driver_name": "Hybrid Learning Models",
+          "driver_description": "Transition to digital and blended learning complicates student support and engagement."
+        },
+        {
+          "driver_name": "Support Service Adequacy",
+          "driver_description": "Challenges in providing comprehensive pastoral and welfare support."
+        }
+      ],
+      "risk_recommendations": [
+        "Enhance mental health and wellbeing services across campuses.",
+        "Develop strategies to monitor and improve student engagement and experience.",
+        "Adapt structures and processes to prioritize student experience in new delivery models."
+      ],
+      "trend": "Student experience remains the most common risk in registers, though its impact and likelihood have slightly decreased in ranking.",
+      "likelihood": "100% occurrence in risk registers reviewed.",
+      "impact": "Poor student experience can affect academic outcomes, institutional reputation, and performance metrics.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Policy and Engagement",
+      "risk_description": "Risks arising from failure to anticipate, understand, and respond to significant changes in government and Department for Education policies affecting strategic goals and student recruitment.",
+      "risk_driver": [
+        {
+          "driver_name": "Changing Government Policies",
+          "driver_description": "Shifts in UK government policy, including moves towards vocational education and lifelong learning entitlements."
+        },
+        {
+          "driver_name": "Regulatory Burden",
+          "driver_description": "Increasing weight of regulatory and legislative requirements placing pressure on institutional leadership."
+        }
+      ],
+      "risk_recommendations": [
+        "Engage in scenario planning and proactive strategy adjustments to account for new funding landscapes and policy changes."
+      ],
+      "trend": "Policy and engagement risks have fluctuated but remain significant, with 70% occurrence in risk registers.",
+      "likelihood": "70% occurrence in risk registers reviewed.",
+      "impact": "Can lead to consequential effects on national and global student recruitment and regional economic impacts.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Research",
+      "risk_description": "Risks related to strengthening research culture, quality, and funding, with failures potentially impacting reputation and financial sustainability.",
+      "risk_driver": [
+        {
+          "driver_name": "Insufficient Research Funding",
+          "driver_description": "Failure to secure adequate grant funding making research financially unsustainable."
+        },
+        {
+          "driver_name": "Talent Recruitment Challenges",
+          "driver_description": "Difficulty in recruiting and retaining high-quality research staff."
+        },
+        {
+          "driver_name": "Strategic Alliances",
+          "driver_description": "Failure to forge strategic academic partnerships nationally and internationally."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Research risks consistently appear in risk registers with 100% occurrence.",
+      "likelihood": "100% occurrence in risk registers reviewed.",
+      "impact": "Loss of research reputation, decreased research capacity, and financial instability.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "IT Infrastructure",
+      "risk_description": "Challenges in meeting growing digital and IT demands, including costly and technically challenging cloud migration and supply chain issues.",
+      "risk_driver": [
+        {
+          "driver_name": "Cloud Migration Challenges",
+          "driver_description": "Moving to the cloud is technically complex and expensive."
+        },
+        {
+          "driver_name": "Diverse IT Requirements",
+          "driver_description": "Piecemeal build-up of IT systems increases complexity and risk."
+        },
+        {
+          "driver_name": "Supply Chain Disruptions",
+          "driver_description": "Delays and challenges in supply chains affect IT investments and upgrades."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in upgrading digital infrastructure.",
+        "Integrate IT systems effectively to support blended learning and operational efficiency."
+      ],
+      "trend": null,
+      "likelihood": null,
+      "impact": "Poor IT infrastructure can impair business capabilities, operational efficiencies, and future growth.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Regulatory Compliance",
+      "risk_description": "Risk of failing to comply with regulatory and legislative requirements, potentially undermining institutional autonomy and leading to breaches.",
+      "risk_driver": [
+        {
+          "driver_name": "Excessive Regulatory Burden",
+          "driver_description": "Heavy and changing compliance requirements increase risk of non-compliance."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": null,
+      "likelihood": "82% occurrence in risk registers reviewed.",
+      "impact": "Non-compliance could have significant consequences, though specific impacts are not detailed.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Equality and Diversity",
+      "risk_description": "Failure to deliver on approved access and participation plans, risking lack of diverse student and staff profiles and harming institutional reputation.",
+      "risk_driver": [
+        {
+          "driver_name": "Failure to Recruit and Retain Diverse Profiles",
+          "driver_description": "Not meeting diversity targets can negatively impact culture, morale, and reputation."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": null,
+      "likelihood": null,
+      "impact": "Could damage culture and reputation if inequalities are not addressed.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "May vary by institution based on their diversity and inclusion goals."
+      ]
+    },
+    {
+      "risk_name": "Organisational Change",
+      "risk_description": "Failure to adapt operating models to support evolving academic and research objectives during significant change.",
+      "risk_driver": [
+        {
+          "driver_name": "Ineffective Change Management",
+          "driver_description": "Inability to manage technical, educational, and people-related changes hinders strategic implementation."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": null,
+      "likelihood": null,
+      "impact": "May result in poorly managed change and low quality implementation of strategic actions.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Partnerships",
+      "risk_description": "Over-reliance on single geographical regions or limited partnerships increases vulnerability to external political and macroeconomic factors.",
+      "risk_driver": [
+        {
+          "driver_name": "Over-Reliance on Single Regions",
+          "driver_description": "Dependence on limited geographical areas increases exposure to disruptions."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": null,
+      "likelihood": null,
+      "impact": "Failure to develop broad partnerships can lead to uncompetitive innovation and loss of income, research collaborations, and educational opportunities.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Student Welfare",
+      "risk_description": "Failure to provide adequate support for student health, safety, and wellbeing, including addressing harassment and sexual misconduct.",
+      "risk_driver": [
+        {
+          "driver_name": "Inadequate Support Services",
+          "driver_description": "Lack of suitable support for health, mental wellbeing, and safety leaves students vulnerable."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": null,
+      "likelihood": null,
+      "impact": "Negative impacts on student mental health, safety, and overall welfare.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

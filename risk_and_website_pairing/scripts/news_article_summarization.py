@@ -6,8 +6,8 @@ from sentence_transformers import SentenceTransformer, util
 from transformers import BartForConditionalGeneration, BartTokenizer
 
 # === Paths ===
-JSON_FOLDER = Path("data/websites/text/test")
-OUTPUT_FOLDER = Path("data/websites/with_summary")
+JSON_FOLDER = Path("classifier/output")
+OUTPUT_FOLDER = Path("risk_and_website_pairing/outputs/websites_with_summary")
 OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 
 # === Model Config ===
@@ -21,12 +21,12 @@ bart_tokenizer = BartTokenizer.from_pretrained(model_name)
 
 # === Functions ===
 # Function to clean content by removing irrelevant sections (author, navigation, etc.)
-def clean_content(content):
-    content = re.sub(r"By [A-Za-z\s]+", "", content)  
-    content = re.sub(r"\d{4}-\d{2}-\d{2}", "", content)  
-    content = re.sub(r"http[s]?://\S+", "", content)  
-    content = re.sub(r"(related articles?|more info|advertisement|sponsored)\s*.*", "", content, flags=re.IGNORECASE)  # Remove navigation
-    return content.strip()
+def clean_content(clean_text):
+    clean_text = re.sub(r"By [A-Za-z\s]+", "", clean_text)  
+    clean_text = re.sub(r"\d{4}-\d{2}-\d{2}", "", clean_text)  
+    clean_text = re.sub(r"http[s]?://\S+", "", clean_text)  
+    clean_text = re.sub(r"(related articles?|more info|advertisement|sponsored)\s*.*", "", clean_text, flags=re.IGNORECASE)  # Remove navigation
+    return clean_text.strip()
 
 # Function to load JSON data
 def load_json_data(file_path):
@@ -34,8 +34,8 @@ def load_json_data(file_path):
         return json.load(f)
 
 # Function to compute the cosine similarities between sentences in the content
-def compute_similarities(content):
-    sentences = content.split(".")
+def compute_similarities(clean_text):
+    sentences = clean_text.split(".")
     
     # Remove empty sentences
     sentences = [s.strip() for s in sentences if s.strip()]
@@ -100,11 +100,11 @@ def summarize_articles_from_json(folder_path, output_folder):
             # Process each article in the JSON file
             for article in articles_data:
                 url = article.get("url", "")
-                content = article.get("content", "")
+                clean_text = article.get("clean_text", "")
                 
-                if content:
+                if clean_text:
                     # Clean the content before processing
-                    cleaned_content = clean_content(content)
+                    cleaned_content = clean_content(clean_text)
                     print(f"Processing article from URL: {url}")
 
                     # Step 1: Extract relevant sentences using BERT (extractive summarization)

@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer, util
 
 # === Paths ===
 risk_file = Path("data/risk_list.csv")
-summary_logs_dir = Path("data/websites/with_summary")
+summary_logs_dir = Path("risk_and_website_pairing/outputs/websites_with_summary")
 output_path = Path("data/risk_website_pairs")
 output_path.mkdir(parents=True, exist_ok=True)
 output_file = output_path / "risk_website_pairs.json"

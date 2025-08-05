@@ -1,8 +1,8 @@
 # main.py
 
-from scraper.page_scraper import PageScraper
-from utils.url_tracker import save_visited
-from utils.article_filter import filter_content
+from scraper.website_scraper import WebsiteScraper
+from utils.url_tracker import save_visited, load_visited
+from utils.config_loader import load_url_config
 from utils.sheets_writer import write_to_tab
 from datetime import datetime
 import json
@@ -11,18 +11,21 @@ import tldextract
 
 
 async def main():
-    # load urls and keywords from data/urls.json
-    url_filepath = "data/urls/urls.json"
     visited_filepath = "data/urls/visited_urls.json"
-
-    scraper = PageScraper(url_filepath, visited_filepath)
+    url_filepath = "data/urls/urls.json"
+    config = load_url_config(url_filepath)
+    visited_urls = load_visited(visited_filepath)
 
     total_scraped = 0
 
-    for url, keywords in scraper.url_dict.items():
+    for url, settings in config.items():
         print(f"Processing: {url}")
-        results, pdf_list = await scraper.orchestrate_async_crawl(url, keywords)
+        scraper = WebsiteScraper(url= url, config=settings, visited_urls=visited_urls)
+        # for loading web-scraper
+        # scraper = DynamicWebScraper(url= url, config=settings, visited_urls=visited_urls)
+        results, pdf_list = await scraper.orchestrate_async_crawl(url)
         total_scraped += len(results)
+        visited_urls.update(scraper.visited_urls)
 
         if results:
             timestamp = datetime.now().strftime("%Y%m%d")
@@ -33,32 +36,24 @@ async def main():
             with open(filename, "w", encoding="utf-8") as f:
                 json.dump(results, f, indent=2, ensure_ascii=False)
 
-            # filtered_filename = (
-            #     f"data/filtered_results/filtered_{domain}_{timestamp}.json"
-            # )
-            # filtered_results = filter_content(results)
-
             updated_pdf_list = []
             for link in pdf_list:
                 for item in results:
                     if item["url"] == link:
                         results.remove(item)
                         updated_pdf_list.append(link)
-                        break  # Exit inner loop after finding the match
-
-            # with open(filtered_filename, "w", encoding="utf-8") as f:
-            #     json.dump(filtered_results, f, indent=2, ensure_ascii=False)
+                        break  
 
             print(f"Saved {len(results)} results to {filename}")
 
-            pdf_list[:] = updated_pdf_list  # update original list in place
+            pdf_list[:] = updated_pdf_list  
 
         if len(pdf_list) > 0:
             write_to_tab(timestamp, pdf_list)
 
-        print(
-            f"Saved {len(pdf_list)} links to download PDFs in Google Sheets: dssg_era_pdf_links."
-        )
+            print(
+                f"Saved {len(pdf_list)} links to download PDFs in Google Sheets: dssg_era_pdf_links."
+            )
 
     print(f"Total pages scraped: {total_scraped}")
 

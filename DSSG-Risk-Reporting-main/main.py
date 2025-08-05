@@ -1,12 +1,8 @@
+#!/usr/bin/env python3
+
 import os
 import sys
 import json
-from pathlib import Path 
-from scripts import pdf_scraping
-from scripts import news_article_summarization
-from scripts import link_websites_to_risks
-from scripts import link_websites_to_risks_topic_modelling
-
 
 def initialize_analyzed_file():
     """Initialize the analyzed.json file if it doesn't exist."""
@@ -17,34 +13,42 @@ def initialize_analyzed_file():
 
 def main():
     """Main entry point for the risk reporting tool."""
+    # Add the project root directory to sys.path
+    project_root = os.path.dirname(os.path.abspath(__file__))
+    if project_root not in sys.path:
+        sys.path.append(project_root)
 
     # Ensure the analyzed.json file exists
     initialize_analyzed_file()
 
-    # Import and run 
-    print("Starting PDF Scraping process...")
-    pdf_scraping.run_pdf_scraping()
-    print("PDF Scraping completed")
+    # Ensure output directories exist
+    directories = [
+        'project/results/',
+        'project/table_content/images/',
+        'project/table_content/dictionaries/',
+        'project/sections/pdf_sections/',
+        'project/sections/combinations/',
+        'project/evaluation/'
+    ]
 
-    #print("Starting Web Scraping process...")
-    #ADD SCRIPT AND MAIN PIPELINE FUNCTION HERE
-    #print("PDF Web completed")
+    for directory in directories:
+        os.makedirs(directory, exist_ok=True)
 
-    #print("Starting Risk Analysis process...")
-    #ADD SCRIPT AND MAIN PIPELINE FUNCTION HERE
-    #print("Risk Analysis completed")
- 
-    print("Starting News Article Summarization process...")
-    news_article_summarization.run_news_article_summarization()
-    print("News Article Summarization completed")
+    # Import and run scripts
 
-    print("Starting Risk Name and Website Article Linking process...")
-    link_websites_to_risks.run_risk_website_matching()
-    print("Risk Name and Website Article Linking completed")
+    #print("Starting Text Extraction process...")
+    #from project import pdf_scraping  
+    #print("Text Extraction completed")
 
-    print("Starting Risk Name and Website Article Linking (Topic Modelling) process...")
-    link_websites_to_risks_topic_modelling.run_risk_website_matching_tm()
-    print("Risk Name and Website Article Linking (Topic Modelling) completed")
+    #print("Starting Prompt Consistency Evaluation process...")
+    #from project import model_validation
+    #model_validation.run_multiple_times()  
+    #print("Prompt Consistency Evaluation completed")
+
+    print("Starting LLM as a Judge Evaluation process...")
+    from project import model_validation_llm_as_judge
+    model_validation_llm_as_judge.run_multiple_times()  
+    print("LLM as a Judge Evaluation completed")
 
 if __name__ == "__main__":
     main()

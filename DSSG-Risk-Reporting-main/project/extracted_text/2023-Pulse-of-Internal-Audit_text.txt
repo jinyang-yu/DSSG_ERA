@@ -1,0 +1,2886 @@
+2023 North American  
+Pulse of Internal Audit
+Benchmarks for Internal Audit Leaders
+Learn more or join today.  www.theiia.org/Executive
+with Executive Membership.
+Solving for X
+Our targeted membership packages and tiered benefits structure evolve along with the  
+internal auditor you are today, and, what you’ll be auditing tomorrow. The Executive Membership 
+provides unparalleled access to the latest standards and guidance; robust content and tools; 
+exclusive resources and relationships; and savings on world-class professional development and 
+additional certifications — so you can solve for X and know why.
+ 
+>  E X E C U T I V E  M E M B E R S H I P
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+1
+Pulse of Internal Audit
+About the
+NUMBER OF RESPONSES
+CAEs
+Directors
+Total
+467
+95
+7575562
+83%
+17%
+100%
+The IIA has conducted the annual Pulse of Internal Audit survey (Pulse) every year since 2008. Each survey collects valuable 
+benchmarking information from internal audit leadership about risk, audit plans, budgets, staff, and more.
+The online survey for the 2023 North American Pulse of Internal Audit report was conducted from Oct. 20 to Dec. 2, 2022. Respondents 
+primarily came from organizations headquartered in the United States (83%) and Canada (11%), with the remaining 6% coming from 
+outside North America. 
+This report generally analyzes financial services respondents separately because their responses can differ significantly from others. 
+The financial services category was created by extracting financial services respondents from the broader organization types (as shown 
+in the graph below). In addition, the term CAE is used in Pulse reports generically to reference all survey respondents.
+Learn more about The IIA’s Pulse of Internal Audit research and download additional reports at www.theiia.org/Pulse.. 
+Publicly 
+traded
+1 to 3
+Public
+sector
+10 to 24
+Nonprofit
+25 to 49
+Privately
+held
+50+
+Financial 
+services
+4 to 9
+32%
+19%
+30%
+34%
+19%
+30%
+10%
+9%
+9%
+8%
+Organization Type With 
+Financial Services Breakout
+Internal Audit Function 
+Size (FTEs)
+Respondent Generation
+13%
+62%
+25%
+Baby Boomers
+(1946 to 1964)
+Generation X
+(1965 to 1980)
+Millennials
+(1981 to 1996)
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+2
+Executive Summary.................................................................4
+	 How to Use This Report for Benchmarking.............................................6
+Section 1. Budget....................................................................... 7
+	 Budget Trend – 2008 to 2022 – Recovery................................................8
+	 Budget Trend – 2008 to 2022 – A Picture of “Normal”........................9
+	 Budget Growth and Sufficiency – United States................................10
+	 Budget Growth and Sufficiency – Canada..............................................11
+	 Budget Details – Staffing, Professional 
+Development, Travel...................................................................................... .12
+	 Top Priority If Extra Budget Were Received...........................................13
+	 Top Priority If Extra Budget Were Received 
+(Compared to Function Size).......................................................................14
+Section 2. Staff........................................................................ 15
+	 Staff Trend – 2008 to 2022 – Rebuilding................................................16
+	 Staff Trend – 2008 to 2022 – Incremental Progress.......................... 17
+	 Recruiting Staff – Activity at All Function Sizes...................................18
+	 Recruiting Challenges – Compensation Is Top Issue.........................19
+	 Remote Work – Decreasing.........................................................................20
+	 Internal Audit Function Sizes – 
+Most Are Under 10 FTEs................................................................................21
+Section 3. Audit Plans............................................................22
+	 Audit Plans 2023.............................................................................................23
+	 Audit Plans 2023 – SOX Impact................................................................24
+	 Audit Plans 2023 – Publicly Traded 
+and Financial Services..................................................................................25
+	 Audit Plans 2023 – Public Sector and Nonprofit................................26
+	 Audit Plans 2023 – Privately Held............................................................ 27
+	 Audit Plan Trend – All Respondents.........................................................28
+	 Audit Plan Trend – Publicly Traded Organizations..............................29
+	 Audit Frequency – All Respondents.........................................................30
+	 Audit Frequency – Smaller Functions......................................................31
+	 Audit Frequency – Larger Functions........................................................32
+	 Considerations Integrated Into Audits...................................................33
+	 CAE Responsibilities......................................................................................34
+	 CAE Responsibilities (Compared to 
+Organization Type)..........................................................................................35
+Section 4. Risk Levels............................................................ 36
+	 Risk Levels – All Respondents.................................................................... 37
+	 Risk and Audit Frequency Gaps................................................................38
+	 Risk Levels – Publicly Traded and Financial Services........................39
+	 Risk Levels – Public Sector and Nonprofit.............................................40
+	 Risk Levels – Privately Held..........................................................................41
+Section 5. Leadership Metrics............................................ 42
+	 Reporting Lines................................................................................................43
+	 Maturity..............................................................................................................44
+	 CAE Characteristics – Age and Gender..................................................45
+Contents
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+3
+Introduction From The IIA’s President and CEO
+For more than 15 years, The IIA’s annual Pulse of Internal Audit report has provided internal audit leaders with a 
+benchmarking tool that they can use throughout the year as they plan and manage their internal audit functions. Internal 
+auditors know the value of good data, as it’s at the heart of our profession, and the Pulse report is among the premier 
+sources of data for internal audit teams. The report provides insights into budgets, staff, audit plans, risks, and more.  
+This year’s report has some very encouraging trends. Based on survey responses from chief audit executives (CAEs) and 
+directors in North America, the past 12 months brought good news for internal audit budgets and staff levels:
+•	 For internal audit budgets, the rate of increases vs. decreases has returned to pre-COVID levels.
+•	 For internal audit staffs, the rate of increases vs. decreases is improving steadily and is trending toward pre-COVID levels.
+This year’s survey also incorporated new questions about audit planning to better understand how internal audit teams 
+review organizational risks. For the first time since the survey was started, CAEs were asked how frequently they conduct 
+audits. Their responses show that:
+•	 High risk areas such as cybersecurity and IT are reviewed annually or continuously by almost 70% of functions. 
+•	 Some areas are audited regularly, but not every year, particularly third-party relationships, enterprise risk management, 
+and governance and culture. 
+In addition, fraud continues to be a key area of focus, with almost 90% of respondents saying they integrate fraud 
+considerations into their general audits.
+These new ways of looking at audit planning show how audit functions can effectively review risk areas even when they 
+cannot dedicate a large percentage of their audit plans to them. The Pulse survey is more relevant and insightful than ever 
+by keeping the best of our prior surveys and adding these new questions.
+I’m pleased to share our 2023 Pulse of Internal Audit report and hope that it serves you, your audit team, and your 
+organization well throughout the year.
+Anthony J. Pugliese, 
+CIA, CPA, CGMA, CITP
+President and CEO
+The Institute of Internal Auditors
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+4
+Executive Summary
+Section 1: Budget
+•	 Internal audit budgets have returned to pre-COVID levels for percentages of those with 
+increases vs. decreases.
+•	 About 40% said they had budget increases in the past year.
+•	 About 60% said they have budget sufficiency.
+•	 Long-term trend shows about 50% of budgets stay about the same year-over-year-
+during normal economic conditions.
+Section 2: Staff
+•	 Internal audit staff growth is increasing but has not returned to pre-COVID levels yet.
+•	 The biggest challenge when hiring talent is compensation expectations.
+•	 Remote work is decreasing but still common.
+Section 3: Audit Plans
+•	 Cybersecurity and IT efforts made up 19% of respondents’ audit plans. 
+•	 Almost 70% of functions review high risk areas, such as cybersecurity and IT, 
+at least annually.
+•	 More than 80% of auditors integrate fraud and IT considerations into their 
+audits routinely.
+•	 Almost half of CAEs say they are responsible for fraud investigations. 
+•	 At publicly traded organizations, 67% of CAEs have responsibility for the 
+Sarbanes-Oxley program.
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+5
+Executive Summary (continued)
+Section 4: Risk Levels
+•	 Third-party relationships is the third highest risk area (after cybersecurity and IT).
+•	 Audit frequency for third-party relationships is relatively low compared to risk level.
+•	 More than 60% of respondents at publicly traded organizations considered 
+sustainability/non-financial reporting risk levels to be moderate, high, or very high.
+•	 Cost/expense reduction has a much higher risk level for nonprofit organizations  
+than other sectors.
+Section 5: Leadership Metrics
+•	 Administrative and functional reporting lines differ significantly by sector.
+•	 94% say their organizations have an audit committee, board, or equivalent.
+•	 However, only about 70% at public sector and privately held organizations say they 
+report functionally to an audit committee, board, or equivalent.
+•	 For administrative reporting in the public sector and financial services, the most 
+common line is to the CEO, president, or agency head.
+•	 However, at 72% of publicly traded organizations and 60% of privately held 
+organizations, the administrative reporting line goes to the chief financial officer (CFO) 
+or similar role..
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+6
+How to Use This Report for Benchmarking
+This report is designed to be used as a benchmarking tool for understanding and managing internal audit 
+functions. To help leaders find the best point of comparison, metrics are often compared against five 
+organization types — publicly traded, privately held, public sector, nonprofit, and financial services. The financial 
+services category was created by extracting financial services respondents from the other four organization 
+types. This page shows the industries most commonly represented in these organization types.
+Organization Types and Industries
+Publicly Traded
+Public Sector
+Nonprofit
+Financial Services
+Privately Held
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q7: What is the primary industry classification of the organization for 
+which you work (or your primary client if you are a service provider)? n = 555.
+Manufacturing
+28%
+Mining, quarrying, and oil/gas extraction
+11%
+Health care and social assistance
+7%
+Transportation and warehousing
+7%
+Utilities
+7%
+Information
+7%
+Retail trade
+6%
+Construction
+3%
+Other
+24%
+Total
+100%
+Number of responses
+177
+Manufacturing
+22%
+Information
+8%
+Transportation and warehousing
+8%
+Healthcare and social assistance
+6%
+Professional, scientific, and technical services
+6%
+Real estate and rental and leasing
+6%
+Wholesale trade
+6%
+Educational services
+4%
+Other
+34%
+Total
+100%
+Number of responses
+50
+Public administration
+43%
+Educational services
+29%
+Health care and social assistance
+8%
+Agriculture, forestry, fishing, hunting
+5%
+Other
+15%
+Total
+100%
+Number of responses
+107
+Financial institutions
+58%
+Insurance
+27%
+Asset management
+4%
+Broker-dealer
+3%
+Other
+8%
+Total
+100%
+Number of responses
+164
+Health care and social assistance
+54%
+Educational services
+21%
+Other
+25%
+Total
+100%
+Number of responses
+57
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+7
+SECTION 1
+Budget
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+8
+Budget Trend – 2008 to 2022 – Recovery
+The percentages of respondents with budget increases and decreases have returned quickly to pre-COVID levels
+Budget decreased
+Budget increased
+After the 2008 Global Financial Crisis, the percentages for budget increases and budget decreases took four years to return to pre-crisis 
+levels. After the COVID-19 crisis, they only took two years to return to prior levels.
+Note: The IIA’s North American Pulse of Internal Audit Survey, multiple years. Question: Looking back over the past 12 months, how has your overall internal 
+audit budget changed? Data for 2017 and 2018 were estimated because the question about budget was not included in the survey during those years.
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017 
+est.
+2018 
+est.
+2019
+2020
+2021
+2022
+36%
+14%
+29%
+28%
+19%
+17%
+18%
+12%
+12%
+15%
+15%
+14%
+14%
+13%
+13%
+36%
+32%
+31%
+37%
+37%
+37%
+38%
+38%
+41%
+40%
+40%
+39%
+27%
+24%
+20%
+Budget Increases/Decreases for Internal Audit in the Prior Year
+2008 Global 
+Financial Crisis
+Recovery
+Recovery
+COVID-19
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+9
+Budget Trend – 2008 to 2022 – A Picture of  “Normal”
+Long-term trend shows about 50% of budgets stay about the same during normal economic conditions
+Budget decreased
+Stayed about the same
+Budget increased
+In 2020, the ratio who said their budgets “stayed about the same” dropped to 44% — the same percentage as in 2009 when the first 
+impact of the Global Financial Crisis was felt for internal audit budgets. However, unlike the 2008 Global Financial Crisis, budget cutting 
+was quickly reversed after COVID-19, although budget increases did not rebound as quickly. This resulted in a high percentage (58%) 
+saying that their budgets “stayed the same” from the prior year.
+Note: The IIA’s North American Pulse of Internal Audit Survey, multiple years. Question: Looking back over the past 12 months, how has your overall internal 
+audit budget changed? Totals may not equal 100% due to rounding. Data for 2017 and 2018 were estimated because the question about budget was not 
+included in the survey during those years.
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+Budget Trend for Prior Year Showing Increase/Stay the Same/Decrease
+14%
+29%
+28%
+19%
+17%
+12%
+15%
+13%
+15%
+14%
+14%
+13%
+36%
+18%
+12%
+44%
+40%
+50%
+46%
+52%
+44%
+47%
+45%
+48%
+48%
+51%
+44%
+58%
+50%
+50%
+36%
+27%
+32%
+31%
+37%
+37%
+41%
+40%
+40%
+39%
+38%
+37%
+20%
+24%
+38%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+10
+Budget Growth and Sufficiency – United States
+About 40% in the U.S. overall reported budget increases, and about 60% indicate sufficient budget
+The public sector in the United States had the lowest percentage of internal audit functions with budget growth (28%) and the lowest 
+percentage of CAEs saying that they had sufficient budget (38%), compared to other sectors. Outside of the public sector in the United 
+States, about two-thirds say they have sufficient budget.
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q18: Looking back over the past 12 months, how has your overall internal audit budget changed? 
+Q20: In your opinion, how sufficient is the funding for your internal audit function relative to the extent of its responsibilities? United States only. n = 457.
+49%
+18%
+45%
+24%
+43%
+29%
+64%
+32%
+48%
+23%
+41%
+19%
+8%
+14%
+8%
+21%
+13%
+17%
+36%
+56%
+28%
+38%
+39%
+59%
+41%
+63%
+Budget Growth 2022
+Budget Sufficiency 2022
+Financial services
+Publicly traded
+Privately held
+Nonprofit
+Public sector
+All
+Financial services
+Publicly traded
+Privately held
+Nonprofit
+Public sector
+All
+Budget Increased
+Stayed about the same
+Budget decreased
+Mostly or completely 
+sufficient
+Somewhat sufficient
+Generally insufficient 
+or not at all sufficient
+42%
+65%
+43%
+65%
+17%
+13%
+30%
+15%
+18%
+16%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+11
+41%
+Budget Growth and Sufficiency – Canada
+About 30% in Canada overall reported budget increases, and about 50% indicated sufficient budget
+The public sector in Canada had a much higher percentage with sufficient budget (52%) than the United States (38%). For publicly 
+traded companies, the opposite was true: the percentage who said they had sufficient budget was much lower in Canada (36%) than 
+in the U.S. (65%). 
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q18: Looking back over the past 12 months, how has your overall internal audit budget changed? 
+Q20: In your opinion, how sufficient is the funding for your internal audit function relative to the extent of its responsibilities? Results for privately traded and nonprofit organizations are not 
+shown for Canada because the number of respondents in these sectors was not high enough for separate analysis. Canada only. n = 63. 
+53%
+12%
+87%
+22%
+57%
+27%
+43%
+50%
+30%
+Budget Growth 2022
+Budget Sufficiency 2022
+Financial services
+Publicly traded
+Public Sector
+All
+Financial services
+Publicly traded
+Public Sector
+All
+Budget Increased
+Stayed about the same
+Budget decreased
+Mostly or completely 
+sufficient
+Somewhat sufficient
+Generally insufficient 
+or not at all sufficient
+36%
+4%
+6%
+9%
+13%
+21%
+52%
+52%
+36%
+70%
+18%
+26%
+21%
+14%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+12
+Budget Details – Staffing, Professional Development, Travel
+Budgets for internal staffing are increasing, and cuts to travel budgets have been reduced significantly
+Note: The IIA’s North American Pulse of Internal Audit Survey, multiple years. Question: Looking back over the past 12 months, how has 
+your budget changed in the following areas? n = 588 for 2020. n = 505 for 2021. n = 562 for 2022.
+Increased
+Stayed about the same
+Not sure/not applicable
+Decreased
+2020
+2020
+2020
+2020
+2021
+2021
+2021
+2021
+Internal Staffing
+Professional Development
+External Staffing
+Travel
+2022
+2022
+2022
+2022
+Internal Audit Budget Details – Three-year Trend
+58%
+59%
+56%
+71%
+1%
+1%
+3%
+4%
+1%
+45%
+69%
+25%
+33%
+45%
+The percentage with budget increases for internal staffing has shown strong and steady growth since 2020, increasing from 25% 
+to 45%. Professional development budgets showed more modest increases. Travel budgets, which were cut broadly in 2020, showed 
+increases for 24% of respondents in 2022.
+17%
+22%
+81%
+10%
+15%
+66%
+9%
+15%
+28%
+16%
+18%
+26%
+24%
+47%
+15%
+47%
+24%
+45%
+41%
+15%
+20%
+6%
+14%
+7%
+9%
+8%
+21%
+32%
+21%
+8%
+2%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+13
+Top Priority If Extra Budget Were Received
+Interest in spending extra budget on technology has dropped slightly
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q21: If your internal audit function were to receive an 
+unexpected budget increase, in which area would you primarily spend it? n = 505 for 2021. n = 562 for 2022.
+If CAEs had access to additional funds beyond their current budgets, 39% said their top priority would be to increase in-house staff. 
+Very few said the priority would be for sourced staff. The second most common priority was technology, chosen by 20% (down from 
+25% in 2021). 
+Top Priority If Extra Budget Received
+Top Priority If Extra Budget Received – Change From Prior Year
+In-house staff 
+increase*
+Staffing increase 
+(in-house and 
+sourced combined)
+Sourced staff 
+increase*
+Professional 
+development
+Professional 
+development
+Technology
+Technology
+Compensation
+Compensation
+Travel
+Travel
+Other/not sure
+Other/not sure
+*The total for in-house and 
+   sourced combined is 46%.
+20%
+10%
+3%3%
+48%
+46%
+20%
+18%
+10%
+3%
+3%
+25%
+16%
+8%
+2%
+1%
+18%
+39%
+7%
+2021
+2022
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+14
+Top Priority If Extra Budget Were 
+Received (Compared to Function Size)
+Smaller functions were more interested in increasing staff, while larger functions
+had more interest in technology and compensation.
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q21: If your internal audit function were to receive 
+an unexpected budget increase, in which area would you primarily spend it? FTE = full-time equivalent employee. n = 562 for 2022.
+1 to 3
+1 to 3
+1 to 3
+1 to 3
+1 to 3
+1 to 3
+4 to 9
+4 to 9
+4 to 9
+4 to 9
+4 to 9
+4 to 9
+In-house Staff Increase
+Professional Development
+Technology
+Sourced Staff Increase
+Compensation
+Travel
+10 to 24
+10 to 24
+10 to 24
+10 to 24
+10 to 24
+10 to 24
+25 to 49
+25 to 49
+25 to 49
+25 to 49
+25 to 49
+25 to 49
+50+
+50+
+50+
+50+
+50+
+50+
+Top Priority If Extra Budget Were Received (Compared to Internal Audit Function Size)
+43%
+13%
+17%
+8%
+11%
+48%
+8%
+21%
+8%
+13%
+22%
+8%
+22%
+6%
+34%
+4%
+33%
+12%
+17%
+7%
+22%
+4%
+34%
+0%
+0%
+1%
+2%
+36%
+18%
+11%
+Internal audit function size makes a difference in how CAEs would prioritize any extra funding received. Smaller functions would prefer 
+to increase staff size, while larger functions are more likely to prioritize technology or compensation. Across all function sizes, few chose 
+professional development, sourced staffing, or travel as their top priority for increased funding.
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+15
+SECTION 2
+Staff
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+16
+Staff Trend – 2008 to 2022 – Rebuilding
+Staffing increases/decreases have not yet returned to pre-COVID levels
+Budget decreased
+Budget increased
+After the low point following the 2008 Global Financial Crisis, staff increase/decrease levels took three years to return to pre-crisis 
+levels. Similarly, two years after the COVID-19 low point, staff increase/decrease levels are on track to return to pre-COVID-levels in the 
+next year or two, and the pattern of the trend lines is remarkably similar.
+Note: The IIA’s North American Pulse of Internal Audit Survey, multiple years. Question: Looking back over the past 12 months, 
+how has the number of in-house and/or sourced staff within your internal audit function changed?
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017 
+est.
+2018 
+est.
+2019
+2020
+2021
+2022
+22%
+8%
+8%
+19%
+17%
+13%
+13%
+13%
+14%
+12%
+7%
+14%
+11%
+10%
+9%
+18%
+17%
+18%
+18%
+21%
+21%
+23%
+25%
+25%
+26%
+26%
+29%
+29%
+30%
+20%
+Staff Increases/Decreases for Internal Audit in the Prior Year
+2008 Global 
+Financial Crisis
+Recovery
+Recovery
+COVID-19
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+17
+Staff Trend – 2008 to 2022 – Incremental Progress
+Survey results show long-term continuity for internal audit function sizes
+The majority of survey respondents say their staff sizes stayed the same – even during the years following the 2008 Global Financial 
+Crisis and the COVID-19 impacts (ranging from 62% to 67%). There is less elasticity in staff size than in budget, suggesting that budget 
+cuts are applied to areas other than staffing as much as possible.
+Note: The IIA’s North American Pulse of Internal Audit Survey, multiple years. Question: Looking back over the past 12 months, how has the number of in-house and/or sourced 
+staff within your internal audit function changed? Totals may not equal 100% due to rounding.
+Staff Trend for Prior Years Showing Increase/Stay the Same/Decrease
+Staffing decreased
+Stayed about the same
+Staffing increased
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+61%
+67%
+69%
+65%
+70%
+66%
+64%
+57%
+57%
+63%
+61%
+64%
+67%
+62%
+70%
+22%
+20%
+17%
+18%
+21%
+23%
+26%
+26%
+29%
+30%
+25%
+29%
+18%
+21%
+25%
+8%
+19%
+17%
+13%
+14%
+7%
+8%
+10%
+14%
+13%
+11%
+9%
+18%
+12%
+13%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+18
+Recruiting Staff – Activity at All Function Sizes
+Recruiting activity increased steadily with size, but even the smallest functions had some activity
+CAEs frequently need to recruit employees for new or unfilled positions. Nearly all 
+functions with more than 10 FTEs have recruited for new employees in the past 12 
+months. Smaller functions are less active in hiring, but even among functions with 
+only 1 FTE, almost 30% recruited in the past year.
+Staff auditor positions are the most common areas for recruiting. Openings for 
+manager and above are rarer.
+Recruited in Past 12 Months for New Positions or to Fill 
+Empty Positions (Compared to Function Size)
+Positions Recruited for in Past 12 Months (Compared to Function Size)
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q14: What positions did your internal audit 
+function recruit for in the past 12 months? (Choose all that apply.) FTE = full-time equivalent employee.  n = 562.
+29%
+64%
+47%
+81%
+93%
+98%
+71%
+36%
+53%
+19%
+7%
+2%
+1 FTE
+2 FTEs
+3 FTEs
+4 to 9 
+FTEs
+10 to 24 
+FTEs
+25+ FTEs
+57%
+7%
+35%
+62%
+8%
+19%
+10 to 24 FTEs
+71%
+13%
+63%
+85%
+11%
+34%
+25+ FTEs
+Recruited in past 12 months
+Did not recruit in past 12 months
+Staff auditor
+Manager-level auditor
+CAE
+Senior staff auditor
+Director-level auditor
+Other
+25%
+1 FTE
+0%
+0%
+0%
+0%
+4%
+48%
+8%
+23%
+38%
+4 to 9 FTEs
+4%
+4%
+13%
+25%
+2 FTEs
+0%
+0%
+6%
+6%
+30%
+10%
+30%
+10%
+3 FTEs
+2%
+6%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+19
+Recruiting Challenges – Compensation Is Top Issue
+About two-thirds of all respondents said compensation expectations were their biggest challenge
+The recruiting environment differed substantially between the U.S. and Canada in several areas, including competition, number of applicants, and 
+competencies. When recruiting was analyzed by industry, financial services respondents showed more recruiting challenges from lack of internal audit 
+experience (49%) and lack of industry knowledge (44%) than other sectors.
+Primary Recruiting Challenges –
+United States Compared to Canada 
+Primary Recruiting Challenges –
+Financial Services Compared to Others 
+Compensation expectations
+Competition from other organizations
+Too few applicants
+Lacking competencies needed
+Lacking internal audit experience needed
+Remote work preferences
+Lacking industry knowledge
+Office location
+Travel requirements
+Other/none of the above
+Compensation expectations
+Competition from other organizations
+Too few applicants
+Lacking competencies needed
+Lacking internal audit experience needed
+Remote work preferences
+Lacking industry knowledge
+Office location
+Travel requirements
+Other/none of the above
+64%
+65%
+35%
+49%
+51%
+45%
+31%
+44%
+49%
+51%
+34%
+33%
+45%
+51%
+10%
+4%
+0%
+3%
+7%
+7%
+64%
+64%
+38%
+31%
+34%
+49%
+38%
+28%
+5%
+6%
+5%
+61%
+49%
+32%
+32%
+57%
+45%
+9%
+9%
+9%
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q15: What are the primary challenges you face in finding qualified 
+candidates to hire for the internal audit function? (Choose all that apply.) Those who chose “not applicable” were excluded from analysis. n = 511.
+United States
+Financial services
+Canada
+Not financial services
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+20
+41%
+Remote Work – Decreasing
+Remote work levels dropped slightly for the U.S. and dramatically for Canada in the past year
+Although Canada had much higher levels of remote work in 2021, Canada and the U.S. 
+ended up at about the same levels in 2022. In terms of remote work in the future, most say 
+they expect remote work arrangements to stay the same, but Canadian respondents were 
+slightly more likely to expect remote work to decrease (24%) than U.S. respondents (14%). 
+United States
+Canada
+2021
+2021
+32%
+40%
+21%
+8%
+2022
+2022
+32%
+35%
+25%
+22%
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q16: In terms of working remotely vs. in-person, how is 
+your internal audit function currently operating? n = 459 for the United States. n = 63 for Canada.
+Remote Work Expectations for the Future 
+at Your Internal Audit Function
+Increase
+Most or all work 
+done in person
+Increase
+Decrease
+Roughly equal 
+mix
+Decrease
+Stay the same
+Most work done 
+remotely
+Stay the same
+Not sure
+All work done 
+remotely
+Not sure
+United States
+Canada
+5%
+8%
+2%
+5%
+79%
+63%
+14%
+24%
+23%
+11%
+33%
+37%
+24%
+10%
+6%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+21
+Internal Audit Function Sizes – Most Are Under 10 FTEs
+Publicly traded and financial services functions tend to be larger
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q9: How many full-time equivalent employees (FTEs) are in 
+your internal audit function (in-house and sourced)? FTE = full-time equivalent employee. n = 562.
+1 to 3
+1 to 3
+1 to 3
+1 to 3
+1 to 3
+1 to 3
+4 to 9
+4 to 9
+4 to 9
+4 to 9
+4 to 9
+4 to 9
+Publicly Traded
+Nonprofit
+Financial Services
+Privately Held
+Public Sector
+All Respondents
+10 to 24
+10 to 24
+10 to 24
+10 to 24
+10 to 24
+10 to 24
+25 to 49
+25 to 49
+25 to 49
+25 to 49
+25 to 49
+25 to 49
+50+
+50+
+50+
+50+
+50+
+50+
+Internal Audit Function Sizes (Compared to Organization Type)
+6%
+18%
+17%
+36%
+18%
+28%
+28%
+40%
+33%
+44%
+41%
+35%
+17%
+5%
+5%
+7%
+4%
+9%
+39%
+32%
+31%
+24%
+17%
+30%
+10%
+12%
+2%
+2%
+2%
+8%
+Among survey respondents overall, slightly more than half say they have less than 10 FTEs for the internal audit function. However, size 
+varies significantly among sectors, with publicly traded being largest and public sector the smallest.
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+22
+SECTION 3
+Audit Plans
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+23
+Financial reporting (including ICFR)
+Operational
+Compliance/regulatory (excluding ICFR)
+Cybersecurity
+IT (not covered in other choices)
+Financial areas (excluding ICFR)
+ERM and related processes
+Fraud
+Cost/expense reduction
+Third-party relationships
+Support for external audit
+Governance and culture
+Sustainability/nonfinancial reporting
+Other risk category not listed
+Audit Plans 2023
+Cybersecurity and IT efforts combined made up 19% of respondents’ audit plans
+While auditors consistently perform reviews for compliance 
+(including SOX) and operations, they are also allocating 
+substantial effort toward IT (information technology) (9%), and 
+cybersecurity in particular (10%). When IT and cybersecurity 
+allocations are combined, they equal 19%, which is higher than 
+the averages for financial reporting (including ICFR), operations, 
+and compliance/regulatory (excluding ICFR) (15% each).
+Audit Plan for 2023 — All Respondents
+15%
+15%
+10%
+9%
+7%
+5%
+5%
+4%
+4%
+4%
+3%
+2%
+2%
+15%
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q27: Looking ahead over the next 12 
+months, please indicate what percentage of your audit plan you anticipate will be allocated to each of the risk areas listed. n = 562.
+ICFR = Internal controls over financial 
+reporting, which includes Sarbanes-
+Oxley testing and compliance.
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+24
+Audit Plans 2023 – SOX Impact
+Sarbanes-Oxley implementation changes the balance of audit plans
+SOX implementation changes the balance of audit plans dramatically. Those with SOX implemented allocated 26% to financial reporting (including ICFR) compared to 4% 
+for those without SOX implemented. In addition, where SOX is implemented, the audit plan had lower allocations for operational auditing (11% compared to 19%). Further 
+analysis showed that even among respondents from Canada, 79% from publicly traded organizations said they had implemented SOX. The impact of SOX implementation 
+on the audit plans in the U.S. and Canada were similar.
+Audit Plan With SOX Implemented
+Audit Plan Without SOX Implemented
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q27: Looking ahead over the next 12 months, please indicate what percentage of your audit 
+plan you anticipate will be allocated to each of the risk areas listed. n = 292 for SOX implemented. n = 270 for SOX not implemented.
+Financial reporting (including ICFR)
+Operational
+Compliance/regulatory (excluding ICFR)
+Cybersecurity
+IT (not covered in other choices)
+Financial areas (excluding ICFR)
+ERM and related processes
+Fraud
+Cost/expense reduction
+Third-party relationships
+Support for external audit
+Governance and culture
+Sustainability/nonfinancial reporting
+Other risk category not listed
+Financial reporting (including ICFR)
+Operational
+Compliance/regulatory (excluding ICFR)
+Cybersecurity
+IT (not covered in other choices)
+Financial areas (excluding ICFR)
+ERM and related processes
+Fraud
+Cost/expense reduction
+Third-party relationships
+Support for external audit
+Governance and culture
+Sustainability/nonfinancial reporting
+Other risk category not listed
+26%
+18%
+11%
+9%
+9%
+10%
+8%
+8%
+7%
+5%
+5%
+5%
+4%
+6%
+4%
+4%
+4%
+4%
+4%
+4%
+4%
+3%
+2%
+2%
+2%
+2%
+11%
+19%
+ICFR = Internal controls over financial 
+reporting, which includes Sarbanes-
+Oxley testing and compliance.
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+25
+ICFR = Internal controls over financial 
+reporting, which includes Sarbanes-
+Oxley testing and compliance.
+Audit Plans 2023 – Publicly Traded and Financial Services
+Operational auditing allocation is lower for publicly traded organizations than other sectors
+Sarbanes-Oxley requirements comprise a substantial portion of audit plans for publicly traded organizations (31% on average).
+Audit Plan Allocation – Publicly Traded
+Audit Plan Allocation – Financial Services
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q27: Looking ahead over the next 12 months, please indicate what percentage of your audit 
+plan you anticipate will be allocated to each of the risk areas listed. n = 177 for publicly traded. n = 163 for financial services.
+Financial reporting (including ICFR)
+Operational
+Compliance/regulatory (excluding ICFR)
+Cybersecurity
+IT (not covered in other choices)
+Financial areas (excluding ICFR)
+ERM and related processes
+Fraud
+Cost/expense reduction
+Third-party relationships
+Support for external audit
+Governance and culture
+Sustainability/nonfinancial reporting
+Other risk category not listed
+Financial reporting (including ICFR)
+Operational
+Compliance/regulatory (excluding ICFR)
+Cybersecurity
+IT (not covered in other choices)
+Financial areas (excluding ICFR)
+ERM and related processes
+Fraud
+Cost/expense reduction
+Third-party relationships
+Support for external audit
+Governance and culture
+Sustainability/nonfinancial reporting
+Other risk category not listed
+31%
+16%
+9%
+9%
+11%
+8%
+6%
+7%
+5%
+6%
+4%
+4%
+4%
+5%
+3%
+4%
+4%
+4%
+2%
+2%
+1%
+1%
+3%
+3%
+10%
+11%
+16%
+11%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+26
+19%
+ICFR = Internal controls over financial 
+reporting, which includes Sarbanes-
+Oxley testing and compliance.
+Audit Plans 2023 – Public Sector and Nonprofit
+Operational and compliance risks receive the most audit effort for public sector and nonprofit organizations 
+Because Sarbanes-Oxley reporting is not generally required for public sector or nonprofit organizations, their audit plans require little allocation for financial reporting 
+(including ICFR).  As a result, allocation percentages can be higher for other risk areas, particularly operational and compliance auditing (excluding ICFR).
+Audit Plan Allocation – Public Sector
+Audit Plan Allocation – Nonprofit
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q27: Looking ahead over the next 12 months, please indicate what percentage of your audit 
+plan you anticipate will be allocated to each of the risk areas listed. n = 107 for public sector. n = 57 for nonprofit.
+Financial reporting (including ICFR)
+Operational
+Compliance/regulatory (excluding ICFR)
+Cybersecurity
+IT (not covered in other choices)
+Financial areas (excluding ICFR)
+ERM and related processes
+Fraud
+Cost/expense reduction
+Third-party relationships
+Support for external audit
+Governance and culture
+Sustainability/nonfinancial reporting
+Other risk category not listed
+Financial reporting (including ICFR)
+Operational
+Compliance/regulatory (excluding ICFR)
+Cybersecurity
+IT (not covered in other choices)
+Financial areas (excluding ICFR)
+ERM and related processes
+Fraud
+Cost/expense reduction
+Third-party relationships
+Support for external audit
+Governance and culture
+Sustainability/nonfinancial reporting
+Other risk category not listed
+20%
+9%
+9%
+10%
+7%
+7%
+8%
+5%
+5%
+8%
+4%
+6%
+5%
+5%
+4%
+3%
+2%
+2%
+1%
+1%
+3%
+3%
+3%
+3%
+20%
+11%
+17%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+27
+8%
+8%
+15%
+ICFR = Internal controls over financial 
+reporting, which includes Sarbanes-
+Oxley testing and compliance.
+Audit Plans 2023 – Privately Held
+Some privately held organizations also have high allocations for financial reporting (including ICFR)
+Although privately held organizations may not be legally required to follow Sarbanes-Oxley requirements, many implement SOX reporting on a voluntary basis. Where 
+SOX is implemented at a privately held organization, the allocation to financial reporting (including ICFR) is 28% compared to 5% where SOX is not implemented. 
+Audit Plan Allocation – Privately Held
+Comparison Between SOX Implementation Status 
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q27: Looking ahead over the next 12 months, please indicate what percentage of your audit 
+plan you anticipate will be allocated to each of the risk areas listed. Q23: What is the applicability of Sarbanes-Oxley (SOX) 404 at your organization? n = 50 for privately held.
+Financial reporting (including ICFR)
+Operational
+Compliance/regulatory (excluding ICFR)
+Cybersecurity
+IT (not covered in other choices)
+Financial areas (excluding ICFR)
+ERM and related processes
+Fraud
+Cost/expense reduction
+Third-party relationships
+Support for external audit
+Governance and culture
+Sustainability/nonfinancial reporting
+Other risk category not listed
+13%
+9%
+7%
+5%
+5%
+5%
+4%
+4%
+2%
+1%
+14%
+Percentage of Audit Plan Allocation to 
+Financial Reporting (Including ICFR) 
+at Privately Held Organizations
+SOX implemented
+28%
+SOX not implemented
+5%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+28
+Audit Plan Trend – All Respondents
+Cost/expense reduction allocation is trending up, along with cybersecurity
+Cost/expense reduction has received more 
+attention since 2020 and is trending up. 
+Cybersecurity has remained elevated compared 
+to 2019 levels, while allocation to operational 
+auditing has been reduced since 2019.
+Audit Plan Trend - All Respondents - Average Allocation Per Risk Area
+Note: Multiple Pulse surveys. Question: Looking ahead over the next 12 
+months, please indicate what percentage of your audit plan you anticipate 
+will be allocated to each of the risk areas listed. ICFR = internal controls 
+for financial reporting. Allocation to “other” is not included in this graph; 
+therefore, the total will not equal 100%. n = 505 for 2018. n = 618 for 
+2019. n = 68 for 2020. n = 123 for 2021. n = 562 for 2022.
+■ Increased 2+ percentage points since 2019   
+■ Decreased 2+ percentage points since 2019
+2019
+2020
+2021
+2022
+Financial reporting (including ICFR)
+Operational
+Compliance/regulatory (excluding ICFR)
+Cybersecurity
+IT (not covered in other choices)
+Financial (excluding ICFR)
+ERM and related processes
+Fraud
+Cost/expense reduction
+Third-party relationships
+Support for external audit
+Governance and culture
+Sustainability/nonfinancial reporting
+14%
+14%
+10%
+11%
+9%
+9%
+9%
+8%
+8%
+8%
+8%
+8%
+18%
+17%
+15%
+15%
+15%
+15%
+15%
+15%
+15%
+15%
+4%
+4%
+4%
+4%
+4%
+4%
+4%
+4%
+6%
+3%
+3%
+3%
+6%
+5%
+5%
+5%
+5%
+5%
+5%
+0.5%
+4%
+4%
+1%
+1%
+4%
+2%
+5%
+5%
+7%
+7%
+ICFR = Internal controls over financial 
+reporting, which includes Sarbanes-
+Oxley testing and compliance.
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+29
+Audit Plan Trend – Publicly Traded Organizations
+Allocation to financial reporting (SOX) has decreased for the first time in three years
+Although audit plans for publicly traded 
+organizations are dominated by financial 
+reporting activities (averaging 31%), the allocation 
+decreased since last year. This change was offset 
+by small increases in several areas since last 
+year, including IT, financial (excluding ICFR), and 
+operational. Two areas with notable increases 
+since 2019 are cybersecurity and sustainability/
+non-financial reporting.
+Audit Plan Trend - Publicly Traded - Average Allocation Per Risk Area
+Note: Multiple Pulse surveys. Question: Looking ahead over the next 12 
+months, please indicate what percentage of your audit plan you anticipate 
+will be allocated to each of the risk areas listed. Allocation to “other” is 
+not included in this graph; therefore, the total will not equal 100%. Only 
+publicly traded (excluding financial services). n = 166 for 2017. n = 197 
+for 2018. n = 157 for 2019. n = 185 for 2020. n = 68 for 2021. n = 177 
+for 2022.
+■ Increased 2+ percentage points since 2019   
+■ Decreased 2+ percentage points since 2019
+2019
+2020
+2021
+2022
+Financial reporting (including ICFR)
+Operational
+Compliance/regulatory (excluding ICFR)
+Cybersecurity
+IT (not covered in other choices)
+Financial (excluding ICFR)
+ERM and related processes
+Support for external audit
+Cost/expense reduction
+Fraud
+Third-party relationships
+Sustainability/nonfinancial reporting
+Governance and culture
+9%
+8%
+5%
+5%
+4%
+4%
+4%
+4%
+4%
+4%
+3%
+3%
+3%
+3%
+3%
+3%
+3%
+3%
+4%
+4%
+5%
+5%
+5%
+5%
+9%
+9%
+7%
+8%
+8%
+7%
+7%
+7%
+7%
+7%
+6%
+9%
+8%
+2%
+2%
+2%
+2%
+2%
+2%
+0.5%
+33%
+36%
+35%
+10%
+10%
+10%
+15%
+31%
+ICFR = Internal controls over financial 
+reporting, which includes Sarbanes-
+Oxley testing and compliance.
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+30
+72%
+66%
+42%
+71%
+66%
+31%
+52%
+27%
+69%
+65%
+29%
+51%
+16%
+11%
+18%
+9%
+9%
+31%
+26%
+35%
+17%
+20%
+27%
+35%
+Audit Frequency – All Respondents
+Almost 70% of functions review cybersecurity and IT at least annually 
+For the first time in Pulse survey history, 
+CAEs were asked how frequently they 
+conduct audits. Their responses show 
+that high risk areas, such as cybersecurity 
+and IT, are reviewed annually or 
+continuously by almost 70% of functions. 
+In addition, for risk areas where annual 
+audits were less common, a substantial 
+portion said they audited every 2 to 5 
+years instead (especially for ERM and 
+third-party relationships). 
+Audit Frequency – All Respondents
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q22: Approximately how frequently do you conduct audits in 
+the following broad risk areas? Those who chose “not applicable” for a specific area were excluded from analysis for that area. n = 459 to 559.
+Continuous or annually
+Every 2 to 5 years
+Rarely or never
+As needed per risk level
+Compliance/regulatory 
+(excluding ICFR)
+Financial reporting (including ICFR)
+IT (not covered in other choices
+Cybersecurity
+Support for external audit
+Operational
+Financial areas (excluding ICFR)
+Fraud
+ERM and related processes
+Third-party relationships
+Governance and culture
+Cost/expense reduction
+Sustainability/non-financial reporting
+9%
+15%
+24%
+7%
+4%
+27%
+17%
+17%
+11%
+13%
+19%
+7%
+3%
+8%
+16%
+13%
+21%
+11%
+5%
+21%
+3%
+25%
+7%
+26%
+36%
+13%
+25%
+2%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+31
+8%
+17%
+11%
+19%
+10%
+8%
+31%
+30%
+35%
+16%
+22%
+31%
+34%
+37%
+71%
+64%
+40%
+69%
+64%
+28%
+45%
+25%
+69%
+67%
+27%
+52%
+20%
+16%
+18%
+28%
+28%
+17%
+9%
+18%
+7%
+35%
+7%
+38%
+20%
+22%
+26%
+11%
+13%
+51%
+30%
+44%
+36%
+34%
+25%
+43%
+40%
+Continuous or annually
+Every 2 to 5 years
+Rarely or never
+As needed per risk level
+Compliance/regulatory 
+(excluding ICFR)
+Financial reporting (including ICFR)
+IT (not covered in other choices
+Cybersecurity
+Support for external audit
+Operational
+Financial areas (excluding ICFR)
+Fraud
+ERM and related processes
+Third-party relationships
+Governance and culture
+Cost/expense reduction
+Sustainability/non-financial reporting
+3%
+5%
+Audit Frequency – Smaller Functions
+Very small internal audit functions are not able to do as many annual/continuous audits as larger functions
+The smallest functions (with 1 to 3 FTEs) have reduced audit frequency for technology in particular, 
+with annual/continuous coverage at only 33% for IT and 40% for cybersecurity.
+Audit Frequency - 1 to 3 FTEs
+Audit Frequency - 4 to 9 FTEs
+63%
+40%
+35%
+51%
+52%
+12%
+51%
+24%
+33%
+38%
+20%
+43%
+10%
+14%
+22%
+21%
+10%
+7%
+20%
+10%
+14%
+24%
+23%
+20%
+7%
+12%
+9%
+17%
+28%
+27%
+19%
+17%
+13%
+10%
+19%
+7%
+11%
+4%
+8%
+13%
+13%
+24%
+14%
+6%
+23%
+23%
+7%
+32%
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q22: Approximately how frequently do you conduct audits in the following broad risk areas? Those who 
+chose “not applicable” for a specific area were excluded from analysis for that area. FTE = full-time equivalent employee. n = 76 to 106 for 1 to 3 FTEs. n = 147 to 192 for 4 to 9 FTEs.
+3%
+2%
+1%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+32
+10%
+78%
+88%
+49%
+80%
+71%
+55%
+66%
+29%
+89%
+46%
+57%
+41%
+6%
+22%
+25%
+16%
+18%
+6%
+18%
+13%
+5%
+2%
+84%
+15%
+16%
+9%
+15%
+15%
+16%
+35%
+22%
+28%
+37%
+75%
+72%
+45%
+77%
+73%
+35%
+52%
+29%
+80%
+68%
+29%
+52%
+32%
+9%
+14%
+22%
+6%
+31%
+19%
+17%
+12%
+19%
+7%
+14%
+5%
+2%
+27%
+12%
+9%
+15%
+6%
+6%
+25%
+31%
+11%
+17%
+24%
+34%
+33%
+18%
+11%
+18%
+7%
+23%
+28%
+7%
+21%
+Continuous or annually
+Every 2 to 5 years
+Rarely or never
+As needed per risk level
+Compliance/regulatory 
+(excluding ICFR)
+Financial reporting (including ICFR)
+IT (not covered in other choices
+Cybersecurity
+Support for external audit
+Operational
+Financial areas (excluding ICFR)
+Fraud
+ERM and related processes
+Third-party relationships
+Governance and culture
+Cost/expense reduction
+Sustainability/non-financial reporting
+4%
+4%
+5%
+4%
+Audit Frequency – Larger Functions
+Almost 90% of functions with 25+ FTEs conduct audits of IT and cybersecurity at least annually 
+Most functions with 10 or more FTEs are able to provide annual or continuous reviews for 
+many areas. For functions with 25+ FTEs, few areas are audited rarely or never.
+Audit Frequency – 10 to 24 FTEs
+Audit Frequency – 25+ FTEs
+13%
+6%
+12%
+18%
+14%
+10%
+9%
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q22: Approximately how frequently do you conduct audits in the following broad 
+risk areas? Those who chose “not applicable” for a specific area were excluded from analysis for that area. FTE = full-time equivalent employee. Percentages of 2% or less 
+are not labeled on the graphs. n = 150 to 169 for 10 to 24 FTEs. n = 86 to 94 for 25+ FTEs.
+3%
+5%
+5%
+5%
+8%
+5%
+3%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+33
+Publicly Traded
+86%
+67%
+55%
+54%
+15%
+20%
+56%
+80%
+6%
+8%
+Fraud 
+IT
+Cybersecurity
+Governance and culture
+Third-party relationships
+Cost/expense reduction
+Sustainability
+Other
+Fraud 
+IT
+Cybersecurity
+Governance and culture
+Third-party relationships
+Cost/expense reduction
+Sustainability
+Other
+Considerations Integrated Into Audits
+Auditors across all sectors consider a broad range of issues as part of their audits, especially fraud and IT
+Privately Held
+Nonprofit
+Public Sector
+All
+86%
+89%
+92%
+89%
+58%
+64%
+70%
+54%
+66%
+61%
+65%
+67%
+62%
+74%
+40%
+61%
+55%
+51%
+21%
+60%
+24%
+22%
+18%
+74%
+16%
+13%
+Financial Services
+92%
+73%
+76%
+78%
+34%
+24%
+16%
+85%
+84%
+82%
+68%
+80%
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q25: When you are conducting audit engagements in general, which of the 
+following areas do you usually include in your considerations? (Choose all that apply.) n = 555.
+For the first time in Pulse survey history, CAEs were asked to indicate which areas they include as part of their audits in general. Answers indicate that auditors 
+often take a holistic approach and consider a broad range of issues, including cybersecurity, third parties, and governance. Because these areas are integrated 
+into other audits, they might not be included in the audit plan as separate audits. Responses from the United States and Canada were generally the same with 
+two notable exceptions: Canada was higher for governance and culture (78% vs. 63%) and sustainability (37% vs. 20%).
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+34
+Fraud investigation
+Sarbanes-Oxley (SOX) program
+Ethics or whistleblower program
+ERM program
+Compliance/regulatory
+Model Audit Rule (insurance)
+Other
+None of the above
+CAE Responsibilities
+Areas of responsibility outside of internal audit are primarily fraud, SOX, ethics, and ERM
+CAEs and other internal audit leaders often manage more than just the internal audit function. For example, almost half of 
+survey respondents said they were responsible for fraud investigation, and 30% said they managed the ethics or whistleblower 
+program and/or the enterprise risk management (ERM) program or Sarbanes-Oxley (SOX) for their organizations.
+For SOX programs, among all respondents, about one-third said they were responsible, but that rises to 67% for respondents 
+from publicly traded organizations (see graphs on the next page).
+CAE Responsibilities — All Respondents
+48%
+30%
+29%
+15%
+4%
+14%
+20%
+33%
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q28: In addition to 
+your role as head of internal audit, for which areas are you responsible? (Choose all that apply.) n = 555.
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+35
+4%
+2%
+1%
+0%
+0%
+4%
+Fraud investigation 
+Sarbanes-Oxley (SOX) program
+Ethics or whistleblower program
+ERM program
+Compliance/regulatory
+Model Audit Rule (insurance)
+Other
+None of the above
+Fraud investigation 
+Sarbanes-Oxley (SOX) program
+Ethics or whistleblower program
+ERM program
+Compliance/regulatory
+Model Audit Rule (insurance)
+Other
+None of the above
+CAE Responsibilities (Compared to Organization Type)
+Financial services had the fewest areas of additional responsibility outside of internal audit
+Publicly Traded
+Privately Held
+Financial Services
+Nonprofit
+Public Sector
+All Respondents
+45%
+47%
+33%
+61%
+65%
+48%
+23%
+24%
+49%
+32%
+37%
+37%
+30%
+46%
+13%
+30%
+29%
+17%
+11%
+22%
+10%
+30%
+18%
+15%
+12%
+13%
+7%
+12%
+14%
+22%
+14%
+12%
+31%
+17%
+12%
+19%
+20%
+20%
+67%
+41%
+24%
+33%
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q28: In addition to your role as head of internal audit, for which areas are you 
+responsible? (Choose all that apply.) n = 175 for publicly traded. n = 155 for financial services. n = 103 for public sector. n = 49 for privately held. n = 54 for nonprofit. 
+n = 555 for all respondents (including those with organization types categorized as “other.”)
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+36
+SECTION 4
+Risk Levels
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+37
+78%
+46%
+19%
+57%
+30%
+19%
+21%
+9%
+51%
+28%
+19%
+21%
+Risk Levels – All Respondents
+Technology drives the three highest risks
+Technology is the common driver of the 
+top 3 highest risk areas — cybersecurity, 
+IT, and third-party relationships. (Third 
+parties are often used for IT services.)
+Cybersecurity in particular is a 
+ubiquitous concern, with 78% of 
+respondents saying it is a high or very 
+high risk in their organizations.
+Other risks are more relevant depending 
+on organization type, such as financial 
+reporting (including ICFR)* and fraud.
+*ICFR refers to internal controls over 
+financial reporting. This category 
+includes SOX testing and compliance.
+Risk Levels – All Respondents
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q26: How would you 
+describe the level of risk in your organization in the following risk areas? n = 562.
+High/very high risk
+Moderate risk
+Low/very low risk
+Cybersecurity
+IT (not covered in other choices)
+Third-party relationships
+Compliance/regulatory (excluding ICFR)
+Operational
+ERM and related processes
+Fraud
+Governance and culture
+Financial reporting (including ICFR)
+Cost/expense reduction
+Financial areas (excluding ICFR)
+Sustainability/non-financial reporting
+Support for external audit
+20%
+41%
+44%
+37%
+61%
+48%
+52%
+43%
+40%
+48%
+54%
+47%
+76%
+4%
+20%
+13%
+37%
+6%
+9%
+33%
+27%
+48%
+9%
+24%
+27%
+32%
+2%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+38
+Risk and Audit Frequency Gaps
+Third-party relationships is the third highest risk area (after cybersecurity and IT), 
+but only 58% say they audit it at least once every 5 years
+Audit frequency generally aligns with risk levels, but there 
+were areas with gaps. In other words, some areas with high 
+risk had relatively low frequency and vice versa.
+To get a clearer picture of these differences, the percentage 
+of those who chose moderate, high, or very high risk was 
+compared to the percentage who said they audited the 
+area regularly (at least every 5 years). 
+The largest gap overall was for third-party relationships 
+– 33 percentage points lower frequency than risk. Others 
+included cost/ expense reduction (24 points lower) and 
+governance and culture (20 points lower).  
+Two areas stood out for having higher frequency compared 
+to risk. The largest gap was support for external audit (45 
+percentage points higher). The other area was financial 
+reporting (including ICFR) at 15 percentage points higher.
+Moderate or Higher Risk Level Compared to Auditing at 
+Least Every 5 Years - All Respondents
+Moderate or higher risk
+Audit at least every 5 years
+Difference
+Notable difference
+73%
+58%
+-15%
+68%
+48%
+-20%
+63%
+78%
+15%
+68%
+44%
+-24%
+52%
+38%
+-14%
+24%
+70%
+45%
+Fraud
+Governance
+and culture
+Financial reporting 
+(including ICFR)
+Cost/expense 
+reduction
+Financial areas 
+(excluding ICFR)
+Sustainability/non-
+financial reporting
+Support for 
+external audit
+73% 69%
+-4%
+98%
+81%
+-17%
+94%
+80%
+-14%
+91%
+58%
+-33%
+91%
+78%
+-13%
+Cybersecurity
+IT (not covered in 
+other choices)
+Third-party 
+relationships
+Compliance/
+regulatory 
+(excluding ICFR)
+Operational
+ERM and
+related processes
+87% 81%
+-6%
+76%
+66%
+-10%
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 
+to Dec. 2, 2022. Q26: How would you describe the level of risk in your 
+organization in the following risk areas? n = 562. Q22: Approximately how 
+frequently do you conduct audits in the following broad risk areas? Those 
+who chose “not applicable” for a specific area were excluded from analysis 
+for that area. n = 459 to 559.
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+39
+6%
+8%
+30%
+7%
+41%
+22%
+59%
+16%
+27%
+31%
+72%
+35%
+15%
+33%
+6%
+13%
+34%
+36%
+9%
+30%
+27%
+43%
+75%
+52%
+45%
+24%
+11%
+49%
+39%
+49%
+42%
+44%
+35%
+60%
+65%
+52%
+53%
+54%
+33%
+49%
+33%
+46%
+49%
+61%
+50%
+43%
+47%
+20%
+24%
+2%
+2%
+Risk Levels – Publicly Traded and Financial Services
+Publicly traded organizations rate their risk levels slightly lower than other sectors
+Compared to financial services, CAEs at publicly traded organizations rated risks lower for IT, third-party relationships, and compliance.
+Risk Levels - Publicly Traded
+Risk Levels - Financial Services
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q26: How would you describe the level of risk in your 
+organization in the following risk areas? n = 177 for publicly traded. n = 163 for financial services.
+Cybersecurity
+IT (not covered in other choices)
+Third-party relationships
+Compliance/regulatory (excluding ICFR)
+Operational
+ERM and related processes
+Fraud
+Governance and culture
+Financial reporting (including ICFR)
+Cost/expense reduction
+Financial areas (excluding ICFR)
+Sustainability/non-financial reporting
+Support for external audit
+High/very high risk
+Moderate risk
+Low/very low risk
+74%
+89%
+36%
+53%
+18%
+28%
+50%
+63%
+27%
+28%
+14%
+14%
+13%
+25%
+10%
+8%
+42%
+61%
+24%
+35%
+12%
+23%
+14%
+22%
+5%
+4%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+40
+56%
+28%
+22%
+12%
+38%
+24%
+39%
+35%
+34%
+26%
+64%
+47%
+57%
+53%
+44%
+36%
+46%
+30%
+50%
+45%
+54%
+51%
+55%
+44%
+14%
+17%
+Risk Levels – Public Sector and Nonprofit
+For nonprofit organizations, cost/expense reduction is a much higher risk than for other sectors
+Among public sector respondents, 52% consider sustainability/non-financial reporting risk to be moderate, high, or very high.
+Risk Levels - Public Sector
+Risk Levels - Nonprofit
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q26: How would you describe the level of risk in your 
+organization in the following risk areas? n = 107 for public sector. n = 57 for nonprofit.
+Cybersecurity
+IT (not covered in other choices)
+Third-party relationships
+Compliance/regulatory (excluding ICFR)
+Operational
+ERM and related processes
+Fraud
+Governance and culture
+Financial reporting (including ICFR)
+Cost/expense reduction
+Financial areas (excluding ICFR)
+Sustainability/non-financial reporting
+Support for external audit
+High/very high risk
+Moderate risk
+Low/very low risk
+73%
+84%
+48%
+60%
+10%
+15%
+60%
+67%
+30%
+48%
+19%
+47%
+24%
+26%
+8%
+6%
+43%
+61%
+27%
+35%
+17%
+28%
+28%
+30%
+6%
+19%
+14%
+51%
+6%
+6%
+25%
+48%
+11%
+23%
+29%
+17%
+84%
+7%
+9%
+16%
+50%
+25%
+21%
+58%
+20%
+21%
+26%
+77%
+5%
+5%
+4%
+2%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+41
+Risk Levels – Privately Held
+Third-party relationships was rated as the second highest risk area among privately held organizations
+For privately held organizations, risk 
+related to cost/expense reduction is high 
+compared to most other sectors.
+Risk Levels – Privately Held
+High/very high risk
+Moderate risk
+Low/very low risk
+Cybersecurity
+IT (not covered in other choices)
+Third-party relationships
+Compliance/regulatory (excluding ICFR)
+Operational
+ERM and related processes
+Fraud
+Governance and culture
+Financial reporting (including ICFR)
+Cost/expense reduction
+Financial areas (excluding ICFR)
+Sustainability/non-financial reporting
+Support for external audit
+30%
+46%
+47%
+38%
+57%
+50%
+41%
+41%
+29%
+46%
+49%
+53%
+66%
+38%
+15%
+52%
+29%
+27%
+22%
+7%
+58%
+17%
+21%
+14%
+24%
+5%
+71%
+4%
+16%
+38%
+10%
+14%
+23%
+37%
+52%
+13%
+37%
+30%
+33%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+42
+SECTION 5
+Leadership Metrics
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+43
+94%
+93%
+98%
+99%
+84%
+87%
+70%
+91%
+96%
+94%
+60%
+Reporting Lines
+More than 70% of CAEs at publicly traded organizations report administratively to the CFO 
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q30: Does your 
+organization have an audit committee, board, or similar oversight body? Q31/Q32: What is the primary 
+functional/administrative reporting line for the chief audit executive (CAE) or head of internal audit in your 
+organization? Percentages of 2% or less are not labeled on the graphs. n = 555.
+14%
+49%
+69%
+23%
+37%
+6%
+35%
+8%
+72%
+21%
+9%
+18%
+38%
+23%
+6%
+7%
+6%
+69%
+70%
+88%
+5%
+9%
+7%
+7%
+6%
+6%
+21%
+40%
+10%
+14%
+6%
+6% 6%
+5%
+17%
+Publicly traded
+Financial services
+Nonprofit
+Privately held
+Public sector
+All
+Publicly traded
+Financial services
+Nonprofit
+Privately held
+Public sector
+All
+Publicly traded
+Financial services
+Nonprofit
+Privately held
+Public sector
+All
+3%
+3%
+4%
+20%
+Many survey respondents said they report administratively to the 
+CFO – 72% for publicly traded organizations and 60% for privately held. 
+(Administrative reporting line refers to oversight of day-to-day matters, 
+expense approval, human resource administration, communication, internal 
+policies, and procedures.)
+Although at least 84% of respondents from privately held or public 
+sector organizations said they have an audit committee or equivalent, 
+70% or fewer reported to it. (Functional reporting line refers to oversight 
+of the responsibilities of the internal audit function, including approval 
+of the internal audit charter, the audit plan, evaluation of the CAE, and 
+compensation for the CAE.)
+Administrative Reporting Lines
+Functional Reporting Lines
+Existence of Audit Committee, Board, Equivalent
+3%
+4%
+3%
+Audit committee, board, equivalent
+CEO, president, agency head
+Chief financial officer or equivalent
+Other executive leadership
+Other
+Yes
+No
+Other
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+44
+29%
+15%
+35%
+22%
+25%
+31%
+Maturity
+Larger functions assess themselves at higher maturity levels than smaller functions
+Internal Audit Ambition Model Levels
+Level 1 — Initial
+Functioning at an initial stage of development, with 
+ad hoc or unstructured activity.
+Level 2 — Infrastructure
+Developing administrative infrastructure, along with 
+policies, processes, and procedures.
+Level 3 — Integrated
+Integrated into the organization and conforming 
+to IIA Standards.
+Level 4 — Managed
+Well-managed, with a visible role in the organization 
+and a long-term vision and plan.
+Level 5 — Optimizing
+Optimizing value with continuous improvement for 
+both internal audit and the organization.
+Learn more about the Internal Audit Ambition Model, 
+developed by IIA–Netherlands and LKO/NBA at 
+https://www.iia.nl/kwaliteit/ambition-model.
+The survey asked internal audit leaders to rate their functions’ maturity using the levels from the Internal 
+Audit Ambition Model, developed by IIA–Netherlands and LKO/NBA. 
+As function size increased, the percentage at the top 2 levels increased as well. At the largest size, 28% 
+rated themselves at the top level, compared with 7% at the smallest size. Overall, 55% of respondents 
+reported maturity at the top 2 levels.
+Ambition Model Levels Compared to Function Size
+28%
+14%
+12%
+5%
+7%
+5%
+3%
+4%
+11%
+17%
+20%
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q29: Which of the following best describes 
+the maturity* of your organization’s internal audit function? *These maturity levels are based on the Internal Audit Ambition Model 
+produced by IIA–Netherlands. Percentages of 2% or less are not labeled on the graphs. n = 103 for 1 to 3. n = 191 for 4 to 9. n = 
+145 for 10 to 24. n = 94 for 25+. n = 533 for all respondents. 
+25+
+10 to 24
+4 to 9
+1 to 3
+All
+Internal Audit Function Size
+■ Level 5 - Optimizing   ■ Level 4 - Managed   ■ Level 3 - Integrated   ■ Level 2 - Infrastructure   ■ Level 1 - Initial
+56%
+51%
+43%
+40%
+24%
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+45
+CAE Characteristics – Age and Gender
+Slightly more men were represented in survey responses than women
+Among the internal audit leaders who took the Pulse survey, 62% of 
+positions were filled by Generation X; 25% were filled by Baby Boomers, 
+and 13% by Millennials.
+Overall, more men than women were represented in the survey, with the 
+difference primarily driven by Baby Boomers.
+Respondent Gender
+Respondent Generation
+Generation Compared to Gender
+Baby Boomers
+(1946 to 1964)
+Generation X
+(1965 to 1980)
+Millennials
+(1981 to 1996)
+All
+67%
+52%
+51%
+56%
+33%
+48%
+49%
+44%
+Male/man
+Female/woman
+Note: The IIA’s North American Pulse of Internal Audit Survey, Oct. 20 to Dec. 2, 2022. Q41: Please select your year of birth. Those who did not 
+answer were excluded from analysis. Q42: Please select the gender identity option that best matches you. n = 433.
+Male/man
+Female/woman
+56%
+44%
+13%
+62%
+25%
+Baby Boomers
+(1946 to 1964)
+Generation X
+(1965 to 1980)
+Millennials
+(1981 to 1996)
+About The IIA
+The Institute of Internal Auditors (IIA) is a nonprofit international professional association that serves more than 230,000 global members and has awarded more than 
+185,000 Certified Internal Auditor (CIA) certifications worldwide. Established in 1941, The IIA is recognized throughout the world as the internal audit profession’s leader in 
+standards, certifications, education, research, and technical guidance. For more information, visit theiia.org.
+Disclaimer
+The IIA publishes this document for informational and educational purposes. This material is not intended to provide definitive answers to specific individual circumstances 
+and as such is only intended to be used as a guide. The IIA recommends seeking independent expert advice relating directly to any specific situation. The IIA accepts no 
+responsibility for anyone placing sole reliance on this material.
+Copyright
+Copyright © 2023 The Institute of Internal Auditors, Inc. All rights reserved. For permission to reproduce, please contact Copyright@theiia.org.
+March 2023
+CONTENTS    I    1. BUDGET    I   2. STAFF    I   3. AUDIT PLANS    I   4. RISK LEVELS    I    5. LEADERSHIP METRICS
+48
+1035 Greenwood Blvd., Ste. 149
+Lake Mary, FL 32746 USA
+theiia.org  |  Copyright@theiia.org

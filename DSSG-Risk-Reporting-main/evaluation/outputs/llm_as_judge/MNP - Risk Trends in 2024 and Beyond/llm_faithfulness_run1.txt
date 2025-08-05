@@ -1,3 +1,0 @@
-Verdict: Completely Faithful
-Ranking of Faithfulness: 5
-Justification: The generated summary accurately and comprehensively reflects the risk-related information presented in the source report. All risks and their related features such as descriptions, drivers, trends, and potential impacts are correctly summarized. The summary also includes the appropriate mitigation strategies for each risk as outlined in the source report. Therefore, the summary is completely faithful to the source report.

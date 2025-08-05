@@ -4,48 +4,36 @@ from datetime import datetime
 from dateutil import parser as date_parser
 from urllib.parse import urlparse
 from htmldate import find_date
-from typing import List, Optional, Dict
+from typing import List, Optional
 
-from models.chat4o_mini import check_relevancy
+def is_url_blocked(url: str, config: dict) -> bool: 
+    """
+    Checks if the URL is blocked in utils/site_rules.py to avoid unnecessary scraping 
 
-UNWANTED_SUBSTRINGS = [
-    "tag", "author", "about", "contact", "team", "cookie",
-    "terms", "login", "signup", "feed", "subscribe", "advertise", "search",
-    "page", "wp-", "admin", "sitemap", "donate", "sample"
-]
+    Args:
+      url (str): URL to check if adheres to configured site_rules.py 
+      config (dict): config dictionary of corresponding URL
 
-def is_article_url(url: str) -> bool:
-  """
-  Initially checking that URL does not contain any unwanted substrings that are indicators of non-article
+    Returns:
+      bool: True if URL blocked according to site_rules.py
+    """
 
-  Args:
-    url (str): URL to evaluate 
+    parsed = urlparse(url)
+    path = parsed.path.lower() or "/"
 
-  Returns:
-    bool: True if URL has no unwanted substring
-  """
-  path = urlparse(url).path.lower()
-  segments = [segment for segment in path.split("/") if segment]
-  return not any(seg in UNWANTED_SUBSTRINGS for seg in segments)
+    blocked_paths = config.get("blocked_paths", [])
+    allowed_paths = config.get("allowed_paths", [])
 
-def has_article_structure(soup: BeautifulSoup) -> bool:
-  """
-  Checks presence of specific HTML elements that are typically found in article URLs
+    if blocked_paths:
+        if any(substr in path for substr in blocked_paths):
+            return True
 
-  Args:
-    soup (BeautifulSoup): Parsed HTML soup
+    if allowed_paths:
+        if not any(substr in path for substr in allowed_paths):
+            return True
 
-  Returns:
-    bool: True if article-like elements present
-  """
-
-  return bool(
-    soup.find("article") or
-    soup.find("time") or
-    soup.find("meta", attrs={"property": "article:published_time"}) or
-    soup.find("div", class_="article-content") or
-    soup.find("div", class_="post-content")
-  )
+    else:
+      return False
 
 def has_long_title(title: str) -> bool:
   """
@@ -62,27 +50,6 @@ def has_long_title(title: str) -> bool:
     return False
   
   return len(title.split()) > 2
-
-def check_valid_article(url: str, soup: BeautifulSoup, title: str, min_conditions: int = 2) -> bool:
-  """
-  Checks all 3 conditions on article likelihood to restrict content scraping 
-
-  Args:
-    url (str): URL to scrape
-    soup (BeautifulSoup): Parsed HTML soup
-    title (str): title of URL
-
-  Returns: 
-    bool: True if likely article
-  """ 
-
-  checks = [
-    is_article_url(url), 
-    has_article_structure(soup), 
-    has_long_title(title)
-  ]
-
-  return sum(checks) >= min_conditions
 
 def extract_published_date(soup: BeautifulSoup) -> Optional[datetime]:
   """
@@ -125,46 +92,48 @@ def extract_published_date(soup: BeautifulSoup) -> Optional[datetime]:
   return None
 
 def extract_all_published_dates(soup: BeautifulSoup) -> List[datetime]:
-    dates = []
-    articles = soup.find_all('article')
-    if not articles:
-        # fallback: look for all <time> tags with datetime attribute
-        time_tags = soup.find_all("time", {"datetime": True})
-        for tag in time_tags:
-            try:
-                dt = datetime.fromisoformat(tag["datetime"])
-                dates.append(dt)
-            except Exception:
-                continue
-    else:
-        for article in articles:
-            dt = extract_published_date(article)
-            if dt:
-                dates.append(dt)
-    return dates
-
-
-def filter_content(raw_results: List[Dict]) -> List[Dict]:
   """
-  Takes raw results and calls model GPT4o-mini to filter for more refined relevance 
+  Extracts all publish dates from the given HTML soup, prioritizing <article> tags.
+  
+  Args:
+    soup (BeautifulSoup): Parsed HTML content of a page
+
+    Returns:
+      List[datetime]: A list of datetime objects representing all found publish dates
+  """
+  dates = []
+  articles = soup.find_all('article')
+  if not articles:
+    time_tags = soup.find_all("time", {"datetime": True})
+    for tag in time_tags:
+      try:
+        dt = datetime.fromisoformat(tag["datetime"])
+        dates.append(dt)
+      except Exception:
+        continue
+  else:
+    for article in articles:
+      dt = extract_published_date(article)
+      if dt:
+        dates.append(dt)
+        
+  return dates
+
+def report_filter(soup: BeautifulSoup) -> bool: 
+  """
+  Detects if report for Mckinsey & Company to save & export PDF manually (for now)
 
   Args:
-    raw_results (List[Dict]): Raw saved results of content
-
-  Returns:
-    List[Dict]: Filtered content results 
+    soup (BeautifulSoup): HTML content to check 
+  
+  Returns: 
+    bool: True if Mckinsey's report
   """
 
-  filtered_results = []
+  meta = soup.find("meta", attrs={"name": "searchresults-tags"})
+  if meta and "| Report |" in meta.get("content", ""):
+    return True
 
-  for result in raw_results:
-    scraped_content = result.get("content")
-    if check_relevancy(scraped_content) == "True":
-      filtered_results.append(result)
-    else: 
-      continue
-  
-  return filtered_results
 
 
 

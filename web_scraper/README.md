@@ -2,6 +2,7 @@
 This folder contains the files to run the web-scraping tool, of 11 different URLs and saves the extracted content. 
 
 ## Folder Structure 
+'''
 .
 ├── output/                         # Stores outputs from scraping
 │   ├── archives/                  # Recycling bin for previous runs
@@ -22,5 +23,6 @@ This folder contains the files to run the web-scraping tool, of 11 different URL
 │   ├── playwright_helpers.py      # Scrolls pages, handles cookie banners (dynamic rendering)
 │   ├── sheets_writer.py           # Writes PDFs for McKinsey report relevance checks
 │   └── url_tracker.py             # Tracks, saves, loads URLs through crawling sessions
+'''
 
 

@@ -136,12 +136,9 @@ def parse_prefix_json(text):
 
 ## 1. Parse the JSON text into Python
 result = parse_prefix_json(data)
-
-
 # result = json.loads(data)
 
 ## 2. Write it to a file
 with open("162-file-search-2-txt.json", "w", encoding="utf-8") as f:
     json.dump(result, f, ensure_ascii=False, indent=2)
-
 print("Saved results to 162-file-search-2-txt.json")

@@ -71,12 +71,7 @@ If the text mentions that a certain risk changes in importance, nature, likeliho
       "impact": "Potential long-term financial instability affecting the ability to invest in institutional strategies.",
       "risk_indicator": "Occurrence of risks(100%)",
       "risk_events": null,
-      "suggested_audits": [
-        "Business Continuity Planning Audit",
-        "Disaster Recovery Audit",
-        "Crisis Management Audit",
-        "Risk Assessment and Management Audit"
-        ],
+      "suggested_audits": null,
       "contextual_variations": null
     },
     {
@@ -127,11 +122,7 @@ If the text mentions that a certain risk changes in importance, nature, likeliho
       "impact": "Potential for severe disruptions or breaches leading to data loss or compromised networks.",
       "risk_indicator": "Occurrence of risks(100%)",
       "risk_events": null,
-      "suggested_audits": [
-        "Information Security Policy and Procedure Audit",
-        "Access Controls Audit",
-        "Network Security Audit"
-        ],
+      "suggested_audits": null,
       "contextual_variations": null
     },
     {

@@ -1,10 +1,16 @@
 __pycache__/
 .env
-data/credentials.json
-.pytest_cache
-scraper/__pycache__
-models/__pycache__
+*.env
+credentials.json
+.pytest_cache/
+scraper/__pycache__/
+models/__pycache__/
 utils/__pycache__/
 *.pyc
+<<<<<<< HEAD
 __pycache__/
 .DS_Store
+=======
+.DS_Store
+.venv/
+>>>>>>> 2ccce0805bb931d589df82fc56035a62913e3321

@@ -10,7 +10,11 @@ import asyncio
 import tldextract
 
 
+<<<<<<< HEAD:web_scraper/main.py
 async def main():
+=======
+async def run_scraper():
+>>>>>>> 2ccce0805bb931d589df82fc56035a62913e3321:web_scraper/run_scraper.py
     visited_filepath = "data/urls/visited_urls.json"
     url_filepath = "data/urls/urls.json"
     config = load_url_config(url_filepath)
@@ -61,4 +65,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(run_scraper())

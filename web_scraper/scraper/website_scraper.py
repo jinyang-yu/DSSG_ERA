@@ -146,11 +146,11 @@ class WebsiteScraper:
 
         html = await page.content()
         soup = BeautifulSoup(html, "html.parser")
-        print(f"Fetched HTML for {url[:80]}... (length={len(html)})")
+        # print(f"Fetched HTML for {url[:80]}... (length={len(html)})")
 
         title, text = extract_clean_text(html, url, self.config)
-        print(f"Extracted title: {title}")
-        print(f"Extracted content (first 300 chars): {text[:300]}")
+        # print(f"Extracted title: {title}")
+        # print(f"Extracted content (first 300 chars): {text[:300]}")
 
         return title, text, soup
 
@@ -229,7 +229,7 @@ class WebsiteScraper:
     Returns: 
       List[Dict]: Scraped content from website
     """
-    print(f"Starting crawl for {main_url}")
+    # print(f"Starting crawl for {main_url}")
     async with aiohttp.ClientSession() as session: 
       results = []
       pdf_list = []
@@ -262,7 +262,7 @@ class WebsiteScraper:
         if link.rstrip("/") != main_url.rstrip("/"):
           self.visited_urls.add(link)
       
-      print(f"Found {len(prefiltered_links)} links to scrape from main page.")
+      # print(f"Found {len(prefiltered_links)} links to scrape from main page.")
       # for link in prefiltered_links.keys():
       #   print(f"Scheduling scraping of URL: {link}")
       

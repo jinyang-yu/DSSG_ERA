@@ -519,7 +519,7 @@ class DynamicWebScraper:
       List[Dict]: Scraped content from website
     """
 
-    print(f"Starting crawl for {main_url}")
+    # print(f"Starting crawl for {main_url}")
     async with aiohttp.ClientSession() as session: 
       results = []
       pdf_list = []
@@ -552,7 +552,7 @@ class DynamicWebScraper:
         if link.rstrip("/") != main_url.rstrip("/"):
           self.visited_urls.add(link)
       
-      print(f"Found {len(prefiltered_links)} links to scrape from main page.")
+      # print(f"Found {len(prefiltered_links)} links to scrape from main page.")
       # for link in prefiltered_links.keys():
       #   print(f"Scheduling scraping of URL: {link}")
       

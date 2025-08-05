@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 annotated-types==0.7.0
 anyio==4.10.0
 certifi==2025.7.14
@@ -37,25 +38,35 @@ typing-inspection==0.4.1
 typing_extensions==4.14.1
 urllib3==2.5.0
 =======
+=======
+Flask==2.3.2
+Flask-Cors==5.0.0
+PyPDF2==3.0.0
+PyMuPDF>=1.23.8
+>>>>>>> 17577f0 (readme added for web_scraper folder)
 aiohttp==3.12.12
 beautifulsoup4==4.12.2
 boilerpy3==1.0.7
 catboost==1.2.8
-datasets== 3.6.0           
+datasets==3.6.0
 dateparser==1.2.1
 feedparser==6.0.11
 google-api-python-client==2.174.0
 gspread==6.2.1
 huggingface-hub==0.34.2
-lxml==5.4.0                
+lxml==5.4.0
 matplotlib==3.9.4
 newspaper3k==0.2.8
 nltk==3.9.1
 numpy==1.26.4
 openai==1.88.0
-pandas==2.3.1               
+pandas==2.3.1
+pdf2image>=1.16.3
+pdfplumber>=0.10.3
 playwright==1.53.0
 plotly==6.2.0
+pypdf>=3.15.1
+pytesseract>=0.3.10
 python-dotenv==1.1.0
 scikit-learn==1.6.1
 seaborn==0.13.2
@@ -64,6 +75,10 @@ spacy==3.8.7
 tldextract==5.3.0
 torch==2.2.2
 transformers==4.54.0
-tqdm==4.67.1                
+tqdm==4.67.1
 xgboost==2.1.4
+<<<<<<< HEAD
 >>>>>>> 2ccce0805bb931d589df82fc56035a62913e3321
+=======
+
+>>>>>>> 17577f0 (readme added for web_scraper folder)

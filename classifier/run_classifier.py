@@ -15,16 +15,14 @@ def run_classifier():
   print(f"Retrieved len{data} to classify")
   
   # to run GPT classification 
-  print("Starting GPT Classification")
   risk_labelled_data = gpt_main(data)
   
   # to run catboost classification 
-  # print("Starting Catboost Classification")
   # risk_labelled_data = catboost_main(data)
   
   # Change path accordingly
   date_str = datetime.now().strftime("%Y-%m-%d")
-  filename = f"data/risk_events_{date_str}.json"
+  filename = f"output/risk_events_{date_str}.json"
   risk_labelled_data.to_json(filename, orient="records", lines=False, indent=2)
   
   

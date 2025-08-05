@@ -9,14 +9,8 @@ import json
 import asyncio
 import tldextract
 
-
-<<<<<<< HEAD:web_scraper/main.py
-async def main():
-=======
-async def run_scraper():
->>>>>>> 2ccce0805bb931d589df82fc56035a62913e3321:web_scraper/run_scraper.py
+async def run_scraper(url_filepath: str):
     visited_filepath = "data/urls/visited_urls.json"
-    url_filepath = "data/urls/urls.json"
     config = load_url_config(url_filepath)
     visited_urls = load_visited(visited_filepath)
 
@@ -35,7 +29,7 @@ async def run_scraper():
             timestamp = datetime.now().strftime("%Y%m%d")
             extracted_url = tldextract.extract(url)
             domain = extracted_url.domain or "unknown"
-            filename = f"data/raw_results/{domain}_{timestamp}.json"
+            filename = f"output/raw_results/{domain}_{timestamp}.json"
 
             with open(filename, "w", encoding="utf-8") as f:
                 json.dump(results, f, indent=2, ensure_ascii=False)

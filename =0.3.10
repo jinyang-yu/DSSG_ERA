@@ -1,0 +1,60 @@
+Collecting Flask==2.3.2
+  Downloading Flask-2.3.2-py3-none-any.whl.metadata (3.7 kB)
+Collecting Flask-Cors==5.0.0
+  Downloading Flask_Cors-5.0.0-py2.py3-none-any.whl.metadata (5.5 kB)
+Collecting PyPDF2==3.0.0
+  Downloading pypdf2-3.0.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting PyMuPDF
+  Downloading pymupdf-1.26.3-cp39-abi3-macosx_10_9_x86_64.whl.metadata (3.4 kB)
+Collecting pdf2image
+  Downloading pdf2image-1.17.0-py3-none-any.whl.metadata (6.2 kB)
+Collecting pdfplumber
+  Downloading pdfplumber-0.11.7-py3-none-any.whl.metadata (42 kB)
+Collecting pypdf
+  Downloading pypdf-5.9.0-py3-none-any.whl.metadata (7.1 kB)
+Collecting pytesseract
+  Downloading pytesseract-0.3.13-py3-none-any.whl.metadata (11 kB)
+Collecting Werkzeug>=2.3.3 (from Flask==2.3.2)
+  Downloading werkzeug-3.1.3-py3-none-any.whl.metadata (3.7 kB)
+Requirement already satisfied: Jinja2>=3.1.2 in /opt/anaconda3/envs/dssg_era/lib/python3.9/site-packages (from Flask==2.3.2) (3.1.6)
+Collecting itsdangerous>=2.1.2 (from Flask==2.3.2)
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Requirement already satisfied: click>=8.1.3 in /opt/anaconda3/envs/dssg_era/lib/python3.9/site-packages (from Flask==2.3.2) (8.1.8)
+Collecting blinker>=1.6.2 (from Flask==2.3.2)
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Requirement already satisfied: importlib-metadata>=3.6.0 in /opt/anaconda3/envs/dssg_era/lib/python3.9/site-packages (from Flask==2.3.2) (8.7.0)
+Requirement already satisfied: typing_extensions>=3.10.0.0 in /opt/anaconda3/envs/dssg_era/lib/python3.9/site-packages (from PyPDF2==3.0.0) (4.14.0)
+Requirement already satisfied: pillow in /opt/anaconda3/envs/dssg_era/lib/python3.9/site-packages (from pdf2image) (11.2.1)
+Collecting pdfminer.six==20250506 (from pdfplumber)
+  Downloading pdfminer_six-20250506-py3-none-any.whl.metadata (4.2 kB)
+Collecting pypdfium2>=4.18.0 (from pdfplumber)
+  Downloading pypdfium2-4.30.0-py3-none-macosx_10_13_x86_64.whl.metadata (48 kB)
+Requirement already satisfied: charset-normalizer>=2.0.0 in /opt/anaconda3/envs/dssg_era/lib/python3.9/site-packages (from pdfminer.six==20250506->pdfplumber) (3.4.2)
+Collecting cryptography>=36.0.0 (from pdfminer.six==20250506->pdfplumber)
+  Downloading cryptography-45.0.5-cp37-abi3-macosx_10_9_universal2.whl.metadata (5.7 kB)
+Requirement already satisfied: packaging>=21.3 in /opt/anaconda3/envs/dssg_era/lib/python3.9/site-packages (from pytesseract) (25.0)
+Requirement already satisfied: cffi>=1.14 in /opt/anaconda3/envs/dssg_era/lib/python3.9/site-packages (from cryptography>=36.0.0->pdfminer.six==20250506->pdfplumber) (1.17.1)
+Requirement already satisfied: pycparser in /opt/anaconda3/envs/dssg_era/lib/python3.9/site-packages (from cffi>=1.14->cryptography>=36.0.0->pdfminer.six==20250506->pdfplumber) (2.22)
+Requirement already satisfied: zipp>=3.20 in /opt/anaconda3/envs/dssg_era/lib/python3.9/site-packages (from importlib-metadata>=3.6.0->Flask==2.3.2) (3.23.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /opt/anaconda3/envs/dssg_era/lib/python3.9/site-packages (from Jinja2>=3.1.2->Flask==2.3.2) (3.0.2)
+Downloading Flask-2.3.2-py3-none-any.whl (96 kB)
+Downloading Flask_Cors-5.0.0-py2.py3-none-any.whl (14 kB)
+Downloading pypdf2-3.0.0-py3-none-any.whl (232 kB)
+Downloading pymupdf-1.26.3-cp39-abi3-macosx_10_9_x86_64.whl (23.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.1/23.1 MB 11.8 MB/s eta 0:00:00
+Downloading pdf2image-1.17.0-py3-none-any.whl (11 kB)
+Downloading pdfplumber-0.11.7-py3-none-any.whl (60 kB)
+Downloading pdfminer_six-20250506-py3-none-any.whl (5.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.6/5.6 MB 16.1 MB/s eta 0:00:00
+Downloading pypdf-5.9.0-py3-none-any.whl (313 kB)
+Downloading pytesseract-0.3.13-py3-none-any.whl (14 kB)
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading cryptography-45.0.5-cp37-abi3-macosx_10_9_universal2.whl (7.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.0/7.0 MB 22.2 MB/s eta 0:00:00
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading pypdfium2-4.30.0-py3-none-macosx_10_13_x86_64.whl (2.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.8/2.8 MB 13.7 MB/s eta 0:00:00
+Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB)
+Installing collected packages: Werkzeug, pytesseract, pypdfium2, PyPDF2, pypdf, PyMuPDF, pdf2image, itsdangerous, blinker, Flask, cryptography, pdfminer.six, Flask-Cors, pdfplumber
+
+Successfully installed Flask-2.3.2 Flask-Cors-5.0.0 PyMuPDF-1.26.3 PyPDF2-3.0.0 Werkzeug-3.1.3 blinker-1.9.0 cryptography-45.0.5 itsdangerous-2.2.0 pdf2image-1.17.0 pdfminer.six-20250506 pdfplumber-0.11.7 pypdf-5.9.0 pypdfium2-4.30.0 pytesseract-0.3.13

@@ -1,6 +1,6 @@
 __pycache__/
 .env
-data/credentials.json
+output/credentials.json
 .pytest_cache
 scraper/__pycache__
 models/__pycache__

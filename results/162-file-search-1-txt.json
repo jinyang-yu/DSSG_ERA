@@ -1,0 +1,306 @@
+{
+  "risks": [
+    {
+      "risk_name": "Cyber Threats",
+      "risk_description": "Cybersecurity risks are the most pressing risk issue when combining near- and long-term views, reflecting a complex cyber risk landscape impacted by technological advances, reliance on third parties, and market forces.",
+      "risk_driver": [
+        {
+          "driver_name": "Technological Advances",
+          "driver_description": "Exponential curve of technological advances increases the sophistication and frequency of cyber attacks."
+        },
+        {
+          "driver_name": "Third-Party Reliance",
+          "driver_description": "Increasing reliance on third parties and ecosystem partners expands the attack surface."
+        },
+        {
+          "driver_name": "Market Forces",
+          "driver_description": "Competitive pressures and evolving business models create vulnerabilities."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in ongoing cybersecurity enhancement programs with unwavering investment and meticulous staffing.",
+        "Deploy cutting-edge tooling, continuous enhancement, rigorous assessment, and relentless testing.",
+        "Implement comprehensive training across internal practices, partnerships, and vendor relationships.",
+        "Bolster cyber defenses with the right people and skills, effective data governance, and management practices.",
+        "Reduce or eliminate technical debt that elevates cyber risk."
+      ],
+      "trend": "Cyber threats have risen to the top risk for 2034, jumping from 13th-ranked last year to the number one risk, with a year-over-year increase in risk score. It remains a top five risk across all industry groups and regions, with increasing concern post-October 7, 2023 events.",
+      "likelihood": "High likelihood, with most organizations seeing cyber attacks and breaches as inevitable due to increasing sophistication and AI-driven threats.",
+      "impact": "Potential for severe operational disruption, data breaches, financial losses, reputational damage, and regulatory consequences. Rated as a 'Significant Impact' risk by 65% of respondents in 2034.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Post-October 7, 2023, events in Israel and Gaza led to increased risk scores for cyber threats, highlighting geopolitical events' impact on cyber risk perception."
+      ],
+      "suggested_audits": [
+        "Information Security Policy and Procedure Audit",
+        "Access Controls Audit",
+        "Network Security Audit"
+      ],
+      "contextual_variations": [
+        "Cyber threats are a top risk across all industry groups, including Financial Services, Technology, Media and Telecommunications, Healthcare, Energy and Utilities, and Government.",
+        "Healthcare organizations face particular challenges in recruiting and retaining specialized cybersecurity workforce."
+      ],
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8334743976593018
+        }
+      ]
+    },
+    {
+      "risk_name": "Ability to Attract, Develop and Retain Top Talent",
+      "risk_description": "Challenges in attracting, developing, and retaining skilled workers, managing shifts in labor expectations, and addressing succession challenges, which may impede competitive capabilities and operational effectiveness.",
+      "risk_driver": [
+        {
+          "driver_name": "Demographic Shifts",
+          "driver_description": "Retirement of baby boomers and fewer younger workers attracted to certain sectors like government services."
+        },
+        {
+          "driver_name": "Labor Market Competition",
+          "driver_description": "Higher pay and allure of other industries such as technology and financial services."
+        },
+        {
+          "driver_name": "Changing Work Expectations",
+          "driver_description": "Shifts in labor expectations and work environment impacting retention."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop new mindsets and approaches for managing talent.",
+        "Implement targeted recruitment and retention strategies.",
+        "Address succession planning proactively.",
+        "Consider impact of social issues and DEI priorities on talent attraction and retention."
+      ],
+      "trend": "Consistently a top risk in both short- and long-term outlooks, ranked second in 2034 with increasing concern post-October 7, 2023. Labor cost increases and talent risks remain significant.",
+      "likelihood": "High likelihood due to ongoing demographic and market pressures.",
+      "impact": "Significant operational disruption, increased labor costs, and potential loss of competitive advantage. Rated as a 'Significant Impact' risk by 61% of respondents in 2034.",
+      "risk_indicator": null,
+      "risk_event": [
+        "From 2020 to 2022, an average of over 100,000 U.S. federal workers retired annually, 36% higher than 2000-2002, impacting government services workforce."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Government services face acute challenges due to aging workforce and less appeal to younger generations.",
+        "Healthcare and Financial Services industries also highlight talent risks prominently."
+      ],
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Adoption of Digital Technologies Requiring New Skills",
+      "risk_description": "The need to adopt digital technologies is challenged by a shortage of new skills required to fully deploy and leverage these technologies, impacting productivity and competitive advantage.",
+      "risk_driver": [
+        {
+          "driver_name": "Skills Shortage",
+          "driver_description": "Insufficient availability of workers with skills to adopt and manage emerging digital technologies."
+        },
+        {
+          "driver_name": "Rapid Technological Change",
+          "driver_description": "Fast pace of technology adoption requiring continuous reskilling and upskilling."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in reskilling and upskilling programs for existing employees.",
+        "Integrate digital transformation strategies with talent management.",
+        "Utilize data analytics to anticipate skill needs and market intelligence."
+      ],
+      "trend": "Risk score for this issue increases by 11.63% from 2024 to 2034, indicating growing concern over the next decade.",
+      "likelihood": "High likelihood as digital transformation accelerates.",
+      "impact": "Potential loss of market competitiveness and reduced productivity if skills gaps are not addressed. Rated as a 'Significant Impact' risk by 60% of respondents in 2034.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More prominent in industries undergoing rapid digital transformation such as Technology, Media and Telecommunications."
+      ],
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Rapid Speed of Disruptive Innovations",
+      "risk_description": "The rapid pace of disruptive innovations enabled by new and emerging technologies and other market forces may disrupt business models and operations.",
+      "risk_driver": [
+        {
+          "driver_name": "Emerging Technologies",
+          "driver_description": "Technologies such as AI, automation, quantum computing, blockchain, and digital currencies driving rapid change."
+        },
+        {
+          "driver_name": "Market Forces",
+          "driver_description": "Changing customer value propositions and disintermediation of distribution channels."
+        }
+      ],
+      "risk_recommendations": [
+        "Enhance organizational agility and resilience to manage disruptive change.",
+        "Integrate risk management with strategy-setting to identify opportunities and threats.",
+        "Deploy scenario analysis to anticipate impacts and prepare response plans."
+      ],
+      "trend": "Risk score increases by 16.40% from 2024 to 2034, moving into the top five risks for 2034.",
+      "likelihood": "High likelihood given technological trends and market dynamics.",
+      "impact": "Potential for significant strategic disruption, loss of market share, and need for business model transformation. Rated as a 'Significant Impact' risk by 58% of respondents in 2034.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More significant for public companies and industries with rapid innovation cycles."
+      ],
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8274344205856323
+        }
+      ]
+    },
+    {
+      "risk_name": "Heightened Regulatory Changes and Scrutiny",
+      "risk_description": "Increasing regulatory changes and scrutiny affecting how products or services can be delivered to the market, with potential impacts on compliance and operational flexibility.",
+      "risk_driver": [
+        {
+          "driver_name": "Evolving Regulatory Landscape",
+          "driver_description": "New regulations related to social, privacy, environmental, and other issues."
+        },
+        {
+          "driver_name": "Increased Enforcement",
+          "driver_description": "Greater scrutiny and enforcement actions by regulators."
+        }
+      ],
+      "risk_recommendations": [
+        "Engage in proactive monitoring of regulatory developments.",
+        "Integrate compliance management with strategic planning.",
+        "Develop flexible operational models to adapt to regulatory changes."
+      ],
+      "trend": "Risk score increased slightly by 0.51% from 2023 to 2024 and remains a top five risk for 2034, especially for public companies and Energy and Utilities sector.",
+      "likelihood": "Moderate to high likelihood given ongoing regulatory evolution.",
+      "impact": "Potential for compliance costs, operational disruptions, and reputational damage. Rated as a 'Significant Impact' risk by 60% of respondents in 2034.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More prominent in public companies, Energy and Utilities, Financial Services, and Healthcare sectors."
+      ],
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Third-Party Risks",
+      "risk_description": "Risks arising from reliance on third-party vendors, outsourcing, and partnerships, which can expose organizations to regulatory action, business outages, financial losses, litigation, and reputational damage.",
+      "risk_driver": [
+        {
+          "driver_name": "Outsourcing and Strategic Sourcing",
+          "driver_description": "Increasing dependence on external partners for operational and go-to-market objectives."
+        },
+        {
+          "driver_name": "Vendor Management Challenges",
+          "driver_description": "Complexity in managing vendor risks and compliance."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop comprehensive third-party risk management strategies.",
+        "Continuously monitor and assess vendor compliance and performance.",
+        "Integrate third-party risk management with overall enterprise risk management."
+      ],
+      "trend": "Risk score increased by 0.87% from 2023 to 2024 and is a top five risk for 2034, with increased concern post-October 7, 2023.",
+      "likelihood": "High likelihood due to growing ecosystem complexity.",
+      "impact": "Potential for significant operational disruption, financial loss, and reputational harm. Rated as a 'Significant Impact' risk by 58% of respondents in 2034.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Particularly relevant for Healthcare, Financial Services, and Government sectors."
+      ],
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Economic Conditions, Including Inflationary Pressures",
+      "risk_description": "Uncertainty in economic conditions, including inflation, interest rates, labor costs, and geopolitical factors, affecting capital costs, operations, and market stability.",
+      "risk_driver": [
+        {
+          "driver_name": "Inflation and Labor Costs",
+          "driver_description": "Rising labor costs driven by skilled labor shortages and robust employment."
+        },
+        {
+          "driver_name": "Geopolitical Instability",
+          "driver_description": "Regional conflicts and instability impacting global markets."
+        },
+        {
+          "driver_name": "Central Bank Policies",
+          "driver_description": "Uncertainty over monetary policy and interest rate environment."
+        }
+      ],
+      "risk_recommendations": [
+        "Monitor economic indicators and adjust financial planning accordingly.",
+        "Develop contingency plans for various economic scenarios.",
+        "Engage in scenario planning to anticipate impacts on operations and strategy."
+      ],
+      "trend": "Top risk for 2024, stable year-over-year, ranked seventh for 2034 with ongoing concern post-October 7, 2023.",
+      "likelihood": "High likelihood given current global economic volatility.",
+      "impact": "Potential for financial strain, operational disruption, and strategic uncertainty. Rated as a 'Significant Impact' risk by 55% of respondents in 2034.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Post-October 7, 2023, geopolitical events increased risk scores related to economic conditions."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Concerns vary by region and industry, with Financial Services and Consumer Products particularly affected."
+      ],
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Existing Operations and Legacy IT Infrastructure Unable to Meet Performance Expectations",
+      "risk_description": "Aged and legacy IT systems limit organizations' ability to meet performance expectations and respond effectively to crises, impacting operational efficiency and competitiveness.",
+      "risk_driver": [
+        {
+          "driver_name": "Aging Technology",
+          "driver_description": "Increasing scope, cost, and time required to replace legacy systems."
+        },
+        {
+          "driver_name": "Performance Gaps",
+          "driver_description": "Legacy systems unable to support modern digital and operational demands."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in upgrading digital infrastructure and modernizing IT systems.",
+        "Develop strategies to integrate legacy and new technologies effectively.",
+        "Plan for cloud migration with attention to technical and cost challenges."
+      ],
+      "trend": "Risk score decreased slightly by 2.16% from 2023 to 2024 but remains a top risk for 2034.",
+      "likelihood": "Moderate to high likelihood due to ongoing technology debt.",
+      "impact": "Operational inefficiencies, inability to compete with 'born digital' competitors, and increased risk during crises.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Particularly relevant for Government services and Energy and Utilities sectors."
+      ],
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Growing Focus on Climate Change and Sustainability Policies",
+      "risk_description": "Increasing regulatory and stakeholder focus on climate change, sustainability policies, and expanding disclosure requirements, impacting operational and strategic decisions.",
+      "risk_driver": [
+        {
+          "driver_name": "Regulatory Requirements",
+          "driver_description": "New and evolving regulations such as the Corporate Sustainability Reporting Directive in the EU."
+        },
+        {
+          "driver_name": "Stakeholder Expectations",
+          "driver_description": "Heightened expectations from customers, investors, and society for sustainability performance."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop and implement comprehensive sustainability strategies.",
+        "Engage stakeholders proactively on climate and sustainability issues.",
+        "Monitor regulatory developments and ensure compliance."
+      ],
+      "trend": "Risk score increased by 13.67% from 2024 to 2034, with elevated concern especially in Europe and Energy and Utilities sectors.",
+      "likelihood": "Increasing likelihood as regulations and expectations intensify.",
+      "impact": "Potential reputational damage, regulatory penalties, and operational costs if not addressed.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More prominent in Europe, Energy and Utilities, and Manufacturing and Distribution industries."
+      ],
+      "matched_articles": []
+    }
+  ]
+}

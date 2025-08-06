@@ -8,8 +8,8 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # === Paths ===
-EXTRACTED_TEXT_DIR = "data/extracted_text/clean_text/test"
-JSON_DIR = 'data/risk_logs'
+EXTRACTED_TEXT_DIR = "pdf_scraper/outputs"
+JSON_DIR = 'risk_analysis/output'
 EVALUATION_DIR = "evaluation/outputs/llm_as_judge"
 RUNS_TO_EVALUATE = [1]  
 

@@ -12,7 +12,7 @@ from evaluation.models.o3_mini import risk_analysis_all_prompts
 load_dotenv()
 
 # === Paths ===
-TEXT_FILES_DIR = "data/extracted_text/clean_text/test"
+TEXT_FILES_DIR = "pdf_scraper/outputs"
 NUM_RUNS = 3
 OUTPUT_BASE_DIR = "evaluation/outputs/"
 TEXTS = [f for f in os.listdir(TEXT_FILES_DIR) if f.endswith(".txt")]

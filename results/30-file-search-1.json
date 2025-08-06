@@ -1,0 +1,213 @@
+{
+  "risks": [
+    {
+      "risk_name": "Extreme Weather and Natural Disasters",
+      "risk_description": "Extreme weather events such as extreme heat, heavy rainfall, flooding, and wildfires pose significant operational risks to organisations, impacting personnel safety, infrastructure, and supply chains. These events are becoming more frequent and severe, with tangible physical and operational impacts.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Frequency and Severity of Extreme Weather",
+          "driver_description": "Rising global temperatures and climate change are causing more frequent and intense heatwaves, floods, and wildfires."
+        },
+        {
+          "driver_name": "Operational Environment Vulnerabilities",
+          "driver_description": "Dispersed operations across multiple physical environments and geographies increase exposure to extreme weather risks."
+        },
+        {
+          "driver_name": "Lack of Mitigation Plans",
+          "driver_description": "25% of organisations reported having no plans in place to mitigate climate or sustainability risks."
+        }
+      ],
+      "risk_recommendations": [
+        "Incorporate climate risk into day-to-day risk management plans.",
+        "Develop actionable and tested plans for potential extreme weather events, including evacuation plans and communication methods.",
+        "Equip personnel, assets, and sites with necessary protective equipment.",
+        "Monitor risk environment continuously and update plans accordingly.",
+        "Prepare with crisis management planning and training."
+      ],
+      "trend": "Extreme weather is now perceived as the most tangible and long-term business risk, ranked first for impact on operations by 43% of organisations, surpassing cyber attacks and interstate conflict. 76% of organisations have been directly affected by extreme weather. The risk has evolved from a latent, long-term concern to a central part of business continuity planning.",
+      "likelihood": "High; 76% of organisations have been directly affected by extreme weather events.",
+      "impact": "Severe physical risks to personnel (e.g., heatstroke, dehydration), operational disruptions including infrastructure damage and supply chain interruptions, and increased demand on resources such as electricity leading to outages.",
+      "risk_indicator": "Frequency and impact of extreme weather events affecting operations.",
+      "risk_event": [
+        "Wildfires in Hawaii and Canada in the last twelve months.",
+        "50-degree Celsius temperatures in South America.",
+        "Flooding in China.",
+        "Europe's hottest summer on record causing nearly 62,000 heat-related deaths."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Manufacturing industry is the highest impacted (86%) due to dispersed operations.",
+        "Media industry also highly impacted (83%) due to risks involved in reporting on extreme weather events."
+      ],
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8121492266654968
+        }
+      ]
+    },
+    {
+      "risk_name": "Geopolitical Instability and Regional Conflicts",
+      "risk_description": "Political instability, regime changes, militant threats, and influence from foreign powers such as Russia and China create operational risks for organisations, especially in regions like Africa, Middle East, and Asia Pacific.",
+      "risk_driver": [
+        {
+          "driver_name": "Spread of Militancy",
+          "driver_description": "Increase in militant Islamist groups operating in regions such as the Sahel and Somalia, causing rising fatalities and instability."
+        },
+        {
+          "driver_name": "Military Coups and Regime Changes",
+          "driver_description": "Multiple attempted coups in West and Central Africa since 2020, leading to transitional military authorities in several countries."
+        },
+        {
+          "driver_name": "Foreign Influence",
+          "driver_description": "Growing influence of Russia and China in Africa, including support from groups like Wagner mercenaries."
+        },
+        {
+          "driver_name": "Regional Political Tensions",
+          "driver_description": "Ongoing conflicts and tensions in Middle East & North Africa, including the Hamas-Israel conflict, Saudi Arabia-Iran rivalry, and political schisms in Syria and Libya."
+        },
+        {
+          "driver_name": "Military Activities in Asia Pacific",
+          "driver_description": "Increased military activities by China near Taiwan and tensions on the Korean Peninsula."
+        }
+      ],
+      "risk_recommendations": [
+        "Monitor geopolitical developments closely.",
+        "Develop crisis management and evacuation plans tailored to specific regional risks.",
+        "Mitigate risks to staff and operations with comprehensive travel risk policies.",
+        "Engage in scenario planning to anticipate political instability impacts."
+      ],
+      "trend": "Political instability and militant threats have increased, with a 68% rise in civilian fatalities in Africa due to militancy. Military takeovers continue a trend started in recent years. Geopolitical tensions remain high in MENA and Asia Pacific regions.",
+      "likelihood": "High; significant ongoing conflicts and political instability in multiple regions.",
+      "impact": "Operational disruptions, threats to personnel safety, supply chain interruptions, and reputational risks.",
+      "risk_indicator": "Incidence of coups, militant attacks, and regional conflicts.",
+      "risk_event": [
+        "Hamas assault on Israel in October 2023.",
+        "Wagner Group plane crash in August 2023 with loss of key leaders.",
+        "Al-Qaeda attack on Tigantourine gas facility in Algeria in 2013.",
+        "Ongoing military incursions by Chinese aircraft near Taiwan."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Africa faces high risks from militancy and regime changes.",
+        "Middle East & North Africa face risks from geopolitical tensions and Islamist insurgencies.",
+        "Asia Pacific faces risks from food insecurity and military tensions."
+      ],
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Cyber Security Risks",
+      "risk_description": "Cyber security remains a top operational risk, with organisations facing threats from cyber attacks that can disrupt operations and compromise data.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Sophistication of Cyber Attacks",
+          "driver_description": "Cyber threats are evolving, targeting organisations' IT infrastructure and data."
+        },
+        {
+          "driver_name": "Organisational Vulnerabilities",
+          "driver_description": "Lack of comprehensive cyber security measures and training increases risk exposure."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in comprehensive cyber security training for staff.",
+        "Implement robust IT security policies and procedures.",
+        "Regularly update and patch systems to address vulnerabilities.",
+        "Centralise IT controls to reduce shadow IT risks."
+      ],
+      "trend": "Cyber security is ranked as the second biggest operational risk after extreme weather, with 40% of organisations concerned about it by 2030.",
+      "likelihood": "High; cyber attacks are frequent and increasingly sophisticated.",
+      "impact": "Potential for severe operational disruptions, data breaches, financial loss, and reputational damage.",
+      "risk_indicator": "Frequency and severity of cyber security incidents.",
+      "risk_event": null,
+      "suggested_audits": [
+        "Information Security Policy and Procedure Audit",
+        "Access Controls Audit",
+        "Network Security Audit"
+      ],
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8524821996688843
+        }
+      ]
+    },
+    {
+      "risk_name": "Artificial Intelligence (AI) Adoption Risks",
+      "risk_description": "Rapid adoption of AI technologies in risk management and business processes introduces risks related to trust, data security, regulatory compliance, and potential operational failures.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid Evolution of AI Technology",
+          "driver_description": "Fast-paced development of AI tools creates challenges in integration and understanding."
+        },
+        {
+          "driver_name": "Data Privacy and Security Concerns",
+          "driver_description": "Use of AI involves inputting sensitive data, raising GDPR and server security issues."
+        },
+        {
+          "driver_name": "Regulatory Uncertainty",
+          "driver_description": "Lack of clear regulations around AI use increases risk of non-compliance."
+        },
+        {
+          "driver_name": "Reputational Risk",
+          "driver_description": "Potential for AI-related failures or misuse can damage organisational reputation."
+        }
+      ],
+      "risk_recommendations": [
+        "Use AI in conjunction with traditional intelligence sources to verify accuracy.",
+        "Develop internal processes for managing AI data input and software configuration.",
+        "Proceed cautiously with AI integration to build trust and demonstrate value.",
+        "Monitor regulatory developments and ensure compliance."
+      ],
+      "trend": "AI adoption is increasing rapidly, with 72% of organisations likely to integrate AI into travel risk management within 6-12 months. However, 42% remain wary of dependence on AI and loss of human skills.",
+      "likelihood": "Increasing as AI adoption grows.",
+      "impact": "Potential operational disruptions, data breaches, and reputational damage if AI is misused or fails.",
+      "risk_indicator": "Level of AI integration and incidents related to AI use.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8210780620574951
+        }
+      ]
+    },
+    {
+      "risk_name": "Personalised Travel Risk Profiles",
+      "risk_description": "Failure to adequately incorporate individual traveller characteristics such as gender identity, sexual orientation, health, and travel experience into risk assessments can increase vulnerability and reduce effectiveness of risk management.",
+      "risk_driver": [
+        {
+          "driver_name": "Sensitive Data Collection Challenges",
+          "driver_description": "Difficulty in collecting and using personal data without breaching trust limits risk assessment accuracy."
+        },
+        {
+          "driver_name": "Legal and Cultural Risks for LGBTQ+ Travellers",
+          "driver_description": "Travellers may face criminalisation or discrimination in certain countries based on gender identity or sexual orientation."
+        }
+      ],
+      "risk_recommendations": [
+        "Demonstrate benefits of sharing personal data to encourage opt-in.",
+        "Understand legal and cultural landscapes to tailor risk mitigation.",
+        "Incorporate personal risk profiles into travel risk assessments.",
+        "Align travel risk management with ISO 31030 standards."
+      ],
+      "trend": "80% of organisations have managed incidents linked to personal risk profiles, but only 39% integrate these profiles into assessments. Awareness and adoption of ISO 31030 has increased to 76%.",
+      "likelihood": "High; personal risk incidents are common but under-assessed.",
+      "impact": "Increased risk to traveller safety and wellbeing, potential reputational damage.",
+      "risk_indicator": "Incidence of travel-related personal risk incidents.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Higher Education sector ranks gender identity and sexual orientation as primary factors impacting traveller risk profiles."
+      ],
+      "matched_articles": []
+    }
+  ]
+}

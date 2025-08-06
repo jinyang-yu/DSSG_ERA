@@ -1,114 +1,111 @@
 import json
 import os
-import torch
-import pandas as pd
 from pathlib import Path
 from sentence_transformers import SentenceTransformer, util
 
 # === Paths ===
-risk_file = Path("data/risk_list.csv")
-summary_logs_dir = Path("risk_and_website_pairing/outputs/websites_with_summary")
-output_path = Path("data/risk_website_pairs")
-output_path.mkdir(parents=True, exist_ok=True)
-output_file = output_path / "risk_website_pairs.json"
+risk_folder = Path("risk_analysis/output")
+summary_folder = Path("risk_and_website_pairing/outputs/websites_with_summary")
+output_folder = Path("results")
+output_folder.mkdir(parents=True, exist_ok=True)
 
 # === Model Config ===
-model = SentenceTransformer('sentence-t5-base')
+model = SentenceTransformer("sentence-t5-base")
 
-# === Functions ===
-def load_risk_descriptions(file_path):
-    df = pd.read_csv(file_path)
-    df = df.dropna(subset=["Risk Description"])
-    df["Risk Description"] = df["Risk Description"].astype(str).str.strip()
-    return df.to_dict(orient="records")  
+# === Load Risks ===
+def load_risk_descriptions_from_json_folder(risk_folder: Path):
+    all_risks_by_file = {}
 
-def load_summaries(summary_logs_dir: Path):
+    for file in risk_folder.glob("*.json"):
+        try:
+            with open(file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if "risks" in data and isinstance(data["risks"], list):
+                    all_risks_by_file[file.name] = data["risks"]
+                else:
+                    print(f"⚠️ Skipping {file.name}: No 'risks' list found")
+        except Exception as e:
+            print(f"Failed to load {file.name}: {e}")
+    return all_risks_by_file
+
+# === Load Summaries ===
+def load_summaries(summary_folder: Path):
     summaries = []
     summary_metadata = []
 
-    for file in summary_logs_dir.glob("*.json"):
+    for file in summary_folder.glob("*.json"):
         with open(file, "r", encoding="utf-8") as f:
             try:
                 data = json.load(f)
             except json.JSONDecodeError:
-                print(f"Skipping invalid JSON file: {file.name}")
+                print(f"⚠️ Skipping invalid JSON file: {file.name}")
                 continue
 
-            if isinstance(data, list):
-                for entry in data:
-                    if isinstance(entry, dict) and "content" in entry and "url" in entry:
-                        summaries.append(entry["content"])
-                        summary_metadata.append({
-                            "url": entry["url"],
-                            "title": entry.get("title", ""),
-                            "content": entry["content"],
-                            "summary": entry["summary"]
-                        })
-            elif isinstance(data, dict) and "content" in data and "url" in data:
-                summaries.append(data["content"])
-                summary_metadata.append({
-                    "url": data["url"],
-                    "title": data.get("title", ""),
-                    "content": data["content"]
-                })
+            for entry in data:
+                if isinstance(entry, dict) and "summary" in entry and "url" in entry:
+                    summaries.append(entry["summary"])
+                    summary_metadata.append({
+                        "url": entry["url"],
+                        "title": entry.get("title", ""),
+                        "summary": entry["summary"]
+                    })
 
     return summaries, summary_metadata
 
-def match_risks_to_summaries(risks, summaries, summary_metadata, model, threshold=0.80):
-    # Encode all Risk Descriptions
-    risk_descriptions = [risk["Risk Description"] for risk in risks]
+# === Matching ===
+def match_risks_to_summaries(risks, summaries, summary_metadata, threshold=0.80, max_matches=10):
+    risk_descriptions = [r["risk_description"] for r in risks]
     risk_embeddings = model.encode(risk_descriptions, convert_to_tensor=True)
-
-    # Encode all summaries
     summary_embeddings = model.encode(summaries, convert_to_tensor=True)
 
-    results = {}
-    for idx, risk_embedding in enumerate(risk_embeddings):
-        risk_name = risks[idx]["Risk Name"]
-        cosine_scores = util.pytorch_cos_sim(risk_embedding, summary_embeddings)[0]
-
-        # Find indices where similarity >= threshold
-        matching_indices = (cosine_scores >= threshold).nonzero(as_tuple=True)[0]
-
+    for idx, risk in enumerate(risks):
+        cosine_scores = util.pytorch_cos_sim(risk_embeddings[idx], summary_embeddings)[0]
         matches = []
-        for i in matching_indices:
-            score = float(cosine_scores[i])
-            match_summary = summary_metadata[int(i)]
-            matches.append({
-                "url": match_summary["url"],
-                "title": match_summary.get("title", ""),
-                "content": match_summary["content"],
-                "summary": match_summary["summary"],
-                "similarity_score": score
-            })
 
-        if matches:
-            # Sort matches by descending similarity
-            results[risk_name] = sorted(matches, key=lambda x: x["similarity_score"], reverse=True)
+        for i, score in enumerate(cosine_scores):
+            if score >= threshold:
+                matches.append({
+                    "url": summary_metadata[i]["url"],
+                    "title": summary_metadata[i]["title"],
+                    "summary": summary_metadata[i]["summary"],
+                    "similarity_score": float(score)
+                })
 
-    return results
+        # Sort descending and keep only top max_matches
+        matches.sort(key=lambda x: x["similarity_score"], reverse=True)
+        risk["matched_articles"] = matches[:max_matches]
 
-# === Run Risk-Website Pairing Full Pipeline ===
-def run_risk_website_matching():
-    print("Loading risk descriptions...")
-    risks = load_risk_descriptions(risk_file)
+    return risks
 
-    if not risks:
-        print("No risk descriptions found.")
+# === Pipeline ===
+def run_risk_summary_matching():
+    print("Loading risks...")
+    risks_by_file = load_risk_descriptions_from_json_folder(risk_folder)
+
+    if not risks_by_file:
+        print("No risk JSON files found.")
         return
 
     print("Loading summaries...")
-    summaries, summary_metadata = load_summaries(summary_logs_dir)
+    summaries, summary_metadata = load_summaries(summary_folder)
 
     if not summaries:
         print("No summaries found.")
         return
 
-    print("Matching risk descriptions to summaries...")
-    results = match_risks_to_summaries(risks, summaries, summary_metadata, model)
+    for filename, risks in risks_by_file.items():
+        print(f"Matching risks in: {filename}")
+        enriched_risks = match_risks_to_summaries(risks, summaries, summary_metadata, threshold=0.80)
 
-    print(f"Saving results to {output_file}")
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
+        output_data = {"risks": enriched_risks}
+        output_file = output_folder / filename
 
-    return results
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(output_data, f, indent=2, ensure_ascii=False)
+        print(f"Saved results to {output_file}")
+
+# === Run ===
+if __name__ == "__main__":
+    run_risk_summary_matching()
+
+

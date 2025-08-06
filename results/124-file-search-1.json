@@ -1,0 +1,267 @@
+{
+  "risks": [
+    {
+      "risk_name": "Extreme Weather Events",
+      "risk_description": "Extreme weather events such as heatwaves, droughts, wildfires, and flooding are anticipated to continue and set new records, posing significant risks globally.",
+      "risk_driver": [
+        {
+          "driver_name": "El Niño Phenomenon",
+          "driver_description": "The warming phase of the El Niño-Southern Oscillation cycle is expected to strengthen and persist, driving extreme weather conditions."
+        },
+        {
+          "driver_name": "Climate Change",
+          "driver_description": "Anthropogenic climate change is increasing the frequency and severity of extreme weather events."
+        }
+      ],
+      "risk_recommendations": [
+        "Enhance climate risk management and decision-making tools.",
+        "Invest in early-warning systems and decentralized renewable energy to empower local communities.",
+        "Strengthen global treaties and agreements to drive emissions reductions.",
+        "Improve adaptation efforts, especially in climate-vulnerable economies."
+      ],
+      "trend": "Extreme weather events are ranked as the top risk for 2024 by 66% of respondents, indicating increasing concern and severity over both short and long terms.",
+      "likelihood": "High likelihood over the next two years, as indicated by the prevalence of El Niño and ongoing climate change.",
+      "impact": "Severe impacts on human health, agriculture, infrastructure, and economic stability globally.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Climate-vulnerable economies face greater challenges in adaptation and are at higher risk.",
+        "Developing countries may have constrained adaptation efforts due to financial and infrastructure limitations."
+      ],
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Misinformation and Disinformation",
+      "risk_description": "The widespread use of misinformation and disinformation is undermining the legitimacy of governments, polarizing societies, and increasing risks of unrest and violence.",
+      "risk_driver": [
+        {
+          "driver_name": "Electoral Processes",
+          "driver_description": "Nearly three billion people are expected to vote in upcoming elections, creating fertile ground for misinformation to influence outcomes."
+        },
+        {
+          "driver_name": "Technological Tools",
+          "driver_description": "Advanced technologies facilitate the rapid dissemination of false information."
+        }
+      ],
+      "risk_recommendations": [
+        "Integrate AI literacy into public education and training for journalists and decision-makers.",
+        "Develop national and local regulations to identify AI-generated content and limit risky uses.",
+        "Implement registration, licensing, and auditing systems for powerful AI technologies.",
+        "Promote global treaties and agreements to manage AI risks."
+      ],
+      "trend": "Ranked second highest risk for 2024 by 53% of respondents, with increasing influence on societal and political polarization.",
+      "likelihood": "High likelihood of occurrence given current technological and societal trends.",
+      "impact": "Potential to cause violent protests, hate crimes, civil confrontation, and erosion of freedoms such as press and internet access.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Societal and Political Polarization",
+      "risk_description": "Increasing divisions within societies and political systems, exacerbated by misinformation and economic pressures, leading to instability and unrest.",
+      "risk_driver": [
+        {
+          "driver_name": "Misinformation and Disinformation",
+          "driver_description": "False information campaigns deepen societal divides."
+        },
+        {
+          "driver_name": "Economic Downturn",
+          "driver_description": "Economic hardships contribute to social tensions and polarization."
+        }
+      ],
+      "risk_recommendations": [
+        "Address misinformation through education and regulation.",
+        "Implement social safety nets and policies to reduce economic inequality.",
+        "Promote multi-stakeholder engagement to foster societal cohesion."
+      ],
+      "trend": "Ranked third highest risk for 2024 by 46% of respondents; remains a top interconnected risk influencing many others.",
+      "likelihood": "High likelihood given current global trends.",
+      "impact": "Leads to political instability, civil unrest, and erosion of social trust.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Cyber Insecurity",
+      "risk_description": "Increasing cyber threats targeting critical infrastructure, businesses, and governments, exacerbated by technological concentration and geopolitical tensions.",
+      "risk_driver": [
+        {
+          "driver_name": "Technological Power Concentration",
+          "driver_description": "Concentration of AI and digital infrastructure in a few companies and countries creates systemic vulnerabilities."
+        },
+        {
+          "driver_name": "Geopolitical Tensions",
+          "driver_description": "Tech wars and national security concerns drive cyber conflict and insecurity."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in cyber security training and infrastructure.",
+        "Develop robust national and local regulations.",
+        "Promote global treaties and agreements to manage cyber risks.",
+        "Implement auditing and certification systems for AI and digital technologies."
+      ],
+      "trend": "Ranked among the top risks with increasing severity and interconnectedness with other technological and geopolitical risks.",
+      "likelihood": "High likelihood due to ongoing technological and geopolitical developments.",
+      "impact": "Potential for severe disruptions to critical infrastructure, economic losses, and national security threats.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8400781750679016
+        }
+      ]
+    },
+    {
+      "risk_name": "Adverse Outcomes of AI Technologies",
+      "risk_description": "Unintended negative consequences of advanced AI, including societal divides, escalation in conflicts, and systemic vulnerabilities.",
+      "risk_driver": [
+        {
+          "driver_name": "Market Concentration",
+          "driver_description": "Dominance of AI development by a few companies and countries limits regulatory effectiveness."
+        },
+        {
+          "driver_name": "National Security Incentives",
+          "driver_description": "States prioritize security objectives that may conflict with broader societal needs."
+        }
+      ],
+      "risk_recommendations": [
+        "Enhance public awareness and education on AI risks.",
+        "Implement national and local regulations including licensing and incident disclosures.",
+        "Develop global treaties and agreements for AI governance.",
+        "Invest in research and development for risk mitigation."
+      ],
+      "trend": "Ranked 6th in severity over 10 years, with increasing recognition of risks related to AI proliferation and military applications.",
+      "likelihood": "High likelihood as AI technologies continue to advance and proliferate.",
+      "impact": "Risks include escalation of conflicts, erosion of human rights, and creation of new societal divides.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Critical Change to Earth Systems",
+      "risk_description": "Abrupt and potentially irreversible changes to planetary systems, such as the collapse of the Atlantic Meridional Overturning Circulation, with cascading environmental and socioeconomic impacts.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate Change",
+          "driver_description": "Global warming and human activities pushing Earth systems towards tipping points."
+        },
+        {
+          "driver_name": "Insufficient Adaptation",
+          "driver_description": "Lack of adequate climate adaptation efforts, especially in vulnerable regions."
+        }
+      ],
+      "risk_recommendations": [
+        "Improve climate and economic modeling to better predict impacts.",
+        "Increase investment in early-warning systems and ecological forecasting.",
+        "Strengthen global treaties and agreements to reduce emissions.",
+        "Expand access to adaptation solutions and de-risk private sector investments."
+      ],
+      "trend": "Recognized as a top environmental risk with increasing severity and interconnectedness with biodiversity loss, extreme weather, and resource shortages.",
+      "likelihood": "High likelihood over the next decade given current climate trajectories.",
+      "impact": "Severe impacts on global food security, health, migration, and economic stability.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Developing countries and climate-vulnerable economies face greater risks due to limited adaptive capacity."
+      ],
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Illicit Economic Activity and Organized Crime",
+      "risk_description": "Expansion of organized crime and illicit markets fueled by state fragility, technological advances, and erosion of governance.",
+      "risk_driver": [
+        {
+          "driver_name": "Societal Fragility",
+          "driver_description": "Geopolitical, socioeconomic, and environmental vulnerabilities create conditions for illicit markets to expand."
+        },
+        {
+          "driver_name": "Technological Advances",
+          "driver_description": "Technology lowers barriers to entry and enables transnational criminal networks to spread."
+        },
+        {
+          "driver_name": "Erosion of Governance",
+          "driver_description": "Weakening of legitimate governance creates power vacuums exploited by criminal organizations."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Currently ranked lower in perceived severity but highly interconnected with other top risks, suggesting potential for escalation.",
+      "likelihood": null,
+      "impact": "Significant contributor to lethal violence and destabilization, with approximately 65,000 deaths per year attributed to organized crime.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Economic Downturn and Lack of Economic Opportunity",
+      "risk_description": "Persistent barriers to economic mobility and security, including poverty, inequality, and unequal access to opportunities, exacerbated by economic downturns.",
+      "risk_driver": [
+        {
+          "driver_name": "Unemployment",
+          "driver_description": "High rates of job churn and structural mismatches in labor markets."
+        },
+        {
+          "driver_name": "Economic Downturn",
+          "driver_description": "Recessions and financial instability reduce economic opportunities."
+        },
+        {
+          "driver_name": "Societal Risks",
+          "driver_description": "Erosion of human rights, intrastate violence, and societal polarization contribute to economic insecurity."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement fiscal and monetary policies to stabilize economies.",
+        "Invest in education, reskilling, and social safety nets.",
+        "Promote inclusive economic policies to reduce inequality."
+      ],
+      "trend": "New entrant to the global risks list, ranked in the top 10 over the two-year horizon and expected to worsen over the longer term.",
+      "likelihood": "High likelihood given current global economic trends.",
+      "impact": "Threatens standards of living, societal cohesion, and political stability.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Interstate Armed Conflict",
+      "risk_description": "Rising risk of interstate armed conflicts due to geopolitical tensions, state fragility, and technological advances enabling new forms of conflict.",
+      "risk_driver": [
+        {
+          "driver_name": "Geopolitical Tensions",
+          "driver_description": "Major powers stretched across multiple fronts increase risk of conflict contagion."
+        },
+        {
+          "driver_name": "Technological Advances",
+          "driver_description": "Advances in AI and other technologies enable new tools of disruption and conflict."
+        }
+      ],
+      "risk_recommendations": [
+        "Promote concerted international collaboration to regulate frontier technologies.",
+        "Strengthen diplomatic efforts to manage frozen conflicts and reduce state fragility."
+      ],
+      "trend": "New entrant into the top risk rankings over the two-year horizon; long-term severity remains significant though ranking declines.",
+      "likelihood": "Elevated likelihood due to current geopolitical dynamics.",
+      "impact": "Potential for widespread violence, regional instability, and global security threats.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    }
+  ]
+}

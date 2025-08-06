@@ -100,7 +100,7 @@ def summarize_articles_from_json(folder_path, output_folder):
             # Process each article in the JSON file
             for article in articles_data:
                 url = article.get("url", "")
-                clean_text = article.get("clean_text", "")
+                clean_text = article.get("cleaned_text", "")
                 
                 if clean_text:
                     # Clean the content before processing
@@ -130,8 +130,5 @@ def summarize_articles_from_json(folder_path, output_folder):
             with open(output_file, "w") as f:
                 json.dump(articles_data, f, indent=4)
 
-# Function to run the news article summarization process
-def run_news_article_summarization():
-    print("Starting News Article Summarization process...")
+if __name__ == "__main__":
     summarize_articles_from_json(JSON_FOLDER, OUTPUT_FOLDER)
-

@@ -11,9 +11,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.decomposition import PCA
 
 # === Paths ===
-risk_file = Path("data/risk_list.csv")
-website_dir = Path("data/websites/with_summary")
-output_dir = Path("data/risk_website_pairs/topic_modelling")
+risk_file = Path("risk_pairing/data/risk_list.csv")
+website_dir = Path("risk_pairing/data/websites/with_summary")
+output_dir = Path("risk_pairing/data/risk_website_pairs/topic_modelling")
 output_dir.mkdir(parents=True, exist_ok=True)
 
 # === Model Config ===

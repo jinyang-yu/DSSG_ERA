@@ -8,7 +8,8 @@ scopes = [
   "https://www.googleapis.com/auth/spreadsheets"
 ]
 
-creds = Credentials.from_service_account_file("data/credentials.json", scopes=scopes)
+
+creds = Credentials.from_service_account_file("web_scraper/credentials.json", scopes=scopes)
 client = gspread.authorize(creds)
 
 sheet_id = "1L7xnQGCdX7L8Hczp1uqtrr8FMfyk5Yyf3ud2LZ2MfsA"

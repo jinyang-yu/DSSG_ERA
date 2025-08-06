@@ -1,16 +1,16 @@
 # main.py
 
-from scraper.website_scraper import WebsiteScraper
-from utils.url_tracker import save_visited, load_visited
-from utils.config_loader import load_url_config
-from utils.sheets_writer import write_to_tab
+from web_scraper.scraper.website_scraper import WebsiteScraper
+from web_scraper.utils.url_tracker import save_visited, load_visited
+from web_scraper.utils.config_loader import load_url_config
+from web_scraper.utils.sheets_writer import write_to_tab
 from datetime import datetime
 import json
 import asyncio
 import tldextract
 
 async def run_scraper(url_filepath: str):
-    visited_filepath = "data/urls/visited_urls.json"
+    visited_filepath = "web_scraper/output/urls/visited_urls.json"
     config = load_url_config(url_filepath)
     visited_urls = load_visited(visited_filepath)
 
@@ -29,7 +29,7 @@ async def run_scraper(url_filepath: str):
             timestamp = datetime.now().strftime("%Y%m%d")
             extracted_url = tldextract.extract(url)
             domain = extracted_url.domain or "unknown"
-            filename = f"output/raw_results/{domain}_{timestamp}.json"
+            filename = f"web_scraper/output/raw_results/{domain}_{timestamp}.json"
 
             with open(filename, "w", encoding="utf-8") as f:
                 json.dump(results, f, indent=2, ensure_ascii=False)

@@ -1,6 +1,6 @@
 import re
 from urllib.parse import urlparse
-from .domain_patterns import DOMAIN_PATTERNS
+from classifier.utils.domain_patterns import DOMAIN_PATTERNS
 
 
 def content_cleaner(content: str, url: str = None) -> str:

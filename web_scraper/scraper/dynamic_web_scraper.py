@@ -8,10 +8,10 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from typing import List, Tuple, Optional, Dict
 from playwright.async_api import async_playwright
-from utils.keyword_matcher import KeywordMatcher
-from utils.article_filter import extract_published_date, extract_all_published_dates, has_long_title, is_url_blocked, report_filter
-from utils.html_helpers import extract_clean_text
-from utils.playwright_helpers import handle_cookie_banner, scroll_page_to_bottom
+from web_scraper.utils.keyword_matcher import KeywordMatcher
+from web_scraper.utils.article_filter import extract_published_date, extract_all_published_dates, has_long_title, is_url_blocked, report_filter
+from web_scraper.utils.html_helpers import extract_clean_text
+from web_scraper.utils.playwright_helpers import handle_cookie_banner, scroll_page_to_bottom
 
 class DynamicWebScraper:
   def __init__(self,  url: str, config: dict, visited_urls: str):
@@ -324,7 +324,7 @@ class DynamicWebScraper:
 
     try:
       async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False, args=["--disable-http2"])
+        browser = await p.chromium.launch(headless=True, args=["--disable-http2"])
         context = await browser.new_context(
           user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
           locale="en-US",
@@ -376,7 +376,7 @@ class DynamicWebScraper:
         for link, title in prefiltered_links.items():
           
           article_title, text, soup = await self.fetch_playwright(page, link)
-          if (not soup or has_long_title(title) or link.rstrip("/") == main_url.rstrip("/")):
+          if (not soup or not has_long_title(title) or link.rstrip("/") == main_url.rstrip("/")):
             continue
           
           published = None
@@ -567,7 +567,7 @@ class DynamicWebScraper:
         if not soup or not text.strip():
           print(f"Skipping URL due to fetch failure or empty content: {link}")
           continue
-        if (not soup or has_long_title(title) or link.rstrip("/") == main_url.rstrip("/")):
+        if (not soup or not has_long_title(title) or link.rstrip("/") == main_url.rstrip("/")):
           continue
         
         published = None

@@ -1,5 +1,5 @@
 import pandas as pd
-from model.chat4o_mini import classify_risk
+from classifier.model.chat4o_mini import classify_risk
 from tqdm import tqdm
 tqdm.pandas()
 

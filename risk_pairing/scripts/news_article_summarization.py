@@ -7,7 +7,7 @@ from transformers import BartForConditionalGeneration, BartTokenizer
 
 # === Paths ===
 JSON_FOLDER = Path("classifier/output")
-OUTPUT_FOLDER = Path("risk_and_website_pairing/outputs/websites_with_summary")
+OUTPUT_FOLDER = Path("risk_pairing/outputs/websites_with_summary")
 OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 
 # === Model Config ===

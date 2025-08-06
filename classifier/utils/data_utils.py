@@ -12,7 +12,7 @@ def save_classified_files(classified_set: set, path=str):
     with open(path, "w") as f:
         json.dump(sorted(classified_set), f, indent=2)
     
-def join_json_data(folder_path: str, add_risk_col=False, classified_path="classified.json") -> pd.DataFrame:
+def join_json_data(folder_path: str, add_risk_col=False, classified_path="classifier/classified.json") -> pd.DataFrame:
     """ 
     Takes all json files and joins them into one
     
@@ -49,7 +49,7 @@ def load_labelled_data() -> pd.DataFrame:
     """
     Loads all labelled training files and returns dataframe. Used for training model
     """
-    folder_path = "../web_scraper/output/train_data/labelled_data/"
+    folder_path = "web_scraper/output/train_data/labelled_data/"
     labelled = join_json_data(folder_path)
     return labelled
 
@@ -58,6 +58,6 @@ def load_unlabelled_data() -> pd.DataFrame:
     """
     Loads all unlabelled files and returns dataframe to classify
     """
-    folder_path = "../web_scraper/output/raw_results"
+    folder_path = "web_scraper/output/raw_results"
     unlabelled = join_json_data(folder_path, add_risk_col=True)
     return unlabelled

@@ -1,1 +1,16 @@
+# python-generated local files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# mac-specific file in every folder
+.DS_Store
+
+# Local per-user settings
+.vscode
+
+# Local python environments
+.venv/
+
+# Secrets (API keys)
 .env

@@ -49,7 +49,7 @@ prompt = """ For each of the following fields, please provide information as **d
 If the text mentions that a certain risk changes in importance, nature, likelihood, impact, etc., according to region, industry, company size, or any other category, extract and include this information here as a list (if there is more than one). Example: 'Risk X is more prominent in X industry, followed by Y and Z industries'."""
 
 
-def pdfs_risk_analysis(client, folder_path, record_file="processed_files.txt", method="file_search", pass_type="one"):
+def pdfs_risk_analysis(client, folder_path, record_file="processed_files.txt", method="file_search", pass_type = 1):
     # Step 1: Load previously processed filenames into a set
     if os.path.exists(record_file):
         with open(record_file, "r") as f:
@@ -70,17 +70,17 @@ def pdfs_risk_analysis(client, folder_path, record_file="processed_files.txt", m
 
             # Step 4: Extract risks based on method and pass_type
             if method == "file_input":
-                if pass_type == "one":
+                if pass_type == 1:
                     response = file_input.extract_risks_pass_once(client, file_id, dev_instructions, prompt)
-                elif pass_type == "two":
+                elif pass_type == 2:
                     response = file_input.extract_risks_pass_twice(client, file_id, dev_instructions, prompt)
                 else:
                     raise ValueError("Invalid pass_type. Use 'one' or 'two'.")
             elif method == "file_search":
                 vec_id = file_search.vectorization(client, "knowledge_base", file_id)
-                if pass_type == "one":
+                if pass_type == 1:
                     response = file_search.extract_risks_pass_once(client, file_id, vec_id, dev_instructions, prompt)
-                elif pass_type == "two":
+                elif pass_type == 2:
                     response = file_search.extract_risks_pass_twice(client, file_id, vec_id, dev_instructions, prompt)
                 else:
                     raise ValueError("Invalid pass_type. Use 'one' or 'two'.")
@@ -102,7 +102,7 @@ def pdfs_risk_analysis(client, folder_path, record_file="processed_files.txt", m
             safe_base_name = base_name.replace(" ", "_")  # Optional: make it safer for filenames
 
             # Generate output filename
-            output_filename = f"{safe_base_name}_{method}_{'1' if pass_type == 'one' else '2'}.json"
+            output_filename = f"{safe_base_name}_{method}_{str(pass_type)}.json"
 
             # Save the result
             with open(output_filename, "w", encoding="utf-8") as f:

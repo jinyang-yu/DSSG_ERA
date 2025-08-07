@@ -6,9 +6,9 @@ from sentence_transformers import SentenceTransformer, util
 from transformers import BartForConditionalGeneration, BartTokenizer
 
 # === Paths ===
-JSON_FOLDER = Path("classifier/output")
-OUTPUT_FOLDER = Path("risk_pairing/outputs/websites_with_summary")
-OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
+# JSON_FOLDER = Path("classifier/output")
+# OUTPUT_FOLDER = Path("risk_pairing/outputs/websites_with_summary")
+# OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 
 # === Model Config ===
 # Load the pre-trained BERT extractive summarization model (Sentence Transformer)
@@ -92,6 +92,7 @@ def sanitize_filename(url):
 # Function to summarize articles and save them into a single JSON file per website
 def summarize_articles_from_json(folder_path, output_folder):
     # Loop through each JSON file in the folder (each file corresponds to a website)
+    output_folder.mkdir(parents=True, exist_ok=True)
     for file_name in os.listdir(folder_path):
         if file_name.endswith(".json"):
             file_path = folder_path / file_name

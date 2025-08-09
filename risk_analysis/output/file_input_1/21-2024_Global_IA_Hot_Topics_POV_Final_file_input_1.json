@@ -1,0 +1,334 @@
+{
+  "risks": [
+    {
+      "risk_name": "Vision and Purpose Misalignment",
+      "risk_description": "Risk that internal audit functions fail to align their role and remit with the broader organization's purpose, limiting their impact and value.",
+      "risk_driver": [
+        {
+          "driver_name": "Lack of Articulation of Purpose",
+          "driver_description": "Internal audit functions may not clearly articulate their purpose or value to the broader organization."
+        },
+        {
+          "driver_name": "High Turnover and Low Engagement",
+          "driver_description": "High turnover or lack of employee engagement within internal audit can indicate failure to communicate purpose internally."
+        },
+        {
+          "driver_name": "Routine Practices",
+          "driver_description": "Internal audit functions following routine industry practices without innovation may miss opportunities to maximize impact."
+        }
+      ],
+      "risk_recommendations": [
+        "Align and refine roles and responsibilities across the three lines of defense around purpose.",
+        "Develop a clear point of view on whether the organization is achieving its purpose and identify contradictory behaviors.",
+        "Develop recommendations to close gaps between leadership and employee perceptions of purpose.",
+        "Articulate internal audit’s purpose and value in the context of the broader organization’s purpose.",
+        "Incorporate risks to achieving the organization’s purpose into the internal audit plan.",
+        "Consider how internal audit can support the broader organizational purpose, e.g., reducing emissions footprint."
+      ],
+      "trend": null,
+      "likelihood": null,
+      "impact": "Failure to align with organizational purpose limits internal audit’s ability to maximize impact and value, potentially reducing stakeholder trust and innovation.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Enterprise Trust Deficit",
+      "risk_description": "Risk that organizations fail to build and maintain trust with stakeholders, impacting performance and market value.",
+      "risk_driver": [
+        {
+          "driver_name": "Failure to Meet Stakeholder Expectations",
+          "driver_description": "Inability to consistently demonstrate competence, reliability, transparency, and humanity."
+        },
+        {
+          "driver_name": "Lack of Psychological Safety",
+          "driver_description": "Organizational culture and leadership structures may inhibit freedom to raise issues without retaliation."
+        },
+        {
+          "driver_name": "Unclear Ownership of Trust",
+          "driver_description": "Absence of clear accountability for trust-building efforts."
+        },
+        {
+          "driver_name": "Ignoring Feedback",
+          "driver_description": "Failure to act on issues surfaced through customer and employee surveys."
+        },
+        {
+          "driver_name": "Defensive Leadership",
+          "driver_description": "Leaders taking defensive stances during crises rather than proactively managing trust."
+        }
+      ],
+      "risk_recommendations": [
+        "Strategize engagement on trust throughout risk assessment and reporting.",
+        "Make trust measurement a strategic priority with structured frameworks.",
+        "Conduct standalone or integrated internal audit reviews on trust.",
+        "Leverage internal questionnaires and external sensing to understand trust across stakeholder groups.",
+        "Affirm trust measurement as a strategic priority and cultural tenet.",
+        "Define trust within enterprise and industry context, identifying at-risk areas.",
+        "Embed trust in internal audit’s hindsight, insight, and foresight activities.",
+        "Build trust consistently over time as part of organizational DNA."
+      ],
+      "trend": "Trust is increasingly recognized as critical, with 94% of boards valuing it and highly trusted companies outperforming low trust companies by up to 4X market value.",
+      "likelihood": null,
+      "impact": "Loss of trust can lead to significant declines in market value (20-56% market cap loss), reduced employee motivation, and customer attrition.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Organizational Resilience Deficiency",
+      "risk_description": "Risk that organizations lack sufficient resilience to withstand disruptions due to misunderstanding resilience as a risk-and-control discipline rather than an outcome of coordinated risk management.",
+      "risk_driver": [
+        {
+          "driver_name": "Lean Philosophy Overemphasis",
+          "driver_description": "Cost-cutting and efficiency focus has reduced diversity and redundancy critical for resilience."
+        },
+        {
+          "driver_name": "Lack of Common Understanding",
+          "driver_description": "Organizations lack alignment on what needs to be resilient and to what degree."
+        },
+        {
+          "driver_name": "Talent Scarcity",
+          "driver_description": "Shortage of skilled personnel to build and maintain resilience."
+        },
+        {
+          "driver_name": "Competing Strategic Priorities",
+          "driver_description": "Other priorities divert attention and resources from resilience efforts."
+        },
+        {
+          "driver_name": "Regulatory Changes",
+          "driver_description": "New regulations such as DORA and CER Directive impose additional resilience requirements."
+        }
+      ],
+      "risk_recommendations": [
+        "Help organizations identify essential outcomes to prioritize resilience efforts.",
+        "Assist senior leadership in understanding exposure points in supply chains, technology, and third parties.",
+        "Support determination of impact tolerance to guide resilience investments.",
+        "Promote common language and alignment across functions on resilience definitions and goals.",
+        "Advise on governance structures with clear accountability for resilience.",
+        "Encourage design for resilience by avoiding single points of failure and ensuring dual sourcing and succession planning.",
+        "Advocate for plans to continue critical operations during disruptions and robust post-crisis reviews.",
+        "Engage early in resilience program development to identify blind spots."
+      ],
+      "trend": "Resilience has gained prominence post-COVID-19 but many organizations remain insufficiently resilient; 67% of senior leaders report regulatory changes impacting resilience.",
+      "likelihood": null,
+      "impact": "Insufficient resilience can lead to operational disruptions, financial losses, and reputational damage during crises.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Disruptive Technology Risks",
+      "risk_description": "Risks arising from rapid adoption and evolution of disruptive technologies such as generative AI (GenAI), cloud computing, and machine learning, including ethical, governance, data security, and operational risks.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid Pace of Technological Change",
+          "driver_description": "Accelerated evolution of GenAI and embedding of AI in cloud solutions increases complexity and risk exposure."
+        },
+        {
+          "driver_name": "Ethical and Regulatory Uncertainty",
+          "driver_description": "Emerging regulations such as EU AI Act and bans on biometric surveillance create compliance challenges."
+        },
+        {
+          "driver_name": "Lack of Governance Frameworks",
+          "driver_description": "Organizations may lack appropriate policies, standards, and guidelines to manage AI and cloud risks."
+        },
+        {
+          "driver_name": "Unclear Risk Ownership",
+          "driver_description": "Uncertainty about who owns AI-related risks can lead to fragmented or ineffective risk management."
+        },
+        {
+          "driver_name": "Cost and Environmental Concerns",
+          "driver_description": "Unexpected cloud costs and energy consumption raise sustainability and financial risks."
+        }
+      ],
+      "risk_recommendations": [
+        "Familiarize internal audit teams with underlying GenAI technologies, capabilities, and limitations.",
+        "Develop and harmonize GenAI strategy with enterprise AI and internal audit digital transformation plans.",
+        "Democratize discussions on disruptive technology use cases and associated risks across disciplines.",
+        "Adapt legacy technology risk frameworks to address bias, misinformation, transparency, and accountability.",
+        "Initiate conversations on AI risks at senior leadership and broader organizational levels.",
+        "Survey technology landscape to identify deployed AI and disruptive technologies.",
+        "Advise on establishing or refining AI governance frameworks with cross-functional input.",
+        "Promote continuous learning to keep pace with technology changes."
+      ],
+      "trend": "Increasing adoption of GenAI and other disruptive technologies, with 42% of CFOs experimenting and 15% integrating GenAI into strategies; regulatory scrutiny is rising.",
+      "likelihood": null,
+      "impact": "Potential for elevated risks including data breaches, ethical violations, operational disruptions, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": [
+        "June 2023 European Commission amendments to AI rules banning AI use in biometric surveillance and requiring disclosure of AI-generated content."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Digital Backbone Deficiency",
+      "risk_description": "Risk that internal audit functions fail to build an integrated digital backbone, limiting automation, efficiency, and insight generation across the audit lifecycle.",
+      "risk_driver": [
+        {
+          "driver_name": "Limited Use of Digital Tools",
+          "driver_description": "Many internal audit functions use digital tools narrowly, e.g., for data sampling, rather than broad integration."
+        },
+        {
+          "driver_name": "Disparate Technology Platforms",
+          "driver_description": "Use of unconnected platforms for risk assessment, planning, execution, and monitoring hinders digital backbone development."
+        },
+        {
+          "driver_name": "Laborious Risk Assessment Processes",
+          "driver_description": "Manual, inefficient processes reduce opportunities to leverage technology."
+        },
+        {
+          "driver_name": "Limited Process Standardization",
+          "driver_description": "Lack of standardized processes impedes automation and digital transformation."
+        },
+        {
+          "driver_name": "Narrow Focus on Analytics",
+          "driver_description": "Overemphasis on analytics limits exploration of broader digital capabilities."
+        }
+      ],
+      "risk_recommendations": [
+        "Systematize and prioritize digital innovation with a methodical approach.",
+        "Pilot proof of concepts and measure return on investment to guide technology investments.",
+        "Focus on process effectiveness alongside technology implementation.",
+        "Promote a mindset of experimentation and innovation within internal audit teams.",
+        "Enhance data literacy and continuous learning to keep pace with business changes and emerging risks.",
+        "Architect integrated platforms to enable real-time, continuous auditing."
+      ],
+      "trend": null,
+      "likelihood": null,
+      "impact": "Failure to build a digital backbone limits internal audit’s agility, innovation, and ability to provide timely insights.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Controls Modernization Risk",
+      "risk_description": "Risk that control programs remain outdated, inefficient, or ineffective due to lack of modernization, impacting risk mitigation and compliance.",
+      "risk_driver": [
+        {
+          "driver_name": "Reactive Assurance Approach",
+          "driver_description": "Internal audit often provides assurance after controls are designed and tested, limiting proactive influence."
+        },
+        {
+          "driver_name": "Complex and Layered Control Environments",
+          "driver_description": "Multiple layers and complicated frameworks hinder optimization and increase risk of failure."
+        },
+        {
+          "driver_name": "Lack of Technology Enablement",
+          "driver_description": "Insufficient automation and digital tools reduce control program efficiency."
+        },
+        {
+          "driver_name": "User Dissatisfaction",
+          "driver_description": "Difficult navigation and excessive testing can indicate unoptimized control environments."
+        },
+        {
+          "driver_name": "Risk-Based Approach Deficiencies",
+          "driver_description": "Failure to define risk appetite and focus controls on non-negotiable risks leads to over-control and resource misalignment."
+        }
+      ],
+      "risk_recommendations": [
+        "Engage early with first and second lines to share leading practices and advise on control program modernization.",
+        "Focus on understanding risks and defining risk appetite to optimize control design.",
+        "Encourage digitization and automation of control testing and monitoring.",
+        "Challenge existing orthodoxies and promote continuous controls monitoring.",
+        "Align stakeholders on expectations and strategic priorities through assurance-by-design.",
+        "Advise on updating methodologies and testing strategies with a risk-based mindset."
+      ],
+      "trend": "Increasing business complexity and regulatory requirements drive continual change, elevating risk of accounting and reporting misstatements.",
+      "likelihood": null,
+      "impact": "Ineffective controls can lead to financial misstatements, compliance failures, operational inefficiencies, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Environmental, Social, and Governance (ESG) Risks",
+      "risk_description": "Risks related to inaccurate or misleading ESG reporting, failure to meet ESG targets, and reputational damage from deceptive practices such as greenwashing, bluewashing, and pinkwashing.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Regulatory Requirements",
+          "driver_description": "New and pending ESG reporting mandates increase pressure on organizations to provide transparent and accurate disclosures."
+        },
+        {
+          "driver_name": "Misalignment of ESG Strategy and Business Strategy",
+          "driver_description": "Lack of alignment can lead to ineffective ESG programs and risk of failing to meet targets."
+        },
+        {
+          "driver_name": "Deceptive Marketing Practices",
+          "driver_description": "Greenwashing, bluewashing, and pinkwashing misrepresent ESG commitments and expose organizations to reputational risk."
+        },
+        {
+          "driver_name": "Lack of Robust Controls and Data Processes",
+          "driver_description": "Weak internal controls over sustainability data increase risk of inaccurate reporting."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct current state ESG program assessments to identify enhancement opportunities.",
+        "Perform risk assessments to prioritize ESG metrics and execute assurance on disclosures.",
+        "Deliver ESG-centric internal audits to evaluate identification and management of ESG risks.",
+        "Build SOX-like frameworks for ESG risk, controls, and testing procedures.",
+        "Ensure ESG reporting is owned by appropriate teams to reduce risk of misleading practices.",
+        "Monitor green fund usage to ensure ethical compliance.",
+        "Pay attention to staff turnover as a potential indicator of bluewashing.",
+        "Incorporate ESG into risk conversations and internal audit plans.",
+        "Brief internal audit teams on established ESG reporting standards and frameworks.",
+        "Apply traditional auditing techniques with professional skepticism to ESG reporting."
+      ],
+      "trend": "Global regulatory push is increasing ESG reporting requirements; consumer and investor focus on ESG is growing, with sustainable products growing twice as fast as conventional ones.",
+      "likelihood": null,
+      "impact": "Failure to manage ESG risks can lead to reputational damage, loss of stakeholder trust, regulatory penalties, and missed business opportunities.",
+      "risk_indicator": null,
+      "risk_event": [
+        "September 2023 California Climate Corporate Data Accountability Act (SB-253) and Climate-Related Financial Risk Act (SB-261) mandating greenhouse gas emissions and climate risk disclosures."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Human Capital Management Risks",
+      "risk_description": "Risks arising from evolving workforce dynamics including talent shortages, employee disengagement, ineffective diversity, equity, and inclusion (DEI) efforts, and increased legal challenges related to employment discrimination.",
+      "risk_driver": [
+        {
+          "driver_name": "Talent Shortages",
+          "driver_description": "Ongoing scarcity of skilled workers challenges recruitment and retention."
+        },
+        {
+          "driver_name": "Changing Work Models",
+          "driver_description": "Shift to flexible work hours, locations, and skills-based roles alters traditional workforce structures."
+        },
+        {
+          "driver_name": "Increased Legal and Regulatory Scrutiny",
+          "driver_description": "Rising employment discrimination lawsuits and regulatory enforcement increase compliance risks."
+        },
+        {
+          "driver_name": "Employee Engagement and Culture Issues",
+          "driver_description": "High attrition, negative employer reputation, and unflattering social media posts indicate cultural and operational risks."
+        }
+      ],
+      "risk_recommendations": [
+        "Assess human capital programs to identify strengths, weaknesses, and improvement opportunities.",
+        "Analyze maturity in infrastructure, talent, culture, brand, analytics, and leadership.",
+        "Advise on metrics tied to talent objectives for evaluations and maturity assessments.",
+        "Conduct culture-related audits in response to data or stakeholder concerns.",
+        "Monitor social media and recruitment sites for reputational risks.",
+        "Incorporate human capital risks including DEI and culture into ongoing audit plans.",
+        "Help leadership understand risks and benefits of organizational culture.",
+        "Provide assurance on processes for attracting, recruiting, hiring, and retaining diverse candidates."
+      ],
+      "trend": "Increasing focus on flexible work and employee-centric models; 97% of organizations offer greater flexibility; employment discrimination lawsuits increased over 50% in 2023.",
+      "likelihood": null,
+      "impact": "Poor human capital management can lead to talent loss, reduced productivity, legal penalties, reputational damage, and cybersecurity risks.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Fiscal year 2023 saw 143 new employment discrimination lawsuits filed by the US Equal Employment Opportunity Commission, a 50% increase over 2022."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

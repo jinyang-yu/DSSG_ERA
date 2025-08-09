@@ -1,0 +1,294 @@
+{
+  "risks": [
+    {
+      "risk_name": "Cyber Threats",
+      "risk_description": "Cyber threats represent the risk of cyberattacks and breaches that can disrupt operations, compromise data, and damage reputation. This risk remains the top concern for organizations looking both at the near term (2024) and long term (2034).",
+      "risk_driver": [
+        {
+          "driver_name": "Evolving Cyberattack Techniques",
+          "driver_description": "Rapidly evolving cyber threats including nation-state actors and sophisticated attackers targeting organizations."
+        },
+        {
+          "driver_name": "Inadequate Cyber Defenses",
+          "driver_description": "Potential gaps in cyber defenses and the need for continuous investment in AI-powered and advanced security solutions."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in ongoing cybersecurity enhancement programs.",
+        "Maintain unwavering investment in staffing, tooling, and training.",
+        "Conduct rigorous assessments and relentless testing of cyber defenses.",
+        "Develop comprehensive training across internal practices, partnerships, and vendor relationships.",
+        "Adopt intelligent, AI-powered solutions to keep pace with evolving threats."
+      ],
+      "trend": "Cyber threats have increased in perceived risk over the years, ranking 3rd in 2024 and expected to be the number one risk by 2034 with a sizeable year-over-year increase in risk score.",
+      "likelihood": "High likelihood, with 65% of respondents rating it as high impact and 100% occurrence in risk surveys.",
+      "impact": "Severe operational disruptions, data loss, reputational damage, and financial losses. Rated as a 'Significant Impact' risk by multiple industries including Financial Services, Healthcare, and Technology.",
+      "risk_indicator": "Risk score on a 10-point scale (e.g., 6.44 for 2034).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Cyber threats are a top five risk across all industry groups and regions.",
+        "Particularly significant in Financial Services, Healthcare, Technology, Media and Telecommunications, and Energy and Utilities sectors."
+      ]
+    },
+    {
+      "risk_name": "Ability to Attract, Develop and Retain Top Talent",
+      "risk_description": "Challenges in attracting, developing, and retaining skilled employees, managing shifts in labor expectations, and addressing succession challenges.",
+      "risk_driver": [
+        {
+          "driver_name": "Labor Market Competition",
+          "driver_description": "Increased competition for skilled talent and changing workforce expectations."
+        },
+        {
+          "driver_name": "Succession Planning Gaps",
+          "driver_description": "Difficulty in managing leadership transitions and workforce planning."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement targeted recruitment and retention strategies.",
+        "Focus on workforce development and succession planning.",
+        "Adapt to shifts in labor expectations and provide support for employee well-being."
+      ],
+      "trend": "Consistently ranked as a top operational risk, ranked 2nd in 2024 and 2nd in 2034, with risk scores increasing over time.",
+      "likelihood": "High likelihood with 61% rating it as high impact and 100% occurrence in risk surveys.",
+      "impact": "Potential operational disruptions, increased labor costs, and negative effects on organizational performance and culture.",
+      "risk_indicator": "Risk score on a 10-point scale (e.g., 6.27 for 2034).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Talent risk is common across all organization sizes and industries.",
+        "Succession and talent acquisition are top concerns globally."
+      ]
+    },
+    {
+      "risk_name": "Adoption of Digital Technologies Requiring New Skills",
+      "risk_description": "The risk that organizations may struggle to adopt new digital technologies due to a shortage of necessary skills, impacting competitiveness and operational efficiency.",
+      "risk_driver": [
+        {
+          "driver_name": "Skills Shortage",
+          "driver_description": "Insufficient availability of employees with skills to deploy and manage emerging digital technologies."
+        },
+        {
+          "driver_name": "Rapid Technological Change",
+          "driver_description": "Fast pace of technology adoption requiring continuous upskilling and reskilling."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in workforce upskilling and reskilling programs.",
+        "Leverage data analytics to identify skill gaps and training needs.",
+        "Integrate technology adoption with strategic workforce planning."
+      ],
+      "trend": "Risk scores for this issue are increasing, ranked 6th in 2024 and 3rd in 2034, with an 11.63% increase in risk score projected over the decade.",
+      "likelihood": "High likelihood given the rapid pace of digital transformation and skills shortages.",
+      "impact": "Potential loss of competitive advantage, reduced productivity, and operational inefficiencies.",
+      "risk_indicator": "Risk score on a 10-point scale (e.g., 6.16 for 2034).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More pronounced in technology-driven industries such as Technology, Media and Telecommunications.",
+        "Smaller organizations face greater hurdles due to limited talent pools."
+      ]
+    },
+    {
+      "risk_name": "Rapid Speed of Disruptive Innovations",
+      "risk_description": "The risk that rapid disruptive innovations enabled by new and emerging technologies or other market forces may outpace an organization's ability to adapt, threatening business viability.",
+      "risk_driver": [
+        {
+          "driver_name": "Emerging Technologies",
+          "driver_description": "Continuous emergence of new technologies that can disrupt existing business models."
+        },
+        {
+          "driver_name": "Market Forces",
+          "driver_description": "Changing customer expectations and competitive dynamics driven by innovation."
+        }
+      ],
+      "risk_recommendations": [
+        "Maintain agility and openness to change.",
+        "Invest in innovation and technology scouting.",
+        "Integrate scenario analysis to anticipate disruptive changes.",
+        "Develop strategic responses to emerging competitive threats."
+      ],
+      "trend": "Projected to increase significantly, with a 16.40% rise in risk score from 2024 to 2034, ranked 4th in 2034.",
+      "likelihood": "Increasing likelihood as innovation accelerates globally.",
+      "impact": "Potential loss of market share, obsolescence of products/services, and strategic failure.",
+      "risk_indicator": "Risk score on a 10-point scale (e.g., 6.15 for 2034).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More prominent in technology-intensive sectors.",
+        "Global organizations face diverse innovation risks across regions."
+      ]
+    },
+    {
+      "risk_name": "Heightened Regulatory Changes and Scrutiny",
+      "risk_description": "The risk arising from increasing regulatory changes and scrutiny that can affect how products or services are delivered, increasing compliance costs and operational complexity.",
+      "risk_driver": [
+        {
+          "driver_name": "Expanding Regulatory Requirements",
+          "driver_description": "New and evolving regulations related to social, privacy, environmental, and other issues."
+        },
+        {
+          "driver_name": "Increased Enforcement and Disclosure",
+          "driver_description": "Greater expectations for transparency and compliance from regulators and stakeholders."
+        }
+      ],
+      "risk_recommendations": [
+        "Engage in proactive regulatory monitoring and scenario planning.",
+        "Enhance compliance programs and governance frameworks.",
+        "Develop flexible strategies to adapt to regulatory changes."
+      ],
+      "trend": "Risk scores have increased slightly, ranked 5th in 2034, with a 0.51% increase from 2023 to 2024.",
+      "likelihood": "Moderate to high likelihood given global regulatory trends.",
+      "impact": "Potential legal penalties, increased costs, reputational damage, and operational disruptions.",
+      "risk_indicator": "Risk score on a 10-point scale (e.g., 6.42 for 2034).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More significant for public companies and larger organizations.",
+        "Heightened focus in regions with strong regulatory environments such as Europe."
+      ]
+    },
+    {
+      "risk_name": "Third-Party Risks",
+      "risk_description": "Risks associated with reliance on third-party vendors and partners, including operational disruptions, compliance failures, and reputational damage.",
+      "risk_driver": [
+        {
+          "driver_name": "Vendor Management Challenges",
+          "driver_description": "Complexity in managing third-party relationships and ensuring compliance."
+        },
+        {
+          "driver_name": "Supply Chain Vulnerabilities",
+          "driver_description": "Disruptions and uncertainties in supply chains impacting business continuity."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement comprehensive third-party risk management strategies.",
+        "Conduct regular assessments and audits of vendors.",
+        "Enhance oversight and monitoring of third-party compliance."
+      ],
+      "trend": "Increasing concern with a 0.87% increase from 2023 to 2024, ranked 4th in 2024 and 6th in 2034.",
+      "likelihood": "High likelihood due to increasing complexity and interdependencies.",
+      "impact": "Operational outages, financial losses, regulatory penalties, and reputational harm.",
+      "risk_indicator": "Risk score on a 10-point scale (e.g., 5.76 for 2024).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Particularly notable for midsize organizations and healthcare sector.",
+        "Long-term emerging issue in healthcare due to technology and margin pressures."
+      ]
+    },
+    {
+      "risk_name": "Economic Conditions, Including Inflationary Pressures",
+      "risk_description": "Risks arising from uncertain economic conditions, including inflation, interest rate changes, and market volatility, which can impact costs, revenues, and financial stability.",
+      "risk_driver": [
+        {
+          "driver_name": "Inflation and Cost Pressures",
+          "driver_description": "Rising costs of labor, materials, and operations due to inflation."
+        },
+        {
+          "driver_name": "Interest Rate Environment",
+          "driver_description": "Changes in interest rates affecting borrowing costs and investment."
+        }
+      ],
+      "risk_recommendations": [
+        "Use predictive analytics and data-driven decision-making to manage inflation impacts.",
+        "Develop flexible financial strategies to adapt to changing economic conditions.",
+        "Monitor macroeconomic indicators closely for early warning."
+      ],
+      "trend": "Ranked 1st in 2024 and 7th in 2034, with a slight decrease in risk score from 2023 to 2024 (-0.38%).",
+      "likelihood": "High likelihood given current global economic volatility.",
+      "impact": "Financial strain, reduced profitability, and potential operational cutbacks.",
+      "risk_indicator": "Risk score on a 10-point scale (e.g., 6.12 for 2024).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Concerns common across all organization sizes and industries.",
+        "Particularly significant in Financial Services and Consumer Products sectors."
+      ]
+    },
+    {
+      "risk_name": "Existing Operations and Legacy IT Infrastructure Unable to Meet Performance Expectations",
+      "risk_description": "Risks related to outdated or legacy IT systems that cannot support current business needs or compete with 'born digital' competitors.",
+      "risk_driver": [
+        {
+          "driver_name": "Aged Technical Architecture",
+          "driver_description": "Legacy systems that are costly to maintain and lack agility."
+        },
+        {
+          "driver_name": "Digital Transformation Challenges",
+          "driver_description": "Difficulty in migrating to cloud and integrating new technologies."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in upgrading and modernizing IT infrastructure.",
+        "Develop clear cloud migration strategies and manage associated costs.",
+        "Integrate IT systems to support operational efficiency and innovation."
+      ],
+      "trend": "Ranked 7th in 2024 and 8th in 2034, with a decrease in risk score from 2023 to 2024 (-2.16%).",
+      "likelihood": "Moderate to high likelihood due to ongoing digital transformation demands.",
+      "impact": "Operational inefficiencies, competitive disadvantage, and increased costs.",
+      "risk_indicator": "Risk score on a 10-point scale (e.g., 5.37 for 2024).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More pronounced in technology and energy sectors.",
+        "Challenges vary by organization size and digital maturity."
+      ]
+    },
+    {
+      "risk_name": "Growing Focus on Climate Change and Sustainability Policies",
+      "risk_description": "Risks related to increasing regulatory and stakeholder focus on climate change, sustainability policies, and expanding disclosure requirements.",
+      "risk_driver": [
+        {
+          "driver_name": "Regulatory Pressure",
+          "driver_description": "Emerging regulations such as the Corporate Sustainability Reporting Directive (CSRD) in the EU."
+        },
+        {
+          "driver_name": "Stakeholder Expectations",
+          "driver_description": "Increasing demands from customers, investors, and society for sustainable practices."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop and implement comprehensive sustainability strategies.",
+        "Enhance transparency and reporting on sustainability metrics.",
+        "Engage stakeholders proactively on climate-related risks and opportunities."
+      ],
+      "trend": "Risk score increased from 5.01 in 2024 to 5.70 in 2034 (13.67% increase), ranked 13th in 2034 and rising in importance.",
+      "likelihood": "Increasing likelihood as regulatory and societal pressures grow.",
+      "impact": "Reputational damage, regulatory penalties, and operational costs if not addressed.",
+      "risk_indicator": "Risk score on a 10-point scale (e.g., 5.70 for 2034).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More significant in Europe and energy/utilities sectors.",
+        "Perceived as polarizing in some regions such as the U.S."
+      ]
+    },
+    {
+      "risk_name": "Substitute Products and Services Affecting Business Viability",
+      "risk_description": "The risk that new substitute products and services may arise from competitors, enhancing customer experience and threatening the viability of current business models and strategic initiatives.",
+      "risk_driver": [
+        {
+          "driver_name": "Competitive Innovation",
+          "driver_description": "Emergence of new offerings that disrupt existing markets."
+        },
+        {
+          "driver_name": "Customer Expectations",
+          "driver_description": "Changing preferences driving demand for innovative solutions."
+        }
+      ],
+      "risk_recommendations": [
+        "Maintain openness to change and agility to adopt new technologies.",
+        "Invest in innovation and customer experience enhancements.",
+        "Monitor competitive landscape for emerging substitutes."
+      ],
+      "trend": "Risk score increased from 4.89 in 2024 to 5.58 in 2034 (14.14% increase), rising from 25th to 8th in rankings.",
+      "likelihood": "Increasing likelihood as market disruption accelerates.",
+      "impact": "Loss of market share, revenue decline, and strategic obsolescence.",
+      "risk_indicator": "Risk score on a 10-point scale (e.g., 5.58 for 2034).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

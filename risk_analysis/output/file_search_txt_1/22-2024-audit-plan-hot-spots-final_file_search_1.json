@@ -1,0 +1,348 @@
+{
+  "risks": [
+    {
+      "risk_name": "Cybersecurity Vulnerabilities",
+      "risk_description": "Organizations increasingly struggle to constrain cyberattacks from insider threats. The proliferation of Generative AI (GenAI) enables malicious actors access to more sophisticated cyberattack tools, increasing the risk of breaches and operational disruptions.",
+      "risk_driver": [
+        {
+          "driver_name": "Rise in Insider Threat",
+          "driver_description": "Increasing insider threats complicate cybersecurity defenses."
+        },
+        {
+          "driver_name": "GenAI-Enabled Cyberattacks",
+          "driver_description": "Generative AI tools provide attackers with advanced capabilities to conduct cyberattacks."
+        },
+        {
+          "driver_name": "State-Sponsored Cyberattacks",
+          "driver_description": "Cyberattacks sponsored by nation-states increase threat sophistication and frequency."
+        },
+        {
+          "driver_name": "Cyber Breach Disclosure Requirements",
+          "driver_description": "Regulatory requirements to disclose breaches increase pressure on organizations to manage cybersecurity risks effectively."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in comprehensive cyber security training for staff.",
+        "Centralize IT controls to mitigate risks from shadow IT and insider threats.",
+        "Regularly update and patch systems to address vulnerabilities.",
+        "Establish and enforce cyber breach disclosure protocols."
+      ],
+      "trend": "Cybersecurity vulnerabilities remain a top risk, with increasing sophistication of attacks driven by insider threats and GenAI-enabled tools.",
+      "likelihood": "High likelihood due to increasing insider threats and advanced attack tools.",
+      "impact": "Potential for severe operational disruptions, data loss, reputational damage, and regulatory penalties.",
+      "risk_indicator": "Number of reported cyber breaches; frequency of insider threat incidents.",
+      "risk_event": null,
+      "suggested_audits": [
+        "Review GenAI Monitoring Practices: Evaluate practices for monitoring GenAI use by employees and potential leaks of data, intellectual property or other sensitive information.",
+        "Assess Organizational Communication and Training on GenAI: Evaluate the frequency and thoroughness of organizational communication and employee training on GenAI use.",
+        "Review Processes for Approving GenAI Use: Assess the processes and systems for approving GenAI use cases in the organization."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "IT Governance",
+      "risk_description": "Organizations face challenges to digital initiative success due to complex IT infrastructures and a high willingness to accrue technical debt to attain quicker results, which slows and reduces effectiveness of digital initiatives in the long term.",
+      "risk_driver": [
+        {
+          "driver_name": "IT Infrastructure Complexity",
+          "driver_description": "Complex and fragmented IT environments hinder effective governance and digital transformation."
+        },
+        {
+          "driver_name": "Poorly Managed Technical Debt",
+          "driver_description": "Accumulation of technical debt reduces agility and increases risk of failures."
+        },
+        {
+          "driver_name": "Ungoverned SaaS",
+          "driver_description": "Use of software-as-a-service without proper governance increases security and compliance risks."
+        },
+        {
+          "driver_name": "IT Talent Shortage",
+          "driver_description": "Lack of skilled IT personnel limits the ability to manage and govern IT effectively."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in upgrading digital infrastructure.",
+        "Integrate IT systems effectively to support blended learning and operational efficiency.",
+        "Implement governance frameworks to manage SaaS and technical debt.",
+        "Address IT talent shortages through recruitment and training."
+      ],
+      "trend": "IT governance challenges persist as digital transformation accelerates and infrastructures become more complex.",
+      "likelihood": null,
+      "impact": "Poor IT governance can impair business capabilities, operational efficiencies, and future growth.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Third-Party Risk Management",
+      "risk_description": "Increased reliance on third parties expands vulnerabilities and exacerbates insufficiencies in third-party risk management (TPRM) strategies, increasing potential for financial, regulatory, and reputational risk exposure.",
+      "risk_driver": [
+        {
+          "driver_name": "Increased Third-Party Vulnerability",
+          "driver_description": "Expansion of third-party networks includes more high-risk partners such as startups with high risk appetites and low governance."
+        },
+        {
+          "driver_name": "Patchwork Third-Party Risk Management",
+          "driver_description": "Outdated and disjointed TPRM practices, including reliance on manual processes and poor information sharing, undermine effective risk mitigation."
+        },
+        {
+          "driver_name": "Third-Party Reputational Risk",
+          "driver_description": "Failures or breaches by third parties can damage the organization's reputation."
+        },
+        {
+          "driver_name": "Third-Party Viability",
+          "driver_description": "Financial or operational instability of third parties can disrupt services and supply chains."
+        }
+      ],
+      "risk_recommendations": [
+        "Evaluate and clarify TPRM roles and responsibilities across functions.",
+        "Review third-party crisis communication protocols to ensure timely breach reporting.",
+        "Implement ongoing monitoring of third-party relationships and risk profile reassessments.",
+        "Use technology to support TPRM activities and improve cross-functional collaboration.",
+        "Conduct due diligence before entering strategic relationships with third parties."
+      ],
+      "trend": "Third-party risk exposure is increasing due to expanded networks and rising vulnerabilities, while TPRM practices remain fragmented.",
+      "likelihood": "High likelihood given the frequency of third-party breaches and increased use of high-risk partners.",
+      "impact": "Potential for financial loss, operational delays, regulatory fines, and reputational damage.",
+      "risk_indicator": [
+        "Number of reported third-party security breaches",
+        "Number of third-party disruptions (lost revenue, operational delays, regulatory fines, loss of critical data)",
+        "Percentage of critical third parties categorized as high-risk"
+      ],
+      "risk_event": null,
+      "suggested_audits": [
+        "Assess TPRM Roles and Responsibilities: Evaluate which functions are responsible for third-party risk management and whether all relevant functions are aware of their role.",
+        "Review Third-Party Crisis Communication Protocols: Evaluate contractual reporting requirements for breach communication.",
+        "Review Ongoing Monitoring of Third-Party Relationships: Assess monitoring practices throughout the third-party life cycle.",
+        "Evaluate the Classification of Third-Party Risk: Assess metrics used to identify and monitor critical third parties."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Organizational Resilience",
+      "risk_description": "Few organizations make organizational resilience a strategic priority with executive sponsorship, leaving them vulnerable to more frequent and costly disruptive events. Efforts to develop and operationalize resilience capabilities are hindered by talent scarcity, lack of organizational awareness, and limited funding.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate Change-Induced Disruptions",
+          "driver_description": "Increasing frequency and severity of extreme weather events disrupt operations and impact employee well-being."
+        },
+        {
+          "driver_name": "Fragmented Ownership and Oversight of Resilience Efforts",
+          "driver_description": "Unclear or overlapping roles and limited cross-functional coordination undermine resilience initiatives."
+        },
+        {
+          "driver_name": "Geopolitical Conflict",
+          "driver_description": "Geopolitical tensions add complexity and risk to organizational resilience planning."
+        },
+        {
+          "driver_name": "Diminished Change Capacity",
+          "driver_description": "Organizations struggle to adapt and respond effectively to disruptions."
+        }
+      ],
+      "risk_recommendations": [
+        "Review and update business continuity plans to address extreme weather events and hybrid workforce impacts.",
+        "Integrate climate considerations into strategic projects and investments.",
+        "Maintain a resilience risk gap report and communicate risks to management.",
+        "Enhance collaboration across functions responsible for resilience (IT, communications, etc.).",
+        "Assess management’s understanding and commitment to resilience goals."
+      ],
+      "trend": "Organizational resilience is increasingly critical due to climate change and geopolitical risks, but many organizations remain underprepared.",
+      "likelihood": "Increasing likelihood of disruptions due to climate and geopolitical factors.",
+      "impact": "Disruptions can cause operational delays, financial losses, employee safety issues, and reputational damage.",
+      "risk_indicator": [
+        "Frequency of extreme weather events in business locations",
+        "Percentage of climate change scenario testing completed",
+        "Number of business disruptions within a given time period",
+        "Forecast revenue loss associated with climate disruptions"
+      ],
+      "risk_event": null,
+      "suggested_audits": [
+        "Review Business Continuity Plans for Responding to Extreme Weather Events: Evaluate clarity, currency, and comprehensiveness of plans.",
+        "Assess Climate Considerations in Strategic Projects: Review integration of climate risks in planning and investments.",
+        "Review Organizational Resilience Risk Culture: Evaluate how resilience risks and gaps are addressed and communicated."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Generative AI Risks",
+      "risk_description": "The rapid adoption of Generative AI (GenAI) technologies introduces new and heightened risks related to data and information security, privacy, intellectual property protection, copyright infringement, and trust and reliability of AI-generated outputs.",
+      "risk_driver": [
+        {
+          "driver_name": "Governance and Monitoring Challenges",
+          "driver_description": "Difficulty in monitoring and governing employee use of GenAI tools, including unauthorized use and data leakage."
+        },
+        {
+          "driver_name": "Output Reliability and Trust Gaps",
+          "driver_description": "GenAI models can produce inaccurate or hallucinated outputs, undermining decision-making and organizational reputation."
+        }
+      ],
+      "risk_recommendations": [
+        "Establish organization-wide policies and guardrails for acceptable GenAI use.",
+        "Educate employees on responsible use and risks of GenAI.",
+        "Implement monitoring practices to detect unauthorized or risky GenAI use.",
+        "Review and approve GenAI use cases systematically.",
+        "Vet and validate GenAI outputs before use in critical decisions."
+      ],
+      "trend": "GenAI risks are emerging rapidly with increasing adoption but remain a new area with evolving governance challenges.",
+      "likelihood": "High likelihood as nearly half of professionals use GenAI tools, often without organizational oversight.",
+      "impact": "Potential for data breaches, IP loss, regulatory issues, and reputational damage due to inaccurate or inappropriate AI outputs.",
+      "risk_indicator": [
+        "Number of LLM use cases in the organization",
+        "Number of data breaches related to employee use of GenAI",
+        "Percentage of GenAI outputs reviewed by human experts"
+      ],
+      "risk_event": null,
+      "suggested_audits": [
+        "Review GenAI Monitoring Practices: Evaluate monitoring of GenAI use and data leakage.",
+        "Assess Organizational Communication and Training on GenAI: Evaluate communication and training effectiveness.",
+        "Advise Organizational GenAI Working Groups: Highlight risks of large language models and their impact.",
+        "Assess Organizational GenAI Policy Decision Making: Review policy creation and updates.",
+        "Review Processes for Approving GenAI Use: Assess approval systems and compliance."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Regulatory Complexity",
+      "risk_description": "Organizations face increased regulatory scrutiny at a faster pace and broader scope than in the past, compounded by regulatory fragmentation between sovereign and subnational jurisdictions, making compliance more expensive and failures riskier.",
+      "risk_driver": [
+        {
+          "driver_name": "Velocity and Breadth of New Regulations",
+          "driver_description": "Rapid introduction of new regulations across multiple jurisdictions."
+        },
+        {
+          "driver_name": "Regulatory Fragmentation",
+          "driver_description": "Divergent regulatory requirements across regions increase complexity and cost."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Regulatory complexity is increasing, requiring more sophisticated compliance management.",
+      "likelihood": null,
+      "impact": "Non-compliance risks include fines, legal penalties, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Supply Chain Risks",
+      "risk_description": "Geopolitical rivalries, efforts to restructure and diversify supply chains, logistics bottlenecks, and impacts of rising temperatures and extreme weather events are driving up supply chain costs and risks.",
+      "risk_driver": [
+        {
+          "driver_name": "Supply Chain Restructuring",
+          "driver_description": "Organizations are diversifying and restructuring supply chains to avoid past breakdowns."
+        },
+        {
+          "driver_name": "Ballooning Costs",
+          "driver_description": "Costs are increasing due to logistics challenges and climate impacts."
+        },
+        {
+          "driver_name": "Renationalization of Supply Chains",
+          "driver_description": "Shifts toward localizing supply chains add complexity and cost."
+        },
+        {
+          "driver_name": "Logistics Challenges Stemming From China’s Zero-COVID-19 Policy",
+          "driver_description": "Policy-driven disruptions in China affect global logistics and supply chains."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Supply chain risks are rising due to geopolitical and environmental factors.",
+      "likelihood": null,
+      "impact": "Increased costs, delays, and potential disruptions to operations.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Employee Well-Being and Satisfaction",
+      "risk_description": "Disconnects between employer and employee perspectives on return-to-office policies, overburdened managers, uncertain talent needs, and long-term effects of hybrid working models are impacting employee well-being and satisfaction.",
+      "risk_driver": [
+        {
+          "driver_name": "Employer-Employee Return-to-Office Disconnect",
+          "driver_description": "Differences in expectations and preferences regarding workplace presence."
+        },
+        {
+          "driver_name": "Overburdened Managers",
+          "driver_description": "Managers face increased responsibilities and stress."
+        },
+        {
+          "driver_name": "Uncertain Talent Needs",
+          "driver_description": "Uncertainty about future workforce requirements complicates planning."
+        },
+        {
+          "driver_name": "Uncertain Long-Term Effects of Hybrid Working Models",
+          "driver_description": "Hybrid work impacts on productivity and engagement are not fully understood."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Employee well-being is increasingly recognized as critical but remains challenged by evolving work models.",
+      "likelihood": null,
+      "impact": "Potential for reduced productivity, higher turnover, and lower employee engagement.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Environmental, Social and Governance (ESG) Risks",
+      "risk_description": "Lack of harmonized regulatory requirements and reporting frameworks create ESG reporting challenges. Slow progress on publicly stated ESG goals exposes organizations to greenwashing or climate-related litigation and reputational risk.",
+      "risk_driver": [
+        {
+          "driver_name": "ESG Reporting Complexity",
+          "driver_description": "Diverse and evolving standards complicate ESG reporting."
+        },
+        {
+          "driver_name": "Slow Progress on ESG Goals",
+          "driver_description": "Organizations are not meeting their stated ESG targets promptly."
+        },
+        {
+          "driver_name": "Expanded ESG Reporting Standards",
+          "driver_description": "Increasing scope and detail required in ESG disclosures."
+        },
+        {
+          "driver_name": "Increased Scrutiny of ESG Practices",
+          "driver_description": "Stakeholders and regulators are more closely examining ESG claims and performance."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "ESG risks are growing due to regulatory and stakeholder pressures.",
+      "likelihood": null,
+      "impact": "Risks include litigation, reputational damage, and loss of stakeholder trust.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Macroeconomic Uncertainty",
+      "risk_description": "Despite strong growth and employment in some economies, persistent headwinds such as inflation, interest rate hikes, currency volatility, and looming stagnation challenge organizations’ ability to meet financial performance objectives consistently.",
+      "risk_driver": [
+        {
+          "driver_name": "Conflicting Short-term Signals",
+          "driver_description": "Mixed economic indicators create uncertainty in planning."
+        },
+        {
+          "driver_name": "Looming Stagnation",
+          "driver_description": "Potential for economic slowdown or recession."
+        },
+        {
+          "driver_name": "Rising Interest Rates",
+          "driver_description": "Higher borrowing costs impact investment and operations."
+        },
+        {
+          "driver_name": "Currency Volatility",
+          "driver_description": "Fluctuations in exchange rates affect international business."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Macroeconomic uncertainty remains a significant challenge for financial planning.",
+      "likelihood": null,
+      "impact": "Potential for reduced revenues, increased costs, and financial instability.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

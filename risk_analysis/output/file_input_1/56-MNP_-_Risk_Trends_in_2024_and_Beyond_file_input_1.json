@@ -1,0 +1,808 @@
+{
+  "risks": [
+    {
+      "risk_name": "Cyber Security",
+      "risk_description": "Cyberattacks are growing more aggressive and brazen, driven by increased remote/hybrid work, cloud technology reliance, insider threats, ungoverned AI tool use, and geopolitical tensions increasing state-sponsored hacking risks.",
+      "risk_driver": [
+        {
+          "driver_name": "Remote and Hybrid Work Policies",
+          "driver_description": "More organizations operate remotely or in hybrid models, increasing attack surfaces and insider threat opportunities."
+        },
+        {
+          "driver_name": "Cloud-Based Technologies",
+          "driver_description": "Cloud service providers are lucrative targets; breaches can expose multiple clients."
+        },
+        {
+          "driver_name": "Insider Threats",
+          "driver_description": "Threat actors recruit insiders via financial or punitive incentives to facilitate attacks."
+        },
+        {
+          "driver_name": "Ungoverned Use of AI Tools",
+          "driver_description": "Use of ChatGPT and generative AI tools can lead to leaks of sensitive and proprietary data."
+        },
+        {
+          "driver_name": "Geopolitical Tensions",
+          "driver_description": "Increased tensions from events like the Ukraine invasion raise risks of state-sponsored hacking."
+        }
+      ],
+      "risk_recommendations": [
+        "Verify cloud service providers have appropriate cyber risk controls.",
+        "Monitor frequency and nature of cyberattacks and implement mitigation measures.",
+        "Conduct background checks on employees with access to confidential data.",
+        "Use software to detect inappropriate data access and data transfers.",
+        "Perform root cause analysis on ransomware incidents.",
+        "Utilize Dark Web scanning services to detect hacker activity related to the organization.",
+        "Provide cyber security training and tabletop exercises for leadership.",
+        "Conduct regular cyber security audits."
+      ],
+      "trend": "Cyber security risks have been increasing over the past decade and are expected to grow more aggressive and brazen in 2024, driven by pandemic-related changes and geopolitical tensions.",
+      "likelihood": "Almost certain (high likelihood) of increased cyberattacks in 2024.",
+      "impact": "Potential for severe disruptions, data theft, reputational damage, and financial loss.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Increased cyberattacks since 2020 facilitated by remote work.",
+        "Use of Dark Web to trade stolen data and plan attacks."
+      ],
+      "suggested_audits": [
+        "Information Security Policy and Procedure Audit",
+        "Access Controls Audit",
+        "Network Security Audit",
+        "Vulnerability Assessment and Penetration Testing Audit",
+        "Security Patch Management Audit",
+        "Data Protection and Encryption Audit",
+        "Incident Response Preparedness Audit",
+        "Security Awareness Training Audit",
+        "Physical Security Audit",
+        "Endpoint Security Audit",
+        "Data Backup and Disaster Recovery Audit",
+        "Identity and Access Management (IAM) Audit",
+        "Third-Party Vendor Security Audit",
+        "Regulatory Compliance Audit",
+        "Cybersecurity Governance Audit"
+      ],
+      "contextual_variations": [
+        "Public sector, major infrastructure, and organizations with large volumes of personal and proprietary data should be especially vigilant."
+      ]
+    },
+    {
+      "risk_name": "Artificial Intelligence Risks",
+      "risk_description": "Rapid adoption of generative AI tools like ChatGPT introduces risks including hallucinations (incorrect outputs), data privacy breaches, intellectual property theft, sophisticated social engineering attacks, and ethical concerns.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid AI Adoption",
+          "driver_description": "Widespread use of generative AI tools without full understanding of risks."
+        },
+        {
+          "driver_name": "Data Source and Privacy Concerns",
+          "driver_description": "Inputting sensitive or proprietary data into AI can lead to privacy breaches and IP theft."
+        },
+        {
+          "driver_name": "AI Hallucinations",
+          "driver_description": "AI may produce incorrect or misleading outputs unpredictably."
+        },
+        {
+          "driver_name": "Ethical and Bias Issues",
+          "driver_description": "AI systems may cause suboptimal decisions due to bias or ethical shortcomings."
+        }
+      ],
+      "risk_recommendations": [
+        "Maintain an inventory of technology and processes impacted by AI.",
+        "Conduct risk assessments for new AI technologies.",
+        "Engage third parties on their AI plans and risks.",
+        "Define unacceptable AI uses.",
+        "Establish policies and guidelines for AI use.",
+        "Validate AI outputs critically.",
+        "Monitor AI projects for measurable results and scalability.",
+        "Address data privacy and ethical concerns.",
+        "Provide AI ethics and usage training."
+      ],
+      "trend": "AI technology is advancing rapidly and becoming pervasive, with increasing recognition of associated risks and opportunities.",
+      "likelihood": null,
+      "impact": "Risks include operational issues, loss of competitive advantage, cybersecurity vulnerabilities, plagiarism, and poor decision-making.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "AI Model Performance Audit",
+        "Data Quality for AI Audit",
+        "AI Governance and Oversight Audit",
+        "AI Ethics and Fairness Audit",
+        "AI Security and Privacy Audit",
+        "AI Transparency Audit",
+        "AI Compliance Audit",
+        "AI Training and Testing Data Audit",
+        "AI Vendor Management Audit",
+        "AI Incident Response and Contingency Audit",
+        "AI Training and Awareness Audit",
+        "AI ROI (Return on Investment) Audit"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Privacy and Data Governance",
+      "risk_description": "Increasingly stringent privacy regulations (e.g., Quebec's Law 25) require organizations to enhance data governance, transparency, and compliance to protect personal identifiable information (PII) and avoid penalties.",
+      "risk_driver": [
+        {
+          "driver_name": "Stricter Privacy Regulations",
+          "driver_description": "New laws with significant provisions and penalties beyond existing federal laws."
+        },
+        {
+          "driver_name": "Cross-Jurisdictional Compliance",
+          "driver_description": "Organizations must comply with varying privacy laws across provinces and countries."
+        },
+        {
+          "driver_name": "Increased User Awareness",
+          "driver_description": "Users demand transparency and protection of their data."
+        }
+      ],
+      "risk_recommendations": [
+        "Ensure private and confidential data is securely stored with sufficient controls.",
+        "Understand applicable privacy laws and compliance requirements.",
+        "Identify data storage locations and data flows across jurisdictions.",
+        "Assess data integrity and segmentation during digital transitions.",
+        "Prevent inappropriate third-party access to critical data.",
+        "Establish policies on AI tool use and management of confidential data.",
+        "Provide training and enforce data governance policies."
+      ],
+      "trend": "Privacy regulations are becoming more stringent and widespread, with increasing enforcement and user expectations.",
+      "likelihood": null,
+      "impact": "Risks include privacy breaches, regulatory non-compliance, reputational damage, and increased insider risks.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Data Privacy Compliance Audit",
+        "Data Access and Authorization Audit",
+        "Data Quality Audit",
+        "Data Retention and Deletion Audit",
+        "Data Security Audit",
+        "Data Governance Policy and Procedures Audit",
+        "Data Classification and Handling Audit",
+        "Data Lifecycle Management Audit",
+        "Data Governance Training and Awareness Audit",
+        "Data Governance Metrics and Reporting Audit",
+        "Data Governance Committee Effectiveness Audit",
+        "Data Governance Communication and Stakeholder Engagement Audit"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "IT/OT Governance",
+      "risk_description": "Limited budgets and aging infrastructure challenge organizations to prioritize technology investments and upgrades while managing risks related to security, compliance, and operational efficiency.",
+      "risk_driver": [
+        {
+          "driver_name": "Limited Budgets",
+          "driver_description": "Organizations may forego necessary upgrades due to financial constraints."
+        },
+        {
+          "driver_name": "Legacy Systems",
+          "driver_description": "Aging IT and OT systems increase risk and reduce efficiency."
+        },
+        {
+          "driver_name": "Uncoordinated Technology Decisions",
+          "driver_description": "Departments making unilateral decisions without considering enterprise impact."
+        }
+      ],
+      "risk_recommendations": [
+        "Establish governance with cross-functional input for technology investment decisions.",
+        "Set a tone from leadership to ensure timely and appropriate upgrades.",
+        "Implement processes to evaluate opportunities and risks of technology options.",
+        "Vet and manage third-party suppliers effectively.",
+        "Provide training and conduct tabletop exercises for incident response.",
+        "Ensure sufficient budget allocation for critical IT/OT needs.",
+        "Develop strategies for timely technology renewal and business optimization."
+      ],
+      "trend": null,
+      "likelihood": null,
+      "impact": "Risks include suboptimal decisions, reduced control effectiveness, operational failures, and security vulnerabilities.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "IT/OT Strategy and Alignment Audit",
+        "IT/OT Asset Management Audit",
+        "IT/OT Change Management Audit",
+        "IT/OT Security Audit",
+        "IT/OT Risk Management Audit",
+        "IT/OT Incident Response and Business Continuity Audit",
+        "IT/OT Compliance Audit",
+        "IT/OT Vendor Management Audit",
+        "IT/OT Performance Measurement and Reporting Audit",
+        "IT/OT Training and Awareness Audit",
+        "IT/OT Integration Audit",
+        "IT/OT Budget and Resource Allocation Audit",
+        "IT/OT Documentation and Documentation Management Audit",
+        "IT/OT Governance Committee Effectiveness Audit",
+        "IT/OT Cloud and Third-Party Services Audit"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Environmental, Social, and Governance (ESG) Risks",
+      "risk_description": "Increasing regulatory and societal expectations require organizations to proactively manage environmental impact, social responsibility, and governance practices to avoid penalties, reputational damage, and operational risks.",
+      "risk_driver": [
+        {
+          "driver_name": "New Sustainability Standards and Legislation",
+          "driver_description": "ISSB standards and Canadian laws like Bill S-211 increase ESG compliance requirements."
+        },
+        {
+          "driver_name": "Environmental Challenges",
+          "driver_description": "Record heat, wildfires, and climate change increase pressure to reduce emissions."
+        },
+        {
+          "driver_name": "Social Issues",
+          "driver_description": "Focus on equity, diversity, inclusion, human rights, and community engagement."
+        },
+        {
+          "driver_name": "Governance Expectations",
+          "driver_description": "Transparency on corporate donations, executive compensation, and board diversity."
+        }
+      ],
+      "risk_recommendations": [
+        "Set realistic and defendable ESG targets aligned with industry peers.",
+        "Assess impacts of inaction or insufficient progress on ESG goals.",
+        "Ensure data integrity for ESG metrics.",
+        "Evaluate feasibility of targets and adjust as needed.",
+        "Engage employees and stakeholders on ESG perceptions.",
+        "Develop climate change mitigation and biodiversity strategies.",
+        "Strengthen governance around emergency preparedness and EDI.",
+        "Enhance community engagement and supply chain transparency.",
+        "Implement anti-corruption and fraud prevention measures."
+      ],
+      "trend": "ESG regulations and expectations are increasing and becoming more stringent, with growing focus on social and governance elements alongside environmental concerns.",
+      "likelihood": null,
+      "impact": "Risks include regulatory penalties, increased costs, reputational damage, unsafe working conditions, and social inequities.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": {
+        "Environment": [
+          "Carbon Footprint Audit",
+          "Energy Efficiency Audit",
+          "Waste Management Audit",
+          "Water Usage Audit",
+          "Green Procurement Audit",
+          "Sustainable Supply Chain Audit",
+          "Environmental Compliance Audit",
+          "Environmental Management System (EMS) Audit",
+          "Renewable Energy Usage Audit",
+          "Carbon Offsetting and Compensation Audit",
+          "Climate Change Resilience and Adaptation Audit",
+          "Reporting and Communication Audit",
+          "Environmental Training and Awareness Audit",
+          "Green Building and Infrastructure Audit",
+          "Environmental Performance Monitoring and Measurement Audit"
+        ],
+        "Social": [
+          "Diversity and Inclusion Audit",
+          "Employee Welfare and Well-being Audit",
+          "Human Rights Compliance Audit",
+          "Labour Practices Audit",
+          "Supplier and Vendor Social Responsibility Audit",
+          "Community Engagement and Impact Audit",
+          "Social Impact Assessment Audit",
+          "Corporate Social Responsibility (CSR) Reporting Audit",
+          "Philanthropic Initiatives Audit",
+          "Supplier Diversity Audit",
+          "Social Accountability and Ethical Practices Audit",
+          "Social Performance Metrics and Reporting Audit",
+          "Employee Training and Awareness Audit",
+          "Social Governance and Oversight Audit",
+          "Impact Measurement and Evaluation Audit"
+        ],
+        "Governance": [
+          "Corporate Governance Audit",
+          "Compliance Audit",
+          "Code of Conduct and Ethics Audit",
+          "Risk Management Audit",
+          "Internal Control Audit",
+          "Financial Reporting and Accounting Audit",
+          "Board Independence and Composition Audit",
+          "Executive Compensation Audit",
+          "Whistleblower Program Audit",
+          "Succession Planning and Talent Management Audit",
+          "Cybersecurity Governance Audit",
+          "IT Governance Audit",
+          "Data Governance Audit",
+          "Governance Training and Awareness Audit"
+        ]
+      },
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "IT Third-Party Risk Management",
+      "risk_description": "Increasing reliance on third-party technology providers and vendors introduces risks related to security, compliance, performance, and business continuity.",
+      "risk_driver": [
+        {
+          "driver_name": "Increased Third-Party Dependence",
+          "driver_description": "Organizations outsource specialized IT functions and rely on SaaS providers more than ever."
+        },
+        {
+          "driver_name": "Labour Shortages",
+          "driver_description": "IT functions split focus between recruitment and business support, increasing reliance on third parties."
+        },
+        {
+          "driver_name": "Complacency",
+          "driver_description": "Treating third-party risk management as a checkbox rather than ongoing review and stress testing."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct detailed risk assessments before contracting third parties.",
+        "Include risk mitigation accountability in contracts.",
+        "Incorporate third-party roles in business resilience and disaster recovery plans.",
+        "Ensure third parties have tested response plans for disruptions.",
+        "Regularly review and stress test third-party security and resilience.",
+        "Implement customized codes of conduct and cyber security training for third parties."
+      ],
+      "trend": "Reliance on third parties for technology services is accelerating, increasing associated risks.",
+      "likelihood": null,
+      "impact": "Risks include cyber security exposure, fraud, quality issues, and system outages.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Vendor Management Audit",
+        "Supplier Compliance Audit",
+        "Due Diligence Audit",
+        "Contract Compliance Audit",
+        "Information Security and Data Privacy Audit",
+        "Anti-Corruption and Bribery Audit",
+        "Financial Audit of Third-Party Transactions",
+        "Performance and Service Level Audit",
+        "Business Continuity and Disaster Recovery Audit",
+        "Ethics and Social Responsibility Audit",
+        "Third-Party Risk Assessment and Management Audit"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Merger and Acquisition (M&A) Integration Risks",
+      "risk_description": "M&A activities carry risks including financial mismanagement, fraud, cyber vulnerabilities, ESG exposures, cultural conflicts, and integration challenges that can impact valuation and post-merger success.",
+      "risk_driver": [
+        {
+          "driver_name": "Financial and Legal Risks",
+          "driver_description": "Potential financial mismanagement, pending litigation, and tax liabilities."
+        },
+        {
+          "driver_name": "Fraud and Corruption",
+          "driver_description": "Increased fraud and corruption incidents during the pandemic may be undisclosed."
+        },
+        {
+          "driver_name": "Cybersecurity Vulnerabilities",
+          "driver_description": "Haphazard digital platform integrations may expose cyber risks."
+        },
+        {
+          "driver_name": "ESG Exposures",
+          "driver_description": "Investors expect progress on sustainability, diversity, and social welfare."
+        },
+        {
+          "driver_name": "Cultural Issues",
+          "driver_description": "Internal climate and culture affect employee attraction and retention."
+        }
+      ],
+      "risk_recommendations": [
+        "Include IT/OT controls, ESG, fraud, corruption, and cultural assessments in due diligence.",
+        "Define dealbreakers and no-go parameters upfront.",
+        "Conduct increased scrutiny on risk areas for targets lacking risk management functions.",
+        "Factor risk mitigation costs into valuation and integration plans."
+      ],
+      "trend": "M&A activity is increasing post-pandemic with heightened awareness of evolving risk landscape.",
+      "likelihood": null,
+      "impact": "Risks include financial loss, integration delays, morale issues, and failure to achieve synergies.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Financial Due Diligence",
+        "Tax Due Diligence",
+        "Legal and Regulatory Compliance Audit",
+        "IT Systems and Cybersecurity Audit",
+        "Human Resources and Employee Benefits Audit",
+        "Intellectual Property Audit",
+        "Contract and Agreement Audit",
+        "Environmental and Sustainability Audit",
+        "Cultural Alignment Audit",
+        "Synergy Assessment Audit",
+        "Post-Merger Integration Audit",
+        "Benefits Realization Audit"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Digital Transformation Risks",
+      "risk_description": "Accelerated digital transformation introduces risks related to cybersecurity, integration complexities, data privacy, operational disruptions, and change management challenges.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid Adoption of Cloud and Digital Platforms",
+          "driver_description": "New platforms introduce new processes and risk exposures beyond legacy replacements."
+        },
+        {
+          "driver_name": "Cybersecurity Threats",
+          "driver_description": "Each new platform adds potential entry points for cyber criminals."
+        },
+        {
+          "driver_name": "Integration with Legacy Systems",
+          "driver_description": "New software requires updates to infrastructure and policies to ensure security and functionality."
+        },
+        {
+          "driver_name": "Human Resource Impacts",
+          "driver_description": "Transformation affects strategy, business model, and resourcing needs."
+        }
+      ],
+      "risk_recommendations": [
+        "Maintain an inventory of planned and completed digital changes.",
+        "Assess integration requirements with legacy systems.",
+        "Update controls, policies, procedures, training, and job descriptions post-transformation.",
+        "Plan for resource needs and employee training.",
+        "Monitor changes in cyber attack patterns.",
+        "Evaluate realization of transformation benefits and lessons learned."
+      ],
+      "trend": "Digital transformation accelerated by the pandemic continues to evolve, increasing complexity and risk.",
+      "likelihood": null,
+      "impact": "Risks include cybersecurity threats, data privacy issues, cost overruns, system downtime, and resistance to change.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Project Management Audit",
+        "Technology Infrastructure Audit",
+        "Data Governance and Management Audit",
+        "Cybersecurity Audit",
+        "Vendor and Third-Party Management Audit",
+        "Change Management Audit",
+        "User Experience and Customer Journey Audit",
+        "IT Governance Audit",
+        "Compliance and Regulatory Audit",
+        "Training and Skill Development Audit",
+        "Return on Investment (ROI) Audit"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Data Analytics and Continuous Monitoring Risks",
+      "risk_description": "Increasing reliance on data analytics introduces risks related to data quality, governance, privacy, security, and ethical use, which can impact decision-making and competitive positioning.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid Growth in Data Volume and Sources",
+          "driver_description": "Digitization and new technologies increase data complexity and volume."
+        },
+        {
+          "driver_name": "Data Quality and Integrity Issues",
+          "driver_description": "Poor data quality can lead to inaccurate insights and decisions."
+        },
+        {
+          "driver_name": "Privacy and Security Concerns",
+          "driver_description": "Handling of personal and sensitive data must comply with regulations and protect against breaches."
+        },
+        {
+          "driver_name": "Ethical and Bias Risks",
+          "driver_description": "Data analytics may produce biased or unethical outcomes if not properly managed."
+        }
+      ],
+      "risk_recommendations": [
+        "Test and ensure data integrity regularly.",
+        "Assess reliance on third-party data and its quality.",
+        "Validate accuracy of analytics outputs.",
+        "Monitor market share and customer feedback related to data insights.",
+        "Implement strong data governance and privacy controls.",
+        "Use data ethics frameworks to guide analytics."
+      ],
+      "trend": "Data analytics use is increasing rapidly, becoming essential but also introducing new risks.",
+      "likelihood": null,
+      "impact": "Risks include loss of competitive advantage, inaccurate decision-making, regulatory non-compliance, and internal audit redundancy.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Data Quality Audit",
+        "Data Governance Audit",
+        "Data Privacy Audit",
+        "Data Security Audit",
+        "Data Analytics Process Audit",
+        "Model Validation Audit",
+        "Data Retention and Deletion Audit",
+        "Data Access Audit",
+        "Vendor Management Audit",
+        "Compliance Audit",
+        "Data Visualization Audit",
+        "Data Ethics Audit"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Workforce Transformation and Organizational Readiness",
+      "risk_description": "Shifts in workforce demographics, remote work, and changing employee expectations create risks in recruitment, retention, culture, and organizational agility.",
+      "risk_driver": [
+        {
+          "driver_name": "Technological Advances",
+          "driver_description": "New roles and specialist expertise requirements."
+        },
+        {
+          "driver_name": "Remote and Hybrid Work",
+          "driver_description": "Impact on corporate culture and management practices."
+        },
+        {
+          "driver_name": "Generational Changes",
+          "driver_description": "Different expectations and behaviors between baby boomers and Gen Z."
+        },
+        {
+          "driver_name": "Globalization",
+          "driver_description": "Smaller internal teams with increased supplier management."
+        }
+      ],
+      "risk_recommendations": [
+        "Assess and support organizational culture and change readiness.",
+        "Monitor resource turnover and morale.",
+        "Provide competitive compensation, benefits, training, and development.",
+        "Plan for succession and labor disruption risks.",
+        "Align incentive structures with desired behaviors across generations.",
+        "Use AI and automation to support change management and wellness monitoring."
+      ],
+      "trend": "Workforce transformation is ongoing with increasing volatility and challenges in retention and engagement.",
+      "likelihood": null,
+      "impact": "Risks include talent shortages, low engagement, labor disruptions, and inadequate health and wellness support.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Strategic Planning Audit",
+        "Change Management Audit",
+        "Leadership and Talent Audit",
+        "Training and Development Audit",
+        "Organizational Culture Audit",
+        "Communication Audit",
+        "Risk Management Audit",
+        "Financial Preparedness Audit",
+        "Resource Allocation Audit",
+        "IT Audit",
+        "Project Management Audit",
+        "Operational Efficiency Audit",
+        "Supplier and Vendor Audit",
+        "Business Continuity and Disaster Recovery Audit",
+        "Regulatory Compliance Audit"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Insurance Risks",
+      "risk_description": "Increasing frequency and severity of natural disasters and cyber incidents are driving up insurance costs, reducing coverage availability, and complicating claims processes.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate-Related Events",
+          "driver_description": "Record hurricanes, floods, wildfires, and droughts increase claims and costs."
+        },
+        {
+          "driver_name": "Cyber and Privacy Breaches",
+          "driver_description": "Rising incidents contribute to insurance claims and premiums."
+        },
+        {
+          "driver_name": "AI Impact on Cyber Risk",
+          "driver_description": "Emerging AI risks may further affect insurance landscape."
+        }
+      ],
+      "risk_recommendations": [
+        "Gain comprehensive understanding of overall risk landscape.",
+        "Make informed decisions on risk retention versus insurance outsourcing.",
+        "Engage independent insurance advisors to optimize coverage and claims.",
+        "Monitor insurance renewals and claims closely."
+      ],
+      "trend": "Insurance costs are increasing and coverage is becoming less affordable and harder to access.",
+      "likelihood": null,
+      "impact": "Risks include financial loss due to inadequate coverage, claim denials, and increased premiums.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Underwriting Audit",
+        "Claims Management Audit",
+        "Compliance Audit",
+        "Risk Management Audit",
+        "Reinsurance Audit",
+        "Premium Audit",
+        "Policyholder Services Audit",
+        "Financial Controls Audit",
+        "Information Security Audit",
+        "Product Development Audit",
+        "Sales and Marketing Practices Audit",
+        "Claims Reserving Audit",
+        "Actuarial Audit",
+        "IT Systems Audit",
+        "Agency and Broker Management Audit"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Economic and Financial Adversity",
+      "risk_description": "Economic uncertainty, inflation, rising interest rates, and consumer financial stress impact business models, capital management, and operational resilience.",
+      "risk_driver": [
+        {
+          "driver_name": "High Inflation and Interest Rates",
+          "driver_description": "Increased costs of living and borrowing strain consumers and businesses."
+        },
+        {
+          "driver_name": "Consumer Financial Margins",
+          "driver_description": "Households face financial insolvency risks reducing spending."
+        },
+        {
+          "driver_name": "Capital Management Concerns",
+          "driver_description": "Businesses hesitant to invest or hire amid economic uncertainty."
+        },
+        {
+          "driver_name": "Tight Labour Market",
+          "driver_description": "Pressure to retain employees with rising compensation demands."
+        }
+      ],
+      "risk_recommendations": [
+        "Pressure test business models for resilience under various economic scenarios.",
+        "Identify inefficiencies and underperforming areas.",
+        "Monitor trends, technologies, and consumer behavior shifts.",
+        "Manage cash flow to cover obligations.",
+        "Monitor specific success and risk metrics."
+      ],
+      "trend": "Economic challenges persist with ongoing inflation and uncertainty impacting business decisions.",
+      "likelihood": null,
+      "impact": "Risks include shrinking margins, low cash flow, reduced demand, increased costs, and supply chain constraints.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Financial Risk Management Audit",
+        "Business Continuity and Disaster Recovery Audit",
+        "Stress Testing Audit",
+        "Expense Management Audit",
+        "Financial Reporting Integrity Audit",
+        "Debt and Credit Management Audit",
+        "Revenue Recognition Audit",
+        "Supply Chain and Vendor Risk Audit",
+        "Working Capital Management Audit",
+        "Investment Management Audit",
+        "Cost of Capital Audit",
+        "Credit Underwriting and Monitoring Audit",
+        "Credit Loss Provisioning Audit",
+        "Regulatory Compliance Audit"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Business Resilience (Including Third Parties)",
+      "risk_description": "Organizations face increasing threats from pandemics, natural disasters, cyber attacks, and economic shocks requiring robust preparedness and response capabilities.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Frequency and Magnitude of Crises",
+          "driver_description": "Climate change, AI advancement, and global pressures increase existential threats."
+        },
+        {
+          "driver_name": "Shrinking Time Between Crises",
+          "driver_description": "Reduced recovery time demands faster and more effective responses."
+        },
+        {
+          "driver_name": "Third-Party Dependencies",
+          "driver_description": "Reliance on vendors and service providers requires coordinated resilience planning."
+        }
+      ],
+      "risk_recommendations": [
+        "Maintain a list of probable risk scenarios and response plans.",
+        "Conduct mock tabletop crisis scenarios with expert involvement.",
+        "Analyze past crisis responses to identify improvements.",
+        "Monitor peer crises and prepare accordingly.",
+        "Include third parties in resilience planning and communication.",
+        "Regularly test and update business continuity and disaster recovery plans."
+      ],
+      "trend": "Increasing number and severity of crises necessitate enhanced business resilience efforts.",
+      "likelihood": null,
+      "impact": "Risks include operational disruption, financial loss, safety issues, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Business Continuity Planning Audit",
+        "Disaster Recovery Audit",
+        "Crisis Management Audit",
+        "Risk Assessment and Management Audit",
+        "Supply Chain Resilience Audit",
+        "IT Resilience Audit",
+        "Employee Continuity Audit",
+        "Financial Resilience Audit",
+        "Vendor and Outsourcing Resilience Audit",
+        "Communication and Stakeholder Management Audit",
+        "Regulatory Compliance Audit",
+        "Incident Response Audit",
+        "Physical Security Audit",
+        "Training and Awareness Audit",
+        "Testing and Simulation Audit"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Capital Projects and Operations Risks",
+      "risk_description": "Capital projects carry high risks of cost overruns, extended timelines, quality issues, and safety concerns that can impact financial performance and reputation.",
+      "risk_driver": [
+        {
+          "driver_name": "Inflationary Pressures",
+          "driver_description": "Rising labor and material costs increase project expenses."
+        },
+        {
+          "driver_name": "Billing Errors",
+          "driver_description": "Common errors can inflate project costs by 1-3%."
+        },
+        {
+          "driver_name": "Quality and Safety Issues",
+          "driver_description": "Compromised quality can lead to downtime and reputational damage."
+        },
+        {
+          "driver_name": "Inadequate Project Management",
+          "driver_description": "Poor oversight can cause delays, cost overruns, and compliance failures."
+        }
+      ],
+      "risk_recommendations": [
+        "Use data analytics to detect billing inconsistencies.",
+        "Implement rigorous risk assessments during planning.",
+        "Ensure accountability for inspections and status updates.",
+        "Establish clear roles and responsibilities for project delivery and oversight.",
+        "Include right to audit clauses and dispute resolution in contracts.",
+        "Monitor health and safety compliance."
+      ],
+      "trend": null,
+      "likelihood": null,
+      "impact": "Risks include financial loss, legal issues, safety incidents, and project delays.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Capital Expenditure Audit",
+        "Project Management Audit",
+        "Cost Control and Cost Estimation Audit",
+        "Contract Management Audit",
+        "Schedule Compliance Audit",
+        "Quality Assurance and Quality Control Audit",
+        "Procurement and Vendor Audit",
+        "Health, Safety, and Environment (HSE) Audit",
+        "Resource Allocation and Utilization Audit",
+        "Change Order and Variance Analysis Audit",
+        "Internal Controls Audit",
+        "Compliance with Regulatory and Legal Requirements Audit",
+        "Asset Management Audit",
+        "Data and Documentation Management Audit",
+        "Project Closure and Lessons Learned Audit"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Fraud and Corruption",
+      "risk_description": "Economic pressures from rising cost of living increase fraud risk through elevated pressure and rationalization, compounded by opportunities from remote work, poor controls, and inadequate training.",
+      "risk_driver": [
+        {
+          "driver_name": "Economic Pressure",
+          "driver_description": "Financial stress on employees increases motivation to commit fraud."
+        },
+        {
+          "driver_name": "Opportunity",
+          "driver_description": "Remote work, incomplete policies, and weak controls increase fraud opportunities."
+        },
+        {
+          "driver_name": "Rationalization",
+          "driver_description": "Perpetrators justify fraudulent actions due to personal or economic reasons."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct regular fraud risk assessments.",
+        "Implement dual signatures for large transactions.",
+        "Use AI tools to monitor suspicious activities.",
+        "Restrict login access to minimum necessary individuals.",
+        "Provide fraud training and encourage reporting of suspicious behavior.",
+        "Engage forensic experts for investigations."
+      ],
+      "trend": "Fraud risk has increased due to economic conditions and remains a critical concern.",
+      "likelihood": null,
+      "impact": "Risks include financial loss, legal penalties, business interruption, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Fraud Risk Assessment Audit",
+        "Anti-Corruption Compliance Audit",
+        "Whistleblower Program Audit",
+        "Expense Reimbursement Audit",
+        "Vendor and Supplier Audit",
+        "Employee Background Checks Audit",
+        "Procurement Fraud Audit",
+        "Conflicts of Interest Audit",
+        "Gifts, Entertainment, and Hospitality Audit",
+        "Asset Misappropriation Audit",
+        "Internal Controls Audit",
+        "Compliance with Code of Conduct and Ethics Policies Audit",
+        "Financial Statement Fraud Audit",
+        "Data Analytics for Fraud Detection Audit",
+        "Investigative Audit",
+        "Workplace Investigations"
+      ],
+      "contextual_variations": null
+    }
+  ]
+}

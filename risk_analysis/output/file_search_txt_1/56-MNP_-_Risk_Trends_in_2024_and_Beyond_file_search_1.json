@@ -1,0 +1,363 @@
+{
+  "risks": [
+    {
+      "risk_name": "Cyber Security",
+      "risk_description": "Cyberattacks are expected to grow more aggressive and brazen, driven by increased remote/hybrid work and cloud-based technologies. Cloud service providers are lucrative targets, and insider threats are increasing. Rapid adoption of digital platforms without proper risk assessments increases vulnerabilities. The ungoverned use of generative AI tools like ChatGPT poses risks of data leaks. Geopolitical tensions raise concerns about state-sponsored hacking.",
+      "risk_driver": [
+        {
+          "driver_name": "Remote and Hybrid Work",
+          "driver_description": "Increased remote/hybrid work policies expand attack surfaces and insider threat opportunities."
+        },
+        {
+          "driver_name": "Cloud Technology Adoption",
+          "driver_description": "Cloud service providers are targeted due to their operational servers and client data."
+        },
+        {
+          "driver_name": "Rapid Digital Transformation",
+          "driver_description": "Hasty adoption of new digital platforms without risk assessments or policy updates increases vulnerabilities."
+        },
+        {
+          "driver_name": "Ungoverned Use of AI Tools",
+          "driver_description": "Use of generative AI tools like ChatGPT can lead to leaks of sensitive and proprietary data."
+        },
+        {
+          "driver_name": "Geopolitical Tensions",
+          "driver_description": "Conflicts such as the Ukraine invasion increase risks of state-sponsored cyberattacks."
+        }
+      ],
+      "risk_recommendations": [
+        "Verify cloud service providers have appropriate security controls and response plans.",
+        "Conduct background checks on employees with access to sensitive data.",
+        "Implement software to detect inappropriate data access and transfers.",
+        "Use Dark Web scanning services to monitor hacker activity related to the organization.",
+        "Provide cyber security training and conduct tabletop exercises for ransomware response.",
+        "Update policies and procedures to reflect new digital platforms and AI tool usage.",
+        "Monitor and prepare for state-sponsored cyber threats."
+      ],
+      "trend": "Cyber security risks have been the top concern for over a decade and are expected to increase in frequency and severity in 2024 and beyond, driven by pandemic-related changes and geopolitical factors.",
+      "likelihood": "Almost certain (100%) that cyberattacks will grow more aggressive and frequent.",
+      "impact": "Potential for data breaches, operational disruption, reputational damage, and financial loss. Increased risk of insider threats and ransomware attacks.",
+      "risk_indicator": "Frequency and intensity of cyberattacks; detection of stolen data on the Dark Web.",
+      "risk_event": null,
+      "suggested_audits": [
+        "Information Security Policy and Procedure Audit",
+        "Access Controls Audit",
+        "Network Security Audit",
+        "Vulnerability Assessment and Penetration Testing Audit",
+        "Security Patch Management Audit",
+        "Data Protection and Encryption Audit",
+        "Incident Response Preparedness Audit",
+        "Security Awareness Training Audit",
+        "Physical Security Audit",
+        "Endpoint Security Audit",
+        "Data Backup and Disaster Recovery Audit",
+        "Identity and Access Management (IAM) Audit",
+        "Third-Party Vendor Security Audit",
+        "Regulatory Compliance Audit",
+        "Cybersecurity Governance Audit"
+      ],
+      "contextual_variations": [
+        "Public sector, major infrastructure, organizations with large volumes of personal and proprietary data are especially vulnerable.",
+        "Organizations with remote/hybrid workforces face increased insider threat risks."
+      ]
+    },
+    {
+      "risk_name": "Artificial Intelligence (AI) Risks",
+      "risk_description": "The rapid adoption of generative AI tools like ChatGPT introduces risks including hallucinations (incorrect or misleading outputs), misuse of AI-generated content, privacy breaches from inputting sensitive data, intellectual property theft, and sophisticated social engineering attacks.",
+      "risk_driver": [
+        {
+          "driver_name": "AI Hallucinations",
+          "driver_description": "AI systems may produce incorrect or misleading information unpredictably."
+        },
+        {
+          "driver_name": "Data Privacy Concerns",
+          "driver_description": "Inputting sensitive or proprietary data into AI tools risks privacy breaches."
+        },
+        {
+          "driver_name": "Potential for Misuse",
+          "driver_description": "Threat actors can use AI to craft sophisticated social engineering attacks."
+        }
+      ],
+      "risk_recommendations": [
+        "Maintain an inventory of all technology and processes impacted by AI.",
+        "Implement risk assessment processes for new AI technologies.",
+        "Engage third parties on their AI integration plans.",
+        "Define unacceptable AI usage scenarios.",
+        "Establish policies and guidelines for acceptable AI use.",
+        "Ensure users validate AI outputs carefully."
+      ],
+      "trend": "AI adoption is rapidly increasing with growing awareness of associated risks; hallucinations have been reduced but not eliminated.",
+      "likelihood": "High likelihood of AI-related risks due to widespread adoption and evolving technology.",
+      "impact": "Potential for misinformation, data breaches, intellectual property loss, and increased social engineering attacks.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "AI Model Performance Audit",
+        "Data Quality for AI Audit"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Privacy and Data Governance",
+      "risk_description": "Stricter privacy regulations require significant updates to data collection, use, and transmission policies. Organizations face risks of privacy breaches, non-compliance, and loss of data integrity, especially with the use of AI and third-party solutions.",
+      "risk_driver": [
+        {
+          "driver_name": "Evolving Privacy Regulations",
+          "driver_description": "New laws require transparency and compliance across multiple jurisdictions."
+        },
+        {
+          "driver_name": "Use of AI and Third-Party Data",
+          "driver_description": "Governance gaps around AI and third-party data increase privacy breach risks."
+        },
+        {
+          "driver_name": "Remote/Hybrid Work Environment",
+          "driver_description": "Increased insider risks due to remote work and staff turnover."
+        }
+      ],
+      "risk_recommendations": [
+        "Secure private and confidential data with sufficient controls.",
+        "Understand applicable privacy laws and compliance requirements.",
+        "Identify data storage locations and data flows across jurisdictions.",
+        "Ensure data integrity and segmentation during digital transitions.",
+        "Develop policies on AI tool usage and data management.",
+        "Train staff on data governance and controls."
+      ],
+      "trend": "Increasing regulatory scrutiny and legislative changes are driving higher compliance requirements and risks.",
+      "likelihood": "High likelihood of privacy breaches and non-compliance if governance is inadequate.",
+      "impact": "Potential legal, regulatory, and reputational consequences from data breaches and non-compliance.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "IT/OT Governance and Third-Party Risk",
+      "risk_description": "Limited budgets and rapid technology adoption challenge effective IT and operational technology governance. Over-reliance on third parties, insufficient risk assessments, and poor contract management increase risks of cyber exposure, system failures, and operational disruptions.",
+      "risk_driver": [
+        {
+          "driver_name": "Budget Constraints",
+          "driver_description": "Limited resources may delay necessary upgrades and transformation initiatives."
+        },
+        {
+          "driver_name": "Third-Party Dependencies",
+          "driver_description": "Increased reliance on third parties for IT services and SaaS solutions introduces risks."
+        },
+        {
+          "driver_name": "Labour Shortages",
+          "driver_description": "Difficulty recruiting IT expertise leads to split focus and potential governance gaps."
+        }
+      ],
+      "risk_recommendations": [
+        "Prioritize technology investments for best return and risk mitigation.",
+        "Conduct detailed risk assessments before engaging third parties.",
+        "Include risk mitigation accountability in third-party contracts.",
+        "Test and review third-party response and disaster recovery plans.",
+        "Implement customized codes of conduct and cyber security training for third parties.",
+        "Ensure sufficient training and exercises for ransomware and cyber incident response."
+      ],
+      "trend": "Growing reliance on third parties and digital transformation increases governance complexity and risk exposure.",
+      "likelihood": "High likelihood of IT/OT governance failures and third-party related incidents.",
+      "impact": "Operational disruptions, cyber security breaches, and quality issues.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Merger and Acquisition (M&A) Integration Risks",
+      "risk_description": "M&A activities carry risks including financial mismanagement, pending litigation, fraud, corruption, poor digital platform integration, and cyber vulnerabilities. These risks can be hidden and require thorough due diligence.",
+      "risk_driver": [
+        {
+          "driver_name": "Financial Mismanagement and Litigation",
+          "driver_description": "Major dealbreakers that must be identified during due diligence."
+        },
+        {
+          "driver_name": "Fraud and Corruption",
+          "driver_description": "Increased instances during the pandemic, some yet undiscovered."
+        },
+        {
+          "driver_name": "Poor Digital Platform Integration",
+          "driver_description": "Haphazard introduction of digital tools can cause costly integration issues."
+        },
+        {
+          "driver_name": "Cyber Vulnerabilities",
+          "driver_description": "Unaddressed cyber risks can lead to crippling attacks post-acquisition."
+        }
+      ],
+      "risk_recommendations": [
+        "Include IT/OT controls and governance in due diligence.",
+        "Assess ability to meet investor ESG expectations.",
+        "Evaluate fraud and corruption risks.",
+        "Consider cultural issues impacting employee retention.",
+        "Factor risk costs into valuation and integration plans."
+      ],
+      "trend": "M&A activity is increasing post-pandemic, with heightened awareness of complex risk factors.",
+      "likelihood": null,
+      "impact": "Financial loss, reputational damage, operational disruption, and integration failures.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Fraud and Corruption",
+      "risk_description": "Economic pressures such as cost of living increases elevate fraud risk by increasing pressure and rationalization among perpetrators. Remote work, incomplete policies, poor training, and ineffective controls increase opportunities for fraud.",
+      "risk_driver": [
+        {
+          "driver_name": "Economic Pressure",
+          "driver_description": "Financial hardship compels individuals to commit fraud."
+        },
+        {
+          "driver_name": "Rationalization",
+          "driver_description": "Perpetrators justify fraudulent actions to themselves."
+        },
+        {
+          "driver_name": "Opportunity",
+          "driver_description": "Weak controls, remote work, and poor training increase chances to commit fraud."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct regular fraud risk assessments.",
+        "Implement dual signatures for large transactions.",
+        "Use AI tools to monitor suspicious activity.",
+        "Restrict login access to minimal necessary individuals.",
+        "Provide fraud training and encourage reporting of suspicious behavior."
+      ],
+      "trend": "Fraud risk has increased significantly over the past 18 months due to economic conditions.",
+      "likelihood": "Elevated likelihood due to increased pressure and opportunity.",
+      "impact": "Financial loss, legal and regulatory issues, fines, business interruption, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Environmental, Social, and Governance (ESG) Risks",
+      "risk_description": "Organizations face increasing regulatory and societal pressure to address climate change, social issues like human rights abuses, and governance matters such as diversity and executive compensation. Failure to act can lead to reputational damage and regulatory penalties.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate Change and Environmental Impact",
+          "driver_description": "Physical impacts and regulatory requirements to reduce emissions and environmental harm."
+        },
+        {
+          "driver_name": "Social Issues",
+          "driver_description": "Human rights abuses in supply chains, harassment, discrimination, and workforce challenges."
+        },
+        {
+          "driver_name": "Governance and Transparency",
+          "driver_description": "Expectations for diversity, inclusion, executive compensation transparency, and anti-corruption."
+        }
+      ],
+      "risk_recommendations": [
+        "Set realistic and defendable ESG targets aligned with industry peers.",
+        "Assess impacts of inaction or insufficient progress on ESG goals.",
+        "Ensure data integrity for ESG metrics.",
+        "Engage employees and stakeholders on ESG perceptions.",
+        "Develop rigorous EDI strategies linked to corporate strategy.",
+        "Enhance governance around emergency preparedness and community engagement."
+      ],
+      "trend": "ESG risks are growing in importance with new standards and legislation increasing accountability.",
+      "likelihood": null,
+      "impact": "Reputational damage, regulatory penalties, operational disruptions, and increased costs.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Business Resilience and Crisis Management",
+      "risk_description": "Organizations face increasing threats from pandemics, natural disasters, cyber attacks, inflation, and climate change. Lack of preparation and coordination can lead to ineffective crisis response and significant operational and financial impacts.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Frequency of Crises",
+          "driver_description": "More frequent and severe natural disasters, pandemics, and cyber threats."
+        },
+        {
+          "driver_name": "Shrinking Timespan Between Crises",
+          "driver_description": "Less recovery time increases vulnerability."
+        },
+        {
+          "driver_name": "Third-Party Dependencies",
+          "driver_description": "Vendors and suppliers may be unprepared for disruptions."
+        }
+      ],
+      "risk_recommendations": [
+        "Maintain a list of probable risk scenarios and response plans.",
+        "Conduct mock tabletop crisis management exercises with experts.",
+        "Perform post-incident analyses to improve preparedness.",
+        "Include third parties in resilience and disaster recovery planning.",
+        "Track peer company crises to benchmark preparedness."
+      ],
+      "trend": "Increasing number and magnitude of crises require enhanced preparedness and resilience.",
+      "likelihood": null,
+      "impact": "Operational disruption, financial loss, reputational damage, and loss of customers.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Capital Projects and Operations",
+      "risk_description": "Capital projects carry high risks of cost overruns, timeline delays, quality issues, and safety incidents, especially under inflationary pressures. Poor project management and billing errors can lead to significant financial losses.",
+      "risk_driver": [
+        {
+          "driver_name": "Inflationary Pressures",
+          "driver_description": "Rising labour and material costs increase project expenses."
+        },
+        {
+          "driver_name": "Billing Errors",
+          "driver_description": "Common errors can inflate project costs by 1-3%."
+        },
+        {
+          "driver_name": "Quality and Safety Concerns",
+          "driver_description": "Poor quality can cause downtime and damage reputation."
+        }
+      ],
+      "risk_recommendations": [
+        "Use data analytics to identify billing inconsistencies.",
+        "Implement rigorous project management with inspections and status updates.",
+        "Conduct risk assessments during project planning to identify design flaws and potential delays.",
+        "Ensure accountability for project delivery and oversight.",
+        "Establish clear contract terms including audit rights and dispute resolution."
+      ],
+      "trend": null,
+      "likelihood": null,
+      "impact": "Financial loss, operational disruption, safety incidents, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Insurance Risks",
+      "risk_description": "Increasing frequency and severity of natural disasters and cyber incidents have led to higher insurance costs, uninsurable assets, and more complex claim processes. Organizations face challenges in maintaining adequate coverage and managing insurance costs.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate-Related Events",
+          "driver_description": "Record-breaking heat, wildfires, floods, and hurricanes increase claims."
+        },
+        {
+          "driver_name": "Cyber and Privacy Breaches",
+          "driver_description": "Rising incidents contribute to insurance claims and costs."
+        },
+        {
+          "driver_name": "Insurance Market Changes",
+          "driver_description": "Higher premiums, reduced coverage, and stricter claim conditions."
+        }
+      ],
+      "risk_recommendations": [
+        "Understand current insurance costs and benefits thoroughly.",
+        "Engage independent insurance advisors to optimize coverage and claims.",
+        "Assess which risks to absorb internally versus outsource to insurance.",
+        "Audit insurance coverage value and renewal processes."
+      ],
+      "trend": "Insurance is becoming less affordable and harder to access, with increasing rates and claim challenges.",
+      "likelihood": null,
+      "impact": "Financial exposure due to insufficient coverage and increased costs.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

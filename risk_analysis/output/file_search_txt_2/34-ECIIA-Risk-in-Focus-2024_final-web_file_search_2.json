@@ -1,0 +1,479 @@
+{
+  "risks": [
+    {
+      "risk_name": "Cybersecurity and Data Security",
+      "risk_description": "Cybersecurity and data security remain the top threat, with increasing sophistication of attacks including ransomware and state-sponsored wiper attacks. The attack surface has broadened due to cloud migration and digital integration, and emerging technologies like AI add complexity and new vulnerabilities.",
+      "risk_driver": [
+        {
+          "driver_name": "Professionalisation and Commercialisation of Hacking",
+          "driver_description": "Hacking has become more sophisticated and commercialised, increasing the threat level."
+        },
+        {
+          "driver_name": "State-Sponsored Attacks",
+          "driver_description": "Increase in wiper attacks aimed at destroying organisations, especially since the war in Ukraine."
+        },
+        {
+          "driver_name": "Broader Attack Surface",
+          "driver_description": "Cloud migration, digitalisation, and supplier integration have increased entry points for attacks."
+        },
+        {
+          "driver_name": "Emerging Technologies",
+          "driver_description": "Technologies like AI and blockchain introduce new risks and complexities."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in continuous monitoring and advanced cybersecurity tools.",
+        "Conduct regular vulnerability assessments and penetration testing.",
+        "Enhance cybersecurity awareness and training programs.",
+        "Ensure robust incident response and recovery plans are in place.",
+        "Strengthen collaboration across the three lines of defence including CISOs and boards.",
+        "Comply with evolving cybersecurity laws and regulations such as GDPR, DORA, and NIS2."
+      ],
+      "trend": "Risk remains the number one threat with 84% citing it as a top five risk, slightly up from previous years. The threat is plateauing at a high level but may increase due to AI developments.",
+      "likelihood": "Very high, with 84% of respondents ranking it as a top five risk and 60% rating it as 1st or 2nd priority.",
+      "impact": "Potential for severe operational disruption, data loss, reputational damage, and financial loss.",
+      "risk_indicator": "Frequency and sophistication of cyberattacks; effectiveness of cybersecurity controls and incident response.",
+      "risk_event": [
+        "Ransomware attack on British Airways, Boots, and BBC via payroll provider software.",
+        "Increased cyberattacks following geopolitical events such as Sweden's NATO announcement."
+      ],
+      "suggested_audits": [
+        "Assess compliance with cybersecurity laws and regulations.",
+        "Evaluate effectiveness of cybersecurity controls and monitoring.",
+        "Review incident response and recovery capabilities.",
+        "Assess cybersecurity awareness and training outcomes.",
+        "Evaluate vulnerability assessments and backup data integrity."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Macroeconomic and Geopolitical Uncertainty",
+      "risk_description": "Organisations face risks from economic shocks including inflation, interest rate rises, cost-of-living crises, and geopolitical tensions such as the war in Ukraine and US-China relations, impacting financial stability, supply chains, and market conditions.",
+      "risk_driver": [
+        {
+          "driver_name": "Inflation and Interest Rate Increases",
+          "driver_description": "Higher inflation and tighter monetary policy increase operational costs and financial pressures."
+        },
+        {
+          "driver_name": "Geopolitical Tensions",
+          "driver_description": "Conflicts and tensions disrupt trade, supply chains, and market stability."
+        },
+        {
+          "driver_name": "Cost-of-Living and Doing Business Crises",
+          "driver_description": "Rising costs reduce consumer spending and business investment."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement agile and adaptive risk management strategies.",
+        "Conduct economic scenario planning and stress testing.",
+        "Engage in proactive governance to monitor emerging risks.",
+        "Coordinate across business units to understand interconnected risks.",
+        "Maintain a global strategic perspective to avoid overrating local risks."
+      ],
+      "trend": "Ranked joint 3rd highest risk with 33% ranking it first; highest position since 2018. Expected to remain significant with marginal increase in audit focus by 2027.",
+      "likelihood": "High, with ongoing economic and geopolitical volatility.",
+      "impact": "Risks include insolvency, reduced investment in R&D, disrupted supply chains, and competitive disadvantage.",
+      "risk_indicator": "Economic indicators such as inflation rates, interest rates, geopolitical event frequency.",
+      "risk_event": [
+        "Germany entering recession in 2023 following energy price shocks.",
+        "War in Ukraine causing gas shortages and economic instability."
+      ],
+      "suggested_audits": [
+        "Assess alignment of financial stress testing with economic realities.",
+        "Evaluate effectiveness of controls related to geopolitical risks and sanctions.",
+        "Review business continuity and crisis management plans."
+      ],
+      "contextual_variations": [
+        "European businesses face more complex macroeconomic and political risks compared to US and China."
+      ]
+    },
+    {
+      "risk_name": "Human Capital, Diversity, Talent Management and Retention",
+      "risk_description": "Difficulty attracting and retaining skilled staff, exacerbated by post-pandemic cultural shifts and economic pressures, threatens organisational capability and strategic goal achievement.",
+      "risk_driver": [
+        {
+          "driver_name": "Post-Pandemic Cultural Misalignment",
+          "driver_description": "Organisational culture lags behind social changes, affecting talent attraction and retention."
+        },
+        {
+          "driver_name": "Rising Labour Costs and Economic Pressures",
+          "driver_description": "Inflation and cost-of-living crises increase labour costs while demand shifts affect business stability."
+        },
+        {
+          "driver_name": "High Staff Turnover",
+          "driver_description": "Significant numbers of younger workers actively seeking new opportunities."
+        }
+      ],
+      "risk_recommendations": [
+        "Recalibrate organisational culture to align with modern values.",
+        "Communicate clear purpose and career progression paths.",
+        "Implement targeted recruitment and retention strategies.",
+        "Enhance employee well-being and support programs."
+      ],
+      "trend": "Ranked 2nd biggest risk with 58% citing it as top five, up from 50% in 2023 and 40% in 2022. Expected to remain a top risk through 2027.",
+      "likelihood": "High and structural, unlikely to diminish even in economic downturns.",
+      "impact": "Reduced organisational capability, failure to meet strategic goals, increased operational risk.",
+      "risk_indicator": "Staff turnover rates, employee engagement scores, recruitment success metrics.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Climate Change, Biodiversity and Environmental Sustainability",
+      "risk_description": "Increasing regulatory requirements and market pressures to meet sustainability goals create compliance and reputational risks, alongside operational challenges from climate-related events.",
+      "risk_driver": [
+        {
+          "driver_name": "New and Evolving Regulations",
+          "driver_description": "Implementation of CSRD, ESRS, TCFD, and other standards increase compliance complexity."
+        },
+        {
+          "driver_name": "Market and Customer Pressure",
+          "driver_description": "Demand for greener, ethical products and risk of greenwashing allegations."
+        },
+        {
+          "driver_name": "Climate-Related Physical Risks",
+          "driver_description": "Extreme weather events disrupt operations and supply chains."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop strategic, entrepreneurial approaches to sustainability beyond compliance.",
+        "Enhance transparency and accuracy in sustainability reporting.",
+        "Invest in climate resilience and adaptation measures.",
+        "Monitor and manage reputational risks related to greenwashing."
+      ],
+      "trend": "Slipped to 7th place in 2024 but expected to rise to 3rd by 2027 due to regulatory focus.",
+      "likelihood": "Increasing due to regulatory and market pressures.",
+      "impact": "Financial penalties, reputational damage, operational disruptions.",
+      "risk_indicator": "Compliance with sustainability reporting standards, frequency of climate-related incidents.",
+      "risk_event": [
+        "Client Earth legal case against UK government for inadequate emissions policies."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Supply Chain, Outsourcing and 'Nth' Party Risk",
+      "risk_description": "Complex, interconnected risks from geopolitical tensions, economic instability, climate events, and regulatory changes threaten supply chain resilience and continuity.",
+      "risk_driver": [
+        {
+          "driver_name": "Geopolitical and Economic Disruptions",
+          "driver_description": "War in Ukraine, US-China tensions, and economic downturns impact supply chains."
+        },
+        {
+          "driver_name": "Climate-Related Disruptions",
+          "driver_description": "Extreme weather events cause physical supply chain interruptions."
+        },
+        {
+          "driver_name": "Regulatory and Compliance Burdens",
+          "driver_description": "Increased due diligence and transparency requirements complicate supplier management."
+        },
+        {
+          "driver_name": "Supplier Concentration and Insolvency Risk",
+          "driver_description": "Dependence on single suppliers or regions increases vulnerability."
+        }
+      ],
+      "risk_recommendations": [
+        "Diversify supply sources and invest in alternative technologies.",
+        "Develop and test robust business continuity and crisis management plans.",
+        "Enhance supplier monitoring and due diligence processes.",
+        "Strengthen governance structures across the three lines of defence."
+      ],
+      "trend": "Ranked 8th in 2024, maintaining importance with evolving challenges.",
+      "likelihood": "High due to ongoing global uncertainties and supply chain fragility.",
+      "impact": "Operational disruption, financial loss, reputational damage.",
+      "risk_indicator": "Supplier insolvency rates, supply chain disruption frequency.",
+      "risk_event": [
+        "Ever Given container ship grounding in Suez Canal.",
+        "Flooding in Germany in 2021 impacting supply chains."
+      ],
+      "suggested_audits": [
+        "Assess supply chain resilience to macroeconomic and geopolitical risks.",
+        "Review outsourcing contracts and vendor management frameworks.",
+        "Evaluate business continuity plans and scenario testing."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Change in Laws and Regulations",
+      "risk_description": "Rapidly evolving regulatory landscape, especially in areas like cybersecurity, sustainability, and data protection, increases compliance risk and operational complexity.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Regulatory Burden",
+          "driver_description": "New laws such as GDPR extensions, DORA, CSRD, and others require ongoing adaptation."
+        },
+        {
+          "driver_name": "Complexity and Velocity of Change",
+          "driver_description": "Frequent updates and new requirements challenge organisational compliance capabilities."
+        }
+      ],
+      "risk_recommendations": [
+        "Maintain proactive regulatory monitoring and compliance programs.",
+        "Engage internal audit early in regulatory change management.",
+        "Develop agile compliance frameworks to adapt quickly."
+      ],
+      "trend": "Ranked joint 3rd in 2024, increasing in importance due to new regulations.",
+      "likelihood": "High given ongoing regulatory developments.",
+      "impact": "Non-compliance penalties, reputational damage, operational disruption.",
+      "risk_indicator": "Number of regulatory changes and compliance breaches.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Market Changes, Competition and Changing Consumer Behaviour",
+      "risk_description": "Rapid shifts in market dynamics and consumer preferences driven by economic conditions and technological change create strategic and operational risks.",
+      "risk_driver": [
+        {
+          "driver_name": "Economic Downturns",
+          "driver_description": "Reduced consumer spending and shifts to cheaper brands."
+        },
+        {
+          "driver_name": "Technological Disruption",
+          "driver_description": "New technologies alter market landscapes and customer expectations."
+        }
+      ],
+      "risk_recommendations": [
+        "Utilise data analytics to anticipate market trends.",
+        "Innovate product and service offerings to meet changing demands.",
+        "Enhance agility in marketing and sales strategies."
+      ],
+      "trend": "New risk category ranked 9th in 2024, projected to rise to 2nd in economic downturn scenarios.",
+      "likelihood": "Moderate to high depending on economic conditions.",
+      "impact": "Loss of market share, revenue decline, strategic misalignment.",
+      "risk_indicator": "Market share changes, consumer behaviour metrics.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Business Continuity, Operational Resilience, Crisis Management and Disaster Response",
+      "risk_description": "Increasing global turmoil and interconnected risks require robust continuity and resilience planning to maintain operations during crises.",
+      "risk_driver": [
+        {
+          "driver_name": "Global Turmoil and Poly-Crisis",
+          "driver_description": "Multiple simultaneous catastrophic events increase operational risk."
+        },
+        {
+          "driver_name": "Interconnected Risks",
+          "driver_description": "Risks in one area can cascade and amplify impacts elsewhere."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop and regularly test comprehensive business continuity plans.",
+        "Integrate scenario planning to capture interrelated risks.",
+        "Enhance cross-functional coordination and communication."
+      ],
+      "trend": "Moved up two places in 2024 reflecting increased focus.",
+      "likelihood": "High given current global risk environment.",
+      "impact": "Operational disruption, financial loss, reputational damage.",
+      "risk_indicator": "Frequency and severity of operational disruptions.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Organisational Culture",
+      "risk_description": "Misalignment between corporate culture and evolving social values impacts employee engagement, talent retention, and overall organisational effectiveness.",
+      "risk_driver": [
+        {
+          "driver_name": "Decoupling from Traditional Values",
+          "driver_description": "Staff and customers increasingly diverge from established corporate norms."
+        },
+        {
+          "driver_name": "Post-Pandemic Cultural Shifts",
+          "driver_description": "Changes in work expectations and societal values challenge existing cultures."
+        }
+      ],
+      "risk_recommendations": [
+        "Reassess and realign organisational culture with current social expectations.",
+        "Promote inclusivity, purpose, and clear communication.",
+        "Break down silos and encourage cross-department collaboration."
+      ],
+      "trend": "Recognised as a key risk area linked to human capital challenges.",
+      "likelihood": "High given ongoing social changes.",
+      "impact": "Reduced employee morale, increased turnover, impaired performance.",
+      "risk_indicator": "Employee engagement and culture survey results.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Organisational Governance and Corporate Reporting",
+      "risk_description": "Challenges in maintaining effective governance structures and accurate, timely corporate reporting amid complex and fast-changing risk environments.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Complexity of Risks",
+          "driver_description": "Rapidly evolving risks require agile governance and reporting frameworks."
+        },
+        {
+          "driver_name": "Regulatory and Stakeholder Expectations",
+          "driver_description": "Heightened demands for transparency and accountability."
+        }
+      ],
+      "risk_recommendations": [
+        "Strengthen governance frameworks to enhance oversight.",
+        "Improve integration of risk management into reporting processes.",
+        "Ensure timely and accurate communication with stakeholders."
+      ],
+      "trend": "Continues to be a focus area for internal audit and boards.",
+      "likelihood": "Moderate to high depending on organisational maturity.",
+      "impact": "Reputational damage, regulatory sanctions, strategic misalignment.",
+      "risk_indicator": "Governance audit findings, reporting accuracy metrics.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Financial, Liquidity and Insolvency Risks",
+      "risk_description": "Economic pressures and market volatility increase risks of financial instability, liquidity shortages, and insolvency.",
+      "risk_driver": [
+        {
+          "driver_name": "Cost-of-Living and Doing Business Crises",
+          "driver_description": "Rising costs strain financial resources."
+        },
+        {
+          "driver_name": "Macroeconomic Volatility",
+          "driver_description": "Inflation, interest rates, and recession risks impact financial health."
+        }
+      ],
+      "risk_recommendations": [
+        "Enhance financial monitoring and stress testing.",
+        "Develop contingency plans for liquidity management.",
+        "Engage in proactive financial risk governance."
+      ],
+      "trend": "Remains a significant risk linked to macroeconomic uncertainty.",
+      "likelihood": "High in current economic climate.",
+      "impact": "Potential insolvency, operational disruption, loss of stakeholder confidence.",
+      "risk_indicator": "Liquidity ratios, debt levels, financial stress test results.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Fraud, Bribery and Criminal Exploitation of Disruption",
+      "risk_description": "Increased risk of fraud and bribery as criminals exploit economic and operational disruptions.",
+      "risk_driver": [
+        {
+          "driver_name": "Economic Pressure",
+          "driver_description": "Financial stress can increase temptation and opportunity for fraud."
+        },
+        {
+          "driver_name": "Operational Disruptions",
+          "driver_description": "Disruptions can weaken controls and oversight."
+        }
+      ],
+      "risk_recommendations": [
+        "Strengthen anti-fraud controls and monitoring.",
+        "Enhance staff training and awareness.",
+        "Conduct regular fraud risk assessments."
+      ],
+      "trend": "Recognised as a persistent risk requiring ongoing vigilance.",
+      "likelihood": "Moderate to high depending on control environment.",
+      "impact": "Financial loss, reputational damage, legal consequences.",
+      "risk_indicator": "Number of fraud incidents detected.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Health, Safety and Security",
+      "risk_description": "Risks related to ensuring the health, safety, and security of employees and stakeholders amid evolving threats.",
+      "risk_driver": [
+        {
+          "driver_name": "Changing Work Environments",
+          "driver_description": "Hybrid and remote work models introduce new safety and security challenges."
+        },
+        {
+          "driver_name": "Physical and Cybersecurity Threats",
+          "driver_description": "Increasing threats require integrated safety and security approaches."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement comprehensive health and safety policies.",
+        "Integrate physical and cybersecurity measures.",
+        "Conduct regular training and risk assessments."
+      ],
+      "trend": "Increasingly important as work models evolve.",
+      "likelihood": "Moderate to high depending on sector and environment.",
+      "impact": "Injury, legal liability, operational disruption.",
+      "risk_indicator": "Incident and accident rates.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Communications, Reputation and Stakeholder Relationships",
+      "risk_description": "Risks arising from poor communication and damaged reputation impacting stakeholder trust and organisational success.",
+      "risk_driver": [
+        {
+          "driver_name": "Increased Transparency Demands",
+          "driver_description": "Stakeholders expect timely and accurate information."
+        },
+        {
+          "driver_name": "Social Media and Public Scrutiny",
+          "driver_description": "Rapid information dissemination can amplify reputational risks."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop proactive communication strategies.",
+        "Monitor and manage social media and public relations.",
+        "Engage stakeholders regularly and transparently."
+      ],
+      "trend": "Growing importance in risk management frameworks.",
+      "likelihood": "Moderate to high depending on organisational exposure.",
+      "impact": "Loss of trust, financial impact, regulatory scrutiny.",
+      "risk_indicator": "Reputation indices, stakeholder feedback metrics.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Mergers and Acquisitions",
+      "risk_description": "Risks related to integration, valuation, and strategic fit in mergers and acquisitions activities.",
+      "risk_driver": [
+        {
+          "driver_name": "Complex Integration Processes",
+          "driver_description": "Challenges in combining systems, cultures, and operations."
+        },
+        {
+          "driver_name": "Market Volatility",
+          "driver_description": "Economic uncertainty affects deal valuations and success."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct thorough due diligence.",
+        "Develop detailed integration plans.",
+        "Monitor post-merger performance closely."
+      ],
+      "trend": "Remains a key strategic risk area.",
+      "likelihood": "Variable depending on deal activity.",
+      "impact": "Financial loss, operational disruption, strategic failure.",
+      "risk_indicator": "Number and success rate of M&A deals.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Organisational Change",
+      "risk_description": "Risks associated with failure to effectively manage change initiatives impacting strategic and operational objectives.",
+      "risk_driver": [
+        {
+          "driver_name": "Ineffective Change Management",
+          "driver_description": "Poorly managed change can lead to resistance and failure to achieve goals."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement structured change management frameworks.",
+        "Engage stakeholders and communicate effectively.",
+        "Monitor and adjust change initiatives as needed."
+      ],
+      "trend": "Increasingly important as organisations adapt to rapid external changes.",
+      "likelihood": "Moderate to high depending on organisational agility.",
+      "impact": "Project failure, employee disengagement, strategic setbacks.",
+      "risk_indicator": "Change initiative success rates.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

@@ -9,7 +9,7 @@ from risk_analysis import file_input
 from risk_analysis import file_search
 
 
-def pdfs_risk_analysis(client, folder_path, record_file="processed_files.txt", method="file_search", pass_type = 1):
+def pdfs_risk_analysis(client, folder_path, record_file="risk_analysis/processed_files.txt", method="file_search", pass_type = 1):
     
     # Load environment variables from .env file
     load_dotenv()
@@ -50,7 +50,6 @@ def pdfs_risk_analysis(client, folder_path, record_file="processed_files.txt", m
     11. Contextual Variations:
     If the text mentions that a certain risk changes in importance, nature, likelihood, impact, etc., according to region, industry, company size, or any other category, extract and include this information here as a list (if there is more than one). Example: 'Risk X is more prominent in X industry, followed by Y and Z industries'."""
 
-
     # Step 1: Load previously processed filenames into a set
     if os.path.exists(record_file):
         with open(record_file, "r") as f:
@@ -60,14 +59,10 @@ def pdfs_risk_analysis(client, folder_path, record_file="processed_files.txt", m
 
     # Step 2: Loop through all PDF files in the folder
     for filename in os.listdir(folder_path):
-        if filename.lower().endswith(".pdf") and filename not in processed:
+        if filename.endswith(".txt") and filename not in processed:
             full_path = os.path.join(folder_path, filename)
             file_id = upload_file.create_file(client, full_path)
             print(f"Uploaded: {filename}")
-
-            # Step 3: Record this file as processed
-            with open(record_file, "a") as f:
-                f.write(filename + "\n")
 
             # Step 4: Extract risks based on method and pass_type
             if method == "file_input":
@@ -106,9 +101,13 @@ def pdfs_risk_analysis(client, folder_path, record_file="processed_files.txt", m
             output_filename = f"{safe_base_name}_{method}_{str(pass_type)}.json"
 
             # Save the result
-            with open(output_filename, "w", encoding="utf-8") as f:
+            with open("risk_analysis/output/file_search_txt_2/" + output_filename, "w", encoding="utf-8") as f:
                 json.dump(result, f, ensure_ascii=False, indent=2)
             print(f"Saved results to {output_filename}")
+
+            # Step 3: Record this file as processed
+            with open(record_file, "a") as f:
+                f.write(filename + "\n")
 
 
 

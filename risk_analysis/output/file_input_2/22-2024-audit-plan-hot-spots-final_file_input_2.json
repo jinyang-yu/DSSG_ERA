@@ -1,0 +1,392 @@
+{
+  "risks": [
+    {
+      "risk_name": "Cybersecurity Vulnerabilities",
+      "risk_description": "Organizations increasingly struggle to constrain cyberattacks from insider threats. The proliferation of Generative AI (GenAI) enables malicious actors access to more sophisticated cyberattack tools.",
+      "risk_driver": [
+        {
+          "driver_name": "Rise in Insider Threat",
+          "driver_description": "Increasing insider threats contribute to cybersecurity vulnerabilities."
+        },
+        {
+          "driver_name": "GenAI-Enabled Cyberattacks",
+          "driver_description": "Generative AI tools enable more sophisticated cyberattacks."
+        },
+        {
+          "driver_name": "State-Sponsored Cyberattacks",
+          "driver_description": "Cyberattacks sponsored by states increase threat levels."
+        },
+        {
+          "driver_name": "Cyber Breach Disclosure Requirements",
+          "driver_description": "Regulatory requirements for breach disclosures add complexity."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Cybersecurity Vulnerabilities remain a top risk in 2024, continuing from previous years with increasing sophistication of threats.",
+      "likelihood": null,
+      "impact": "Potential for severe disruptions or breaches leading to data loss or compromised networks.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "IT Governance",
+      "risk_description": "Organizations face challenges to digital initiative success due to complex IT infrastructures and a high willingness to accrue technical debt to attain quicker results, which slows and reduces effectiveness of digital initiatives in the long term.",
+      "risk_driver": [
+        {
+          "driver_name": "IT Infrastructure Complexity",
+          "driver_description": "Complex IT infrastructures hinder digital initiative success."
+        },
+        {
+          "driver_name": "Poorly Managed Technical Debt",
+          "driver_description": "Accumulation of technical debt reduces long-term effectiveness."
+        },
+        {
+          "driver_name": "Ungoverned SaaS",
+          "driver_description": "Lack of governance over SaaS applications increases risk."
+        },
+        {
+          "driver_name": "IT Talent Shortage",
+          "driver_description": "Shortage of skilled IT personnel impacts governance."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "IT Governance remains a critical risk area, continuing from previous years with increasing complexity.",
+      "likelihood": null,
+      "impact": "Reduced effectiveness of digital initiatives and potential operational inefficiencies.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Regulatory Complexity",
+      "risk_description": "Organizations face increased regulatory scrutiny at a faster pace and broader scope than in the past, compounded by regulatory fragmentation between sovereign and subnational jurisdictions, making compliance more expensive and compliance failures riskier.",
+      "risk_driver": [
+        {
+          "driver_name": "Velocity and Breadth of New Regulations",
+          "driver_description": "Rapid introduction of new regulations increases compliance burden."
+        },
+        {
+          "driver_name": "Regulatory Fragmentation",
+          "driver_description": "Fragmented regulations across jurisdictions complicate compliance."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Regulatory Complexity is a newly identified hot spot in 2024, not present in 2023.",
+      "likelihood": null,
+      "impact": "Increased risk of compliance failures and higher costs.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Digital Transformation",
+      "risk_description": "Organizations’ embrace of digital transformation without aligning specific digital goals and strategy results in suboptimal outcomes or transformation failure. Failure to account for negative impacts of transformation on employees risks lower productivity and loss of talent in a tight labor market.",
+      "risk_driver": [
+        {
+          "driver_name": "Unclear Project Objectives",
+          "driver_description": "Lack of clear goals leads to suboptimal transformation outcomes."
+        },
+        {
+          "driver_name": "Unintended Consequences of Digital Initiatives on Employees",
+          "driver_description": "Negative impacts on employees reduce productivity and increase turnover."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Digital Transformation is a new hot spot in 2024, not identified in 2023.",
+      "likelihood": null,
+      "impact": "Transformation failures and talent loss impacting organizational growth.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Organizational Resilience",
+      "risk_description": "Few organizations make organizational resilience a strategic priority with executive sponsorship, leaving them vulnerable to more frequent and costly disruptive events. Efforts to develop and operationalize resilience capabilities are hindered by talent scarcity, lack of organizational awareness, and limited funding.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate Change-Induced Disruptions",
+          "driver_description": "Increasing frequency and severity of extreme weather events disrupt operations and employee well-being."
+        },
+        {
+          "driver_name": "Fragmented Ownership and Oversight of Resilience Efforts",
+          "driver_description": "Unclear or overlapping roles and limited cross-functional coordination hinder resilience."
+        },
+        {
+          "driver_name": "Geopolitical Conflict",
+          "driver_description": "Geopolitical tensions add to organizational volatility."
+        },
+        {
+          "driver_name": "Diminished Change Capacity",
+          "driver_description": "Reduced ability to adapt to change weakens resilience."
+        }
+      ],
+      "risk_recommendations": [
+        "Review Business Continuity Plans for Responding to Extreme Weather Events to ensure clarity, currency, and coverage of scenarios.",
+        "Assess Climate Considerations in Strategic Projects to integrate climate risks into planning and investments.",
+        "Review Organizational Resilience Risk Culture to identify and address risk gaps and maintain resilience risk reports.",
+        "Examine Resilience-Related Activities for Completeness and Collaboration across functions.",
+        "Assess Management’s Understanding of Organizational Resilience through surveys or interviews."
+      ],
+      "trend": "Organizational Resilience has been a growing concern from 2022 through 2024, with increasing audit focus.",
+      "likelihood": null,
+      "impact": "Increased frequency and cost of disruptions, negative impacts on operations, employee well-being, and long-term viability.",
+      "risk_indicator": [
+        "Frequency of extreme weather events in business locations",
+        "Percentage of climate change scenario testing completed on time",
+        "Number of employees affected by climate disruptions",
+        "Forecast revenue loss associated with climate disruptions",
+        "Number of business disruptions within a given time period"
+      ],
+      "risk_event": [
+        "In 2022, global economic losses from extreme weather reached $313 billion."
+      ],
+      "suggested_audits": [
+        "Review Business Continuity Plans for Responding to Extreme Weather Events",
+        "Assess Climate Considerations in Strategic Projects",
+        "Review Organizational Resilience Risk Culture",
+        "Examine Resilience-Related Activities for Completeness and Collaboration",
+        "Assess Management’s Understanding of Organizational Resilience"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Third Parties",
+      "risk_description": "Organizations increasingly rely on third parties to improve profitability, efficiency, and innovation, but greater reliance expands third-party vulnerabilities and exacerbates insufficiencies in third-party risk management (TPRM) strategies.",
+      "risk_driver": [
+        {
+          "driver_name": "Increased Third-Party Vulnerability",
+          "driver_description": "Expansion of third-party networks increases risk exposure and frequency of risk events."
+        },
+        {
+          "driver_name": "Patchwork Third-Party Risk Management",
+          "driver_description": "Outdated and disjointed TPRM practices undermine effective risk monitoring and mitigation."
+        },
+        {
+          "driver_name": "Third-Party Reputational Risk",
+          "driver_description": "Reputational damage from third-party failures."
+        },
+        {
+          "driver_name": "Third-Party Viability",
+          "driver_description": "Risks related to the financial and operational viability of third parties."
+        }
+      ],
+      "risk_recommendations": [
+        "Assess TPRM Roles and Responsibilities to clarify and remediate overlaps or omissions.",
+        "Review Third-Party Crisis Communication Protocols to ensure timely breach reporting.",
+        "Review Ongoing Monitoring of Third-Party Relationships including risk profile reassessments.",
+        "Evaluate the Classification of Third-Party Risk using financial, strategic, and behavioral metrics.",
+        "Review Decision Making for Implementing Technology in TPRM Practices to support collaboration and information sharing."
+      ],
+      "trend": "Third Parties risk continues to be a significant concern from 2022 through 2024 with increasing complexity.",
+      "likelihood": null,
+      "impact": "Potential for financial, regulatory, and reputational risk exposure due to third-party failures.",
+      "risk_indicator": [
+        "Number of critical third parties with open critical risk issues",
+        "Number of reported third-party security breaches",
+        "Number of third-party disruptions such as lost revenue or regulatory fines",
+        "Year-over-year growth in number of third-party relationships",
+        "Frequency of updating third-party risk classification"
+      ],
+      "risk_event": [
+        "98% of organizations have experienced a breach resulting from at least one third party in the last two years."
+      ],
+      "suggested_audits": [
+        "Assess TPRM Roles and Responsibilities",
+        "Review Third-Party Crisis Communication Protocols",
+        "Review Ongoing Monitoring of Third-Party Relationships",
+        "Evaluate the Classification of Third-Party Risk",
+        "Review Decision Making for Implementing Technology in TPRM Practices"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Generative AI",
+      "risk_description": "The rapid adoption of Generative AI (GenAI) technologies introduces new risks related to data and information security, privacy, intellectual property protection, copyright infringement, and trust and reliability of outputs.",
+      "risk_driver": [
+        {
+          "driver_name": "Governance and Monitoring Challenges",
+          "driver_description": "Difficulty in monitoring and governing use of GenAI applications, including employee use of public tools like ChatGPT."
+        },
+        {
+          "driver_name": "Output Reliability and Trust Gaps",
+          "driver_description": "Inaccuracy and inconsistency of GenAI outputs, including hallucination of facts and reasoning errors."
+        }
+      ],
+      "risk_recommendations": [
+        "Review GenAI Monitoring Practices to evaluate data leaks and unauthorized use.",
+        "Assess Organizational Communication and Training on GenAI to ensure policy visibility and employee understanding.",
+        "Advise Organizational GenAI Working Groups on risks and strategic impacts.",
+        "Assess Organizational GenAI Policy Decision Making including policy breadth and update plans.",
+        "Review Processes for Approving GenAI Use to ensure compliance with approval procedures."
+      ],
+      "trend": "Generative AI emerged as a new risk in 2024 with growing adoption and associated challenges.",
+      "likelihood": null,
+      "impact": "Risks to data security, intellectual property, decision-making reliability, and organizational reputation.",
+      "risk_indicator": [
+        "Number of LLM use cases in the organization",
+        "Amount of spending on GenAI initiatives",
+        "Number of employees with GenAI skills",
+        "Number of data breaches related to GenAI use",
+        "Percentage of GenAI outputs reviewed by experts"
+      ],
+      "risk_event": [
+        "Incidents of employees inputting confidential information into GenAI applications have been reported."
+      ],
+      "suggested_audits": [
+        "Review GenAI Monitoring Practices",
+        "Assess Organizational Communication and Training on GenAI",
+        "Advise Organizational GenAI Working Groups",
+        "Assess Organizational GenAI Policy Decision Making",
+        "Review Processes for Approving GenAI Use"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Supply Chain",
+      "risk_description": "Geopolitical rivalries, logistics bottlenecks, rising temperatures, and extreme weather events are driving organizations to restructure and diversify supply chains, increasing costs and complexity.",
+      "risk_driver": [
+        {
+          "driver_name": "Supply Chain Restructuring",
+          "driver_description": "Efforts to diversify and restructure supply chains in response to geopolitical and pandemic-related disruptions."
+        },
+        {
+          "driver_name": "Ballooning Costs",
+          "driver_description": "Rising costs due to logistics challenges and climate impacts."
+        },
+        {
+          "driver_name": "Renationalization of Supply Chains",
+          "driver_description": "Shift towards localizing supply chains to reduce risk."
+        },
+        {
+          "driver_name": "Logistics Challenges Stemming From China’s Zero-COVID-19 Policy",
+          "driver_description": "Policy-driven disruptions affecting global logistics."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Supply Chain risk has been a consistent concern from 2022 through 2024 with evolving drivers.",
+      "likelihood": null,
+      "impact": "Increased supply chain costs and potential operational disruptions.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Employee Well-Being and Satisfaction",
+      "risk_description": "Disconnects between employer and employee perspectives on return-to-office policies, overburdened managers, uncertain talent needs, and long-term effects of hybrid working models impact employee well-being and satisfaction.",
+      "risk_driver": [
+        {
+          "driver_name": "Employer-Employee Return-to-Office Disconnect",
+          "driver_description": "Differing views on in-office work requirements affect morale."
+        },
+        {
+          "driver_name": "Overburdened Managers",
+          "driver_description": "Managers face increased responsibilities and low satisfaction."
+        },
+        {
+          "driver_name": "Uncertain Talent Needs",
+          "driver_description": "Unclear future workforce requirements create uncertainty."
+        },
+        {
+          "driver_name": "Uncertain Long-Term Effects of Hybrid Working Models",
+          "driver_description": "Hybrid work impacts on productivity and engagement are unclear."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Employee Well-Being and Satisfaction is a growing concern in 2024.",
+      "likelihood": null,
+      "impact": "Reduced employee morale, productivity, and retention.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Environmental, Social and Governance (ESG)",
+      "risk_description": "Lack of harmonized regulatory requirements and reporting frameworks create ESG reporting challenges. Slow progress on ESG goals exposes organizations to greenwashing, climate-related litigation, and reputational risk.",
+      "risk_driver": [
+        {
+          "driver_name": "ESG Reporting Complexity",
+          "driver_description": "Navigating multiple standards and guidance complicates reporting."
+        },
+        {
+          "driver_name": "Slow Progress on ESG Goals",
+          "driver_description": "Failure to meet publicly stated ESG targets increases risk."
+        },
+        {
+          "driver_name": "Expanded ESG Reporting Standards",
+          "driver_description": "Increasing scope of ESG reporting requirements."
+        },
+        {
+          "driver_name": "Increased Scrutiny of ESG Practices",
+          "driver_description": "Greater attention from regulators and stakeholders."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "ESG risk continues to evolve with expanding standards and scrutiny.",
+      "likelihood": null,
+      "impact": "Reputational damage, regulatory penalties, and litigation risk.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Social and Political Tensions",
+      "risk_description": "Heightened geopolitical competition, trade restrictions, and costly social unrest affect where organizations do business and raise expectations regarding their involvement in social issues.",
+      "risk_driver": [
+        {
+          "driver_name": "Geopolitical Competition",
+          "driver_description": "Trade restrictions and controls increase operational risks."
+        },
+        {
+          "driver_name": "Social Unrest",
+          "driver_description": "Social instability impacts business operations and reputation."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Social and Political Tensions emerged as a new risk in 2024.",
+      "likelihood": null,
+      "impact": "Operational disruptions and reputational risks.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Macroeconomic Uncertainty",
+      "risk_description": "Despite lingering inflation and interest rate hikes, many economies continue to exhibit strong growth and employment, creating a confusing short-term picture. Longer-term conditions point to persistent headwinds challenging organizations’ ability to meet financial performance objectives.",
+      "risk_driver": [
+        {
+          "driver_name": "Conflicting Short-term Signals",
+          "driver_description": "Mixed economic indicators create uncertainty."
+        },
+        {
+          "driver_name": "Looming Stagnation",
+          "driver_description": "Potential for economic slowdown or stagnation."
+        },
+        {
+          "driver_name": "Rising Interest Rates",
+          "driver_description": "Higher borrowing costs impact financial planning."
+        },
+        {
+          "driver_name": "Currency Volatility",
+          "driver_description": "Fluctuations in currency exchange rates affect operations."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Macroeconomic Uncertainty remains a key risk in 2024.",
+      "likelihood": null,
+      "impact": "Financial performance challenges and planning difficulties.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

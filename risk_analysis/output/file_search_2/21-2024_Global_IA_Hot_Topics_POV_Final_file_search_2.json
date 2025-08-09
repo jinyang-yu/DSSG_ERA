@@ -1,0 +1,239 @@
+{
+  "risks": [
+    {
+      "risk_name": "Disruptive Technology Risk",
+      "risk_description": "The rapid evolution and adoption of disruptive technologies such as generative AI (GenAI), cloud computing, artificial intelligence (AI), and machine learning (ML) present elevated risks including ethical issues, data governance, security challenges, and operational impacts. Organizations face challenges in managing these risks while leveraging the opportunities these technologies offer.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid Pace of Technological Change",
+          "driver_description": "The quickening evolution of disruptive technologies increases complexity and risk exposure."
+        },
+        {
+          "driver_name": "Ethical and Regulatory Challenges",
+          "driver_description": "New regulations such as EU bans on AI in biometric surveillance and requirements for AI-generated content disclosure create compliance risks."
+        },
+        {
+          "driver_name": "Unclear Risk Ownership",
+          "driver_description": "Uncertainty about who owns the risk can lead to fragmented or ineffective risk management."
+        },
+        {
+          "driver_name": "Integration and Cost Challenges",
+          "driver_description": "Costly and technically challenging cloud migration and integration of AI into existing systems."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop and harmonize a clear strategy for GenAI and other disruptive technologies aligned with enterprise strategy.",
+        "Establish or refine AI governance frameworks and implementation roadmaps with cross-functional input.",
+        "Conduct education and awareness sessions on AI risks at senior leadership and broader organizational levels.",
+        "Adapt legacy technology risk frameworks to address bias, misinformation, transparency, and accountability.",
+        "Ensure responsible use of cloud resources to minimize environmental impact and optimize costs.",
+        "Continuously monitor and assess the deployment of AI and disruptive technologies within the organization."
+      ],
+      "trend": "Disruptive technology risks are increasing in importance due to rapid adoption and evolving regulatory landscapes. Over 50% of CFOs cite impact to risk and controls as a top concern, with 42% experimenting with GenAI and 15% building it into strategies.",
+      "likelihood": "High likelihood as adoption of disruptive technologies accelerates across industries.",
+      "impact": "Potential for significant operational disruption, regulatory non-compliance, reputational damage, and ethical breaches. The complexity and novelty of these technologies increase the risk severity.",
+      "risk_indicator": "Investment levels in disruptive technologies; regulatory compliance status; AI governance maturity.",
+      "risk_event": [
+        "June 2023 European Commission amendments banning AI use in biometric surveillance and requiring AI-generated content disclosure."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Rate of adoption and risk exposure varies by company maturity and philosophy towards disruptive technologies."
+      ]
+    },
+    {
+      "risk_name": "Environmental, Social, and Governance (ESG) Risk",
+      "risk_description": "Increasing regulatory and stakeholder pressure for transparent ESG reporting and performance exposes organizations to risks including greenwashing, bluewashing, and pinkwashing, which can damage reputation and stakeholder trust.",
+      "risk_driver": [
+        {
+          "driver_name": "Regulatory Requirements",
+          "driver_description": "New and pending ESG reporting regulations such as California's Climate Corporate Data Accountability Act require detailed disclosures."
+        },
+        {
+          "driver_name": "Stakeholder Expectations",
+          "driver_description": "Growing demand for authentic environmental responsibility, social consciousness, and governance effectiveness."
+        },
+        {
+          "driver_name": "Misleading Practices",
+          "driver_description": "Temptation to engage in greenwashing, bluewashing, or pinkwashing to appear more responsible than actual performance."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct current-state ESG program assessments to identify enhancement opportunities.",
+        "Validate ESG-related metrics and disclosures through risk assessments and assurance activities.",
+        "Build SOX-like frameworks for ESG risk, controls, and testing procedures.",
+        "Ensure ESG reporting is managed by appropriate teams rather than marketing to reduce misleading practices.",
+        "Incorporate ESG into internal audit plans and risk conversations to provide assurance on reporting and controls.",
+        "Brief internal audit teams on established ESG reporting standards and frameworks."
+      ],
+      "trend": "ESG risks are rising sharply with increasing regulatory mandates and stakeholder scrutiny. Companies hesitant to prioritize ESG risk falling behind.",
+      "likelihood": "High likelihood due to expanding regulations and market expectations.",
+      "impact": "Failure to manage ESG risks can lead to reputational damage, loss of stakeholder trust, regulatory penalties, and missed business opportunities.",
+      "risk_indicator": "Accuracy and completeness of ESG disclosures; frequency of ESG-related regulatory changes.",
+      "risk_event": [
+        "September 2023 passage of California SB-253 and SB-261 mandating greenhouse gas emissions and climate risk disclosures."
+      ],
+      "suggested_audits": [
+        "Deliver ESG-centric internal audits to assess identification, consideration, and documentation of ESG objectives, activities, and risks."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Operational Resilience Risk",
+      "risk_description": "The risk that organizations fail to design, implement, and maintain resilience in critical products, services, and processes, leading to inability to withstand or recover from disruptions.",
+      "risk_driver": [
+        {
+          "driver_name": "Lack of Common Understanding",
+          "driver_description": "Only 52% of senior executives report a common understanding of resilience within their organizations."
+        },
+        {
+          "driver_name": "Talent Scarcity",
+          "driver_description": "59% cite scarcity of talent as a major barrier to achieving greater resilience."
+        },
+        {
+          "driver_name": "Competing Priorities",
+          "driver_description": "Strategic priorities and organizational understanding of resilience are often lacking or misaligned."
+        },
+        {
+          "driver_name": "Regulatory Changes",
+          "driver_description": "67% of senior leaders report resilience has been impacted by regulatory changes such as the Digital Operational Resilience Act (DORA)."
+        }
+      ],
+      "risk_recommendations": [
+        "Help organizations identify and define what is critical to make resilient.",
+        "Assess current resilience levels and identify exposure points in supply chains, technologies, and third-party providers.",
+        "Determine impact tolerance to guide investment decisions on resilience.",
+        "Promote deliberate design of resilience including dual sourcing and succession planning.",
+        "Develop plans for continuing critical services during disruptions and robust post-crisis review processes.",
+        "Encourage alignment of language, definitions, and goals across business continuity, disaster recovery, and information security functions."
+      ],
+      "trend": "Resilience remains a growing priority post-pandemic, with regulatory frameworks emerging and increasing focus on operational continuity.",
+      "likelihood": "Moderate to high likelihood given increasing complexity and external pressures.",
+      "impact": "Failure to achieve resilience can cause severe operational disruptions, financial losses, reputational damage, and stakeholder harm.",
+      "risk_indicator": "Resilience maturity assessments; regulatory compliance with DORA and CER directives.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Internal Controls and Controls Modernization Risk",
+      "risk_description": "Risks arising from outdated, inefficient, or overly complex internal control environments that fail to keep pace with digital transformation and evolving business complexity.",
+      "risk_driver": [
+        {
+          "driver_name": "Manual and Inefficient Controls",
+          "driver_description": "Lack of technology enablement leads to inefficiencies and elevated risk of control failure."
+        },
+        {
+          "driver_name": "Excessive Controls Testing",
+          "driver_description": "User dissatisfaction due to difficult navigation and expanding control landscapes."
+        },
+        {
+          "driver_name": "Complicated Control Frameworks",
+          "driver_description": "Many layers and lack of ongoing optimization processes."
+        },
+        {
+          "driver_name": "Risk-Based Approach Deficiencies",
+          "driver_description": "Ineffective use of risk-based approaches results in exposure to material weaknesses and misaligned resources."
+        }
+      ],
+      "risk_recommendations": [
+        "Engage early with management to make control programs risk-driven rather than compliance-driven.",
+        "Define clear risk appetite to avoid over-controlling.",
+        "Challenge existing orthodoxies and consider continuous controls monitoring.",
+        "Align stakeholders and control owners through assurance-by-design processes.",
+        "Leverage automation and governance, risk, and control (GRC) platforms to improve control performance and testing."
+      ],
+      "trend": "Increasing focus on controls modernization driven by digital transformation and regulatory demands.",
+      "likelihood": "High likelihood as organizations face growing complexity and digital disruption.",
+      "impact": "Ineffective controls can lead to financial misstatements, compliance failures, operational inefficiencies, and reputational damage.",
+      "risk_indicator": "Control failure rates; extent of automation in control testing.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Data and Analytics Risk",
+      "risk_description": "Risks related to limited use of digital tools beyond basic analytics, leading to missed opportunities for integrated digital transformation and continuous auditing.",
+      "risk_driver": [
+        {
+          "driver_name": "Narrow Use of Analytics",
+          "driver_description": "Many internal audit functions use analytics only for inquiries or data sampling, missing broader digital potential."
+        },
+        {
+          "driver_name": "Lack of Process Focus",
+          "driver_description": "Overemphasis on technology implementation rather than improving audit processes."
+        },
+        {
+          "driver_name": "Limited Data Literacy",
+          "driver_description": "Challenges in attaining data literacy and keeping up with emerging risks."
+        }
+      ],
+      "risk_recommendations": [
+        "Adopt a systematic and methodical approach to digital innovation.",
+        "Pilot proof of concepts and measure return on investment to guide technology investments.",
+        "Focus on process effectiveness alongside technology adoption.",
+        "Promote a mindset of experimentation and continuous learning within audit teams.",
+        "Leverage technology to document risk assessments, calculate risk ratings, and provide visibility."
+      ],
+      "trend": "Growing recognition of the need to build a digital backbone for internal audit functions.",
+      "likelihood": "Moderate likelihood as digital transformation accelerates but adoption varies.",
+      "impact": "Limited digital maturity can reduce audit effectiveness, delay risk identification, and impair organizational agility.",
+      "risk_indicator": "Level of digital integration in audit processes; ROI on technology investments.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Trust and Reputation Risk",
+      "risk_description": "The risk of losing stakeholder trust due to failures in governance, transparency, and consistent delivery of organizational purpose.",
+      "risk_driver": [
+        {
+          "driver_name": "Lack of Clear Trust Definition",
+          "driver_description": "Unclear understanding of what trust means within the enterprise and industry context."
+        },
+        {
+          "driver_name": "Inconsistent Trust Building",
+          "driver_description": "Trust must be built consistently over time and embedded in organizational operations."
+        }
+      ],
+      "risk_recommendations": [
+        "Define trust clearly within the organizational and industry context.",
+        "Embed trust-building activities into internal audit’s ways of working, including hindsight, insight, and foresight.",
+        "Prioritize exploring, diagnosing, and acting on trust as an ongoing organizational capability."
+      ],
+      "trend": "Increasing focus on trust as a critical intangible asset in complex business environments.",
+      "likelihood": null,
+      "impact": "Loss of trust can lead to reputational damage, reduced stakeholder engagement, and financial consequences.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Human Capital Management Risk",
+      "risk_description": "Risks arising from challenges in managing workforce changes, talent scarcity, and evolving work models in a future of work without boundaries.",
+      "risk_driver": [
+        {
+          "driver_name": "Talent Scarcity",
+          "driver_description": "Difficulty in attracting and retaining skilled employees."
+        },
+        {
+          "driver_name": "Changing Work Models",
+          "driver_description": "Shift to hybrid and remote work complicates workforce management."
+        }
+      ],
+      "risk_recommendations": [
+        "Help leaders understand and adapt to evolving workforce dynamics.",
+        "Implement strategies to attract, retain, and develop talent aligned with organizational goals.",
+        "Enhance employee engagement and well-being initiatives."
+      ],
+      "trend": "Growing importance as organizations navigate post-pandemic workforce transformations.",
+      "likelihood": null,
+      "impact": "Poor human capital management can lead to reduced productivity, increased turnover, and operational disruptions.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

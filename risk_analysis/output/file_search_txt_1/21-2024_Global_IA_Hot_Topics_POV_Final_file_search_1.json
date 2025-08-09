@@ -1,0 +1,224 @@
+{
+  "risks": [
+    {
+      "risk_name": "Controls Modernization Risk",
+      "risk_description": "Risk arising from outdated or inefficient control environments that fail to keep pace with increasing business complexity, regulatory requirements, and digital transformation, leading to potential accounting and reporting misstatements.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Business Complexity and Regulatory Requirements",
+          "driver_description": "Continual changes in the risk environment driven by complex business operations and evolving regulations."
+        },
+        {
+          "driver_name": "Historical Approaches to Risk and Controls",
+          "driver_description": "Traditional risk and control methods may not be suitable for the current environment of digital transformation and persistent change."
+        },
+        {
+          "driver_name": "Lack of Technology Enablement",
+          "driver_description": "Manual processes and lack of automation in control testing and performance lead to inefficiencies and elevated risk of failure."
+        },
+        {
+          "driver_name": "Unoptimized Control Environment",
+          "driver_description": "Excessive controls testing and expanding control landscape causing user dissatisfaction and risk of control failure."
+        }
+      ],
+      "risk_recommendations": [
+        "Help management understand and determine risk appetite to focus controls on non-negotiable risks.",
+        "Advise on making the control program risk-driven rather than compliance-driven.",
+        "Encourage digitization and automation of control programs, including continuous controls monitoring.",
+        "Align stakeholders and control owners through assurance-by-design processes.",
+        "Challenge existing orthodoxies and optimize the control framework regularly."
+      ],
+      "trend": "Risk environment is evolving with increasing complexity and regulatory demands, making controls modernization more critical than ever.",
+      "likelihood": null,
+      "impact": "Increased risk of accounting and reporting misstatements due to inability to adapt quickly to internal and external changes.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Disruptive Technology Risk",
+      "risk_description": "Risks associated with the rapid adoption and evolution of disruptive technologies such as generative AI (GenAI), cloud computing, and machine learning, including data governance, security, ethical, and operational challenges.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid Pace of Technological Change",
+          "driver_description": "Accelerated evolution of technologies like GenAI changing the risk landscape quickly."
+        },
+        {
+          "driver_name": "Data Governance and Security Risks",
+          "driver_description": "New technologies introduce risks related to data privacy, security, and ethical use."
+        },
+        {
+          "driver_name": "Unclear Ownership of Risks",
+          "driver_description": "Uncertainty about who owns the risk can lead to fragmented or ineffective risk management."
+        },
+        {
+          "driver_name": "Lack of Appropriate Policies and Guidelines",
+          "driver_description": "Absence of comprehensive policies to manage AI and cloud risks effectively."
+        }
+      ],
+      "risk_recommendations": [
+        "Educate leadership and staff on underlying technologies and their capabilities and limitations.",
+        "Develop and harmonize a GenAI strategy aligned with enterprise AI and digital transformation plans.",
+        "Establish cross-disciplinary teams to discuss use cases and associated risks.",
+        "Adapt legacy risk frameworks to address bias, misinformation, transparency, and accountability.",
+        "Set up or refine AI governance frameworks and implementation roadmaps with cross-functional input.",
+        "Pose questions about AI and automation adoption during risk assessments."
+      ],
+      "trend": "Increasing adoption of disruptive technologies with growing concerns about associated risks; regulatory changes such as EU AI rules are emerging.",
+      "likelihood": null,
+      "impact": "Potential for significant operational, reputational, and compliance impacts due to misuse or failure to manage technology risks.",
+      "risk_indicator": null,
+      "risk_event": [
+        {
+          "event_description": "June 2023 European Commission amendments to AI rules including bans on AI in biometric surveillance and requirements for AI-generated content disclosure."
+        }
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Environmental, Social, and Governance (ESG) Risk",
+      "risk_description": "Risks related to ESG reporting, transparency, and the potential for misleading practices such as greenwashing, bluewashing, and pinkwashing, which can damage reputation and stakeholder trust.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Regulatory Pressure",
+          "driver_description": "Global push for greater ESG reporting and transparency, including new laws like California's Climate Corporate Data Accountability Act."
+        },
+        {
+          "driver_name": "Misleading ESG Practices",
+          "driver_description": "Temptation to overstate or misrepresent environmental and social commitments."
+        },
+        {
+          "driver_name": "Lack of Alignment and Monitoring",
+          "driver_description": "Misalignment between ESG strategy and business strategy and inadequate monitoring of progress."
+        }
+      ],
+      "risk_recommendations": [
+        "Incorporate ESG into internal audit plans and serve as trusted advisor to management.",
+        "Conduct current-state ESG program assessments to identify enhancement opportunities.",
+        "Perform risk assessments and assurance activities on ESG metrics and disclosures.",
+        "Build SOX-like frameworks for ESG risk, controls, and testing procedures.",
+        "Verify actions taken beyond just assuring ESG numbers.",
+        "Brief internal audit teams on established ESG reporting standards and frameworks."
+      ],
+      "trend": "Growing importance of ESG risks with increasing regulatory requirements and stakeholder expectations.",
+      "likelihood": null,
+      "impact": "Reputational damage and loss of stakeholder trust if ESG targets are not met or misrepresented.",
+      "risk_indicator": null,
+      "risk_event": [
+        {
+          "event_description": "September 2023 California legislation requiring greenhouse gas emissions and climate-related financial risk disclosures."
+        }
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Resilience Risk",
+      "risk_description": "Risk of inadequate organizational resilience due to lack of alignment, governance, and understanding of critical products, services, and outcomes, leading to failure in responding to disruptions.",
+      "risk_driver": [
+        {
+          "driver_name": "Scarcity of Talent",
+          "driver_description": "Limited availability of skilled personnel to support resilience efforts."
+        },
+        {
+          "driver_name": "Competing Strategic Priorities",
+          "driver_description": "Other priorities may detract focus from resilience initiatives."
+        },
+        {
+          "driver_name": "Lack of Organizational Understanding",
+          "driver_description": "Insufficient clarity on what is critical to organizational resilience."
+        },
+        {
+          "driver_name": "Centralized Strategies Eliminating Redundancy",
+          "driver_description": "Outsourcing or offshoring to single centers may create single points of failure."
+        }
+      ],
+      "risk_recommendations": [
+        "Help organizations identify what is critical to resilience.",
+        "Facilitate alignment of language, definitions, and goals around resilience.",
+        "Encourage governance with a single accountable body and minimum requirements.",
+        "Advise on dual sourcing and succession planning to avoid major points of failure.",
+        "Support planning and preparation for continuing critical services during disruptions.",
+        "Promote agile response and robust post-crisis review processes."
+      ],
+      "trend": "Resilience remains a top priority but many organizations have not improved significantly since 2020.",
+      "likelihood": null,
+      "impact": "Potential for severe operational disruption and failure to maintain critical services during crises.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Human Capital Management Risk",
+      "risk_description": "Risks related to talent shortages, workforce flexibility demands, diversity, equity, and inclusion (DEI) challenges, and potential legal exposures from employment discrimination.",
+      "risk_driver": [
+        {
+          "driver_name": "Talent Shortages",
+          "driver_description": "Ongoing scarcity of skilled workers impacting organizational capability."
+        },
+        {
+          "driver_name": "Changing Work Models",
+          "driver_description": "Shift to skills-based workforce decisions and flexible workplace models."
+        },
+        {
+          "driver_name": "Legal and Regulatory Challenges",
+          "driver_description": "Increase in employment discrimination lawsuits and regulatory scrutiny."
+        },
+        {
+          "driver_name": "Employee Expectations",
+          "driver_description": "Demand for meaningful work, flexible hours, and personalized career paths."
+        }
+      ],
+      "risk_recommendations": [
+        "Assess maturity of talent recruitment and DEI efforts.",
+        "Identify and address risks through culture audits and program improvements.",
+        "Provide assurance on accuracy and completeness of social data disclosures.",
+        "Advise on metrics tied to talent objectives and periodic maturity assessments.",
+        "Conduct special audits in response to high attrition or stakeholder concerns.",
+        "Help leadership understand risks and benefits of organizational culture."
+      ],
+      "trend": "Talent shortages expected to continue with increasing focus on employee-centric models.",
+      "likelihood": null,
+      "impact": "Risks to talent retention, worker productivity, brand reputation, and cyber security.",
+      "risk_indicator": null,
+      "risk_event": [
+        {
+          "event_description": "143 new employment discrimination lawsuits filed by US EEOC in fiscal year 2023, a 50% increase over 2022."
+        }
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Enterprise Trust Risk",
+      "risk_description": "Risk of loss of stakeholder trust due to failure to meet expectations around competence, intent, transparency, and reliability, impacting organizational performance and market value.",
+      "risk_driver": [
+        {
+          "driver_name": "Failure to Meet Stakeholder Expectations",
+          "driver_description": "Inadequate safeguarding of data, poor ESG stances, unsafe working conditions, and lack of transparency."
+        },
+        {
+          "driver_name": "Organizational Culture and Leadership",
+          "driver_description": "Lack of psychological safety and unclear ownership of trust issues."
+        }
+      ],
+      "risk_recommendations": [
+        "Make trust measurement a strategic priority within internal audit plans.",
+        "Define trust within enterprise and industry context and identify key stakeholders.",
+        "Embed trust considerations into internal audit's assurance, advisory, and anticipatory roles.",
+        "Use internal and external sensing to understand trust across stakeholder groups.",
+        "Address issues surfaced by surveys promptly and avoid defensive leadership stances."
+      ],
+      "trend": "Growing recognition of trust as a critical organizational asset with low historical levels creating opportunity.",
+      "likelihood": null,
+      "impact": "Organizations impacted by trust events fall significantly behind peers in value and market capitalization.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

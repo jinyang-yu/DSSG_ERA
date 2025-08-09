@@ -1,0 +1,370 @@
+{
+  "risks": [
+    {
+      "risk_name": "AI Risks",
+      "risk_description": "AI is reshaping industries and decision-making but brings unprecedented risks including bias, privacy violations, cyber security threats, job displacement, lack of understanding, weaponization, regulatory uncertainty, over-reliance, intellectual property issues, and ethical concerns.",
+      "risk_driver": [
+        {
+          "driver_name": "Bias and Discrimination",
+          "driver_description": "AI systems can perpetuate biases leading to unfair treatment in hiring, lending, and insurance."
+        },
+        {
+          "driver_name": "Privacy Violations",
+          "driver_description": "AI tools collect and analyze vast amounts of data raising serious privacy concerns."
+        },
+        {
+          "driver_name": "Cyber Security Threats",
+          "driver_description": "Deepfake scams and AI-driven malware threaten businesses and individuals."
+        },
+        {
+          "driver_name": "Job Displacement",
+          "driver_description": "Automation of roles by AI can lead to workforce disruptions and skill gaps."
+        },
+        {
+          "driver_name": "Lack of Understanding",
+          "driver_description": "Complex AI models are not fully understood even by developers, raising trust issues."
+        },
+        {
+          "driver_name": "AI Weaponization",
+          "driver_description": "Autonomous AI-driven weapons and cyberwarfare tools pose global security threats."
+        },
+        {
+          "driver_name": "Regulatory Uncertainty",
+          "driver_description": "Inconsistent or changing AI regulations create compliance risks and stifle innovation."
+        },
+        {
+          "driver_name": "Over-reliance on AI",
+          "driver_description": "Allowing AI to make important decisions without human oversight can lead to major failures."
+        },
+        {
+          "driver_name": "Intellectual Property Issues",
+          "driver_description": "Ownership and copyright issues around AI-generated content and training data."
+        },
+        {
+          "driver_name": "Ethical Concerns and Public Backlash",
+          "driver_description": "Misuse of AI can lead to reputational harm and public opposition."
+        }
+      ],
+      "risk_recommendations": [
+        "Improve cyber resilience.",
+        "Establish risk management and governance policies for AI usage.",
+        "Develop ransomware response protocols, training, and recovery solutions.",
+        "Strengthen board oversight.",
+        "Conduct regular cyber security and operational risk assessments of external vendors.",
+        "Improve workforce training.",
+        "Continually test AI models and validate their output.",
+        "Develop AI monitoring and compliance protocols.",
+        "Ensure third-party contracts specify acceptable AI use.",
+        "Consider public disclosure of AI use to maintain trust.",
+        "Evaluate risk scenarios for AI use and modify high-risk applications.",
+        "Verify accuracy and reasonableness of AI outputs."
+      ],
+      "trend": "AI is rapidly evolving and becoming more integrated into decision-making, with growing concerns about its risks outpacing regulatory frameworks.",
+      "likelihood": null,
+      "impact": "Potential for financial and reputational damage, operational disruptions, societal inequity, and global security threats.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Cyber Security Risks",
+      "risk_description": "Cyber threats are evolving with AI-driven attacks, targeting data and trust, including ransomware, phishing, supply chain attacks, insider threats, and vulnerabilities in IT and OT systems.",
+      "risk_driver": [
+        {
+          "driver_name": "State-Sponsored Threats",
+          "driver_description": "Sophisticated cyber programs from nation-states like China targeting critical infrastructure."
+        },
+        {
+          "driver_name": "Ransomware Evolution",
+          "driver_description": "Advanced encryption and extortion techniques targeting critical infrastructure."
+        },
+        {
+          "driver_name": "Supply Chain Attacks",
+          "driver_description": "Cybercriminals exploit third-party vendors to infiltrate organizations."
+        },
+        {
+          "driver_name": "AI-Powered Cybercrime",
+          "driver_description": "Use of AI to automate attacks, create deepfakes, and sophisticated phishing."
+        },
+        {
+          "driver_name": "IoT Vulnerabilities",
+          "driver_description": "Lack of standard security protocols in IoT devices increases attack surface."
+        },
+        {
+          "driver_name": "Insider Threats",
+          "driver_description": "Malicious or unintentional insider actions amplified by remote work and poor monitoring."
+        },
+        {
+          "driver_name": "Legacy System Weaknesses",
+          "driver_description": "Outdated IT and OT infrastructure poses security risks."
+        },
+        {
+          "driver_name": "Cloud Security Risks",
+          "driver_description": "Misconfigured cloud environments and multi-cloud complexity lead to data leaks."
+        },
+        {
+          "driver_name": "Regulatory Compliance Challenges",
+          "driver_description": "Evolving regulations require continuous compliance adjustments."
+        },
+        {
+          "driver_name": "Advanced Persistent Threats",
+          "driver_description": "Sophisticated targeted attacks aimed at stealing data or disrupting operations."
+        }
+      ],
+      "risk_recommendations": [
+        "Strengthen cyber defenses with zero trust security.",
+        "Implement advanced threat detection.",
+        "Mandate multi-factor authentication (MFA).",
+        "Invest in employee training and regular security updates.",
+        "Manage third-party risks rigorously.",
+        "Develop and test cyber incident response plans.",
+        "Encrypt data and maintain backups.",
+        "Adopt quantum-resistant encryption.",
+        "Assess supply chain security.",
+        "Establish insider threat programs.",
+        "Ensure regulatory compliance.",
+        "Monitor for advanced persistent threats.",
+        "Secure IoT devices.",
+        "Develop holistic security covering both IT and OT environments."
+      ],
+      "trend": "Cyber-attacks are decreasing in number but increasing in success rate; cyber security remains a top priority with growing investment and insurance uptake.",
+      "likelihood": null,
+      "impact": "Severe operational disruptions, financial losses, data breaches, reputational damage, and threats to critical infrastructure.",
+      "risk_indicator": null,
+      "risk_event": [
+        {
+          "event_name": "Colonial Pipeline Ransomware Attack",
+          "event_description": "In 2021, Colonial Pipeline suffered a ransomware attack on its OT system via VPN connected to IT network, paying $4.4 million ransom."
+        }
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Third-Party and Supply Chain Risks",
+      "risk_description": "Growing reliance on third-party vendors for technology and operational services introduces risks including cyber security breaches, regulatory non-compliance, operational disruptions, data privacy violations, financial instability, supply chain vulnerabilities, reputational damage, legal liabilities, strategic misalignment, and over-reliance on key vendors.",
+      "risk_driver": [
+        {
+          "driver_name": "Vendor Cybersecurity Weaknesses",
+          "driver_description": "Third-party vendors are a primary source of data breaches and cyber incidents."
+        },
+        {
+          "driver_name": "Regulatory Compliance Failures",
+          "driver_description": "Failing to align with changing regulations including those of third parties."
+        },
+        {
+          "driver_name": "Operational Disruptions",
+          "driver_description": "Dependence on third parties increases risk of service interruptions due to vendor failures or insolvencies."
+        },
+        {
+          "driver_name": "Financial Instability of Vendors",
+          "driver_description": "Vendor financial health impacts service delivery."
+        },
+        {
+          "driver_name": "Supply Chain Vulnerabilities",
+          "driver_description": "Global trade disruptions and cyber incidents affect supply chain integrity."
+        },
+        {
+          "driver_name": "Reputational Damage",
+          "driver_description": "Working with unethical or non-compliant vendors harms reputation."
+        },
+        {
+          "driver_name": "Legal Liabilities",
+          "driver_description": "Inadequate third-party risk management exposes organizations to legal challenges."
+        },
+        {
+          "driver_name": "Strategic Misalignment",
+          "driver_description": "Vendor objectives diverging from organizational goals cause conflicts."
+        },
+        {
+          "driver_name": "Over-reliance on Key Vendors",
+          "driver_description": "Concentration risk from dependence on few providers."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct regular vendor assessments.",
+        "Implement a third-party risk management program.",
+        "Diversify vendor partnerships.",
+        "Improve contracts to clearly outline compliance and protections.",
+        "Monitor financial health and stability of key vendors.",
+        "Review third-party agreements and access permissions regularly.",
+        "Stress test third-party liability clauses."
+      ],
+      "trend": "Sharp increase in reliance on third parties for technology services; supply chain disruptions due to cyber incidents increased by 13% year-over-year.",
+      "likelihood": null,
+      "impact": "Operational interruptions, financial losses, reputational damage, legal challenges, and systemic vulnerabilities especially in financial sector.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Financial sector faces increasing scrutiny over concentration risks from third-party dependencies."
+      ]
+    },
+    {
+      "risk_name": "Digital Transformation Risks",
+      "risk_description": "Rapid digital transformation brings risks including resistance to change, integration challenges, skill gaps, unrealistic expectations, data security and privacy risks, vendor dependence, regulatory and compliance risks, technology obsolescence, failure to align with business goals, and operational disruptions.",
+      "risk_driver": [
+        {
+          "driver_name": "Resistance to Change",
+          "driver_description": "Employees and stakeholders may resist new technologies, slowing adoption and productivity."
+        },
+        {
+          "driver_name": "Integration Challenges",
+          "driver_description": "Merging new tools with legacy systems causes delays, compatibility issues, and operational downtime."
+        },
+        {
+          "driver_name": "Skill Gaps",
+          "driver_description": "Lack of technical know-how leads to poor implementation and reliance on external advisors."
+        },
+        {
+          "driver_name": "Unrealistic Expectations",
+          "driver_description": "Overestimating immediate benefits results in budget overruns and failed projects."
+        },
+        {
+          "driver_name": "Data Security and Privacy Risks",
+          "driver_description": "Increased reliance on digital tools and cloud services exposes businesses to cyber threats and regulatory penalties."
+        },
+        {
+          "driver_name": "Vendor Dependence",
+          "driver_description": "Over-reliance on a single technology provider creates lock-in risks."
+        },
+        {
+          "driver_name": "Regulatory and Compliance Risks",
+          "driver_description": "Failure to meet industry-specific regulations during transformation leads to legal and financial consequences."
+        },
+        {
+          "driver_name": "Technology Obsolescence",
+          "driver_description": "Cutting-edge systems can become outdated quickly, requiring ongoing updates."
+        },
+        {
+          "driver_name": "Failure to Align with Business Goals",
+          "driver_description": "Digital adoption without clear purpose wastes resources and fails to deliver value."
+        },
+        {
+          "driver_name": "Operational Disruptions",
+          "driver_description": "Poorly managed transitions cause service interruptions, customer dissatisfaction, and financial losses."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement disciplined change management.",
+        "Ensure robust cyber security.",
+        "Plan smart integration.",
+        "Provide continuous upskilling and employee training.",
+        "Set realistic planning and goals.",
+        "Develop and maintain technology roadmap.",
+        "Mitigate vendor dependence risks.",
+        "Plan for business continuity.",
+        "Align digital transformation with business strategy.",
+        "Prepare for regulatory compliance."
+      ],
+      "trend": "Digital transformation market is rapidly growing with a 30% compound annual growth rate projected to 2030; risks are increasing with complexity of integration and cyber threats.",
+      "likelihood": null,
+      "impact": "Potential for operational downtime, financial losses, regulatory penalties, and failure to realize digital benefits.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "ESG Risks",
+      "risk_description": "Environmental, social, and governance risks include climate change impacts, carbon transition risks, biodiversity loss, greenwashing allegations, Indigenous rights and reconciliation issues, diversity, equity, and inclusion (DEI) failures, labour relations challenges, ESG reporting and compliance failures, board accountability weaknesses, and rising regulatory and legal liabilities.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate Change Impacts",
+          "driver_description": "Extreme weather events disrupt operations and supply chains."
+        },
+        {
+          "driver_name": "Carbon Transition Risk",
+          "driver_description": "Stricter emissions regulations and carbon pricing increase operational costs."
+        },
+        {
+          "driver_name": "Biodiversity Loss and Resource Scarcity",
+          "driver_description": "Diminishing natural resources create long-term risks."
+        },
+        {
+          "driver_name": "Greenwashing Allegations",
+          "driver_description": "Misrepresenting ESG efforts leads to reputational damage and penalties."
+        },
+        {
+          "driver_name": "Indigenous Rights and Reconciliation",
+          "driver_description": "Risks related to land disputes and community relations with Indigenous peoples."
+        },
+        {
+          "driver_name": "Diversity, Equity, and Inclusion (DEI)",
+          "driver_description": "Weak DEI strategies cause employee turnover, talent attraction difficulties, and reputational harm."
+        },
+        {
+          "driver_name": "Labour Relations and Workforce Well-being",
+          "driver_description": "Failing to address fair wages, mental health, and working conditions."
+        },
+        {
+          "driver_name": "ESG Reporting and Compliance",
+          "driver_description": "Inaccurate or inconsistent disclosures result in penalties."
+        },
+        {
+          "driver_name": "Board Accountability",
+          "driver_description": "Lack of oversight or engagement leads to shareholder activism and reputational harm."
+        },
+        {
+          "driver_name": "Regulatory and Legal Liability",
+          "driver_description": "Rising lawsuits and scrutiny increase operational and financial risks."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop a climate adaptation plan.",
+        "Strengthen ESG reporting.",
+        "Engage with Indigenous communities.",
+        "Audit supply chains.",
+        "Improve board oversight.",
+        "Invest in green innovation.",
+        "Prepare for crisis management.",
+        "Proactively engage stakeholders.",
+        "Monitor legal and regulatory risks."
+      ],
+      "trend": "Increasing scrutiny and tightening ESG reporting requirements; Canadian CEOs rank ESG as a top priority but many businesses lack readiness for mandatory disclosures.",
+      "likelihood": null,
+      "impact": "Potential for regulatory penalties, reputational damage, operational disruptions, and financial exposure.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Talent and Skills Shortages",
+      "risk_description": "Challenges in sourcing, recruiting, and retaining skilled workers due to aging workforce, shifting expectations, skills mismatches, and public policy shifts impacting immigration and foreign worker programs.",
+      "risk_driver": [
+        {
+          "driver_name": "Demand for Reskilling and Upskilling",
+          "driver_description": "Need to fill skills gaps with budget constraints."
+        },
+        {
+          "driver_name": "Skills Mismatch",
+          "driver_description": "Technology evolving faster than workforce adaptation."
+        },
+        {
+          "driver_name": "Sector-Specific Shortages",
+          "driver_description": "Certain sectors face acute shortages affecting productivity."
+        },
+        {
+          "driver_name": "Public Sentiment and Policy Shifts",
+          "driver_description": "Backlash and electoral pressure impact immigration and foreign worker availability."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in reskilling and upskilling.",
+        "Expand recruitment pipelines and improve strategies.",
+        "Promote careers in skilled trades.",
+        "Improve workplace flexibility.",
+        "Advocate for supportive public policies."
+      ],
+      "trend": "Growing concern over talent shortages and skills mismatches, with increasing reliance on contractors and temporary workers.",
+      "likelihood": null,
+      "impact": "Reduced productivity, innovation, and service delivery; increased labour costs and hiring delays.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

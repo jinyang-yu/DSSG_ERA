@@ -1,0 +1,277 @@
+{
+  "risks": [
+    {
+      "risk_name": "Macroeconomic and Geopolitical Uncertainty",
+      "risk_description": "Risk arising from economic shockwaves, geopolitical tensions, and market changes impacting financial stability, supply chains, customer behavior, and business continuity.",
+      "risk_driver": [
+        {
+          "driver_name": "Economic Shockwaves",
+          "driver_description": "Cost-of-living and cost-of-doing-business crises, tighter monetary policy, higher inflation and interest rates."
+        },
+        {
+          "driver_name": "Geopolitical Tensions",
+          "driver_description": "War in Ukraine, tensions between US and China, weakening of globalisation bonds."
+        },
+        {
+          "driver_name": "Market Changes",
+          "driver_description": "Changing customer behavior, competition, and supply chain disruptions."
+        },
+        {
+          "driver_name": "Regulatory Changes",
+          "driver_description": "Increased due diligence on third-party risk and sustainability regulations."
+        }
+      ],
+      "risk_recommendations": [
+        "Evaluate effectiveness of mechanisms to identify, assess and monitor macroeconomic and geopolitical changes.",
+        "Assess adequacy of strategic investment in R&D to remain competitive globally.",
+        "Ensure financial stress testing and scenario planning are aligned with emerging risks.",
+        "Adopt agile and adaptive strategies to manage fast-moving risks.",
+        "Advise on processes to adapt and mitigate macroeconomic and geopolitical risks.",
+        "Evaluate internal controls for compliance with regulations such as sanctions and anti-money laundering.",
+        "Coordinate efforts across three lines of defense to capture interrelated risks.",
+        "Use data analytics and predictive advisory services to support risk management.",
+        "Recruit and train staff with knowledge and skills to understand emerging risks."
+      ],
+      "trend": "Ranked joint 3rd biggest risk in 2024, highest since 2018. Expected to be 5th largest risk in 2027. Market changes would jump to 2nd place in economic downturn.",
+      "likelihood": null,
+      "impact": "Risks include insolvency, financial instability, disrupted supply chains, and failure to attract necessary skills, threatening business continuity and growth.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Germany slipping into recession following energy price shock in 2023.",
+        "Economic effects of higher inflation and interest rates impacting businesses.",
+        "Silicon Valley Bank failure illustrating risks of outdated assumptions."
+      ],
+      "suggested_audits": [
+        "Evaluate the effectiveness of the organisation’s mechanisms to identify, assess and monitor changes in the macroeconomic and geopolitical environment.",
+        "Assess whether the process for planned strategic investment in R&D is adequate to help the organisation achieve its long-term strategic goals and to remain competitive globally.",
+        "Assess whether the assumptions made on financial stress testing align with reality and that economic scenario planning and simulation exercises are awake to emerging risks.",
+        "Assess whether the organisation has adopted agile strategies and is adaptive and resilient where risks continue to be fast-moving and unpredictable.",
+        "Advise the company on the processes of adapting and mitigating risks associated with macroeconomic and geopolitical uncertainty.",
+        "Evaluate internal controls to ensure compliance with regulations and legal requirements related to macroeconomic and geopolitical trends, such as international sanctions and anti-money laundering rules."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Cybersecurity and Data Security",
+      "risk_description": "Risks related to cyberattacks, data breaches, and evolving digital threats impacting organisational networks, data integrity, and operational continuity.",
+      "risk_driver": [
+        {
+          "driver_name": "Sophistication of Cyberattacks",
+          "driver_description": "Professionalisation and commercialisation of hacking, state-sponsored wiper attacks, and weaponisation of cyberattacks."
+        },
+        {
+          "driver_name": "Expanded Attack Surface",
+          "driver_description": "Cloud migration, digitalisation of operational technologies, and integration with suppliers increasing vulnerabilities."
+        },
+        {
+          "driver_name": "Emerging Technologies",
+          "driver_description": "Use of AI and blockchain adding complexity and new risk exposures."
+        },
+        {
+          "driver_name": "Regulatory Environment",
+          "driver_description": "Increasing regulations such as GDPR, EU Cyber Resilience Act, NIS2, DORA imposing compliance requirements."
+        },
+        {
+          "driver_name": "Talent Shortage",
+          "driver_description": "Difficulty attracting and retaining skilled cybersecurity professionals."
+        }
+      ],
+      "risk_recommendations": [
+        "Assess compliance with cybersecurity laws, regulations, and industry standards.",
+        "Align cybersecurity risk taxonomies and controls across three lines of defense.",
+        "Enhance coordination among first, second, and third lines including CISOs and boards.",
+        "Evaluate effectiveness of cybersecurity controls and vulnerability assessments.",
+        "Monitor cybersecurity posture continuously and assess incident response and recovery plans.",
+        "Implement cybersecurity awareness and training programs.",
+        "Ensure backup data integrity and rapid system recovery capabilities.",
+        "Communicate cybersecurity risks clearly to senior management and boards.",
+        "Adopt security automation and AI tools for threat monitoring.",
+        "Use certifications like ISO 27001 to develop detailed business continuity plans.",
+        "Focus on risk-based technical assessments beyond compliance audits."
+      ],
+      "trend": "Maintained top risk position with 84% citing it as top five risk in 2024, up from 82% in prior years. Expected to remain number one threat in 2027 with potential increase due to AI and digital disruption.",
+      "likelihood": null,
+      "impact": "Potential for severe operational disruption, data loss, reputational damage, and regulatory penalties. Increasing maturity in risk management but evolving threat landscape.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Ransomware attack on British Airways, Boots, and BBC via payroll provider software in UK, 2023.",
+        "Increased cyberattacks following Sweden's NATO membership announcement.",
+        "Spikes in cyber activity linked to geopolitical events such as the war in Ukraine."
+      ],
+      "suggested_audits": [
+        "Assess how well the organisation complies with relevant cybersecurity laws, regulations and industry standards and is prepared for the impact of upcoming rules.",
+        "Assess how far risk taxonomies and controls on cybersecurity and data security for digital operating systems are aligned across the three lines.",
+        "Assess how effectively the three lines (including the CISO) are working together and with the board.",
+        "Evaluate the effectiveness of cybersecurity controls in the first and second lines and for the organisation’s key assets.",
+        "Assess whether the organisation is conducting adequate vulnerability assessments to identify potential entry points for cyberattacks and weaknesses.",
+        "Assess the effectiveness of the business’ ongoing monitoring processes to track and assess its cybersecurity posture.",
+        "Assess the effectiveness of the organisation’s incident response and recovery plans and its capabilities to execute it.",
+        "Evaluate the organisation’s cybersecurity awareness and training programmes and assess whether those produce the desired outcomes.",
+        "Assess how vulnerable backup data is to corruption and whether the organisation has the capability to rebuild its systems at speed from scratch.",
+        "Assess whether senior management and the board are sufficiently informed and show serious commitment to cybersecurity."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Human Capital, Diversity, Talent Management and Retention",
+      "risk_description": "Risks related to attracting, retaining, and managing skilled and diverse workforce critical to achieving strategic goals and managing risks.",
+      "risk_driver": [
+        {
+          "driver_name": "Labour Market Scarcity",
+          "driver_description": "Structural talent shortages accelerated by the pandemic and economic conditions."
+        },
+        {
+          "driver_name": "Changing Workforce Expectations",
+          "driver_description": "Demand for flexible working, social purpose alignment, and work-life balance."
+        },
+        {
+          "driver_name": "Cultural Misalignment",
+          "driver_description": "Corporate culture lagging behind social changes, affecting attraction and retention."
+        },
+        {
+          "driver_name": "Psychological Well-being",
+          "driver_description": "Increased stress and isolation from hybrid working and economic uncertainty."
+        },
+        {
+          "driver_name": "Internal Audit Staffing Challenges",
+          "driver_description": "Difficulty recruiting and retaining skilled internal audit staff with diverse competencies."
+        }
+      ],
+      "risk_recommendations": [
+        "Assess competitiveness of diversity, equality, inclusion, and work-life balance policies.",
+        "Ensure organisational values and objectives align and are clearly communicated internally and externally.",
+        "Evaluate career progression, training, and promotion policies for attracting and retaining staff.",
+        "Ensure compliance and effectiveness of diversity, equity, and inclusion policies.",
+        "Assess psychological safety and employee willingness to speak up.",
+        "Use employee engagement surveys, exit interviews, and feedback mechanisms to monitor morale.",
+        "Adopt hybrid internal audit methodologies balancing focused audits and rapid assessments.",
+        "Develop talent management programs linked with HR, including growth plans and smart rotations.",
+        "Promote internal audit function visibility and value to attract diverse talent.",
+        "Provide leadership and empathy in addressing human capital challenges."
+      ],
+      "trend": "Ranked 2nd biggest risk in 2024 with 58% citing it as top five risk, up from 50% in 2023 and 40% in 2022. Expected to remain 2nd most challenging issue in 2027. Human capital was not a top five risk before the pandemic.",
+      "likelihood": null,
+      "impact": "Failure to attract and retain talent threatens achievement of strategic goals and effective risk management. Increased workload and turnover impact organisational resilience.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Climate Change, Biodiversity and Environmental Sustainability",
+      "risk_description": "Risks arising from climate change impacts, biodiversity loss, and environmental sustainability challenges, including regulatory compliance and reputational risks.",
+      "risk_driver": [
+        {
+          "driver_name": "Extreme Weather Events",
+          "driver_description": "Wildfires, floods, and heatwaves causing operational and supply chain disruptions."
+        },
+        {
+          "driver_name": "Regulatory Changes",
+          "driver_description": "New and evolving regulations such as CSRD, ESRS, TCFD, and EU sustainability directives."
+        },
+        {
+          "driver_name": "Data Quality Challenges",
+          "driver_description": "Poor quality and lack of standardised sustainability data complicating compliance and reporting."
+        },
+        {
+          "driver_name": "Market and Reputational Risks",
+          "driver_description": "Greenwashing accusations and changing consumer preferences driving sustainability initiatives."
+        },
+        {
+          "driver_name": "Double Materiality Requirements",
+          "driver_description": "Need to assess both environmental impact and social/biodiversity effects of business activities."
+        }
+      ],
+      "risk_recommendations": [
+        "Assess alignment of sustainability goals with business strategy and clear metrics.",
+        "Evaluate data-driven development and implementation of climate and environmental objectives.",
+        "Assess effectiveness of risk management and controls related to sustainability objectives.",
+        "Ensure compliance with current and forthcoming environmental regulations and reporting requirements.",
+        "Monitor environmental performance and continuous improvement mechanisms.",
+        "Engage with stakeholders including specialist NGOs for expertise and knowledge.",
+        "Assess integration of sustainability goals and standards in supplier contracts.",
+        "Conduct enterprise-wide climate change readiness audits and share best practices.",
+        "Focus on entrepreneurial strategies beyond mere compliance.",
+        "Implement double materiality risk assessments for deeper insights and competitive advantage."
+      ],
+      "trend": "Ranked 7th in 2024 with 31% citing it as top five risk, down from 6th place and 38% in 2023. Expected to rise to 3rd place by 2027 due to new regulations and stakeholder interest.",
+      "likelihood": null,
+      "impact": "Risks include operational disruptions, supply chain challenges, reputational damage, legal actions, and compliance failures. Increasing regulatory burden and market pressure.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Wildfires in Greece in 2023 causing destruction and risk to lives and livelihoods.",
+        "European Parliament voting to relabel gas and nuclear energy as sustainable in 2022, causing controversy.",
+        "Climate charity Client Earth winning UK government case over emission reduction policies in 2022."
+      ],
+      "suggested_audits": [
+        "Assess whether environmental sustainability goals are aligned with business strategy and have clear metrics.",
+        "Evaluate whether the organisation’s internally- and publicly-stated climate and environmental sustainability objectives are built from data and thorough analysis and are aligned to relevant regulations.",
+        "Assess whether the implementation of these objectives will be adequate to reach its objectives.",
+        "Assess the effectiveness of (risk) management and controls related to sustainability objectives.",
+        "Evaluate whether the organisation adheres to current business environmental regulations and reporting requirements, and is prepared for forthcoming regulations and requirements.",
+        "Assess the organisation’s monitoring mechanisms to track its environmental performance and achieving its goals, and realising continuous improvement.",
+        "Evaluate how well the organisation is engaging with stakeholders (including NGOs with specialist knowledge) on environmental sustainability issues to ensure it can draw upon the right level of expertise and knowledge.",
+        "Assess whether the organisation’s own goals, values and standards are adequately reflected in suppliers’ contracts."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Supply Chain, Outsourcing and 'Nth' Party Risk",
+      "risk_description": "Risks related to dependencies on suppliers and outsourced vendors, including disruptions from geopolitical tensions, economic headwinds, climate events, and regulatory compliance.",
+      "risk_driver": [
+        {
+          "driver_name": "Geopolitical Uncertainty",
+          "driver_description": "War in Ukraine, US-China tensions, and deglobalisation impacting trade and supply chain resilience."
+        },
+        {
+          "driver_name": "Economic Headwinds",
+          "driver_description": "Rising costs, inflation, and risk of supplier insolvency."
+        },
+        {
+          "driver_name": "Climate-Related Events",
+          "driver_description": "Extreme weather causing physical supply chain disruptions."
+        },
+        {
+          "driver_name": "Regulatory Changes",
+          "driver_description": "EU Corporate Sustainability Due Diligence Directive and other regulations imposing due diligence and compliance requirements."
+        },
+        {
+          "driver_name": "Supply Chain Concentration",
+          "driver_description": "Dependence on single suppliers or regions increasing vulnerability."
+        }
+      ],
+      "risk_recommendations": [
+        "Assess supply chain resilience to macroeconomic and geopolitical risks.",
+        "Understand supplier challenges and implement monitoring to detect problems early.",
+        "Conduct due diligence on potential suppliers for strategic alignment.",
+        "Review outsourcing contracts for regulatory compliance.",
+        "Update vendor management frameworks for selection and performance evaluation.",
+        "Evaluate third-party and outsourced vendor compliance and performance.",
+        "Ensure effective business continuity and crisis management plans with scenario testing.",
+        "Define and implement governance structures across three lines to improve supply chain risk management.",
+        "Support diversification of supply sources and investment in alternative materials.",
+        "Promote closer partnerships with key suppliers to enhance resilience."
+      ],
+      "trend": "Ranked 8th in 2024 with 30% citing it as top five risk, stable from previous years. Expected to drop to 9th place by 2027 as business continuity efforts rise to 2nd place.",
+      "likelihood": null,
+      "impact": "Risks include operational disruption, increased costs, compliance failures, reputational damage, and loss of competitive advantage.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Ever Given container ship grounding in Suez Canal highlighting supply chain fragility.",
+        "Flooding in Germany in 2021 causing supply chain stress.",
+        "EU Parliament backing mandatory due diligence legislation in 2023."
+      ],
+      "suggested_audits": [
+        "Assess how well the organisation ensures supply chains are resilient to the effects of macroeconomic and geopolitical developments and risks.",
+        "Assess how well the business understands the supplier’s challenges and whether adequate monitoring are in place to detect potential problems early.",
+        "Assist in conducting due diligence on potential suppliers to ensure they align with the organisation’s strategy.",
+        "Review contracts and agreements related to outsourcing arrangements to ensure compliance with all regulations.",
+        "Assess and help in updating effective vendor management frameworks for vendor selection.",
+        "Assess whether the organisation is evaluating third-party and outsourced vendor performance and compliance to quickly detect problems.",
+        "Assess whether management has effective business continuity and crisis management plans in place to cope with supply chain disruption and whether those scenarios are actively rehearsed and refreshed.",
+        "Assess how well the governance structures for the three lines are defined and implemented to improve the effectiveness of supply chain risk management."
+      ],
+      "contextual_variations": null
+    }
+  ]
+}

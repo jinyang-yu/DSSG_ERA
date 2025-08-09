@@ -1,0 +1,212 @@
+{
+  "risks": [
+    {
+      "risk_name": "Controls Program Inefficiency and Failure",
+      "risk_description": "Inefficiencies and failures in the controls program due to lack of technology enablement, excessive controls testing, and an expanding control landscape leading to user dissatisfaction and elevated risk of failure.",
+      "risk_driver": [
+        {
+          "driver_name": "Lack of Technology Enablement",
+          "driver_description": "Manual processes and partial or no automation in control performance, testing, or project management increase inefficiencies."
+        },
+        {
+          "driver_name": "Excessive Controls Testing",
+          "driver_description": "Too many layers and controls can complicate the environment, making it difficult to navigate and optimize."
+        },
+        {
+          "driver_name": "Unoptimized Control Environment",
+          "driver_description": "A complicated control framework without ongoing challenge and optimization processes."
+        }
+      ],
+      "risk_recommendations": [
+        "Engage early to make the controls program risk-driven by updating methodologies and testing strategies to a risk-based mindset rather than compliance.",
+        "Define risk appetite clearly to avoid over-controlling.",
+        "Challenge existing orthodoxies to go beyond basic controls, including designing continuous controls monitoring.",
+        "Align stakeholders and control owners through an assurance-by-design process."
+      ],
+      "trend": "Increasing complexity and regulatory requirements are driving continual change, making traditional approaches less effective.",
+      "likelihood": null,
+      "impact": "Ineffective controls can lead to material weaknesses and misaligned resources, increasing the risk of control failures.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Environmental, Social, and Governance (ESG) Reporting and Compliance Risks",
+      "risk_description": "Risks arising from the pressure to meet ESG targets and reporting requirements, including the temptation to engage in misleading practices such as greenwashing, bluewashing, and pinkwashing.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Regulatory Pressure",
+          "driver_description": "Global regulatory push for greater ESG reporting and transparency, especially on sustainability disclosures."
+        },
+        {
+          "driver_name": "Misleading ESG Practices",
+          "driver_description": "Deceptive practices like greenwashing (overstating environmental friendliness), bluewashing (overstating social responsibility), and pinkwashing (using LGBTQ+ friendly marketing while masking negatives)."
+        },
+        {
+          "driver_name": "ESG Reporting Ownership",
+          "driver_description": "ESG reporting residing in marketing rather than financial or sustainability teams increases risk of misleading disclosures."
+        }
+      ],
+      "risk_recommendations": [
+        "Incorporate ESG into internal audit plans and serve as a trusted advisor to management.",
+        "Conduct current-state ESG program assessments to identify enhancement opportunities.",
+        "Perform risk assessments and assurance activities on ESG-related metrics and disclosures to confirm completeness and accuracy.",
+        "Build a SOX-like framework for ESG risk, controls, and test procedures.",
+        "Ensure ESG reporting is aligned with business strategy and monitored effectively.",
+        "Verify actions taken to meet ESG goals, not just the reported numbers."
+      ],
+      "trend": "ESG risks are expanding rapidly with new regulations such as California's Climate Corporate Data Accountability Act and Climate-Related Financial Risk Act mandating greenhouse gas emissions and climate risk disclosures.",
+      "likelihood": null,
+      "impact": "Failure to manage ESG risks can damage reputation and lead to regulatory penalties; misleading practices can erode stakeholder trust.",
+      "risk_indicator": null,
+      "risk_event": [
+        {
+          "event_name": "California Climate Corporate Data Accountability Act (SB-253) and Climate-Related Financial Risk Act (SB-261)",
+          "event_description": "Legislation requiring companies doing business in California to disclose greenhouse gas emissions annually and report biennially on climate-related financial risk."
+        }
+      ],
+      "suggested_audits": [
+        "Deliver ESG-centric internal audits to determine whether ESG-related objectives, activities, and risks are appropriately identified, considered, assessed, and documented."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Disruptive Technology Risks (Generative AI and Cloud)",
+      "risk_description": "Risks associated with rapid adoption of disruptive technologies such as generative AI (GenAI), cloud computing, and machine learning, including ethical issues, governance gaps, and operational challenges.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid Pace of Technology Change",
+          "driver_description": "Accelerated evolution of GenAI and embedding of AI/ML in cloud solutions increases complexity and risk."
+        },
+        {
+          "driver_name": "Ethical and Regulatory Challenges",
+          "driver_description": "Issues such as bans on AI use in biometric surveillance and requirements for AI-generated content disclosure highlight ethical and regulatory risks."
+        },
+        {
+          "driver_name": "Lack of Clear Ownership and Governance",
+          "driver_description": "Uncertainty about who owns AI and cloud risks can lead to fragmented or ineffective risk management."
+        },
+        {
+          "driver_name": "Lofty Expectations and Cost Surprises",
+          "driver_description": "Assumptions that cloud services automatically deliver cost and sustainability benefits can lead to unexpected bills and stakeholder concerns."
+        }
+      ],
+      "risk_recommendations": [
+        "Familiarize with GenAI technologies, capabilities, and limitations.",
+        "Develop and harmonize GenAI strategy with enterprise AI and digital transformation plans.",
+        "Democratize discussions on disruptive technology use cases and risks across disciplines.",
+        "Adapt legacy risk frameworks to address bias, misinformation, transparency, and accountability in AI.",
+        "Clarify risk ownership and establish appropriate policies, standards, and guidelines.",
+        "Ensure responsible use of cloud resources to minimize environmental impact and optimize costs.",
+        "Initiate education and awareness sessions on AI risks at senior leadership and broader organizational levels.",
+        "Survey technology landscape to identify deployed AI and disruptive technologies.",
+        "Continuously upskill auditors to keep pace with technology and audit algorithms effectively.",
+        "Advise on setting up or refining AI governance frameworks and implementation roadmaps with cross-functional input."
+      ],
+      "trend": "Increasing adoption of GenAI and cloud technologies with growing regulatory scrutiny and ethical debates, such as the European Commission's amendments to AI rules in 2023.",
+      "likelihood": null,
+      "impact": "Potential for significant operational, reputational, and compliance risks if disruptive technologies are not properly governed and controlled.",
+      "risk_indicator": null,
+      "risk_event": [
+        {
+          "event_name": "European Commission Amendments to AI Rules (June 2023)",
+          "event_description": "Inclusion of bans on AI use in biometric surveillance and requirements for generative AI systems to disclose AI-generated content."
+        }
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Operational Resilience Risk",
+      "risk_description": "Risk that organizations lack alignment and coordination in resilience efforts, leading to vulnerabilities in critical products, services, and processes during disruptions.",
+      "risk_driver": [
+        {
+          "driver_name": "Lack of Common Understanding",
+          "driver_description": "Different teams (procurement, disaster recovery, business continuity) have varying definitions of what is critical."
+        },
+        {
+          "driver_name": "Centralization Risks",
+          "driver_description": "Outsourcing or offshoring to single shared services centers can create major points of failure by eliminating diversity and redundancy."
+        },
+        {
+          "driver_name": "Failure to Factor Resilience in Business Cases",
+          "driver_description": "Operational changes often do not consider net resilience gain or loss, leading to poor decision-making."
+        },
+        {
+          "driver_name": "Regulatory Expectations",
+          "driver_description": "Regulators increasingly require resilience to be part of board considerations."
+        }
+      ],
+      "risk_recommendations": [
+        "Help organizations identify what they want to make resilient and prioritize essential outcomes.",
+        "Facilitate a common language and understanding of resilience across teams.",
+        "Encourage deliberate design for resilience, avoiding major points of failure through dual sourcing and succession planning.",
+        "Ensure plans and preparations are in place to continue critical services if controls fail.",
+        "Support agile response and recovery capabilities with robust post-event review processes.",
+        "Establish a single accountable body for resilience with minimum requirements and proper reporting."
+      ],
+      "trend": "Resilience remains a top priority post-COVID-19, but many organizations have not improved significantly since 2020; regulatory changes like the EU Digital Operational Resilience Act (DORA) are increasing focus.",
+      "likelihood": null,
+      "impact": "Lack of resilience can cause severe operational disruptions, harm to stakeholders, and regulatory penalties.",
+      "risk_indicator": null,
+      "risk_event": [
+        {
+          "event_name": "Digital Operational Resilience Act (DORA)",
+          "event_description": "EU regulation effective from January 2023 aiming to unify ICT risk management and strengthen operational resilience in financial services."
+        },
+        {
+          "event_name": "EU Critical Entities Resilience (CER) Directive",
+          "event_description": "Directive to enhance and harmonize resilience plans and responses, with deadlines for national transposition and identification of critical entities."
+        }
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Human Capital Management (HCM) Risks",
+      "risk_description": "Risks related to workforce management in a boundaryless work environment, including talent shortages, high attrition, ineffective culture, and compliance with employment laws.",
+      "risk_driver": [
+        {
+          "driver_name": "Talent Shortages and Retention Challenges",
+          "driver_description": "High attrition rates and difficulty attracting and retaining in-demand talent."
+        },
+        {
+          "driver_name": "Workforce Flexibility and Productivity",
+          "driver_description": "Shifts to flexible work hours and locations require new management approaches."
+        },
+        {
+          "driver_name": "Legal and Regulatory Risks",
+          "driver_description": "Increase in employment discrimination lawsuits and compliance challenges."
+        },
+        {
+          "driver_name": "Corporate Culture and Reputation",
+          "driver_description": "Negative social media posts and poor reputation can indicate deeper culture problems."
+        }
+      ],
+      "risk_recommendations": [
+        "Assess human capital programs to identify strengths and weaknesses and promote continuous improvement.",
+        "Analyze maturity in infrastructure, talent, culture, brand, analytics, and leadership.",
+        "Advise on metrics tied to talent objectives for evaluation and maturity assessments.",
+        "Conduct culture-related audits when warranted by data or complaints.",
+        "Incorporate human capital risks, including diversity, equity, and inclusion (DEI), into ongoing internal audit plans.",
+        "Provide assurance on processes to attract, recruit, hire, and retain diverse candidates and eliminate bias.",
+        "Help leadership understand risks and benefits associated with organizational culture and provide input on training and policies."
+      ],
+      "trend": "Increasing focus on workforce risk management amid unpredictability and disruption; significant rise in employment discrimination lawsuits.",
+      "likelihood": null,
+      "impact": "Poor human capital management can lead to talent loss, reduced productivity, legal penalties, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": [
+        {
+          "event_name": "US Equal Employment Opportunity Commission (EEOC) Lawsuits FY 2023",
+          "event_description": "143 new employment discrimination lawsuits filed, a more than 50% increase over FY 2022."
+        }
+      ],
+      "suggested_audits": [
+        "Conduct special culture-related audits when data warrants closer examination or in response to stakeholder concerns."
+      ],
+      "contextual_variations": null
+    }
+  ]
+}

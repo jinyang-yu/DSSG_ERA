@@ -1,0 +1,465 @@
+{
+  "risks": [
+    {
+      "risk_name": "Cybersecurity and Data Security",
+      "risk_description": "Cybersecurity and data security risks remain the top threat, with increasing sophistication of attacks, including ransomware and state-sponsored wiper attacks, and expanding attack surfaces due to cloud migration and digitalisation.",
+      "risk_driver": [
+        {
+          "driver_name": "Professionalisation and Commercialisation of Hacking",
+          "driver_description": "Hacking has become more sophisticated and commercialised, increasing the threat level."
+        },
+        {
+          "driver_name": "State-Sponsored Attacks",
+          "driver_description": "Increase in wiper attacks aimed at destroying organisations, especially since the war in Ukraine."
+        },
+        {
+          "driver_name": "Expanded Attack Surface",
+          "driver_description": "Cloud migration, digitalisation, and integration with suppliers have broadened the attack surface."
+        },
+        {
+          "driver_name": "Emerging Technologies",
+          "driver_description": "Technologies like AI and blockchain add complexity and new vulnerabilities."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in continuous monitoring and advanced cyber security tools.",
+        "Conduct regular cyber security training and phishing awareness campaigns.",
+        "Develop advanced recovery solutions including rebuilding systems from scratch if backups are corrupted.",
+        "Ensure compliance with evolving regulations such as GDPR, EU Cyber Resilience Act, NIS2, and DORA.",
+        "Coordinate efforts across the three lines of defence for cyber risk management."
+      ],
+      "trend": "Risk remains the number one threat with 84% citing it as a top five risk, slightly up from previous years. Cyber-risk maturity is improving with better awareness and defences, but the threat intensity remains high and is expected to plateau at a high level through 2027.",
+      "likelihood": "Very high, with 84% of respondents citing it as a top five risk and 60% rating it as their 1st or 2nd priority.",
+      "impact": "Potential for severe operational disruption, data loss, reputational damage, and financial loss. The risk is intensified by the weaponisation of cyberattacks and the complexity of defending against AI-generated attacks.",
+      "risk_indicator": "Occurrence of cyber incidents and breaches; frequency of sophisticated attacks.",
+      "risk_event": [
+        "Ransomware attack via payroll provider software affecting British Airways, Boots, and the BBC in the UK.",
+        "Increased cyberattack activity following Sweden's announcement to join NATO."
+      ],
+      "suggested_audits": [
+        "Use of IIA’s Global Technology Audit Guides (GTAGs) for assessing cybersecurity risk.",
+        "Auditing insider threat programs.",
+        "Certification processes such as ISO 27001 to develop detailed business continuity plans for cyber risks."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Macroeconomic and Geopolitical Uncertainty",
+      "risk_description": "Broad umbrella risk encompassing economic shocks, geopolitical tensions, inflation, and regulatory changes impacting business stability and strategic investment.",
+      "risk_driver": [
+        {
+          "driver_name": "Inflation and Cost-of-Living Crisis",
+          "driver_description": "Higher inflation and cost pressures reduce consumer spending and business profitability."
+        },
+        {
+          "driver_name": "Geopolitical Tensions",
+          "driver_description": "War in Ukraine, US-China tensions, and other geopolitical events disrupt trade and supply chains."
+        },
+        {
+          "driver_name": "Monetary Policy Tightening",
+          "driver_description": "Reversal of loose monetary policies leads to higher interest rates and financial instability."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement agile and adaptive control systems with real-time risk monitoring.",
+        "Engage in scenario planning and economic stress testing.",
+        "Coordinate internal audit efforts to assess strategic investment and compliance with sanctions and regulations.",
+        "Recruit and train staff with skills to understand emerging risks and their interactions."
+      ],
+      "trend": "Ranked joint 3rd highest risk in 2024, highest since 2018, with expectations to remain a top risk through 2027.",
+      "likelihood": "High, with 33% ranking it as the first risk and broad impacts across sectors.",
+      "impact": "Risks include insolvency, liquidity issues, fraud, and inability to invest in innovation, potentially leading to loss of competitiveness.",
+      "risk_indicator": "Financial stress testing results; economic scenario planning outcomes.",
+      "risk_event": [
+        "Silicon Valley Bank failure illustrating unpreparedness for changing economic conditions."
+      ],
+      "suggested_audits": [
+        "Evaluate effectiveness of mechanisms to identify and monitor macroeconomic and geopolitical changes.",
+        "Assess adequacy of strategic investment processes in R&D.",
+        "Review compliance with international sanctions and anti-money laundering rules."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Climate Change, Biodiversity and Environmental Sustainability",
+      "risk_description": "Risks arising from climate change impacts, biodiversity loss, and the need to meet environmental sustainability goals, including regulatory compliance and reputational risks.",
+      "risk_driver": [
+        {
+          "driver_name": "Extreme Weather Events",
+          "driver_description": "Flooding, wildfires, and other climate events disrupt supply chains and operations."
+        },
+        {
+          "driver_name": "Regulatory Changes",
+          "driver_description": "New laws such as the EU Corporate Sustainability Reporting Directive and due diligence legislation increase compliance requirements."
+        },
+        {
+          "driver_name": "Stakeholder and Market Pressure",
+          "driver_description": "Growing demand for environmentally friendly products and risk of greenwashing accusations."
+        }
+      ],
+      "risk_recommendations": [
+        "Integrate sustainability goals into business strategy with clear metrics.",
+        "Conduct enterprise-wide climate change readiness audits.",
+        "Evaluate governance processes around risk reporting and double materiality assessments.",
+        "Ensure compliance with current and forthcoming environmental regulations."
+      ],
+      "trend": "Increasingly recognized as a top risk, moving into the top three risks for 2027 behind cybersecurity and human capital.",
+      "likelihood": "Growing likelihood as climate impacts and regulations intensify.",
+      "impact": "Potential for operational disruption, increased costs, reputational damage, and legal challenges including fines.",
+      "risk_indicator": "Alignment with sustainability reporting standards and regulatory compliance metrics.",
+      "risk_event": [
+        "European Parliament relabelling gas and nuclear energy as sustainable, causing investor and campaigner backlash.",
+        "Client Earth winning a legal case against the UK government for inadequate emission reduction policies."
+      ],
+      "suggested_audits": [
+        "Assess alignment of environmental sustainability goals with business strategy.",
+        "Evaluate effectiveness of sustainability risk management and controls."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Supply Chain, Outsourcing and 'Nth' Party Risk",
+      "risk_description": "Risks related to supply chain disruptions, over-reliance on single suppliers or regions, and compliance with evolving supply chain regulations.",
+      "risk_driver": [
+        {
+          "driver_name": "Geopolitical Tensions and Deglobalisation",
+          "driver_description": "Trade disruptions and legislative incentives to relocate supply chains impact resilience."
+        },
+        {
+          "driver_name": "Climate-Related Disruptions",
+          "driver_description": "Extreme weather events stress physical supply chains."
+        },
+        {
+          "driver_name": "Regulatory Compliance",
+          "driver_description": "New due diligence laws require companies to manage human rights and environmental risks in supply chains."
+        }
+      ],
+      "risk_recommendations": [
+        "Include key suppliers in the organisation’s risk universe and monitor their risks.",
+        "Develop closer partnerships and diversify suppliers to reduce dependency.",
+        "Test and update business continuity and supply chain resilience plans regularly.",
+        "Conduct due diligence on suppliers to ensure alignment with organisational strategy and compliance."
+      ],
+      "trend": "Supply chain risk remains significant but internal audit focus is expected to decrease by 2027, while business continuity efforts increase.",
+      "likelihood": "High, given ongoing geopolitical and environmental pressures.",
+      "impact": "Potential for operational disruption, increased costs, and compliance risks leading to financial and reputational damage.",
+      "risk_indicator": "Supplier performance and compliance metrics; business continuity plan effectiveness.",
+      "risk_event": [
+        "Ever Given container ship grounding in the Suez Canal highlighting supply chain fragility.",
+        "Flooding in Germany in 2021 causing supply chain stress."
+      ],
+      "suggested_audits": [
+        "Assess supply chain resilience to macroeconomic and geopolitical risks.",
+        "Review contracts and outsourcing arrangements for regulatory compliance.",
+        "Evaluate vendor management frameworks and third-party performance."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Human Capital, Diversity, Talent Management and Retention",
+      "risk_description": "Challenges in attracting, retaining, and managing diverse talent, impacting organisational resilience and performance.",
+      "risk_driver": [
+        {
+          "driver_name": "Talent Shortages",
+          "driver_description": "Difficulty recruiting and retaining skilled employees."
+        },
+        {
+          "driver_name": "Workforce Diversity and Inclusion",
+          "driver_description": "Failure to meet diversity goals can harm culture and reputation."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in training and education to close knowledge gaps.",
+        "Implement targeted recruitment and retention strategies.",
+        "Enhance support systems to improve employee well-being and engagement."
+      ],
+      "trend": "Ranked among the top three risks for 2027, with increasing internal audit focus expected.",
+      "likelihood": "High likelihood due to ongoing talent market challenges.",
+      "impact": "Risks include reduced organisational capability, increased turnover costs, and negative impacts on culture and reputation.",
+      "risk_indicator": "Employee turnover rates; diversity metrics.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Business Continuity, Operational Resilience, Crisis Management and Disaster Response",
+      "risk_description": "Risks related to the organisation's ability to continue operations during and after disruptive events.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Frequency of Disruptions",
+          "driver_description": "Global turmoil, climate events, and cyber threats increase the need for robust continuity plans."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop and regularly test detailed business continuity plans.",
+        "Use scenario planning and simulations to improve crisis response.",
+        "Integrate cyber risk considerations into continuity planning."
+      ],
+      "trend": "Ranked 5th biggest threat in 2024, with internal audit time spent increasing from 8th to 4th place since 2021.",
+      "likelihood": "Increasing likelihood due to rising global risks.",
+      "impact": "Failure to maintain operations can lead to severe financial loss, reputational damage, and regulatory penalties.",
+      "risk_indicator": "Effectiveness of business continuity plan tests and crisis simulations.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Change in Laws and Regulations",
+      "risk_description": "Risks arising from evolving legal and regulatory requirements impacting compliance and operational practices.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Regulatory Burden",
+          "driver_description": "New and expanding regulations such as GDPR, NIS2, DORA, and sustainability reporting increase compliance complexity."
+        }
+      ],
+      "risk_recommendations": [
+        "Monitor regulatory developments and assess impact on the organisation.",
+        "Ensure internal controls and compliance frameworks are updated accordingly.",
+        "Use regulatory changes as opportunities to improve risk management."
+      ],
+      "trend": "Ranked joint 3rd in 2024, rising in importance alongside macroeconomic and geopolitical risks.",
+      "likelihood": "High likelihood given ongoing regulatory evolution.",
+      "impact": "Non-compliance can lead to fines, legal action, and reputational damage.",
+      "risk_indicator": "Compliance audit results; regulatory breach incidents.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Digital Disruption, New Technology and AI",
+      "risk_description": "Risks and opportunities arising from rapid technological change, including AI, blockchain, and digital transformation.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid Technological Change",
+          "driver_description": "Emerging technologies create new business models but also new risks and vulnerabilities."
+        },
+        {
+          "driver_name": "Integration Challenges",
+          "driver_description": "Complexity in integrating new technologies with existing systems."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in technology risk management and digital infrastructure upgrades.",
+        "Develop governance frameworks for emerging technologies.",
+        "Train staff on new technology risks and controls."
+      ],
+      "trend": "Ranked 4th biggest risk by 2027, with cyber threats potentially increasing due to AI.",
+      "likelihood": "Increasing likelihood as technology adoption accelerates.",
+      "impact": "Potential for operational disruption, security breaches, and competitive disadvantage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Financial, Liquidity and Insolvency Risks",
+      "risk_description": "Risks related to financial stability, cash flow management, and the potential for insolvency.",
+      "risk_driver": [
+        {
+          "driver_name": "Macroeconomic Pressures",
+          "driver_description": "Inflation, interest rate rises, and economic downturns strain financial resources."
+        },
+        {
+          "driver_name": "Customer Insolvencies",
+          "driver_description": "Customers struggling financially increase credit risk."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct rigorous financial stress testing and scenario analysis.",
+        "Monitor liquidity positions closely and maintain contingency plans.",
+        "Enhance credit risk management and customer due diligence."
+      ],
+      "trend": "Remains a significant risk, linked closely with macroeconomic uncertainty.",
+      "likelihood": "Elevated likelihood in current economic climate.",
+      "impact": "Potential for significant financial loss and operational disruption.",
+      "risk_indicator": "Liquidity ratios; insolvency rates.",
+      "risk_event": [
+        "Silicon Valley Bank collapse as an example of financial risk materialisation."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Organisational Culture",
+      "risk_description": "Risks arising from the prevailing values, behaviours, and norms within an organisation that affect performance and compliance.",
+      "risk_driver": [
+        {
+          "driver_name": "Leadership and Governance",
+          "driver_description": "Poor tone at the top and weak governance can foster negative culture."
+        },
+        {
+          "driver_name": "Employee Engagement",
+          "driver_description": "Low engagement and morale can increase misconduct and reduce productivity."
+        }
+      ],
+      "risk_recommendations": [
+        "Promote ethical leadership and strong governance frameworks.",
+        "Implement employee engagement and feedback mechanisms.",
+        "Conduct culture assessments and address identified issues."
+      ],
+      "trend": "Recognised as a key risk area, though less quantifiable than others.",
+      "likelihood": null,
+      "impact": "Can lead to increased misconduct, reputational damage, and operational inefficiencies.",
+      "risk_indicator": "Employee survey results; incident reports.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Organisational Governance and Corporate Reporting",
+      "risk_description": "Risks related to failures in governance structures, processes, and the accuracy and reliability of corporate reporting.",
+      "risk_driver": [
+        {
+          "driver_name": "Complex Regulatory Environment",
+          "driver_description": "Increasing reporting requirements and governance expectations."
+        },
+        {
+          "driver_name": "Inadequate Oversight",
+          "driver_description": "Weak board and committee oversight can lead to governance failures."
+        }
+      ],
+      "risk_recommendations": [
+        "Strengthen governance frameworks and board oversight.",
+        "Enhance internal controls over financial and non-financial reporting.",
+        "Provide training and resources to governance bodies."
+      ],
+      "trend": "Continues to be a focus area for internal audit and risk management.",
+      "likelihood": null,
+      "impact": "Failures can result in regulatory sanctions, financial restatements, and reputational harm.",
+      "risk_indicator": "Audit findings; governance assessment results.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Market Changes, Competition and Changing Consumer Behaviour",
+      "risk_description": "Risks from shifts in market dynamics, increased competition, and evolving customer preferences impacting business models.",
+      "risk_driver": [
+        {
+          "driver_name": "Economic Downturns",
+          "driver_description": "Reduced consumer spending and market contraction."
+        },
+        {
+          "driver_name": "Technological Disruption",
+          "driver_description": "New entrants and innovations changing competitive landscape."
+        }
+      ],
+      "risk_recommendations": [
+        "Monitor market trends and competitor activities.",
+        "Adapt business strategies to changing consumer behaviours.",
+        "Invest in innovation and customer engagement."
+      ],
+      "trend": "New category ranked 9th in 2024 but could rise to 2nd in economic downturn scenarios.",
+      "likelihood": "Variable depending on economic conditions.",
+      "impact": "Potential loss of market share and revenue.",
+      "risk_indicator": "Market share metrics; customer satisfaction scores.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Fraud, Bribery and Criminal Exploitation of Disruption",
+      "risk_description": "Risks of fraudulent activities, bribery, and exploitation of organisational vulnerabilities during periods of disruption.",
+      "risk_driver": [
+        {
+          "driver_name": "Increased Disruption",
+          "driver_description": "Periods of crisis and change create opportunities for fraud."
+        },
+        {
+          "driver_name": "Weak Controls",
+          "driver_description": "Inadequate internal controls increase susceptibility."
+        }
+      ],
+      "risk_recommendations": [
+        "Strengthen anti-fraud controls and monitoring.",
+        "Conduct regular fraud risk assessments and training.",
+        "Enhance whistleblowing and reporting mechanisms."
+      ],
+      "trend": "Recognised as a persistent risk, especially during crises.",
+      "likelihood": null,
+      "impact": "Financial loss, legal penalties, and reputational damage.",
+      "risk_indicator": "Number of fraud incidents detected.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Health, Safety and Security",
+      "risk_description": "Risks related to the physical and psychological health, safety, and security of employees and stakeholders.",
+      "risk_driver": [
+        {
+          "driver_name": "Workplace Hazards",
+          "driver_description": "Physical risks from operational environments."
+        },
+        {
+          "driver_name": "Mental Health Challenges",
+          "driver_description": "Increasing awareness and incidence of mental health issues."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement comprehensive health and safety programs.",
+        "Provide mental health support and resources.",
+        "Regularly review and update security protocols."
+      ],
+      "trend": "Increasing focus as organisations recognise broader health and safety dimensions.",
+      "likelihood": null,
+      "impact": "Potential for injury, legal liability, and reduced productivity.",
+      "risk_indicator": "Incident and accident rates; employee health surveys.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Communications, Reputation and Stakeholder Relationships",
+      "risk_description": "Risks arising from poor communication, reputational damage, and strained stakeholder relationships.",
+      "risk_driver": [
+        {
+          "driver_name": "Social Media and Public Scrutiny",
+          "driver_description": "Rapid spread of information and public opinion impacts reputation."
+        },
+        {
+          "driver_name": "Crisis Events",
+          "driver_description": "Incidents that damage trust and stakeholder confidence."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop robust communication strategies and crisis management plans.",
+        "Engage proactively with stakeholders.",
+        "Monitor media and public sentiment."
+      ],
+      "trend": "Growing importance as reputational risks can have swift and severe impacts.",
+      "likelihood": null,
+      "impact": "Loss of customer trust, financial impacts, and regulatory scrutiny.",
+      "risk_indicator": "Reputation indices; stakeholder feedback.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Mergers and Acquisitions",
+      "risk_description": "Risks associated with the integration, valuation, and strategic fit of mergers and acquisitions.",
+      "risk_driver": [
+        {
+          "driver_name": "Integration Challenges",
+          "driver_description": "Cultural, operational, and system integration difficulties."
+        },
+        {
+          "driver_name": "Valuation and Due Diligence",
+          "driver_description": "Inaccurate assessments leading to overpayment or unforeseen liabilities."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct thorough due diligence and risk assessments.",
+        "Develop detailed integration plans with clear governance.",
+        "Monitor post-merger performance closely."
+      ],
+      "trend": "Variable depending on market activity but remains a significant strategic risk.",
+      "likelihood": null,
+      "impact": "Financial loss, operational disruption, and strategic failure.",
+      "risk_indicator": "Post-merger performance metrics.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

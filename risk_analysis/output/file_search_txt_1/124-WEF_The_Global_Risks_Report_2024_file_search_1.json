@@ -1,0 +1,196 @@
+{
+  "risks": [
+    {
+      "risk_name": "Adverse outcomes of AI technologies",
+      "risk_description": "Intended or unintended negative consequences of advances in AI and related technological capabilities (including generative AI) on individuals, businesses, ecosystems and/or economies. This includes misinformation and disinformation, job loss and displacement, criminal use and cyberattacks, bias and discrimination, use in critical decision-making by organizations and states, and AI’s integration into weaponry and warfare.",
+      "risk_driver": [
+        {
+          "driver_name": "Cyber insecurity",
+          "driver_description": "Vulnerabilities in cyber systems that can be exploited, increasing risks associated with AI technologies."
+        },
+        {
+          "driver_name": "Technological power concentration",
+          "driver_description": "Concentration of AI development and control in a few powerful entities, limiting regulatory guardrails and increasing societal divides."
+        }
+      ],
+      "risk_recommendations": [
+        "Integrate AI literacy into public education systems and training for journalists and decision-makers to understand AI capabilities and identify trustworthy information sources.",
+        "Implement national and local regulations to manage AI development and deployment aligned with societal needs.",
+        "Apply existing legislation around intellectual property, employment, competition policy, data protection, privacy, and human rights to address AI challenges.",
+        "Consider registration and licensing of the most powerful AI technologies, tiered access to computing power, provenance and watermarking systems, Know-Your-Customer procedures, mandatory incident disclosures, and robust auditing and certification systems.",
+        "Develop global treaties and agreements to provide high-level guidance and governance frameworks for AI development.",
+        "Establish an AI-focused scientific consensus body similar to the IPCC to assess risks and opportunities and communicate findings to decision-makers.",
+        "Promote public awareness and education as key mechanisms for risk preparedness and reduction."
+      ],
+      "trend": "Adverse outcomes of AI technologies is a new entrant to the top 10 risk rankings, deteriorating significantly in perceived risk severity over the longer-term horizon, rising from #29 over two years to #6 over ten years, reflecting the systemic or existential nature of related risks.",
+      "likelihood": null,
+      "impact": "Potentially systemic or existential impacts on economic, social, and political systems, including societal divides, misinformation, and security risks.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Critical change to Earth systems",
+      "risk_description": "Long-term, potentially irreversible and self-perpetuating changes to critical planetary systems resulting from breaching critical thresholds or tipping points at regional or global levels, causing abrupt and severe impacts on planetary health or human welfare. Examples include sea level rise from collapsing ice sheets, carbon release from thawing permafrost, and disruption of ocean or atmospheric currents.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate change",
+          "driver_description": "Anthropogenic actions or inactions leading to global warming and related environmental impacts."
+        },
+        {
+          "driver_name": "Failure of climate-change adaptation",
+          "driver_description": "Insufficient progress in adapting to climate impacts, especially in climate-vulnerable economies."
+        },
+        {
+          "driver_name": "Deployment of geoengineering technologies",
+          "driver_description": "Potential unintended environmental and social consequences from climate manipulation technologies."
+        }
+      ],
+      "risk_recommendations": [
+        "Improve climate and economic modeling to consider longer-term, non-linear, and cascading impacts of Earth system changes.",
+        "Translate scientific findings effectively to inform decision-making.",
+        "Create a global data commons for climate science and invest in remote sensing equipment, computing power, and ecological forecasting.",
+        "Balance adaptation and mitigation efforts through national and local regulations.",
+        "Expand access to adaptation solutions such as early-warning systems and decentralized renewable energy.",
+        "Encourage cooperation between states and development banks to de-risk private sector investment in priority areas."
+      ],
+      "trend": "Ranked as the 2nd most severe risk over the next decade, with evidence suggesting some tipping points are already locked in. Adaptation efforts are falling short, especially in vulnerable economies.",
+      "likelihood": null,
+      "impact": "Abrupt and severe impacts on global and regional climates, food security, sea levels, and ecosystems, potentially leading to socio-environmental crises and geopolitical tensions.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Collapse of the Atlantic Meridional Overturning Circulation (AMOC) is possible at 1.4°C warming, likely at 4.0°C, which would reorganize ocean circulation and impact global climate and food security."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Failure of climate-change adaptation is a top-five risk in only six countries over two years, with climate-vulnerable markets in developing regions showing varying levels of concern.",
+        "Advanced economies like Australia face risks such as homes becoming uninsurable due to extreme weather."
+      ]
+    },
+    {
+      "risk_name": "Lack of economic opportunity",
+      "risk_description": "The risk that economic mobility and opportunities for income and skilling are dwindling globally, leading to blocked pathways to stable livelihoods, increased inequality, and reshaped societal and political dynamics.",
+      "risk_driver": [
+        {
+          "driver_name": "Unemployment",
+          "driver_description": "High rates of job churn and job loss impacting economic stability."
+        },
+        {
+          "driver_name": "Economic downturn and inflation",
+          "driver_description": "Short-term economic risks that exacerbate lack of opportunity."
+        },
+        {
+          "driver_name": "Erosion of human rights, intrastate violence, and societal polarization",
+          "driver_description": "Societal risks that compound economic challenges."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "New entrant to the global risks list, ranked in the top 10 over two years but falling to #11 over ten years, with perceived severity worsening over the longer term.",
+      "likelihood": null,
+      "impact": "Threatens standards of living, societal cohesion, and political stability, with wide-reaching consequences for vulnerable populations and countries.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Illicit economic activity",
+      "risk_description": "The risk that transnational crime networks and illicit activities exploit fragile states and vulnerable populations, capitalizing on disruptive technologies and weakened state capacity.",
+      "risk_driver": [
+        {
+          "driver_name": "Presence of armed groups and criminal networks",
+          "driver_description": "Groups that fuel cycles of conflict, fragility, corruption, and crime, especially where state enforcement is weak."
+        },
+        {
+          "driver_name": "Climate change impacts",
+          "driver_description": "Environmental degradation leading individuals to join armed groups as alternative income sources."
+        }
+      ],
+      "risk_recommendations": [
+        "Tackle capabilities to launder illicit profits, disrupt encrypted communications enabling criminal networks, and address corruption.",
+        "Develop national and local regulations to reduce illicit economic activity.",
+        "Promote global treaties and agreements to support local efforts against transnational crime.",
+        "Focus on socioeconomic drivers to reduce entry pathways into criminal activities."
+      ],
+      "trend": "Perceived as a lower severity risk but driven by several top-ranked risks, suggesting it may become a pressing crisis over the coming decade.",
+      "likelihood": null,
+      "impact": "Can lead to increased violence, corruption, and destabilization of fragile states, undermining governance and security.",
+      "risk_indicator": null,
+      "risk_event": [
+        "North Korea stole $200 million in cryptocurrencies over eight months allegedly to fund their nuclear weapons program.",
+        "The takedown of EncroChat led to 6,558 arrests and seizure or freezing of close to EUR900 million in criminal funds."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Autocratic governments, fragile regimes, and ungoverned states are more susceptible to capture by illicit economic activities."
+      ]
+    },
+    {
+      "risk_name": "Extreme weather events",
+      "risk_description": "Severe weather phenomena such as floods, storms, heatwaves, and droughts that cause widespread damage and disruption.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate change",
+          "driver_description": "Global warming increasing the frequency and intensity of extreme weather."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in resilient infrastructure such as flood defenses, wildfire management, and heatwave mitigation.",
+        "Enhance early-warning systems and local preparedness.",
+        "Implement national and local regulations to support adaptation."
+      ],
+      "trend": "Consistently ranked as a top risk across all stakeholder groups over both short and long-term horizons.",
+      "likelihood": null,
+      "impact": "Significant damage to infrastructure, ecosystems, and human health, with economic and social disruption.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Cyber insecurity",
+      "risk_description": "Risks arising from vulnerabilities in digital infrastructure leading to cyberattacks, data breaches, and disruptions.",
+      "risk_driver": [
+        {
+          "driver_name": "Technological power concentration",
+          "driver_description": "Concentration of digital infrastructure and control increasing systemic vulnerabilities."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop robust cybersecurity frameworks and incident response plans.",
+        "Enhance public awareness and education on cybersecurity risks.",
+        "Implement national and local regulations to enforce cybersecurity standards."
+      ],
+      "trend": "Remains a top 10 risk over both short and long-term horizons, though its ranking has slightly decreased.",
+      "likelihood": null,
+      "impact": "Potential for significant operational disruption, financial loss, and erosion of trust in digital systems.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Misinformation and disinformation",
+      "risk_description": "The spread of false or misleading information that undermines trust, social cohesion, and informed decision-making.",
+      "risk_driver": [
+        {
+          "driver_name": "Advanced AI technologies",
+          "driver_description": "Generative AI enabling rapid creation and dissemination of false content."
+        }
+      ],
+      "risk_recommendations": [
+        "Promote AI literacy and public awareness to identify trustworthy information.",
+        "Implement regulations to manage AI-generated content.",
+        "Encourage multi-stakeholder engagement to combat misinformation."
+      ],
+      "trend": "Consistently ranked among the top risks, with slight fluctuations in severity perception.",
+      "likelihood": null,
+      "impact": "Erosion of social cohesion, polarization, and challenges to democratic processes.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

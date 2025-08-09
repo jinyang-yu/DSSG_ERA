@@ -1,0 +1,250 @@
+{
+  "risks": [
+    {
+      "risk_name": "Cybersecurity and Data Security",
+      "risk_description": "Cybersecurity and data security risks are escalating due to professionalisation and sophistication of hacking, state-sponsored attacks, weaponisation of cyberattacks, expanded attack surfaces from cloud and digitalisation, and emerging technologies such as AI and blockchain introducing new vulnerabilities.",
+      "risk_driver": [
+        {
+          "driver_name": "Professionalised and Commercialised Hacking",
+          "driver_description": "Hacking has become more sophisticated and commercialised, with ransomware attacks infiltrating major UK businesses through third-party software."
+        },
+        {
+          "driver_name": "State-Sponsored Attacks",
+          "driver_description": "Increase in frequency of destructive wiper attacks linked to geopolitical conflicts such as the war in Ukraine."
+        },
+        {
+          "driver_name": "Expanded Attack Surface",
+          "driver_description": "Cloud migration, digitalisation of operational technologies, and supplier integration have broadened the attack surface."
+        },
+        {
+          "driver_name": "Emerging Technologies",
+          "driver_description": "Technologies like generative AI and blockchain add complexity and new risk exposures, including AI-generated targeted attacks."
+        },
+        {
+          "driver_name": "Regulatory Changes",
+          "driver_description": "New EU regulations such as GDPR extensions, Cyber Resilience Act, NIS2, and DORA increase compliance requirements and risk management expectations."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in continuous innovation of controls and security measures to identify and tackle unknown cyber and data risks.",
+        "Strengthen perimeter defences, network monitoring, patching, penetration testing, and ethical hacking.",
+        "Implement security automation using AI to monitor threats rapidly and accurately.",
+        "Conduct regular awareness training and phishing simulation campaigns to combat people risk.",
+        "Develop advanced recovery solutions to rebuild critical systems if backups are corrupted.",
+        "Ensure compliance with evolving regulations and use them to improve resilience.",
+        "Use certifications like ISO 27001 to develop detailed business continuity plans and test scenarios.",
+        "Internal audit should coordinate efforts across the three lines of defence and continuously monitor cyber risk maturity."
+      ],
+      "trend": "Cybersecurity and data security remain the number one risk, cited by 84% of respondents as a top five risk, up from 82% in previous years. While the gross risk exposure is flat or slightly up, net risk exposure is down due to improved maturity and awareness. Digital disruption and AI are expected to increase cyber threats further by 2027.",
+      "likelihood": "Very high; 84% of respondents cite it as a top five risk, with 60% rating it as their 1st or 2nd priority.",
+      "impact": "Potential for severe operational disruption, data loss, reputational damage, and financial consequences. The weaponisation of cyberattacks and state-sponsored threats increase severity.",
+      "risk_indicator": "Frequency of sophisticated cyberattacks, regulatory compliance status, network activity monitoring metrics.",
+      "risk_event": [
+        "Ransomware attack infiltrating British Airways, Boots, and BBC through their payroll provider's software in the UK.",
+        "Increased cyberattacks in Sweden following government announcement to join NATO.",
+        "Rising frequency of wiper attacks since the war in Ukraine."
+      ],
+      "suggested_audits": [
+        "Use of ISO 27001 certification process to develop and test detailed business continuity plans for cyber risks.",
+        "Auditing insider threat programs and IT risk assessments as per IIA’s Global Technology Audit Guides (GTAGs)."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Macroeconomic and Geopolitical Uncertainty",
+      "risk_description": "This risk encompasses the broad and interconnected impacts of economic shocks, geopolitical tensions, inflation, monetary policy tightening, and supply chain disruptions that threaten financial stability, increase insolvency risk, and affect strategic investment and talent retention.",
+      "risk_driver": [
+        {
+          "driver_name": "Economic Shockwaves",
+          "driver_description": "Cost-of-living and cost-of-doing-business crises, inflation accelerated by energy shortages due to geopolitical conflicts like the war in Ukraine."
+        },
+        {
+          "driver_name": "Geopolitical Tensions",
+          "driver_description": "Ongoing conflicts and tensions, such as between the US and China, and the war in Ukraine, impacting trade and supply chains."
+        },
+        {
+          "driver_name": "Monetary Policy Tightening",
+          "driver_description": "Reversal of loose monetary policies leading to higher interest rates and fragile financial stability."
+        },
+        {
+          "driver_name": "Supply Chain Disruptions",
+          "driver_description": "Interconnected risks affecting supply chains, customer behavior, liquidity, insolvency, and fraud."
+        },
+        {
+          "driver_name": "Talent Shortages",
+          "driver_description": "Failure to attract and retain skills needed to cope with fast-changing risks."
+        }
+      ],
+      "risk_recommendations": [
+        "Evaluate effectiveness of mechanisms to identify, assess, and monitor macroeconomic and geopolitical changes.",
+        "Assess adequacy of strategic investment in R&D to maintain competitiveness.",
+        "Ensure financial stress testing assumptions align with reality and conduct scenario planning.",
+        "Adopt agile, adaptive, and resilient strategies to manage fast-moving risks.",
+        "Advise on processes to adapt and mitigate risks associated with macroeconomic and geopolitical uncertainty.",
+        "Evaluate internal controls for compliance with regulations related to sanctions and anti-money laundering.",
+        "Internal audit should engage in pre-audit brainstorming and share best practices to improve control environments."
+      ],
+      "trend": "Ranked joint 3rd highest risk in 2024, its highest since 2018, with 33% ranking it first. Expected to remain significant with only marginal increase in audit focus by 2027.",
+      "likelihood": "High; significant ongoing economic and geopolitical pressures are currently impacting organizations.",
+      "impact": "Risks include increased insolvency, financial instability, reduced strategic investment, and operational challenges. Potential to affect national and global student recruitment and regional economies.",
+      "risk_indicator": "Financial stress testing results, economic scenario planning outputs, compliance with sanctions and AML regulations.",
+      "risk_event": [
+        "Silicon Valley Bank failure cited as an example of unpreparedness for changing risk landscape."
+      ],
+      "suggested_audits": [
+        "Joint audits with other assurance providers to cover localization challenges.",
+        "Audits focusing on financial and liquidity risks incorporating macroeconomic assumptions."
+      ],
+      "contextual_variations": [
+        "Risk perception may be higher outside Europe due to under-rating of external risks.",
+        "More acute in sectors sensitive to geopolitical tensions and economic shocks."
+      ]
+    },
+    {
+      "risk_name": "Supply Chain, Outsourcing and 'Nth' Party Risk",
+      "risk_description": "Risks arising from dependencies on suppliers and third parties, including geopolitical uncertainty, insolvencies, regulatory changes, and environmental factors, which threaten supply chain resilience and business continuity.",
+      "risk_driver": [
+        {
+          "driver_name": "Geopolitical Uncertainty",
+          "driver_description": "Tensions and conflicts complicate international trade and supply chain resilience."
+        },
+        {
+          "driver_name": "Growing Insolvency Risk",
+          "driver_description": "Financial instability among suppliers increases risk of supply disruption."
+        },
+        {
+          "driver_name": "New Regulations",
+          "driver_description": "Legislation such as the EU Corporate Sustainability Due Diligence Directive and Critical Raw Materials Act impose compliance and due diligence requirements."
+        },
+        {
+          "driver_name": "Physical Environment",
+          "driver_description": "Climate-related extreme weather events and incidents like the Ever Given grounding highlight fragility of physical supply chains."
+        },
+        {
+          "driver_name": "Supplier Contract Limitations",
+          "driver_description": "Not all supplier contracts include ESG KPIs, and imposing standards can be difficult, adding costs in inflationary environments."
+        }
+      ],
+      "risk_recommendations": [
+        "Assess supply chain resilience to macroeconomic and geopolitical risks.",
+        "Understand supplier challenges and implement early detection monitoring.",
+        "Conduct due diligence on potential suppliers for strategic alignment.",
+        "Review outsourcing contracts for regulatory compliance.",
+        "Update vendor management frameworks for selection and performance evaluation.",
+        "Evaluate third-party and outsourced vendor compliance and performance.",
+        "Test business continuity plans with realistic simulations.",
+        "Help suppliers diversify and create closer partnerships to mitigate risks."
+      ],
+      "trend": "Ranked 8th in 2024 and expected to drop to 9th by 2027 in audit focus, while business continuity efforts rise. Increasing regulatory and compliance pressures are reshaping supply chain risk management.",
+      "likelihood": "Moderate to high; 30% of respondents cite it as a top five risk.",
+      "impact": "Potential for supply disruptions, increased costs, compliance breaches, and reputational damage.",
+      "risk_indicator": "Supplier risk assessments, contract compliance metrics, business continuity plan testing results.",
+      "risk_event": [
+        "Ever Given container ship grounding in the Suez Canal.",
+        "Flooding in Germany in 2021 causing supply chain stress."
+      ],
+      "suggested_audits": [
+        "Audits assessing supply chain resilience and vendor management frameworks.",
+        "Due diligence audits on suppliers and outsourcing arrangements."
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Human Capital, Diversity, Talent Management and Retention",
+      "risk_description": "Challenges in attracting, retaining, and managing talent, exacerbated by changing workforce demographics, inflation-driven labor costs, and evolving customer behaviors, impacting organizational capability and strategic goal achievement.",
+      "risk_driver": [
+        {
+          "driver_name": "Talent Scarcity",
+          "driver_description": "Pandemic accelerated structural changes leading to persistent talent shortages even in economic downturns."
+        },
+        {
+          "driver_name": "Rising Labor Costs",
+          "driver_description": "Inflation increases labor costs while demand shifts to cheaper brands affect business dynamics."
+        },
+        {
+          "driver_name": "Workforce Mobility",
+          "driver_description": "High turnover intentions among younger workers and retirement of older staff."
+        },
+        {
+          "driver_name": "Lagging Corporate Culture",
+          "driver_description": "Organizational culture failing to keep pace with social changes, affecting attraction and retention."
+        }
+      ],
+      "risk_recommendations": [
+        "Recruit staff with skills and knowledge to understand emerging risks.",
+        "Invest heavily in training and education to close knowledge gaps.",
+        "Re-energize human capital strategies to align with social purpose and sustainability goals.",
+        "Enhance mechanisms to monitor and manage talent retention and diversity."
+      ],
+      "trend": "Second biggest risk in 2024 with 58% citing it as a top five risk, up from 50% in 2023 and 40% in 2022. Expected to remain a top challenge in 2027.",
+      "likelihood": "High; increasing recognition of talent management as a critical risk.",
+      "impact": "Failure to manage talent risks reduces ability to achieve strategic goals and manage other risks effectively.",
+      "risk_indicator": "Turnover rates, talent acquisition metrics, employee engagement scores.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Climate Change, Biodiversity and Environmental Sustainability",
+      "risk_description": "Risks related to climate change impacts, biodiversity loss, and the need to meet environmental sustainability targets, including compliance with emerging regulations and integration of sustainability into business strategy.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate Change Effects",
+          "driver_description": "Extreme weather events and environmental changes impacting operations and supply chains."
+        },
+        {
+          "driver_name": "Regulatory Pressure",
+          "driver_description": "New laws such as CSRD, ESRD, TCFD, and EU sustainability directives increasing compliance requirements."
+        },
+        {
+          "driver_name": "Funding Challenges",
+          "driver_description": "Difficulty in securing funding for carbon reduction and sustainability initiatives."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop and prioritize sustainability goals aligned with business strategy.",
+        "Set realistic, measurable targets integrated into business plans.",
+        "Implement monitoring mechanisms for environmental performance and continuous improvement.",
+        "Engage stakeholders including NGOs for expertise on sustainability issues.",
+        "Ensure supplier contracts reflect organizational sustainability values and standards.",
+        "Attract and retain talent motivated by social purpose to support sustainability agenda."
+      ],
+      "trend": "Increasing focus with internal audit effort expected to jump from 12th place in 2024 to joint 3rd by 2027.",
+      "likelihood": null,
+      "impact": "Failure to meet sustainability targets risks regulatory non-compliance, reputational damage, and operational disruptions.",
+      "risk_indicator": "Environmental performance metrics, sustainability reporting compliance.",
+      "risk_event": [
+        "Flooding in Germany in 2021 as an example of climate-related supply chain stress."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Business Continuity, Operational Resilience, Crisis Management and Disaster Response",
+      "risk_description": "Risks related to the organization's ability to maintain operations and recover from disruptions caused by crises, disasters, or supply chain interruptions.",
+      "risk_driver": [
+        {
+          "driver_name": "Global Turmoil",
+          "driver_description": "Ongoing geopolitical, economic, and environmental disruptions increasing the need for robust continuity plans."
+        },
+        {
+          "driver_name": "Supply Chain Scarcity",
+          "driver_description": "Growing scarcity and expense of key products impacting operational resilience."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop and regularly update business continuity plans.",
+        "Conduct realistic scenario testing and simulations of continuity plans.",
+        "Integrate continuity planning with supply chain risk management.",
+        "Internal audit to focus more effort on business continuity and resilience."
+      ],
+      "trend": "Ranked 5th biggest threat in 2024, with internal audit focus rising from 8th in 2021 to 4th in 2024, and expected to move up to 2nd by 2027.",
+      "likelihood": "Moderate to high given increasing global disruptions.",
+      "impact": "Operational disruptions, financial losses, reputational damage, and failure to meet strategic objectives.",
+      "risk_indicator": "Business continuity plan testing results, crisis response times.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

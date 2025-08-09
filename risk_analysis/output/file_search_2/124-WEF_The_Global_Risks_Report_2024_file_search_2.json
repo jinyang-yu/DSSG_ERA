@@ -1,0 +1,602 @@
+{
+  "risks": [
+    {
+      "risk_name": "Extreme Weather Events",
+      "risk_description": "Severe weather events causing widespread damage and disruption, impacting populations, economies, and environmental resources globally.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate Change",
+          "driver_description": "Rising global temperatures increase the frequency and intensity of extreme weather events."
+        },
+        {
+          "driver_name": "Environmental Degradation",
+          "driver_description": "Loss of natural buffers like wetlands and forests exacerbates vulnerability to weather extremes."
+        }
+      ],
+      "risk_recommendations": [
+        "Enhance early-warning systems and disaster preparedness.",
+        "Invest in resilient infrastructure and adaptive urban planning.",
+        "Promote international cooperation on climate mitigation and adaptation."
+      ],
+      "trend": "Ranked 1st in severity over both short (2 years) and long term (10 years), indicating increasing concern and impact.",
+      "likelihood": "High likelihood due to ongoing climate trends and observed increases in event frequency.",
+      "impact": "Severe impacts on human life, economic stability, and environmental health; potential for cascading effects on food security and migration.",
+      "risk_indicator": "Frequency and intensity of extreme weather events globally.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More severe impacts expected in climate-vulnerable economies and regions with limited adaptive capacity."
+      ]
+    },
+    {
+      "risk_name": "Critical Change to Earth Systems",
+      "risk_description": "Long-term, potentially irreversible and self-perpetuating changes to critical planetary systems due to breaching tipping points, causing abrupt and severe impacts on planetary health and human welfare.",
+      "risk_driver": [
+        {
+          "driver_name": "Anthropogenic Climate Change",
+          "driver_description": "Human activities driving global warming and environmental degradation."
+        },
+        {
+          "driver_name": "Cross-system Feedback Loops",
+          "driver_description": "Interactions between climate, biodiversity loss, and pollution accelerating system changes."
+        }
+      ],
+      "risk_recommendations": [
+        "Accelerate climate mitigation efforts to avoid tipping points.",
+        "Invest in research to better understand Earth system thresholds.",
+        "Enhance global cooperation on environmental protection and restoration."
+      ],
+      "trend": "Ranked 2nd in severity over 10 years, with increasing recognition of its critical importance.",
+      "likelihood": "Increasing likelihood as global temperatures rise and environmental degradation continues.",
+      "impact": "Potentially catastrophic impacts on global ecosystems, food security, sea levels, and human health.",
+      "risk_indicator": "Indicators of tipping points such as ice sheet collapse, permafrost thaw, and ocean current disruptions.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Biodiversity Loss and Ecosystem Collapse",
+      "risk_description": "Rapid decline in biodiversity and collapse of ecosystems, threatening natural resources and human livelihoods.",
+      "risk_driver": [
+        {
+          "driver_name": "Habitat Destruction",
+          "driver_description": "Land use changes, deforestation, and urbanization reducing habitats."
+        },
+        {
+          "driver_name": "Pollution and Climate Change",
+          "driver_description": "Environmental stressors degrading ecosystems and species resilience."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement conservation and restoration programs.",
+        "Strengthen environmental regulations and enforcement.",
+        "Promote sustainable land and resource management."
+      ],
+      "trend": "Ranked consistently in top risks over short and long term, with growing urgency.",
+      "likelihood": "High likelihood given current environmental trends.",
+      "impact": "Severe consequences for ecosystem services, food security, and climate regulation.",
+      "risk_indicator": "Rates of species extinction and habitat loss.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Natural Resource Shortages",
+      "risk_description": "Scarcity of essential natural resources such as water, minerals, and energy, impacting economic and social stability.",
+      "risk_driver": [
+        {
+          "driver_name": "Overconsumption",
+          "driver_description": "Unsustainable use of resources exceeding natural replenishment rates."
+        },
+        {
+          "driver_name": "Environmental Degradation",
+          "driver_description": "Pollution and climate impacts reducing resource availability."
+        }
+      ],
+      "risk_recommendations": [
+        "Promote resource efficiency and circular economy models.",
+        "Invest in alternative and renewable resources.",
+        "Enhance international cooperation on resource management."
+      ],
+      "trend": "Ranked among top risks in both short and long term, with increasing concern due to growing demand and environmental pressures.",
+      "likelihood": "High likelihood as demand outpaces supply and environmental constraints tighten.",
+      "impact": "Potential for economic disruption, conflict, and social unrest.",
+      "risk_indicator": "Resource depletion rates and supply-demand imbalances.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Misinformation and Disinformation",
+      "risk_description": "Spread of false or misleading information undermining trust, social cohesion, and democratic processes.",
+      "risk_driver": [
+        {
+          "driver_name": "Digital Media Proliferation",
+          "driver_description": "Rapid spread of information through social media and online platforms."
+        },
+        {
+          "driver_name": "Political and Social Polarization",
+          "driver_description": "Divisive narratives exploited to deepen societal divides."
+        }
+      ],
+      "risk_recommendations": [
+        "Enhance public awareness and education on media literacy.",
+        "Implement regulatory frameworks for digital platforms.",
+        "Promote transparency and accountability in information dissemination."
+      ],
+      "trend": "Ranked 1st in severity over 2 years, rising rapidly in prominence.",
+      "likelihood": "High likelihood given current digital communication trends.",
+      "impact": "Erosion of trust in institutions, increased societal polarization, and potential for unrest.",
+      "risk_indicator": "Prevalence and reach of false information online.",
+      "risk_event": [
+        {
+          "event_name": "Removal of BBC documentary links in India",
+          "event_description": "Twitter and YouTube agreed to remove links to a BBC documentary in India, raising concerns about censorship and misinformation control."
+        },
+        {
+          "event_name": "Government approach to fake news in Mexico",
+          "event_description": "Civil society concerns about government actions impacting press freedom and safety."
+        }
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Higher risk in countries with upcoming elections and flawed democracies.",
+        "Mature democracies face trade-offs between managing misinformation and protecting free speech."
+      ]
+    },
+    {
+      "risk_name": "Adverse Outcomes of AI Technologies",
+      "risk_description": "Potential negative impacts from the deployment of AI, including systemic risks to economic, social, and political systems.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid Technological Acceleration",
+          "driver_description": "Fast development and deployment of powerful AI systems outpacing regulation."
+        },
+        {
+          "driver_name": "Concentration of Technological Power",
+          "driver_description": "Few entities controlling advanced AI capabilities, increasing systemic risk."
+        }
+      ],
+      "risk_recommendations": [
+        "Integrate AI literacy into education and training for regulators and society.",
+        "Develop national and local regulations to manage AI risks.",
+        "Establish global treaties and agreements for AI governance.",
+        "Implement registration, licensing, and auditing systems for AI technologies."
+      ],
+      "trend": "Rising rapidly in severity ranking from #29 over 2 years to #6 over 10 years.",
+      "likelihood": "Increasing likelihood as AI technologies proliferate.",
+      "impact": "Potential for systemic disruption, economic instability, and security risks.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Cyber Insecurity",
+      "risk_description": "Risks related to cyber attacks, data breaches, and vulnerabilities in digital infrastructure threatening security and operations.",
+      "risk_driver": [
+        {
+          "driver_name": "Technological Complexity",
+          "driver_description": "Increasingly complex and interconnected digital systems create vulnerabilities."
+        },
+        {
+          "driver_name": "Proliferation of Cyber Threat Actors",
+          "driver_description": "Growing number and sophistication of attackers including state and non-state actors."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in cybersecurity infrastructure and training.",
+        "Develop robust incident response and recovery plans.",
+        "Enhance international cooperation on cyber threat intelligence."
+      ],
+      "trend": "Remains in top 10 risks over both short and long term, with persistent high concern.",
+      "likelihood": "High likelihood given ongoing cyber threat landscape.",
+      "impact": "Potential for operational disruption, financial loss, and reputational damage.",
+      "risk_indicator": "Number and severity of cyber incidents.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Societal Polarization",
+      "risk_description": "Deepening divisions within societies along political, economic, and social lines, undermining cohesion and stability.",
+      "risk_driver": [
+        {
+          "driver_name": "Economic Hardship",
+          "driver_description": "Inequality and lack of economic opportunity fueling discontent."
+        },
+        {
+          "driver_name": "Misinformation and Disinformation",
+          "driver_description": "Spread of divisive narratives exacerbating social divides."
+        }
+      ],
+      "risk_recommendations": [
+        "Promote inclusive economic policies to reduce inequality.",
+        "Enhance public dialogue and community engagement initiatives.",
+        "Address misinformation through education and regulation."
+      ],
+      "trend": "Ranked 3rd in short term severity, dropping to 9th over long term but remains a key concern.",
+      "likelihood": "High likelihood given current social and economic trends.",
+      "impact": "Erosion of social trust, increased conflict, and political instability.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Involuntary Migration",
+      "risk_description": "Forced displacement of populations due to conflict, environmental degradation, or economic hardship.",
+      "risk_driver": [
+        {
+          "driver_name": "Conflict and Violence",
+          "driver_description": "Armed conflicts and instability forcing people to flee."
+        },
+        {
+          "driver_name": "Environmental Stress",
+          "driver_description": "Climate change and natural disasters displacing communities."
+        }
+      ],
+      "risk_recommendations": [
+        "Strengthen conflict prevention and resolution mechanisms.",
+        "Invest in climate adaptation and disaster risk reduction.",
+        "Enhance support systems for displaced populations."
+      ],
+      "trend": "Consistently ranked among top risks over short and long term.",
+      "likelihood": "Increasing likelihood due to rising conflicts and environmental impacts.",
+      "impact": "Humanitarian crises, social strain, and regional instability.",
+      "risk_indicator": "Number of displaced persons globally.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Lack of Economic Opportunity",
+      "risk_description": "Insufficient access to income, employment, and skills development, limiting social mobility and economic progress.",
+      "risk_driver": [
+        {
+          "driver_name": "Economic Transitions",
+          "driver_description": "Shifts in labor markets and technology disrupting traditional employment pathways."
+        },
+        {
+          "driver_name": "Inequality",
+          "driver_description": "Unequal distribution of resources and opportunities."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement policies to support workforce reskilling and education.",
+        "Promote inclusive economic growth and social safety nets.",
+        "Address structural barriers to opportunity."
+      ],
+      "trend": "Ranked 6th over 2 years, dropping to 11th over 10 years but remains a concern especially among civil society and academia.",
+      "likelihood": "High likelihood given current economic and social trends.",
+      "impact": "Social unrest, reduced development, and intergenerational poverty.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More prominent concern among civil society and academia than government sectors."
+      ]
+    },
+    {
+      "risk_name": "Interstate Armed Conflict",
+      "risk_description": "Bilateral or multilateral use of force between states, including proxy wars and open conflicts, threatening global security and stability.",
+      "risk_driver": [
+        {
+          "driver_name": "Geopolitical Tensions",
+          "driver_description": "Rising competition and rivalry among major powers."
+        },
+        {
+          "driver_name": "State Fragility",
+          "driver_description": "Weak governance and instability increasing conflict risk."
+        }
+      ],
+      "risk_recommendations": [
+        "Strengthen international security mechanisms and diplomacy.",
+        "Promote conflict prevention and peacebuilding initiatives.",
+        "Enhance cooperation on arms control and disarmament."
+      ],
+      "trend": "New entrant into top risk rankings, ranked 5th over 2 years but falling to 15th over 10 years.",
+      "likelihood": "Moderate likelihood with risk concentrated in key hotspots such as Ukraine, Israel, and Taiwan.",
+      "impact": "High human casualties, economic disruption, and geopolitical instability.",
+      "risk_indicator": "Number of active conflicts and conflict-related fatalities.",
+      "risk_event": [
+        {
+          "event_name": "Conflict escalation in Ukraine",
+          "event_description": "Ongoing war with significant casualties and geopolitical ramifications."
+        },
+        {
+          "event_name": "Conflict in Middle East",
+          "event_description": "Recent conflicts raising concerns about broader regional instability."
+        }
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Inflation",
+      "risk_description": "Sustained increase in prices reducing purchasing power and economic stability.",
+      "risk_driver": [
+        {
+          "driver_name": "Supply Chain Disruptions",
+          "driver_description": "Interruptions in production and distribution increasing costs."
+        },
+        {
+          "driver_name": "Monetary Policies",
+          "driver_description": "Central bank actions influencing inflation dynamics."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement prudent fiscal and monetary policies.",
+        "Enhance supply chain resilience.",
+        "Monitor inflation indicators closely to adjust policies timely."
+      ],
+      "trend": "Only risk predicted to improve in severity over next decade, dropping from 7th to 32nd place.",
+      "likelihood": "Variable likelihood depending on economic conditions.",
+      "impact": "Erosion of real incomes, increased cost of living, and potential economic downturn.",
+      "risk_indicator": "Consumer price index and inflation rates.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Economic Downturn",
+      "risk_description": "Significant decline in economic activity leading to recession or depression.",
+      "risk_driver": [
+        {
+          "driver_name": "Geoeconomic Confrontation",
+          "driver_description": "Trade conflicts and geopolitical tensions disrupting economic flows."
+        },
+        {
+          "driver_name": "Financial Instability",
+          "driver_description": "Debt crises and asset bubbles increasing economic vulnerability."
+        }
+      ],
+      "risk_recommendations": [
+        "Strengthen economic governance and financial regulation.",
+        "Promote diversification and resilience in economies.",
+        "Enhance international economic cooperation."
+      ],
+      "trend": "Ranked 9th over 2 years, dropping to 28th over 10 years.",
+      "likelihood": "Moderate likelihood influenced by geopolitical and financial factors.",
+      "impact": "Job losses, reduced incomes, and social instability.",
+      "risk_indicator": "GDP growth rates and unemployment figures.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Debt Crises (Public, Corporate, Household)",
+      "risk_description": "Inability of entities to service accumulated debt leading to bankruptcies, defaults, and financial crises.",
+      "risk_driver": [
+        {
+          "driver_name": "Excessive Borrowing",
+          "driver_description": "High levels of debt accumulation without sustainable repayment plans."
+        },
+        {
+          "driver_name": "Economic Shocks",
+          "driver_description": "Sudden downturns reducing ability to meet debt obligations."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement prudent borrowing and lending practices.",
+        "Strengthen financial oversight and risk management.",
+        "Develop contingency plans for debt restructuring."
+      ],
+      "trend": "High concern with 79% respondents identifying financial instruments as key to risk reduction.",
+      "likelihood": "High likelihood in vulnerable economies and sectors.",
+      "impact": "Financial instability, loss of investor confidence, and economic contraction.",
+      "risk_indicator": "Debt-to-GDP ratios and default rates.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Asset Bubble Bursts",
+      "risk_description": "Rapid decline in asset prices disconnected from economic fundamentals causing financial shocks.",
+      "risk_driver": [
+        {
+          "driver_name": "Speculative Investment",
+          "driver_description": "Inflated asset prices driven by investor speculation."
+        },
+        {
+          "driver_name": "Market Imbalances",
+          "driver_description": "Disconnection between asset prices and real economic value."
+        }
+      ],
+      "risk_recommendations": [
+        "Enhance market regulation and transparency.",
+        "Monitor asset price trends and intervene when necessary.",
+        "Promote financial literacy and risk awareness."
+      ],
+      "trend": "Ranked among top risks addressed by financial instruments.",
+      "likelihood": "Moderate likelihood with potential for sudden occurrence.",
+      "impact": "Financial losses, reduced wealth, and economic instability.",
+      "risk_indicator": "Asset price indices and market volatility measures.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Disruptions to a Systemically Important Supply Chain",
+      "risk_description": "Major disruption or collapse of critical global supply chains impacting economy and society.",
+      "risk_driver": [
+        {
+          "driver_name": "Geopolitical Tensions",
+          "driver_description": "Trade conflicts and political instability affecting supply routes."
+        },
+        {
+          "driver_name": "Natural Disasters",
+          "driver_description": "Extreme weather and environmental events disrupting production and logistics."
+        }
+      ],
+      "risk_recommendations": [
+        "Diversify supply sources and routes.",
+        "Invest in supply chain resilience and risk management.",
+        "Enhance international cooperation on trade and logistics."
+      ],
+      "trend": "Ranked among top risks addressed by corporate strategies and development assistance.",
+      "likelihood": "High likelihood given current global tensions and environmental risks.",
+      "impact": "Economic shocks, shortages of critical goods, and social disruption.",
+      "risk_indicator": "Frequency and duration of supply chain disruptions.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Disruptions to Critical Infrastructure",
+      "risk_description": "Failures or attacks on essential infrastructure systems causing widespread disruption.",
+      "risk_driver": [
+        {
+          "driver_name": "Cyber Attacks",
+          "driver_description": "Malicious activities targeting infrastructure control systems."
+        },
+        {
+          "driver_name": "Aging Infrastructure",
+          "driver_description": "Deterioration and lack of maintenance increasing vulnerability."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in infrastructure modernization and cybersecurity.",
+        "Develop robust emergency response and recovery plans.",
+        "Enhance public-private partnerships for infrastructure resilience."
+      ],
+      "trend": "Ranked among top risks addressed by national and local regulations and corporate strategies.",
+      "likelihood": "Moderate to high likelihood depending on region and sector.",
+      "impact": "Service outages, economic losses, and public safety risks.",
+      "risk_indicator": "Incidence of infrastructure failures and cyber incidents.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Chronic Health Conditions",
+      "risk_description": "Increasing prevalence of long-term health issues impacting populations and healthcare systems.",
+      "risk_driver": [
+        {
+          "driver_name": "Aging Populations",
+          "driver_description": "Demographic shifts increasing chronic disease burden."
+        },
+        {
+          "driver_name": "Lifestyle Factors",
+          "driver_description": "Unhealthy behaviors contributing to disease prevalence."
+        }
+      ],
+      "risk_recommendations": [
+        "Promote public health initiatives and preventive care.",
+        "Invest in healthcare infrastructure and innovation.",
+        "Address social determinants of health."
+      ],
+      "trend": "Ranked among top risks addressed by development assistance and corporate strategies.",
+      "likelihood": "High likelihood with growing global health challenges.",
+      "impact": "Increased healthcare costs, reduced productivity, and social strain.",
+      "risk_indicator": "Prevalence rates of chronic diseases.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Biological, Chemical or Nuclear Hazards",
+      "risk_description": "Risks from accidental or deliberate release of hazardous biological, chemical, or nuclear materials.",
+      "risk_driver": [
+        {
+          "driver_name": "Technological Advances",
+          "driver_description": "Increased capabilities for weaponization or accidental release."
+        },
+        {
+          "driver_name": "Geopolitical Instability",
+          "driver_description": "Conflict and terrorism increasing hazard risks."
+        }
+      ],
+      "risk_recommendations": [
+        "Strengthen international treaties and monitoring.",
+        "Enhance emergency preparedness and response.",
+        "Promote disarmament and non-proliferation efforts."
+      ],
+      "trend": "Ranked among top risks addressed by minilateral and global treaties.",
+      "likelihood": "Low to moderate likelihood but high impact potential.",
+      "impact": "Mass casualties, environmental contamination, and geopolitical crises.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Illicit Economic Activity",
+      "risk_description": "Criminal activities undermining economic systems and governance.",
+      "risk_driver": [
+        {
+          "driver_name": "Weak Governance",
+          "driver_description": "Corruption and lack of enforcement enabling illicit activities."
+        },
+        {
+          "driver_name": "Technological Exploitation",
+          "driver_description": "Use of advanced technologies to facilitate crime."
+        }
+      ],
+      "risk_recommendations": [
+        "Strengthen law enforcement and regulatory frameworks.",
+        "Enhance international cooperation and intelligence sharing.",
+        "Promote transparency and anti-corruption measures."
+      ],
+      "trend": "Perceived as underappreciated risk with potential to escalate.",
+      "likelihood": "Increasing likelihood with technological and governance challenges.",
+      "impact": "Economic losses, weakened institutions, and social harm.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Erosion of Human Rights",
+      "risk_description": "Decline in respect for fundamental rights and freedoms globally.",
+      "risk_driver": [
+        {
+          "driver_name": "Authoritarianism",
+          "driver_description": "Rise of regimes restricting freedoms and dissent."
+        },
+        {
+          "driver_name": "Technological Surveillance",
+          "driver_description": "Use of digital tools to monitor and suppress populations."
+        }
+      ],
+      "risk_recommendations": [
+        "Promote international human rights standards and enforcement.",
+        "Support civil society and independent media.",
+        "Regulate surveillance technologies to protect privacy."
+      ],
+      "trend": "Closely linked with misinformation, censorship, and societal polarization risks.",
+      "likelihood": "High likelihood in certain regions with authoritarian trends.",
+      "impact": "Suppression of freedoms, social unrest, and conflict.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Technological Power Concentration",
+      "risk_description": "Concentration of advanced technological capabilities and control in the hands of few actors.",
+      "risk_driver": [
+        {
+          "driver_name": "Market Dominance",
+          "driver_description": "Large corporations and states controlling key technologies."
+        },
+        {
+          "driver_name": "Regulatory Gaps",
+          "driver_description": "Lack of effective governance allowing unchecked power concentration."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop global governance frameworks for technology.",
+        "Promote competition and innovation.",
+        "Ensure equitable access to technological benefits."
+      ],
+      "trend": "Increasing concern linked to AI and frontier technologies.",
+      "likelihood": "High likelihood as technology advances rapidly.",
+      "impact": "Systemic risks, reduced innovation, and geopolitical tensions.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

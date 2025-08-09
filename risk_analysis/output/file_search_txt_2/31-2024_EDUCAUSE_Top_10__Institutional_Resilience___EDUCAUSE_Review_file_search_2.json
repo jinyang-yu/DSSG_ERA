@@ -1,0 +1,315 @@
+{
+  "risks": [
+    {
+      "risk_name": "Cybersecurity as a Core Competency",
+      "risk_description": "Worsening cyberthreats, more abundant and distributed data, changing regulations, and the advent of AI increase cybersecurity risks. Institutions must incorporate effective cybersecurity into their core competencies to balance risk, cost, and opportunity, avoiding reputational and financial damage.",
+      "risk_driver": [
+        {
+          "driver_name": "Worsening Cyberthreats",
+          "driver_description": "Increasing frequency and sophistication of cyberattacks targeting institutional and constituent data."
+        },
+        {
+          "driver_name": "Distributed Data",
+          "driver_description": "More abundant and distributed data increases the attack surface and complexity of protection."
+        },
+        {
+          "driver_name": "Changing Regulations",
+          "driver_description": "Evolving compliance requirements add complexity to cybersecurity management."
+        },
+        {
+          "driver_name": "Advent of AI",
+          "driver_description": "AI technologies introduce new vulnerabilities and attack vectors."
+        }
+      ],
+      "risk_recommendations": [
+        "Adopt a formal risk management framework to balance risk, cost, and opportunity.",
+        "Make cybersecurity a core institutional competency with continuous investments and practices.",
+        "Pair cybersecurity efforts with effective risk management to avoid crippling attacks.",
+        "Increase trust among internal and external constituents through robust cybersecurity."
+      ],
+      "trend": "Cybersecurity remains the number one institutional risk and continues to escalate due to evolving threats and technology changes.",
+      "likelihood": "High likelihood due to ongoing and increasing cyber threats.",
+      "impact": "Potential for reputational damage, financial loss, and operational disruption if a cyberattack occurs.",
+      "risk_indicator": "Frequency and severity of cyberattacks; regulatory compliance incidents.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Driving to Better Decisions: Improving Data Quality and Governance",
+      "risk_description": "Difficulties with data quality and governance stall efforts to use data effectively for decision-making, impeding institutional ability to navigate shrinking resources and revenue.",
+      "risk_driver": [
+        {
+          "driver_name": "Data Silos",
+          "driver_description": "Campus culture creating isolated data sets that limit unified decision-making."
+        },
+        {
+          "driver_name": "Lack of Unified Leadership",
+          "driver_description": "Absence of institutional leadership prioritizing data as a strategic asset."
+        },
+        {
+          "driver_name": "Insufficient Funding and Prioritization",
+          "driver_description": "Data initiatives lack adequate funding and prioritization."
+        }
+      ],
+      "risk_recommendations": [
+        "Meld unified institutional leadership with input from all constituents.",
+        "Fund and prioritize data initiatives to improve data quality and governance.",
+        "Provide stakeholders with accessible data and tools to simplify work and improve decision outcomes.",
+        "Change campus culture to reduce data silos."
+      ],
+      "trend": "Increasing recognition of data's strategic importance but ongoing challenges in governance and quality persist.",
+      "likelihood": "Moderate to high likelihood of continued challenges without intervention.",
+      "impact": "Poor decision-making due to unreliable or inaccessible data, leading to inefficient resource use and missed opportunities.",
+      "risk_indicator": "Data quality metrics; governance compliance measures.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "The Enrollment Crisis",
+      "risk_description": "Unfavorable demographic changes, affordability issues, and declining public confidence contribute to an enrollment crisis, threatening institutional sustainability.",
+      "risk_driver": [
+        {
+          "driver_name": "Unfavorable Demographics",
+          "driver_description": "Declining numbers of traditional-aged students."
+        },
+        {
+          "driver_name": "Affordability Challenges",
+          "driver_description": "Rising costs and student debt burden reduce access and attractiveness."
+        },
+        {
+          "driver_name": "Lessening Confidence in Higher Education",
+          "driver_description": "Public skepticism about the value of higher education."
+        }
+      ],
+      "risk_recommendations": [
+        "Reexamine and redefine academic offerings and support services to meet changing needs.",
+        "Use centralized, reliable data to identify prospective students and invest in relevant programs.",
+        "Cultivate a culture of flexibility and adaptation.",
+        "Develop external partnerships to expand recruitment and educational continuity."
+      ],
+      "trend": "Enrollment challenges are persistent and worsening, requiring innovative approaches.",
+      "likelihood": "High likelihood given demographic and economic trends.",
+      "impact": "Severe financial implications and potential decline in institutional viability.",
+      "risk_indicator": "Enrollment numbers and trends; demographic data.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Diving Deep into Data: Leveraging Analytics for Learning and Student Success",
+      "risk_description": "While data and analytics tools are more sophisticated and abundant, institutions face challenges in gaining actionable insights to improve learning outcomes and student success.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Data Sources",
+          "driver_description": "More diverse and voluminous data complicates analysis."
+        },
+        {
+          "driver_name": "Need for Clear Vision and Priorities",
+          "driver_description": "Lack of strategic guidance hampers effective analytics initiatives."
+        },
+        {
+          "driver_name": "Infrastructure and Staffing Gaps",
+          "driver_description": "Insufficient investment in data infrastructure and skilled personnel."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop a clear vision and concrete priorities for analytics initiatives.",
+        "Invest in data and analytics infrastructure and staffing.",
+        "Focus on delivering actionable insights that improve learning and student success."
+      ],
+      "trend": "Growing availability of analytics tools but uneven institutional readiness to leverage them effectively.",
+      "likelihood": "Moderate likelihood of underutilization without strategic focus.",
+      "impact": "Missed opportunities to enhance student outcomes and institutional effectiveness.",
+      "risk_indicator": "Analytics adoption rates; student success metrics.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Administrative Cost Reduction",
+      "risk_description": "Institutions face pressure to reduce administrative costs amid declining revenues and public confidence, requiring streamlining of processes, data, and technologies.",
+      "risk_driver": [
+        {
+          "driver_name": "Declining Revenues",
+          "driver_description": "Reduced funding and income streams constrain budgets."
+        },
+        {
+          "driver_name": "Public Expectation for Affordable Credentials",
+          "driver_description": "Demand for more affordable education increases pressure on administrative efficiency."
+        },
+        {
+          "driver_name": "Complex and Inefficient Processes",
+          "driver_description": "Legacy systems and fragmented processes increase costs."
+        }
+      ],
+      "risk_recommendations": [
+        "Simplify and standardize processes, data, and technologies.",
+        "Focus stakeholders on institutional future and greater good to enable difficult trade-offs.",
+        "Leverage AI and automation to reinvent operations and achieve cost savings.",
+        "Use cost reduction to increase agility and innovation capacity."
+      ],
+      "trend": "Increasing urgency to reduce costs with emerging technology opportunities.",
+      "likelihood": "High likelihood as financial pressures persist.",
+      "impact": "Failure to reduce costs may threaten institutional sustainability and innovation.",
+      "risk_indicator": "Administrative cost ratios; process efficiency metrics.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Meeting Students Where They Are",
+      "risk_description": "Institutions risk failing to provide universal access to services that meet the diverse and evolving needs of students, especially those with the greatest needs.",
+      "risk_driver": [
+        {
+          "driver_name": "Inadequate Institutional Services",
+          "driver_description": "Current services and access fall short of addressing student needs."
+        },
+        {
+          "driver_name": "Transition from Stop-gap to Scalable Services",
+          "driver_description": "Pandemic-era digital expansions need to become stable and scalable."
+        },
+        {
+          "driver_name": "Institutional Agility and Governance",
+          "driver_description": "Lack of agility and effective governance impedes service improvement."
+        }
+      ],
+      "risk_recommendations": [
+        "Transition to stable, scalable digital and in-person services.",
+        "Enhance institutional agility and governance.",
+        "Commit to ensuring all students benefit from services."
+      ],
+      "trend": "Growing awareness of student needs and digital service opportunities post-pandemic.",
+      "likelihood": "High likelihood of service gaps without focused action.",
+      "impact": "Negative effects on student achievement, retention, and satisfaction.",
+      "risk_indicator": "Student service access and usage metrics; student satisfaction surveys.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Hiring Resilience: Recruiting and Retaining IT Talent",
+      "risk_description": "Financial constraints and traditional workplace rigidity hinder recruitment and retention of technology and data staff, impacting institutional capacity.",
+      "risk_driver": [
+        {
+          "driver_name": "Financial Constraints",
+          "driver_description": "Budget limitations restrict competitive compensation."
+        },
+        {
+          "driver_name": "Workplace Rigidity",
+          "driver_description": "Inflexible policies reduce appeal to prospective and current staff."
+        },
+        {
+          "driver_name": "Work-life Balance Expectations",
+          "driver_description": "Staff desire flexible schedules and reasonable workloads."
+        }
+      ],
+      "risk_recommendations": [
+        "Revise hiring, compensation, and work policies to develop a compelling employee value proposition.",
+        "Increase workplace and schedule flexibility to support individual needs.",
+        "Adapt policies to the evolving impact of AI on work.",
+        "Collaborate between technology and HR leaders to optimize workforce management."
+      ],
+      "trend": "Persistent and worsening challenges in IT talent recruitment and retention post-pandemic.",
+      "likelihood": "High likelihood of continued staffing challenges without policy adaptation.",
+      "impact": "Reduced institutional capacity, increased workloads, and potential operational risks.",
+      "risk_indicator": "Staff turnover rates; vacancy durations; employee satisfaction scores.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Financial Keys to the Future: Using Technology and Data to Make Tough Choices",
+      "risk_description": "Institutions face shrinking revenues and increasing costs, complicating financial modeling and forecasting, threatening financial sustainability.",
+      "risk_driver": [
+        {
+          "driver_name": "Shrinking Revenues",
+          "driver_description": "Declining enrollments, grants, and other income sources."
+        },
+        {
+          "driver_name": "Increasing Costs",
+          "driver_description": "Rising operational and technology expenses."
+        },
+        {
+          "driver_name": "Identity Crisis and Business Model Flux",
+          "driver_description": "Uncertainty about institutional direction and financial strategies."
+        }
+      ],
+      "risk_recommendations": [
+        "Lead analytics initiatives to develop dynamic financial models and projections.",
+        "Invest in data management, reconciliation, and integration as groundwork.",
+        "Use technology to reduce administrative costs through consolidation and automation.",
+        "Prepare to incorporate AI and machine learning for enhanced financial forecasting."
+      ],
+      "trend": "Financial pressures intensify with growing complexity in forecasting and budgeting.",
+      "likelihood": "High likelihood of financial challenges without strategic data use.",
+      "impact": "Potential for budget deficits, reduced services, and compromised institutional missions.",
+      "risk_indicator": "Financial performance metrics; cost-to-revenue ratios; forecasting accuracy.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Balancing Budgets: Taking Control of IT Cost and Vendor Management",
+      "risk_description": "Abrupt and significant increases in technology service and solution costs strain already precarious higher education budgets.",
+      "risk_driver": [
+        {
+          "driver_name": "Inflation",
+          "driver_description": "General price increases affecting technology costs."
+        },
+        {
+          "driver_name": "Supply Chain Disruptions",
+          "driver_description": "Delays and shortages increasing costs and complicating procurement."
+        },
+        {
+          "driver_name": "Strong Job Market",
+          "driver_description": "Labor market pressures driving up personnel and service costs."
+        }
+      ],
+      "risk_recommendations": [
+        "Build strong relationships with solution providers.",
+        "Join consortia or form partnerships with peer institutions to negotiate favorable pricing.",
+        "Manage technology investments carefully to avoid premature divestment from beneficial technologies."
+      ],
+      "trend": "Technology cost increases are accelerating, outpacing inflation and budget growth.",
+      "likelihood": "High likelihood of budgetary strain due to rising costs.",
+      "impact": "Service and staffing reductions if costs are not controlled, affecting institutional operations.",
+      "risk_indicator": "Technology cost inflation rates; vendor pricing trends.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Adapting to the Future: Cultivating Institutional Agility",
+      "risk_description": "Institutions risk being unable to adapt rapidly to change, opportunities, and crises, limiting their resilience and long-term success.",
+      "risk_driver": [
+        {
+          "driver_name": "Resistance to Change",
+          "driver_description": "Entrenched individuals and traditional practices slow adaptation."
+        },
+        {
+          "driver_name": "Lack of Preparedness",
+          "driver_description": "Insufficient anticipation and preparation for alternative futures and crises."
+        },
+        {
+          "driver_name": "Inflexible Governance and Processes",
+          "driver_description": "Rigid structures hinder rapid response and adaptation."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop institutional agility by identifying future scenarios and creating adaptive governance, processes, and work.",
+        "Leverage technology leaders' experience in change initiatives to foster adaptability.",
+        "Learn quickly from failures and respond effectively.",
+        "Cultivate a culture that embraces change and innovation."
+      ],
+      "trend": "Post-pandemic experience has increased awareness of the need for agility, but sustained efforts are required.",
+      "likelihood": "Moderate to high likelihood of adaptation challenges without focused leadership.",
+      "impact": "Reduced ability to respond to crises and opportunities, risking institutional decline.",
+      "risk_indicator": "Speed and effectiveness of institutional change initiatives.",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

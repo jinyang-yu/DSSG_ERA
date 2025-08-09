@@ -1,0 +1,152 @@
+{
+  "risks": [
+    {
+      "risk_name": "Personalised Travel Risk",
+      "risk_description": "The risk arising from not adequately assessing and managing individual traveller's personal risk profiles, including factors such as gender identity, sexual orientation, mental and physical health, and travel experience.",
+      "risk_driver": [
+        {
+          "driver_name": "Sensitive Data Collection Challenges",
+          "driver_description": "Difficulty in collecting and using sensitive personal data without breaching trust, as employees may be hesitant to share personal information."
+        },
+        {
+          "driver_name": "Legal and Cultural Risks",
+          "driver_description": "Travellers, especially LGBTQ+ individuals, face legal, social, and cultural risks in certain countries where their identity may be criminalised."
+        }
+      ],
+      "risk_recommendations": [
+        "Incorporate personal risk profiles into travel risk assessments to tailor risk management strategies.",
+        "Demonstrate benefits of sharing personal information to employees to encourage opt-in.",
+        "Ensure data security and privacy to maintain trust.",
+        "Understand legal and cultural landscapes of travel destinations to mitigate risks effectively."
+      ],
+      "trend": "Growing recognition of personalised risk assessment importance, with 80% of respondents managing incidents related to personal risk profiles but only 39% integrating these profiles into assessments.",
+      "likelihood": null,
+      "impact": "Failure to manage personalised risks can lead to incidents affecting traveller safety and organisational liability.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Gender identity and sexual orientation are ranked as primary personal risk factors in the Higher Education sector.",
+        "Higher Education sector hosts significant numbers of Generation Z students, with rising LGBTQ+ identification."
+      ]
+    },
+    {
+      "risk_name": "Extreme Weather and Natural Disasters",
+      "risk_description": "Risks posed by increasing frequency and severity of extreme weather events such as extreme heat, heavy rainfall, wildfires, and natural disasters impacting operations and personnel safety.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate Change",
+          "driver_description": "Global warming leading to more frequent and severe weather events including heatwaves, floods, and wildfires."
+        },
+        {
+          "driver_name": "Operational Exposure",
+          "driver_description": "Dispersed physical environments and geographies increasing vulnerability, especially in manufacturing and media sectors."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop actionable and tested plans for extreme weather events including evacuation plans and communication methods.",
+        "Equip personnel, assets, and sites with necessary protective equipment.",
+        "Incorporate climate risk into day-to-day risk management plans.",
+        "Forecast potential crises and develop intervention plans to minimize reputational, financial, operational, or legal risks."
+      ],
+      "trend": "Extreme weather is ranked as the biggest risk to operations by 2030 (43%), surpassing cyber attacks and interstate conflict. 76% of organisations have been directly affected by extreme weather.",
+      "likelihood": "High likelihood as extreme weather events are increasing in frequency and proximity.",
+      "impact": "Physical risk to staff, operational disruption, infrastructure damage, supply chain interruptions, and potential loss of life. For example, 62,000 heat-related deaths in Europe during the hottest summer on record.",
+      "risk_indicator": null,
+      "risk_event": [
+        {
+          "event_name": "Wildfires in Hawaii and Canada",
+          "event_description": "Significant wildfire events impacting operations and safety."
+        },
+        {
+          "event_name": "50-degree Celsius temperatures in South America",
+          "event_description": "Extreme heat event causing health and operational risks."
+        },
+        {
+          "event_name": "Flooding in China",
+          "event_description": "Severe flooding disrupting operations and infrastructure."
+        }
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Manufacturing sector most impacted due to dispersed operations (86%).",
+        "Media sector highly impacted due to risks in reporting from extreme weather event locations (83%)."
+      ]
+    },
+    {
+      "risk_name": "Artificial Intelligence Integration in Travel Risk Management",
+      "risk_description": "Risks and opportunities associated with the adoption of AI technologies in travel risk management, including trust, data security, and regulatory compliance.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid Evolution of AI Technology",
+          "driver_description": "Fast-paced development leading to uncertainty in integration and use."
+        },
+        {
+          "driver_name": "Data Privacy and Security Concerns",
+          "driver_description": "Issues around GDPR compliance, data manipulation, and server security when inputting data into AI systems."
+        },
+        {
+          "driver_name": "Regulatory Unpreparedness",
+          "driver_description": "Lack of regulatory frameworks in the UK and other markets for generative AI use."
+        }
+      ],
+      "risk_recommendations": [
+        "Use AI as an additional information source alongside traditional intelligence gathering to verify accuracy.",
+        "Develop internal processes for inputting private or personal data into AI systems.",
+        "Configure AI-generated software carefully to mitigate risks.",
+        "Monitor government funding and research developments to stay ahead of regulatory changes."
+      ],
+      "trend": "High appetite for AI integration with 72% likely to integrate AI into travel risk management within 6-12 months; currently used as a descriptive tool rather than generative.",
+      "likelihood": null,
+      "impact": "Potential reputational risk if AI is used prematurely or incorrectly; risk of data breaches or misuse; opportunity for enhanced intelligence gathering.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Geopolitical Tensions and Regional Instability",
+      "risk_description": "Risks arising from geopolitical conflicts, insurgencies, autocratic rule, political violence, and regime changes impacting business operations across various global regions.",
+      "risk_driver": [
+        {
+          "driver_name": "Regional Conflicts and Insurgencies",
+          "driver_description": "Examples include Islamist insurgencies in MENA, Russia-Ukraine conflict in Europe, narcotics organisations in the Americas, and militancy spread in Africa."
+        },
+        {
+          "driver_name": "Autocratic and Military Rule",
+          "driver_description": "Increasing military takeovers and authoritarian governance affecting stability and business environment."
+        },
+        {
+          "driver_name": "Political Violence and Corruption",
+          "driver_description": "Election-related violence, social media polarisation, and weak judicial systems increasing risks."
+        }
+      ],
+      "risk_recommendations": [
+        "Monitor regional political developments closely.",
+        "Develop contingency plans for operational disruptions due to sanctions, conflicts, or political instability.",
+        "Engage in scenario planning to anticipate rapid changes.",
+        "Assess security environments and adapt business practices accordingly."
+      ],
+      "trend": "Geopolitical tensions remain high with specific regional risks: MENA (53% geopolitical tensions), Europe CIS (52% macroeconomic risk, 46% Russia-Ukraine conflict), Americas (55% narcotics organisations), Africa (54% spread of militancy), Asia Pacific (50% food insecurity, 47% China/Taiwan tensions).",
+      "likelihood": "High likelihood given ongoing conflicts and political instability in multiple regions.",
+      "impact": "Operational disruptions, increased security risks to personnel, supply chain interruptions, reputational damage, and financial losses.",
+      "risk_indicator": null,
+      "risk_event": [
+        {
+          "event_name": "Hamas assault in Israel, October 2023",
+          "event_description": "Complex and destructive attack with wide-ranging implications for civilians and regional stability."
+        },
+        {
+          "event_name": "Al-Qaeda attack on Tigantourine gas facility, Algeria, 2013",
+          "event_description": "Large-scale attack targeting energy infrastructure."
+        }
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Islamist insurgencies ranked top risk in Energy and Mining sector in MENA.",
+        "Narcotics organisations pose highest risk in Americas, especially for energy and media companies.",
+        "Spread of militancy and regime changes prominent in Africa, with influence from Russia and China."
+      ]
+    }
+  ]
+}

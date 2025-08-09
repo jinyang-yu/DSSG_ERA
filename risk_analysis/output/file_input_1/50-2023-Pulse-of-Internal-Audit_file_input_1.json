@@ -1,0 +1,206 @@
+{
+  "risks": [
+    {
+      "risk_name": "Cybersecurity Risk",
+      "risk_description": "Cybersecurity is a ubiquitous concern, with 78% of respondents saying it is a high or very high risk in their organizations.",
+      "risk_driver": [
+        {
+          "driver_name": "Technology Dependency",
+          "driver_description": "Cybersecurity risk is driven by the reliance on IT systems and the increasing threat landscape targeting these systems."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Cybersecurity remains the number one risk area with 78% rating it as high or very high risk. Audit frequency for cybersecurity is high, with almost 70% of functions reviewing it annually or continuously. Cybersecurity audit allocation has increased since 2019.",
+      "likelihood": null,
+      "impact": "Potential for significant operational disruption, data breaches, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Cybersecurity risk is rated slightly lower in publicly traded organizations compared to financial services."
+      ]
+    },
+    {
+      "risk_name": "IT Risk",
+      "risk_description": "IT risk encompasses risks related to information technology systems not covered under cybersecurity, including operational and compliance risks associated with IT.",
+      "risk_driver": [
+        {
+          "driver_name": "IT System Complexity",
+          "driver_description": "Increasing complexity and reliance on IT systems increase exposure to operational and compliance risks."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "IT risk is among the top three highest risks, with 57% rating it as high or very high risk. Audit frequency for IT is high, with almost 70% of functions reviewing it annually or continuously. Audit allocation for IT has increased since 2019.",
+      "likelihood": null,
+      "impact": "Risks include operational disruptions, data integrity issues, and compliance failures.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "IT risk is rated slightly lower in publicly traded organizations compared to financial services."
+      ]
+    },
+    {
+      "risk_name": "Third-Party Relationship Risk",
+      "risk_description": "Risks arising from reliance on third-party vendors and service providers, particularly for IT services.",
+      "risk_driver": [
+        {
+          "driver_name": "Vendor Dependency",
+          "driver_description": "Dependence on third parties for critical services increases exposure to operational, compliance, and cybersecurity risks."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Third-party relationships is the third highest risk area after cybersecurity and IT, with 51% rating it as high or very high risk. However, audit frequency is relatively low compared to risk level, with only 58% auditing it at least every 5 years, indicating a 33 percentage point gap between risk and audit frequency.",
+      "likelihood": null,
+      "impact": "Potential for operational disruption, compliance breaches, and reputational damage due to third-party failures.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Third-party relationship risk is rated as the second highest risk among privately held organizations.",
+        "Audit frequency gaps for third-party relationships are notable across all respondents."
+      ]
+    },
+    {
+      "risk_name": "Compliance and Regulatory Risk",
+      "risk_description": "Risks related to failure to comply with laws, regulations, and internal policies, excluding internal controls over financial reporting (ICFR).",
+      "risk_driver": null,
+      "risk_recommendations": null,
+      "trend": "Compliance/regulatory risk is rated moderately high, with 46% rating it as high or very high risk. Audit frequency is high, with 72% auditing annually or continuously.",
+      "likelihood": null,
+      "impact": "Non-compliance can lead to legal penalties, financial loss, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Compliance risk is rated lower in publicly traded organizations compared to financial services."
+      ]
+    },
+    {
+      "risk_name": "Operational Risk",
+      "risk_description": "Risks arising from failures in internal processes, people, and systems affecting business operations.",
+      "risk_driver": null,
+      "risk_recommendations": null,
+      "trend": "Operational risk is rated moderately high, with 30% rating it as high or very high risk. Audit frequency is moderate, with 65% auditing annually or continuously. Audit allocation for operational risk has decreased since 2019.",
+      "likelihood": null,
+      "impact": "Operational failures can cause business disruption, financial loss, and reputational harm.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Enterprise Risk Management (ERM) Risk",
+      "risk_description": "Risks related to the effectiveness of enterprise risk management processes and controls.",
+      "risk_driver": null,
+      "risk_recommendations": null,
+      "trend": "ERM risk is rated moderately high, with 28% rating it as high or very high risk. Audit frequency is lower, with 42% auditing annually or continuously and 24% auditing every 2 to 5 years.",
+      "likelihood": null,
+      "impact": "Ineffective ERM can lead to unmanaged risks and strategic failures.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Fraud Risk",
+      "risk_description": "Risks related to fraudulent activities within the organization.",
+      "risk_driver": null,
+      "risk_recommendations": null,
+      "trend": "Fraud risk is rated moderately high, with 21% rating it as high or very high risk. Audit frequency is moderate, with 51% auditing annually or continuously. Fraud considerations are integrated into more than 80% of audits, and almost half of CAEs are responsible for fraud investigations.",
+      "likelihood": null,
+      "impact": "Fraud can result in financial loss, legal consequences, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Governance and Culture Risk",
+      "risk_description": "Risks related to organizational governance structures and culture impacting performance and compliance.",
+      "risk_driver": null,
+      "risk_recommendations": null,
+      "trend": "Governance and culture risk is rated moderately high, with 21% rating it as high or very high risk. Audit frequency is lower, with 29% auditing annually or continuously and 25% auditing every 2 to 5 years. Audit frequency is 20 percentage points lower than risk level.",
+      "likelihood": null,
+      "impact": "Poor governance and culture can lead to compliance failures, ethical issues, and strategic misalignment.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Governance and culture risk is rated higher in Canada compared to the U.S."
+      ]
+    },
+    {
+      "risk_name": "Financial Reporting Risk (Including ICFR)",
+      "risk_description": "Risks related to internal controls over financial reporting, including Sarbanes-Oxley compliance.",
+      "risk_driver": null,
+      "risk_recommendations": null,
+      "trend": "Financial reporting risk is rated moderately high, with 19% rating it as high or very high risk. Audit frequency is high, with 71% auditing annually or continuously. Audit frequency is 15 percentage points higher than risk level. Audit allocation is higher in publicly traded and SOX-implemented organizations.",
+      "likelihood": null,
+      "impact": "Failures can lead to financial misstatements, regulatory penalties, and loss of investor confidence.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Financial reporting risk is more relevant in publicly traded and SOX-implemented organizations."
+      ]
+    },
+    {
+      "risk_name": "Cost/Expense Reduction Risk",
+      "risk_description": "Risks related to the need for cost and expense reduction impacting organizational performance.",
+      "risk_driver": null,
+      "risk_recommendations": null,
+      "trend": "Cost/expense reduction risk is rated moderately high, with 19% rating it as high or very high risk. Audit frequency is lower, with 27% auditing annually or continuously. Audit frequency is 24 percentage points lower than risk level. Audit allocation for cost/expense reduction is trending up since 2020. This risk is much higher for nonprofit organizations.",
+      "likelihood": null,
+      "impact": "Failure to manage costs can lead to financial instability and reduced operational capacity.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Cost/expense reduction risk is much higher for nonprofit organizations compared to other sectors."
+      ]
+    },
+    {
+      "risk_name": "Financial Areas Risk (Excluding ICFR)",
+      "risk_description": "Risks related to financial areas other than internal controls over financial reporting.",
+      "risk_driver": null,
+      "risk_recommendations": null,
+      "trend": "Financial areas risk is rated moderately high, with 19% rating it as high or very high risk. Audit frequency is moderate, with 52% auditing annually or continuously.",
+      "likelihood": null,
+      "impact": "Risks include financial mismanagement and reporting errors.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Sustainability/Non-Financial Reporting Risk",
+      "risk_description": "Risks related to sustainability and non-financial reporting obligations and performance.",
+      "risk_driver": null,
+      "risk_recommendations": null,
+      "trend": "Sustainability risk is rated moderately high, with 9% rating it as high or very high risk. Audit frequency is lower, with 26% auditing annually or continuously and 25% auditing every 2 to 5 years. Risk level is higher in public sector organizations (52% moderate or higher risk). Audit allocation for sustainability is increasing.",
+      "likelihood": null,
+      "impact": "Failure to meet sustainability goals can lead to reputational damage and regulatory penalties.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Sustainability risk is higher in public sector organizations compared to other sectors.",
+        "Governance and culture and sustainability risks are rated higher in Canada compared to the U.S."
+      ]
+    },
+    {
+      "risk_name": "Support for External Audit Risk",
+      "risk_description": "Risks related to the adequacy of support provided to external audit functions.",
+      "risk_driver": null,
+      "risk_recommendations": null,
+      "trend": "Support for external audit risk is rated low, with only 4% rating it as high or very high risk. Audit frequency is higher than risk level by 45 percentage points.",
+      "likelihood": null,
+      "impact": "Inadequate support can lead to audit inefficiencies and increased external audit costs.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

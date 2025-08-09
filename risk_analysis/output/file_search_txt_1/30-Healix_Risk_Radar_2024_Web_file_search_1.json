@@ -1,0 +1,215 @@
+{
+  "risks": [
+    {
+      "risk_name": "Extreme Weather",
+      "risk_description": "Extreme weather events such as extreme heat, heavy rainfall, flooding, and wildfires pose significant risks to operations, personnel safety, infrastructure, and supply chains. These events are becoming more frequent and severe, impacting industries like manufacturing and media, and threatening the ability to meet climate goals.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Frequency and Severity of Extreme Weather",
+          "driver_description": "Escalating global climate change leads to more frequent and severe events such as heatwaves, floods, and wildfires."
+        },
+        {
+          "driver_name": "Operational Environment Vulnerabilities",
+          "driver_description": "Dispersed operations across multiple physical environments increase exposure to extreme weather risks."
+        },
+        {
+          "driver_name": "Energy Demand and Infrastructure Strain",
+          "driver_description": "Extreme heat increases electricity demand for cooling, potentially causing power outages that exacerbate risks."
+        }
+      ],
+      "risk_recommendations": [
+        "Incorporate climate risk into day-to-day risk management plans.",
+        "Develop actionable and tested plans for potential extreme weather events, including evacuation plans and communication methods.",
+        "Equip personnel, assets, and sites with necessary protective equipment.",
+        "Monitor risk environment continuously using multiple reliable data sources.",
+        "Mitigate risks through crisis management planning and training."
+      ],
+      "trend": "Extreme weather is ranked as the top risk to operations by 43% of organisations, surpassing cyber attacks and interstate conflict. Nearly three quarters (73-76%) of organisations report being directly affected by extreme weather. The risk is increasing in immediacy and impact, moving from a latent long-term risk to a central part of business continuity planning.",
+      "likelihood": "High likelihood as 76% of organisations have been directly affected by extreme weather.",
+      "impact": "Severe impacts include physical risk to staff, operational disruptions, infrastructure damage, supply chain interruptions, and potential failure to meet UN emissions targets. For example, nearly 62,000 heat-related deaths occurred in Europe during its hottest summer on record.",
+      "risk_indicator": "Percentage of organisations directly affected by extreme weather (e.g., 73-76%)",
+      "risk_event": [
+        "Wildfires in Hawaii and Canada in the last twelve months.",
+        "50-degree Celsius temperatures in South America.",
+        "Flooding in China.",
+        "Heat-related deaths in Europe during the hottest summer on record."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Manufacturing industry is the highest impacted (86%) due to dispersed operations.",
+        "Media industry also highly impacted (83%) due to risks involved in reporting on extreme weather events."
+      ]
+    },
+    {
+      "risk_name": "Cyber Security",
+      "risk_description": "Cyber security remains a major operational risk, with increasing threats to business operations and data integrity. The risk is heightened by complex IT environments and the use of shadow IT.",
+      "risk_driver": [
+        {
+          "driver_name": "Complex and Decentralised IT Environments",
+          "driver_description": "Diverse IT systems and lack of centralised control increase vulnerability to cyber attacks."
+        },
+        {
+          "driver_name": "Shadow IT",
+          "driver_description": "Widespread use of IT systems outside central governance heightens risk exposure."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in comprehensive cyber security training for staff.",
+        "Centralise IT controls to reduce shadow IT risks.",
+        "Regularly update and patch systems to address vulnerabilities."
+      ],
+      "trend": "Cyber security is ranked as the second biggest operational risk after extreme weather, keeping business leaders awake at night.",
+      "likelihood": "High likelihood as cyber security is a top concern for organisations.",
+      "impact": "Potential for severe disruptions, data breaches, financial loss, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Geopolitical Tensions and Regional Instability",
+      "risk_description": "Geopolitical tensions, regime changes, militant threats, and influence from external powers create operational risks, disrupt supply chains, and increase security threats in various regions.",
+      "risk_driver": [
+        {
+          "driver_name": "Spread of Militancy and Islamist Insurgencies",
+          "driver_description": "Expansion of militant groups in regions like the Sahel and Middle East increases violence and instability."
+        },
+        {
+          "driver_name": "Regime Changes and Military Takeovers",
+          "driver_description": "Frequent coups and political instability undermine democratic systems and create uncertainty."
+        },
+        {
+          "driver_name": "Influence of External Powers",
+          "driver_description": "Growing influence of Russia, China, and mercenary groups like Wagner exacerbates regional instability."
+        },
+        {
+          "driver_name": "Long-standing Political Conflicts",
+          "driver_description": "Ongoing conflicts such as the Israel-Hamas conflict and Saudi-Iran tensions contribute to regional risk."
+        }
+      ],
+      "risk_recommendations": [
+        "Monitor geopolitical developments closely.",
+        "Develop crisis management and evacuation plans tailored to specific regions.",
+        "Engage in scenario planning to anticipate political risks.",
+        "Leverage local intelligence and security support."
+      ],
+      "trend": "Geopolitical tensions are ranked as the top risk in Middle East & North Africa (53%), with related risks like Islamist insurgencies (49%) and autocratic rule (48%) also prominent. In Africa, spread of militancy (54%) and regime changes (49%) are top concerns. In the Americas, narcotics organisations (55%) and political violence (49%) are leading risks.",
+      "likelihood": "High likelihood given ongoing conflicts, coups, and militant activities.",
+      "impact": "Operational disruptions, security threats to personnel, supply chain interruptions, and reputational risks.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Al-Qaeda attack on Tigantourine gas facility in Algeria in 2013.",
+        "Series of coups in West and Central Africa since 2020.",
+        "Hamas assault on Israel in October 2023.",
+        "Wagner Group involvement in Mali and Burkina Faso."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Middle East & North Africa: Geopolitical tensions, Islamist insurgencies, autocratic rule.",
+        "Africa: Spread of militancy, regime changes, influence of Russia/China.",
+        "Americas: Narcotics organisations, political violence, corruption.",
+        "Asia Pacific: Food insecurity, China/Taiwan tensions, North Korea hostility."
+      ]
+    },
+    {
+      "risk_name": "Food Insecurity",
+      "risk_description": "Food insecurity driven by climate-induced disasters, global price rises, supply chain disruptions, and socio-economic vulnerabilities poses risks to political stability and business operations in the Asia Pacific region.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate-Induced Disasters",
+          "driver_description": "Increased frequency of floods and droughts negatively impact crop yields and agricultural infrastructure."
+        },
+        {
+          "driver_name": "Global Economic Factors",
+          "driver_description": "Rising food, fertiliser, and fuel prices, along with devalued local currencies, exacerbate food insecurity."
+        },
+        {
+          "driver_name": "Limited Social Safety Nets",
+          "driver_description": "Reduced capacity for social support following slowed economic growth after Covid-19."
+        }
+      ],
+      "risk_recommendations": [
+        "Monitor food security risks and supply chain vulnerabilities.",
+        "Develop contingency plans for supply chain disruptions.",
+        "Engage with local stakeholders to understand socio-economic conditions."
+      ],
+      "trend": "Food insecurity is ranked as the top risk in Asia Pacific (50%), with increasing frequency of climate disasters worsening the situation.",
+      "likelihood": "High likelihood due to ongoing climate and economic pressures.",
+      "impact": "Supply chain disruptions, political instability, and operational risks.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Countries most at risk include Afghanistan, Bangladesh, Laos, Myanmar, Pakistan, Sri Lanka, and Pacific Islands."
+      ]
+    },
+    {
+      "risk_name": "Personalised Travel Risk and Data Privacy",
+      "risk_description": "Challenges in managing personalised travel risk profiles due to sensitive data collection, privacy concerns, and varying legal and cultural environments impact traveller safety and organisational risk management.",
+      "risk_driver": [
+        {
+          "driver_name": "Sensitive Personal Data Collection",
+          "driver_description": "Difficulty in gathering and using personal information without breaching trust or privacy."
+        },
+        {
+          "driver_name": "Legal and Cultural Variations",
+          "driver_description": "Differences in laws and social attitudes, especially regarding gender identity and sexual orientation, affect traveller risk."
+        },
+        {
+          "driver_name": "Data Security and Regulatory Compliance",
+          "driver_description": "Concerns about GDPR, data manipulation, and security of AI and other digital tools."
+        }
+      ],
+      "risk_recommendations": [
+        "Build strong trust between business and traveller to encourage data sharing.",
+        "Develop transparent and secure processes for handling sensitive data.",
+        "Understand and incorporate legal and cultural landscapes into risk assessments.",
+        "Align travel risk management with ISO 31030 standards.",
+        "Integrate AI cautiously with traditional intelligence gathering to ensure accuracy and compliance."
+      ],
+      "trend": "Growing recognition of personalised risk assessment importance, with 76% of organisations reviewing travel risk management in line with ISO 31030. However, only 39% integrate personal profiles into travel risk assessments despite 80% managing related incidents.",
+      "likelihood": "High likelihood as personal risk incidents are common but under-assessed.",
+      "impact": "Potential for increased traveller vulnerability, reputational damage, and compliance risks.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Canada updating travel advisory warning LGBTQ+ citizens about US laws impact."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Higher Education sector ranks gender identity and sexual orientation as primary personal risk factors.",
+        "Adoption of ISO 31030 varies by sector: Manufacturing (96%), Construction (84%), Energy and Mining (59%)."
+      ]
+    },
+    {
+      "risk_name": "Artificial Intelligence Integration Risks",
+      "risk_description": "The rapid evolution and adoption of AI in travel risk management and other business processes present risks related to trust, data security, regulatory compliance, and potential reputational damage.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid AI Technology Evolution",
+          "driver_description": "Fast-paced changes create uncertainty about effective and safe integration."
+        },
+        {
+          "driver_name": "Data Privacy and Security Concerns",
+          "driver_description": "Use of generative AI involves inputting sensitive data, raising GDPR and server security issues."
+        },
+        {
+          "driver_name": "Regulatory Gaps",
+          "driver_description": "Lack of preparedness in UK and overseas markets for AI-related regulatory requirements."
+        }
+      ],
+      "risk_recommendations": [
+        "Use AI in conjunction with traditional intelligence sources to verify accuracy.",
+        "Develop internal processes for managing AI data input and software configuration.",
+        "Proceed cautiously with AI adoption to avoid reputational risks.",
+        "Monitor government funding and regulatory developments related to AI."
+      ],
+      "trend": "72% of organisations plan to integrate AI into travel risk management within 6-12 months, with AI already the second most utilised information source after travel management companies.",
+      "likelihood": "Increasing likelihood as AI adoption grows rapidly.",
+      "impact": "Potential reputational damage, data breaches, and operational risks if AI is misused or unregulated.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

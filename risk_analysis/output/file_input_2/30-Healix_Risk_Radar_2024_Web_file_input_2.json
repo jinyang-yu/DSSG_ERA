@@ -1,0 +1,678 @@
+{
+  "risks": [
+    {
+      "risk_name": "Personalised Travel Risk",
+      "risk_description": "The risk arising from insufficient consideration of individual traveller characteristics such as gender identity, sexual orientation, mental and physical health, and travel experience, which can affect exposure and safety.",
+      "risk_driver": [
+        {
+          "driver_name": "Sensitive Data Collection Challenges",
+          "driver_description": "Difficulty in collecting and using sensitive personal data without breaching trust, leading to incomplete risk profiles."
+        },
+        {
+          "driver_name": "Legal and Cultural Risks",
+          "driver_description": "Travellers may face legal, social, and cultural risks in certain countries, especially LGBTQ+ individuals in regions where such identities are criminalised."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop honest and transparent methods to collect sensitive personal information while ensuring data security.",
+        "Tailor risk management strategies to individual traveller profiles to enhance effectiveness.",
+        "Educate travellers on the importance of sharing personal risk information to improve safety.",
+        "Monitor legislative changes worldwide affecting vulnerable traveller groups."
+      ],
+      "trend": "Growing recognition of personalised risk assessment importance, with 80% of respondents managing incidents linked to personal risk profiles but only 39% integrating these profiles into assessments.",
+      "likelihood": null,
+      "impact": "Failure to consider personalised risks can lead to unmanaged incidents affecting traveller safety and organisational liability.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Higher Education sector ranks gender identity and sexual orientation as primary personal risk factors.",
+        "Countries with criminalisation of LGBTQ+ individuals increase risk for affected travellers."
+      ]
+    },
+    {
+      "risk_name": "Extreme Weather and Natural Disasters",
+      "risk_description": "The increasing frequency and severity of extreme weather events such as heatwaves, heavy rainfall, wildfires, and flooding pose significant operational and personnel risks.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate Change",
+          "driver_description": "Global warming leading to more frequent and severe weather events."
+        },
+        {
+          "driver_name": "Geographical Dispersion of Operations",
+          "driver_description": "Industries like manufacturing with dispersed physical environments face higher exposure."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop actionable and tested plans for evacuation and emergency response tailored to specific extreme weather events.",
+        "Establish primary and secondary communication methods during crises.",
+        "Equip personnel, assets, and sites with necessary protective equipment.",
+        "Incorporate climate risk into day-to-day risk management plans."
+      ],
+      "trend": "Extreme weather is ranked as the biggest risk to operations by 2030 (43%), surpassing cyber attacks and interstate conflict; 76% of organisations have been directly affected.",
+      "likelihood": "Increasing frequency and impact of extreme weather events globally.",
+      "impact": "Physical risk to staff, operational disruption, infrastructure damage, and supply chain interruptions; heat-related deaths and wildfires have caused significant harm recently.",
+      "risk_indicator": "Frequency and impact of extreme weather events",
+      "risk_event": [
+        "Wildfires in Hawaii and Canada",
+        "50-degree Celsius temperatures in South America",
+        "Flooding in China",
+        "Heat-related deaths in Europe during hottest summer on record"
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Manufacturing and media sectors are highly impacted due to dispersed operations and reporting roles.",
+        "Extreme heat is the most concerning weather event (41%), followed by heavy rainfall (37%) and wildfires (33%)."
+      ]
+    },
+    {
+      "risk_name": "Climate and Sustainability Risk Management Gap",
+      "risk_description": "A significant portion of organisations lack plans to mitigate risks related to climate change and sustainability, despite recognising their importance.",
+      "risk_driver": [
+        {
+          "driver_name": "Apathy or Long-term Perception",
+          "driver_description": "Some organisations may view climate risks as long-term issues, leading to delayed action."
+        },
+        {
+          "driver_name": "Complexity of Climate Risks",
+          "driver_description": "Wide range of incidents and lack of one-size-fits-all mitigation strategies."
+        }
+      ],
+      "risk_recommendations": [
+        "Incorporate climate risk into daily risk management and business continuity plans.",
+        "Develop tailored mitigation strategies for different types of extreme weather and climate events.",
+        "Forecast potential crises and author evacuation and emergency response plans."
+      ],
+      "trend": "25% of organisations currently have no plans to mitigate climate or sustainability risks, despite these being among the top operational risks.",
+      "likelihood": "Increasing likelihood due to escalating climate events and regulatory pressures.",
+      "impact": "Potential for severe operational disruption, reputational damage, and failure to meet international emission reduction goals.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Artificial Intelligence Integration Risk",
+      "risk_description": "The challenges and risks associated with integrating AI into travel risk management, including trust, data security, and regulatory compliance.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid AI Evolution",
+          "driver_description": "Fast-paced development of AI technologies outstripping organisational readiness."
+        },
+        {
+          "driver_name": "Data Privacy and Security Concerns",
+          "driver_description": "Issues around GDPR compliance, data manipulation, and server security when inputting sensitive data into AI."
+        },
+        {
+          "driver_name": "Regulatory Uncertainty",
+          "driver_description": "Lack of preparedness in regulatory frameworks for generative AI use."
+        }
+      ],
+      "risk_recommendations": [
+        "Use AI in conjunction with traditional intelligence sources to verify accuracy.",
+        "Develop internal processes for handling private or personal data in AI tools.",
+        "Proceed cautiously with AI integration to avoid reputational risks from premature adoption.",
+        "Monitor government funding and regulatory developments related to AI."
+      ],
+      "trend": "72% of organisations plan to integrate AI into travel risk management within 6-12 months; AI is already the second most used information source after travel management companies.",
+      "likelihood": "High likelihood of increased AI adoption with evolving use cases.",
+      "impact": "Potential for improved intelligence gathering but also risks of misinformation, bias, and data breaches.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Geopolitical Tensions in Middle East & North Africa (MENA)",
+      "risk_description": "Ongoing geopolitical tensions, including conflicts, autocratic rule, and Islamist insurgencies, impacting business operations and regional stability.",
+      "risk_driver": [
+        {
+          "driver_name": "Hamas-Israel Conflict",
+          "driver_description": "Recent assault by Hamas in Israel causing widespread instability and humanitarian impact."
+        },
+        {
+          "driver_name": "Autocratic Governance",
+          "driver_description": "Persistent autocratic rule affecting political risk and business environment."
+        },
+        {
+          "driver_name": "Islamist Insurgencies",
+          "driver_description": "Groups like al-Qaeda and Islamic State targeting energy infrastructure and destabilising regions."
+        }
+      ],
+      "risk_recommendations": [
+        "Monitor fast-moving political developments and adjust business practices accordingly.",
+        "Prepare for sanctions, import/export restrictions, and commodity price volatility.",
+        "Develop contingency plans for operational disruptions due to regional conflicts."
+      ],
+      "trend": "Geopolitical tensions ranked top risk (53%), Islamist insurgencies (49%), and autocratic rule (48%) in MENA; recent escalation due to Hamas assault.",
+      "likelihood": "High likelihood of continued instability and conflict in the region.",
+      "impact": "Operational disruptions, increased security risks, price spikes in commodities, and reputational risks.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Hamas assault in Israel, October 2023",
+        "2013 al-Qaeda attack on Tigantourine gas facility in Algeria"
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Energy and Mining sectors particularly affected by Islamist insurgencies targeting infrastructure."
+      ]
+    },
+    {
+      "risk_name": "Macroeconomic and Energy Supply Risks in Europe & CIS",
+      "risk_description": "Economic instability driven by the Russia-Ukraine conflict, high energy prices, inflation, and slowed growth impacting business operations.",
+      "risk_driver": [
+        {
+          "driver_name": "Russia-Ukraine Conflict",
+          "driver_description": "Ongoing war causing supply chain disruptions and geopolitical uncertainty."
+        },
+        {
+          "driver_name": "High Energy Prices",
+          "driver_description": "Reduced availability of Russian natural gas and increased global demand for LNG."
+        },
+        {
+          "driver_name": "Inflation and Monetary Policy",
+          "driver_description": "Tighter monetary policies slowing economic growth and investor confidence."
+        }
+      ],
+      "risk_recommendations": [
+        "Prepare for economic turbulence and supply chain challenges.",
+        "Monitor energy supply risks and diversify sources where possible.",
+        "Adjust business strategies to account for inflation and geopolitical risks."
+      ],
+      "trend": "Macroeconomic risk (52%) and energy supply (51%) ranked highest risks; conflict expected to continue into 2024 and beyond.",
+      "likelihood": "High likelihood of ongoing economic and geopolitical instability.",
+      "impact": "Disruption to supply chains, increased costs, reduced consumer spending, and operational challenges.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Narcotics Organisations and Political Violence in the Americas",
+      "risk_description": "The influence of narcotics organisations and associated political violence pose direct risks to lives, security, and business operations.",
+      "risk_driver": [
+        {
+          "driver_name": "Drug Trafficking and Turf Wars",
+          "driver_description": "Competition among criminal groups leading to violence and instability."
+        },
+        {
+          "driver_name": "Weak Security Forces",
+          "driver_description": "Under-equipped and poorly trained security forces unable to effectively counter narcotics groups."
+        },
+        {
+          "driver_name": "Political Corruption",
+          "driver_description": "Inefficient judicial systems and corruption enabling criminal impunity."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement dedicated security support for operations in high-risk areas.",
+        "Monitor political developments and social media for signs of unrest.",
+        "Develop contingency plans for kidnapping and violence risks."
+      ],
+      "trend": "Narcotics organisations ranked top risk (55%), followed by political violence (49%) and corruption (48%).",
+      "likelihood": "High likelihood of continued narcotics-related violence and political instability.",
+      "impact": "Threats to personnel safety, operational disruptions, reputational damage, and increased security costs.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Energy companies in Mexico face oil theft risks from narcotics groups.",
+        "Media companies face risks due to threats against investigative journalists."
+      ]
+    },
+    {
+      "risk_name": "Food Insecurity and Regional Tensions in Asia Pacific",
+      "risk_description": "Food insecurity exacerbated by climate events and geopolitical tensions impacting supply chains and political stability.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate-Induced Disasters",
+          "driver_description": "Floods, droughts, and other extreme weather events damaging agriculture."
+        },
+        {
+          "driver_name": "Global Food Price Increases",
+          "driver_description": "Rising prices of food, fertiliser, and fuel affecting affordability and availability."
+        },
+        {
+          "driver_name": "Geopolitical Tensions",
+          "driver_description": "China/Taiwan tensions and North Korea hostility threatening regional stability."
+        }
+      ],
+      "risk_recommendations": [
+        "Monitor food security risks and supply chain vulnerabilities.",
+        "Prepare for potential political violence linked to food insecurity.",
+        "Assess operational risks related to regional geopolitical tensions."
+      ],
+      "trend": "Food insecurity ranked top risk (50%), followed by China/Taiwan tensions (47%) and North Korea hostility (44%).",
+      "likelihood": "Increasing likelihood due to climate change and geopolitical developments.",
+      "impact": "Supply chain disruptions, political instability, and operational risks.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Countries most at risk include Afghanistan, Bangladesh, Laos, Myanmar, Pakistan, Sri Lanka, and Pacific Islands."
+      ]
+    },
+    {
+      "risk_name": "Spread of Militancy and Political Instability in Africa (excluding North Africa)",
+      "risk_description": "Expansion of militant Islamist groups and military coups undermining democratic systems and increasing operational risks.",
+      "risk_driver": [
+        {
+          "driver_name": "Militant Islamist Groups",
+          "driver_description": "Multiple groups operating in Sahel and Somalia causing increased civilian fatalities."
+        },
+        {
+          "driver_name": "Military Coups and Regime Changes",
+          "driver_description": "Ten attempted coups since 2020 reflecting political instability."
+        },
+        {
+          "driver_name": "Foreign Influence",
+          "driver_description": "Growing influence of Russia and Wagner mercenaries altering regional dynamics."
+        }
+      ],
+      "risk_recommendations": [
+        "Monitor political and security developments closely.",
+        "Develop contingency plans for operational risks in unstable regions.",
+        "Assess impact of foreign influence on local security environments."
+      ],
+      "trend": "Spread of militancy (54%), regime changes (49%), and Russia/China influence (44%) ranked top risks.",
+      "likelihood": "High likelihood of continued instability and militant activity.",
+      "impact": "Increased operational risks, security threats, and challenges to business continuity.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Increase in fatalities involving civilians by 68% in past year",
+        "Military takeovers in Burkina Faso, Chad, Gabon, Guinea, Mali, Niger, and Sudan"
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Information Overload and Misinformation in Travel Risk Management",
+      "risk_description": "The challenge of managing vast amounts of information, including unqualified sources and unconscious bias, affecting decision-making.",
+      "risk_driver": [
+        {
+          "driver_name": "Proliferation of Information Sources",
+          "driver_description": "Multiple channels including AI, social media, government agencies, and news outlets."
+        },
+        {
+          "driver_name": "Unconscious Bias and Data Limitations",
+          "driver_description": "Potential dataset limitations and biases affecting information quality."
+        }
+      ],
+      "risk_recommendations": [
+        "Use multiple reliable sources and corroborate information.",
+        "Employ external suppliers or embedded analysts for intelligence collection and analysis.",
+        "Be wary of misinformation and verify data before acting."
+      ],
+      "trend": "AI is increasingly used as a trusted source, ranking second after travel management companies.",
+      "likelihood": null,
+      "impact": "Risk of poor decision-making due to misinformation or biased data.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Trust and Data Security in AI Usage",
+      "risk_description": "Concerns about the security and privacy of data input into AI systems, including compliance with GDPR and regulatory frameworks.",
+      "risk_driver": [
+        {
+          "driver_name": "Data Privacy Regulations",
+          "driver_description": "GDPR and other regulations governing personal data use."
+        },
+        {
+          "driver_name": "Security of AI Systems",
+          "driver_description": "Risks related to server security and data manipulation."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop internal policies for AI data input and software configuration.",
+        "Use AI tools alongside traditional intelligence to ensure accuracy.",
+        "Monitor regulatory developments and adapt compliance strategies."
+      ],
+      "trend": "Growing government investment in AI research (£1 billion in UK 2023 budget) indicates increasing focus on regulation and security.",
+      "likelihood": null,
+      "impact": "Potential legal and reputational risks from data breaches or non-compliance.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Operational Disruption from Regional Conflicts",
+      "risk_description": "Conflicts such as the Russia-Ukraine war and Middle East tensions causing supply chain disruptions and operational challenges.",
+      "risk_driver": [
+        {
+          "driver_name": "Military Conflicts",
+          "driver_description": "Ongoing wars and hostilities affecting regional stability."
+        },
+        {
+          "driver_name": "Sanctions and Trade Restrictions",
+          "driver_description": "Economic measures impacting imports, exports, and commodity prices."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop contingency plans for supply chain disruptions.",
+        "Monitor geopolitical developments and adjust operations accordingly.",
+        "Engage in scenario planning for conflict escalation."
+      ],
+      "trend": "Conflicts remain a top concern with protracted fighting expected and sanctions impacting economies.",
+      "likelihood": "High likelihood of continued regional instability.",
+      "impact": "Operational delays, increased costs, and reputational risks.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Russia-Ukraine conflict ongoing into 2024 and beyond",
+        "Hamas-Israel conflict in 2023"
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Security Risks to Media and Investigative Personnel",
+      "risk_description": "Threats to media personnel, especially investigative journalists, in high-risk regions controlled by narcotics organisations or militant groups.",
+      "risk_driver": [
+        {
+          "driver_name": "Criminal and Militant Control of Territories",
+          "driver_description": "Areas controlled by narcotics groups or militants pose physical risks to journalists."
+        },
+        {
+          "driver_name": "Targeted Violence",
+          "driver_description": "Assassinations and attacks on media personnel investigating sensitive issues."
+        }
+      ],
+      "risk_recommendations": [
+        "Provide dedicated security support for media operations in high-risk areas.",
+        "Conduct thorough risk assessments before field operations.",
+        "Develop evacuation and emergency response plans for media personnel."
+      ],
+      "trend": "High impact reported in media sector due to risks involved in reporting on extreme weather and criminal activities.",
+      "likelihood": null,
+      "impact": "Physical harm, reputational damage, and operational disruption.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Media sector particularly affected in Americas and regions with narcotics influence."
+      ]
+    },
+    {
+      "risk_name": "Operational Risks from Energy Infrastructure Attacks",
+      "risk_description": "Targeting of energy infrastructure by militant groups leading to operational disruptions and security threats.",
+      "risk_driver": [
+        {
+          "driver_name": "Militant Prioritisation of Energy Targets",
+          "driver_description": "Groups like al-Qaeda and Islamic State attack energy facilities to destabilise states."
+        }
+      ],
+      "risk_recommendations": [
+        "Enhance security measures around critical energy infrastructure.",
+        "Monitor militant activity and threat intelligence.",
+        "Develop rapid response plans for infrastructure attacks."
+      ],
+      "trend": "Continued attacks on energy infrastructure in Algeria, Iraq, Syria, and Egypt.",
+      "likelihood": "Ongoing risk due to persistent militant activity.",
+      "impact": "Operational downtime, financial losses, and increased security costs.",
+      "risk_indicator": null,
+      "risk_event": [
+        "2013 al-Qaeda attack on Tigantourine gas facility in Algeria"
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Energy and Mining sectors most affected."
+      ]
+    },
+    {
+      "risk_name": "Regulatory and Compliance Risks in AI and Data Use",
+      "risk_description": "Potential non-compliance with evolving regulations governing AI use and data privacy, leading to legal and reputational consequences.",
+      "risk_driver": [
+        {
+          "driver_name": "Evolving Regulatory Landscape",
+          "driver_description": "Lack of clear regulations for generative AI and data security."
+        }
+      ],
+      "risk_recommendations": [
+        "Stay informed on regulatory changes and adapt policies accordingly.",
+        "Implement compliance audits focused on AI and data privacy.",
+        "Train staff on responsible AI use and data handling."
+      ],
+      "trend": "Regulatory frameworks currently lag behind AI technology development.",
+      "likelihood": null,
+      "impact": "Legal penalties, reputational damage, and operational restrictions.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Compliance audits focused on AI and data privacy"
+      ],
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Organisational Challenges in AI Adoption",
+      "risk_description": "Difficulties in integrating AI into existing risk management processes due to lack of knowledge, trust, and readiness.",
+      "risk_driver": [
+        {
+          "driver_name": "Lack of Expertise",
+          "driver_description": "Organisations unsure how to effectively implement AI."
+        },
+        {
+          "driver_name": "Reputational Risk Concerns",
+          "driver_description": "Fear of failures or errors from premature AI adoption."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in training and capacity building for AI integration.",
+        "Pilot AI applications cautiously before full deployment.",
+        "Combine AI with traditional methods to ensure reliability."
+      ],
+      "trend": "High appetite for AI adoption but slow practical implementation.",
+      "likelihood": null,
+      "impact": "Potential inefficiencies and missed opportunities if AI is not properly integrated.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Operational Risks from Supply Chain Disruptions",
+      "risk_description": "Disruptions caused by geopolitical conflicts, extreme weather, and economic instability affecting supply chains.",
+      "risk_driver": [
+        {
+          "driver_name": "Geopolitical Conflicts",
+          "driver_description": "Wars and sanctions impacting trade routes and availability of goods."
+        },
+        {
+          "driver_name": "Extreme Weather Events",
+          "driver_description": "Natural disasters damaging infrastructure and transport networks."
+        },
+        {
+          "driver_name": "Economic Instability",
+          "driver_description": "Inflation and monetary policy changes affecting costs and availability."
+        }
+      ],
+      "risk_recommendations": [
+        "Diversify supply chains and sourcing strategies.",
+        "Develop contingency plans for critical supply disruptions.",
+        "Monitor geopolitical and climate risks continuously."
+      ],
+      "trend": "Increasing frequency of supply chain disruptions linked to multiple risk factors.",
+      "likelihood": "High likelihood due to ongoing global instability.",
+      "impact": "Operational delays, increased costs, and potential loss of revenue.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Mental Health and Wellbeing Risks for Travellers",
+      "risk_description": "Risks related to traveller mental health challenges impacting safety and incident management.",
+      "risk_driver": [
+        {
+          "driver_name": "Increased Stress and Anxiety",
+          "driver_description": "Complex travel environments and personal risk factors contributing to mental health issues."
+        }
+      ],
+      "risk_recommendations": [
+        "Incorporate mental health considerations into personalised risk profiles.",
+        "Provide support services and resources for traveller wellbeing.",
+        "Train risk managers to recognise and address mental health risks."
+      ],
+      "trend": "Growing recognition of mental health as a critical factor in travel risk management.",
+      "likelihood": null,
+      "impact": "Increased incidents and challenges in managing traveller safety.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Data Trust and Bias in AI-Generated Intelligence",
+      "risk_description": "Risks arising from unconscious bias and dataset limitations in AI-generated information affecting decision quality.",
+      "risk_driver": [
+        {
+          "driver_name": "Dataset Limitations",
+          "driver_description": "Incomplete or biased data sources feeding AI systems."
+        },
+        {
+          "driver_name": "Unconscious Bias",
+          "driver_description": "AI algorithms reflecting biases present in training data."
+        }
+      ],
+      "risk_recommendations": [
+        "Use AI outputs as one of multiple intelligence sources.",
+        "Regularly review and update AI training datasets.",
+        "Implement human oversight in AI decision-making processes."
+      ],
+      "trend": "Increasing use of AI despite awareness of potential biases.",
+      "likelihood": null,
+      "impact": "Potential for flawed risk assessments and poor decision-making.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Operational Risks from Extreme Heat",
+      "risk_description": "Extreme heat causing health risks to personnel and operational challenges such as power outages affecting cooling systems.",
+      "risk_driver": [
+        {
+          "driver_name": "Heat-Related Health Conditions",
+          "driver_description": "Heatstroke, dehydration, and other heat-related illnesses affecting staff."
+        },
+        {
+          "driver_name": "Infrastructure Strain",
+          "driver_description": "High electricity demand causing outages and operational disruptions."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement heat mitigation measures such as cooling systems and hydration protocols.",
+        "Plan for potential power outages and alternative cooling solutions.",
+        "Monitor weather forecasts and adjust operations accordingly."
+      ],
+      "trend": "Extreme heat is the most concerning extreme weather risk (41%).",
+      "likelihood": "Increasing frequency and severity due to climate change.",
+      "impact": "Health risks to personnel and operational disruptions.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Organisational Preparedness and Crisis Management",
+      "risk_description": "The risk of inadequate crisis management planning and training leading to ineffective responses to emergencies.",
+      "risk_driver": [
+        {
+          "driver_name": "Lack of Stress-Testing",
+          "driver_description": "Plans and procedures not regularly reviewed or tested."
+        },
+        {
+          "driver_name": "Unpreparedness for Unexpected Events",
+          "driver_description": "Failure to anticipate and plan for sudden crises."
+        }
+      ],
+      "risk_recommendations": [
+        "Regularly review and stress-test crisis management plans.",
+        "Develop comprehensive evacuation and emergency response strategies.",
+        "Train staff and management in crisis response protocols."
+      ],
+      "trend": "Recent global events highlight the importance of preparedness and the risks of complacency.",
+      "likelihood": null,
+      "impact": "Increased reputational, financial, operational, and legal risks during crises.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Wagner Group plane crash in August 2023 highlighting concentration risk of key personnel."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Compliance with ISO 31030 Travel Risk Management Standard",
+      "risk_description": "The risk of non-compliance or low adoption of the ISO 31030 standard affecting travel risk management effectiveness.",
+      "risk_driver": [
+        {
+          "driver_name": "Awareness and Adoption Variability",
+          "driver_description": "Different sectors have varying levels of ISO 31030 adoption."
+        }
+      ],
+      "risk_recommendations": [
+        "Review and align travel risk management programmes with ISO 31030.",
+        "Promote awareness and training on ISO 31030 standards.",
+        "Integrate ISO 31030 into operational frameworks regardless of legal requirements."
+      ],
+      "trend": "76% of respondents have reviewed programmes in line with ISO 31030, with Manufacturing and Construction sectors leading adoption.",
+      "likelihood": "Increasing adoption expected to become industry standard.",
+      "impact": "Improved travel risk management and compliance benefits.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Energy and Mining sectors show lower adoption rates (59%) compared to Manufacturing (96%) and Construction (84%)."
+      ]
+    },
+    {
+      "risk_name": "Misinformation and Unqualified Information Sources",
+      "risk_description": "The risk of relying on unverified or biased information sources leading to poor risk assessments.",
+      "risk_driver": [
+        {
+          "driver_name": "Proliferation of Unverified Sources",
+          "driver_description": "Social media, news aggregators, and other sources may provide inaccurate information."
+        }
+      ],
+      "risk_recommendations": [
+        "Corroborate information from multiple reliable sources.",
+        "Use external analysts or suppliers for intelligence validation.",
+        "Maintain vigilance against misinformation."
+      ],
+      "trend": "AI and travel management companies preferred over government and news sources for intelligence gathering.",
+      "likelihood": null,
+      "impact": "Potential for flawed decision-making and increased operational risk.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Operational Risks from Political Corruption",
+      "risk_description": "Corruption undermining accountability and governance, increasing risks to operations and security.",
+      "risk_driver": [
+        {
+          "driver_name": "Inefficient Judicial Systems",
+          "driver_description": "Slow and ineffective legal systems enabling corrupt practices."
+        },
+        {
+          "driver_name": "Economic Challenges",
+          "driver_description": "Limited economic growth increasing incentives for corruption."
+        }
+      ],
+      "risk_recommendations": [
+        "Implement robust compliance and anti-corruption policies.",
+        "Engage with local stakeholders to understand governance risks.",
+        "Monitor political developments and corruption indices."
+      ],
+      "trend": "Corruption ranked among top risks in Americas (48%).",
+      "likelihood": null,
+      "impact": "Operational disruptions, reputational damage, and legal risks.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    }
+  ]
+}

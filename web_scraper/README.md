@@ -3,7 +3,6 @@ This folder contains the files to run the web-scraping tool, of 11 different URL
 
 ## Folder Structure 
 ```
-.
 ├── output/                        # Stores outputs from scraping
 │   ├── archives/                  # Recycling bin for previous runs
 │   ├── pdf_links/                 # JSON files with PDF links (e.g. McKinsey reports)
@@ -28,31 +27,53 @@ This folder contains the files to run the web-scraping tool, of 11 different URL
 ```
 
 ## URL Configurations
+The website branch data is initialized through the main data folder, in websites/urls.json 
+
+The urls.json file consists of information for each source, all found through experimentation + trial and error, such as: 
+- Keywords: keywords provided to refine the search
+- Allowed paths: path patterns that represent article/story URLs 
+- Blocked paths: path patterns that represent irrelevant pages
+- Method: method for content retrieval
+  - custom: specific to source -> Mckinsey
+  - default: HTML playwright -> BeautifulSoup content extraction -> clean through newspaper library
+  - newspaper: fetch all content through newspaper library
+  - boilerplate: BeautifulSoup HTML and content extraction -> clean through boilerpy3 library
+- Selectors: specific CSS selectors to locate title/content elements based on site's HTML structure
+- Use playwright: 0 if static HTML or 1
 
 ## Scraping Versions
 This project includes **two versions** of a web-scraping tool, where either or can be utilized for the specific use-case
 
 ### **Version 1 - Basic Tool**
-- **Purpose**: Extracting articles on a more frequent basis
-- **Workflow**:
-  1. Extract main page HTML
-     a) Static HTML websites (esgtoday.com, universityworldnews.com) fetched through BeautifulSoup
-     b) Dynamically rendered websites (all others) fetched initially through Playwright
-  2. Extract article links from main page
-  3. Pre-filter based on article title & keywords, if present
-  4. Additional filter on the following checks:
-     a) URL has not been visited before from all completed runs
-     b) URL has not been visited before in this current session
-     c) Title is > 2 words (most likely not other info pages)
-     d) Follows specified path for that given URL (either path patterns that articles live on, or paths to avoid for irrelevant sections)
-  5. For all article links, fetch HTML content through BeautifulSoup
-  6. Filter for 2025 content
-  7. Handle Mckinsey reports in PDF list
-  8. Save all articles into each respective JSON file: *domain_date.json*
+**Purpose**: Extracting articles on a more frequent basis
+
+**Basic Workflow**: 
+1. Extract main page HTML
+   - Static HTML websites (esgtoday.com, universityworldnews.com) fetched through BeautifulSoup
+   - Dynamically rendered websites (all others) fetched initially through Playwright
+2. Extract article links from main page
+3. Pre-filter based on article title & keywords, if present
+4. Additional filter on the following checks
+    - URL has not been visited before from all completed runs
+    - URL has not been visited before in this current session
+    - Title is > 2 words (most likely not other info pages)
+    - Follows specified path for that given URL (either path patterns that articles live on, or paths to avoid for irrelevant sections)
+5. For all article links, fetch title, content, HTML through BeautifulSoup
+6. Clean article content (remove boilerplate, headers, etc.) through Python libraries: newspaper or boilerpy3
+7. Filter for 2025 content
+8. Handle Mckinsey reports in PDF list
+9. Save all articles into each respective JSON file: *domain_date.json*
 
 ### **Version 2 - Dynamic Loading Tool**
-- **Purpose**: Extracting articles for an extended time period
-- **Differentiation**: Implements specific cases for buttons on each source (e.g., load more, pagination, view more, etc.)
+**Purpose**: Extracting articles for an extended time period
+
+**Enhancement**: Implements specific cases for buttons on each source (e.g., load more, pagination, view more, etc.)
+
+**Added Implementations**: 
+- All steps from the basic workflow are relatively the same, but ones with pagination/loading are handled separately to ones that don't
+- Dynamically interacts with loading buttons and page numbers
+- Includes scrolling
+- Fetches HTML through Playwright then BeautifulSoup for content extraction
 
 
 

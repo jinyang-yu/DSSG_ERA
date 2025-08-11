@@ -4,7 +4,7 @@ This folder contains the files to run the web-scraping tool, of 11 different URL
 ## Folder Structure 
 ```
 .
-├── output/                         # Stores outputs from scraping
+├── output/                        # Stores outputs from scraping
 │   ├── archives/                  # Recycling bin for previous runs
 │   ├── pdf_links/                 # JSON files with PDF links (e.g. McKinsey reports)
 │   ├── raw_results/               # Raw extracted content from web scraping
@@ -23,6 +23,15 @@ This folder contains the files to run the web-scraping tool, of 11 different URL
 │   ├── playwright_helpers.py      # Scrolls pages, handles cookie banners (dynamic rendering)
 │   ├── sheets_writer.py           # Writes PDFs for McKinsey report relevance checks
 │   └── url_tracker.py             # Tracks, saves, loads URLs through crawling sessions
+│
+├── run_scraper.py                 # Main file to run encapsulating web-scraping workflow
 ```
+
+## Scraping Versions
+This project includes two versions of a web-scraping tool, where either or can be utilized for the specific use-case
+
+### Version 1: Basic Tool
+Purpose: Extracting articles on a more frequent basis 
+
 
 

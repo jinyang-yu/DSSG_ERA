@@ -25,6 +25,7 @@ The high-level overview on the final product can be seen in the workflow diagram
     - `scripts/gpt_main.py`: GPT classifier (base)
     - `scripts/catboost_main.py`: Catboost semi-supervised model (v2)
 - `classified.json`: Tracking of files already classified
+- `output/`: Output website files from classifier model
 - Function: Joins all web-scraped files, cleans content through REGEX, feeds into classifier -> saves filtered content & its metadata
 ### 2. Evaluation (`evaluation/`)
 - Runs scripts for LLM-as-a-judge, using GPT model as a proxy for a human evaluator (`evaluation_main.py`)
@@ -35,7 +36,8 @@ The high-level overview on the final product can be seen in the workflow diagram
 - Contains two versions:
   - `file_input.py`: Analysis through file input
   - `file_search.py`: Analysis through file search
-- `processed_files.txt`: Tracker for all processed reports  
+- `processed_files.txt`: Tracker for all processed reports
+- `output/`
 - Function:
 ### 4. Summarizing Website Articles (`risk_pairing/`)
 - Summarizes each article content (`scripts/news_article_summarization.py`)
@@ -49,6 +51,7 @@ The high-level overview on the final product can be seen in the workflow diagram
   - `scraper/website_scraper.py`: Uses BeautifulSoup + Playwright for dynamically rendered content (base)
   - `scraper/dynamic_web_scraper.py`: Implements loading buttons + pagination (v2)
 - `output/urls/visited_urls.json`: Tracker for all visited URLS
+- `output/raw_results/`: Files for all raw web-scraped files
 - Updates Google Sheets on Mckinsey PDF reports to manually check 
 - Function: Takes input, extracts title, content, url & date -> saves file for each source per run
 

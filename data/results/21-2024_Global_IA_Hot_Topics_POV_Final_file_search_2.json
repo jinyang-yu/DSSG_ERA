@@ -42,7 +42,7 @@
           "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
           "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
           "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
-          "similarity_score": 0.8204802870750427
+          "similarity_score": 0.8204803466796875
         }
       ]
     },
@@ -81,6 +81,12 @@
       "suggested_audits": null,
       "contextual_variations": null,
       "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8115593194961548
+        },
         {
           "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
           "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
@@ -124,7 +130,14 @@
       ],
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8180853724479675
+        }
+      ]
     },
     {
       "risk_name": "Human Capital Management Risk",
@@ -165,6 +178,12 @@
           "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
           "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
           "similarity_score": 0.8137402534484863
+        },
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8036830425262451
         }
       ]
     },
@@ -199,7 +218,14 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8301005363464355
+        }
+      ]
     },
     {
       "risk_name": "Controls Modernization Risk",
@@ -238,6 +264,12 @@
           "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
           "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
           "similarity_score": 0.817129373550415
+        },
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8081346750259399
         }
       ]
     },
@@ -278,7 +310,7 @@
           "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
           "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
           "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
-          "similarity_score": 0.8058087825775146
+          "similarity_score": 0.8058088421821594
         }
       ]
     },
@@ -308,7 +340,20 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/eba-instructs-regulators-to-hold-off-on-enforcement-of-esg-disclosure-requirements-for-banks",
+          "title": "EBA Instructs Regulators to Hold off on Enforcement of ESG Disclosure Requirements for Banks - ESG Today",
+          "summary": "The European Banking Authority (EBA) announced the publication of a no action letter, recommending that regulators not prioritize the enforcement of new ESG Pillar 3 disclosure requirements for banks. The EBA is awaiting clarity on the outcome of the European Commission’s Omnibus initiative to simplify sustainability reporting and compliance obligations.",
+          "similarity_score": 0.8066224455833435
+        },
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8016685843467712
+        }
+      ]
     },
     {
       "risk_name": "Organizational Purpose and Alignment Risk",
@@ -341,7 +386,20 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8049848675727844
+        },
+        {
+          "url": "https://www.esgtoday.com/only-38-of-employees-believe-companies-are-doing-enough-on-climate-change-sustainability-deloitte-survey",
+          "title": "Only 38% of Employees Believe Companies are Doing Enough on Climate Change, Sustainability: Deloitte Survey - ESG Today",
+          "summary": "Deloitte survey found that 75% of respondents believe in anthropogenic, or human-caused climate change. The proportion of employees who believe that their employers are doing enough to address climateChange and sustainability has dropped to around 38% over the past few years.",
+          "similarity_score": 0.8024882674217224
+        }
+      ]
     }
   ]
 }

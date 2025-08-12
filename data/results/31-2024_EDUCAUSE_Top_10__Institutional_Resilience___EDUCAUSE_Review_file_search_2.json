@@ -40,6 +40,12 @@
           "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
           "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
           "similarity_score": 0.8480387926101685
+        },
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8033958673477173
         }
       ]
     },
@@ -107,10 +113,22 @@
       "contextual_variations": null,
       "matched_articles": [
         {
+          "url": "https://thepienews.com/uk-universities-to-face-620m-hit-from-international-student-levy",
+          "title": "UK unis could take £620m hit from international student levy",
+          "summary": "Some 19 universities could be hit with financial losses of over £10m under the proposed levy. A reduction in international student numbers – whose fees subsidise university research – would also hamper sector finances. International students are the backbone of our higher education system.",
+          "similarity_score": 0.8249285221099854
+        },
+        {
           "url": "https://thepienews.com/whats-next-for-international-education-policy-australias-sector-leaders-weigh-in",
           "title": "What’s next for international education policy? Australia's sector leaders weigh in",
           "summary": "Visa fee hikes and perceived enrolment caps are dampening international student demand. Calls grow for special consideration for students already invested in the Australian system, including those progressing from schools to university. Leaders are hopeful about improved government-sector collaboration, with Julian Hill seen as a genuine advocate.",
-          "similarity_score": 0.8109868168830872
+          "similarity_score": 0.8109867572784424
+        },
+        {
+          "url": "https://thepienews.com/us-student-visa-time-limits-approach-final-approval",
+          "title": "US student visa time limits approach final approval",
+          "summary": "Proposals would see student visas limited to a fixed period of two or four years. Students wishing to be in the US for any longer would have to apply for an extension. Concerns that the changes could place USCIS officers under significant strain and cause longer processing times.",
+          "similarity_score": 0.8032380938529968
         }
       ]
     },
@@ -175,7 +193,14 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://thepienews.com/uk-universities-to-face-620m-hit-from-international-student-levy",
+          "title": "UK unis could take £620m hit from international student levy",
+          "summary": "Some 19 universities could be hit with financial losses of over £10m under the proposed levy. A reduction in international student numbers – whose fees subsidise university research – would also hamper sector finances. International students are the backbone of our higher education system.",
+          "similarity_score": 0.8269084692001343
+        }
+      ]
     },
     {
       "risk_name": "Meeting Students Where They Are",
@@ -206,7 +231,14 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://thepienews.com/uk-universities-to-face-620m-hit-from-international-student-levy",
+          "title": "UK unis could take £620m hit from international student levy",
+          "summary": "Some 19 universities could be hit with financial losses of over £10m under the proposed levy. A reduction in international student numbers – whose fees subsidise university research – would also hamper sector finances. International students are the backbone of our higher education system.",
+          "similarity_score": 0.8290915489196777
+        }
+      ]
     },
     {
       "risk_name": "Hiring Resilience: Recruiting and Retaining IT Talent",
@@ -277,7 +309,20 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://thepienews.com/uk-universities-to-face-620m-hit-from-international-student-levy",
+          "title": "UK unis could take £620m hit from international student levy",
+          "summary": "Some 19 universities could be hit with financial losses of over £10m under the proposed levy. A reduction in international student numbers – whose fees subsidise university research – would also hamper sector finances. International students are the backbone of our higher education system.",
+          "similarity_score": 0.8454276323318481
+        },
+        {
+          "url": "https://thepienews.com/japans-internationalisation-drive-to-relax-student-enrolment-limits",
+          "title": "Japan’s internationalisation drive to relax student enrolment limits",
+          "summary": "Proposals would allow some universities, junior colleges and technical colleges to surpass their enrolment thresholds by 5% for next academic year. Existing restrictions are based on factors such as institution size, with universities facing penalties including the loss of state subsidies if they are exceeded.",
+          "similarity_score": 0.8007338047027588
+        }
+      ]
     },
     {
       "risk_name": "Balancing Budgets: Taking Control of IT Cost and Vendor Management",
@@ -310,10 +355,22 @@
       "contextual_variations": null,
       "matched_articles": [
         {
+          "url": "https://thepienews.com/uk-universities-to-face-620m-hit-from-international-student-levy",
+          "title": "UK unis could take £620m hit from international student levy",
+          "summary": "Some 19 universities could be hit with financial losses of over £10m under the proposed levy. A reduction in international student numbers – whose fees subsidise university research – would also hamper sector finances. International students are the backbone of our higher education system.",
+          "similarity_score": 0.8450995087623596
+        },
+        {
           "url": "https://thepienews.com/whats-next-for-international-education-policy-australias-sector-leaders-weigh-in",
           "title": "What’s next for international education policy? Australia's sector leaders weigh in",
           "summary": "Visa fee hikes and perceived enrolment caps are dampening international student demand. Calls grow for special consideration for students already invested in the Australian system, including those progressing from schools to university. Leaders are hopeful about improved government-sector collaboration, with Julian Hill seen as a genuine advocate.",
-          "similarity_score": 0.8156943321228027
+          "similarity_score": 0.815694272518158
+        },
+        {
+          "url": "https://thepienews.com/us-student-visa-time-limits-approach-final-approval",
+          "title": "US student visa time limits approach final approval",
+          "summary": "Proposals would see student visas limited to a fixed period of two or four years. Students wishing to be in the US for any longer would have to apply for an extension. Concerns that the changes could place USCIS officers under significant strain and cause longer processing times.",
+          "similarity_score": 0.8088682889938354
         }
       ]
     },
@@ -347,7 +404,20 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8091298937797546
+        },
+        {
+          "url": "https://thepienews.com/us-student-visa-time-limits-approach-final-approval",
+          "title": "US student visa time limits approach final approval",
+          "summary": "Proposals would see student visas limited to a fixed period of two or four years. Students wishing to be in the US for any longer would have to apply for an extension. Concerns that the changes could place USCIS officers under significant strain and cause longer processing times.",
+          "similarity_score": 0.8075776696205139
+        }
+      ]
     }
   ]
 }

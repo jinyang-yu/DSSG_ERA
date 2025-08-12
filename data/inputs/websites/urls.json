@@ -4,5 +4,90 @@
     "allowed_paths": ["post.php"], 
     "method": "boilerplate", 
     "use_playwright": 0
+  }, 
+  "https://www.chronicle.com/": {
+    "keywords": [], 
+    "allowed_paths": ["/article"],
+    "method": "default",
+    "selectors": {
+      "title": null, 
+      "article": ["div", {"class": "ArticlePage-articleBody contentBOdy fdIn"}]
+    },
+    "use_playwright": 1
+  },
+  "https://thepienews.com/category/news/": {
+    "keywords": [], 
+    "method": "default",
+    "selectors": {
+      "title": null,
+      "article":["div", {"class": "single-content"}]
+    },
+    "use_playwright": 1
+  },
+  "https://universityaffairs.ca/category/news/": {
+    "keywords": [], 
+    "blocked_paths": ["/career-advice", "/subscribe-magazine", "/us", "/author","/sponsored-content", "/article_topic/qa", "/profile", "/contact-us", "/headlines-for"],
+    "method": "default",
+    "selectors": {
+      "title": ["h1", {"class": "step--11"}],
+      "article_wrapper": ["div", {"class": "single__content"}],
+      "article": ["div", {"class": "content"}]
+    },
+    "use_playwright": 1                        
+  }, 
+  "https://www.strategic-risk-global.com/analysis": {
+    "keywords": [], 
+    "allowed_paths": [".article"], 
+    "method": "newspaper", 
+    "use_playwright": 1
+  },
+  "https://www.cbc.ca/news": {
+    "keywords": ["university", "post-secondary", "international student", "UBC", "University of British Columbia"], 
+    "allowed_paths": ["/news/"], 
+    "blocked_paths": ["/news/entertainment"],
+    "method": "newspaper", 
+    "use_playwright": 1
+  },
+  "https://www.ctvnews.ca/happening-now/": {
+    "keywords": ["university", "post-secondary", "international student", "UBC", "University of British Columbia"],
+    "allowed_paths": ["/article"], 
+    "method": "default",
+    "selectors": {
+      "title": ["h1", {"class": "l-article__title"}],
+      "article": ["article", {"class": "l-article__text js-story-text"}]
+    },
+    "use_playwright": 1
+  }, 
+  "https://globalnews.ca/latest/": {
+    "keywords": ["university", "post-secondary", "international student", "UBC", "University of British Columbia"],
+    "allowed_paths": ["/news"],
+    "method": "default",
+    "selectors": {
+      "title": ["h1", {"class": "l-article__title"}],
+      "article": ["article", {"class": "l-article__text js-story-text"}]
+    },
+    "use_playwright": 1
+  }, 
+  "https://www.esgtoday.com/": {
+    "keywords": ["risk", "sustainability reporting", "sustainability disclosures"],
+    "blocked_paths": ["/feed", "/sample-page", "/advertise-with-us", "/terms-of-service-cookies-and-privacy-policy", "/esg-newsletter", "/esg-whitepapers"],
+    "method": "boilerplate", 
+    "use_playwright": 0
+  }, 
+  "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights": {
+    "keywords":[],
+    "blocked_paths": ["/how-we-help-clients", "/contact-us", "/scam-warning", "/frequently-asked-questions", "/insights/rss.aspx"],
+    "method": "custom",
+    "extractor": "extract_mckinsey_content", 
+    "use_playwright": 1
+  }, 
+  "https://enterpriseriskmag.com/latest-articles/": {
+    "keywords": [],
+    "method": "default",
+    "selectors": {
+      "title": ["h2", {"class": "u-blog-control u-text u-text-1"}],
+      "article": ["div", {"class": "post-content u-align-justify u-blog-control u-post-content u-text u-text-2"}]
+    },
+    "use_playwright": 1
   }
 }

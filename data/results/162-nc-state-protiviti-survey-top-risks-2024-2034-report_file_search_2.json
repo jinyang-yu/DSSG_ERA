@@ -75,7 +75,7 @@
           "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
           "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
           "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
-          "similarity_score": 0.8386102318763733
+          "similarity_score": 0.8386102914810181
         }
       ]
     },
@@ -110,7 +110,14 @@
       "contextual_variations": [
         "Particularly significant in Healthcare, Consumer Products and Services, and Government sectors."
       ],
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.817887544631958
+        }
+      ]
     },
     {
       "risk_name": "Third-Party Risks",
@@ -172,7 +179,14 @@
       "contextual_variations": [
         "Largest organizations face expanded responsibilities and higher scrutiny."
       ],
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/fca-looks-to-simplify-sustainability-reporting-requirements-for-asset-managers-insurers",
+          "title": "FCA Looks to Simplify Sustainability Reporting Requirements for Asset Managers, Insurers - ESG Today",
+          "summary": "The FCA is considering how to streamline and enhance its sustainability reporting framework. It is looking at simplifying disclosure requirements and easing unnecessary burdens on firms. The announcement follows a review of the results of climate reporting rules put in place by the regulator in 2021.",
+          "similarity_score": 0.8220335245132446
+        }
+      ]
     },
     {
       "risk_name": "Adoption of Digital Technologies Requiring New Skills in Short Supply",
@@ -206,7 +220,7 @@
           "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
           "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
           "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
-          "similarity_score": 0.8056157827377319
+          "similarity_score": 0.8056158423423767
         }
       ]
     },
@@ -434,7 +448,14 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.810206413269043
+        }
+      ]
     },
     {
       "risk_name": "Formulating Business Response to Polarizing Legal, Political, and Social Issues",
@@ -461,7 +482,14 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8094463348388672
+        }
+      ]
     },
     {
       "risk_name": "Performance Shortfalls Triggering Activist Shareholders",
@@ -488,7 +516,14 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8035857677459717
+        }
+      ]
     },
     {
       "risk_name": "Pandemic-Related Government Policies and Regulation",
@@ -520,7 +555,7 @@
           "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
           "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
           "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
-          "similarity_score": 0.8165554404258728
+          "similarity_score": 0.8165555000305176
         }
       ]
     }

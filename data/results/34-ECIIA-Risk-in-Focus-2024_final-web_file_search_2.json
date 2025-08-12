@@ -128,6 +128,12 @@
       "contextual_variations": null,
       "matched_articles": [
         {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8255417346954346
+        },
+        {
           "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
           "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
           "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
@@ -167,7 +173,20 @@
       ],
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/fca-looks-to-simplify-sustainability-reporting-requirements-for-asset-managers-insurers",
+          "title": "FCA Looks to Simplify Sustainability Reporting Requirements for Asset Managers, Insurers - ESG Today",
+          "summary": "The FCA is considering how to streamline and enhance its sustainability reporting framework. It is looking at simplifying disclosure requirements and easing unnecessary burdens on firms. The announcement follows a review of the results of climate reporting rules put in place by the regulator in 2021.",
+          "similarity_score": 0.8382500410079956
+        },
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8281905055046082
+        }
+      ]
     },
     {
       "risk_name": "Supply Chain, Outsourcing and 'Nth' Party Risk",
@@ -210,7 +229,14 @@
         "Evaluate business continuity plans and scenario testing."
       ],
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8197721838951111
+        }
+      ]
     },
     {
       "risk_name": "Change in Laws and Regulations",
@@ -298,7 +324,14 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8031305074691772
+        }
+      ]
     },
     {
       "risk_name": "Organisational Culture",
@@ -325,7 +358,14 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8157402276992798
+        }
+      ]
     },
     {
       "risk_name": "Organisational Governance and Corporate Reporting",
@@ -352,7 +392,14 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8326926231384277
+        }
+      ]
     },
     {
       "risk_name": "Financial, Liquidity and Insolvency Risks",
@@ -411,7 +458,7 @@
           "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
           "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
           "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
-          "similarity_score": 0.8101565837860107
+          "similarity_score": 0.8101566433906555
         }
       ]
     },
@@ -440,7 +487,14 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8226611614227295
+        }
+      ]
     },
     {
       "risk_name": "Communications, Reputation and Stakeholder Relationships",
@@ -467,7 +521,14 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8061001300811768
+        }
+      ]
     },
     {
       "risk_name": "Mergers and Acquisitions",
@@ -517,7 +578,14 @@
       "risk_event": null,
       "suggested_audits": null,
       "contextual_variations": null,
-      "matched_articles": []
+      "matched_articles": [
+        {
+          "url": "https://www.esgtoday.com/guest-post-political-uncertainty-and-polarization-are-heating-up-the-risk-of-a-disorderly-sustainability-transition",
+          "title": "Guest Post: Political Uncertainty and Polarization Are Heating Up the Risk of a Disorderly Sustainability Transition - ESG Today",
+          "summary": "Many companies are in danger of effectively ‘giving up’ on their climate and broader ESG targets, failing to set new ones as existing commitments slip. We need to embrace a “third era of sustainability” characterised by honesty, collaboration and a strategic focus on what can genuinely be controlled and influenced.",
+          "similarity_score": 0.8199210166931152
+        }
+      ]
     }
   ]
 }

@@ -18,6 +18,37 @@ The high-level overview on the final product can be seen in the workflow diagram
 7. [Risk Pairing](/risk_pairing) : Pairing of website risk events with extracted PDF risks
 8. [Web Scraper](/web_scraper) : Website scraping tool
 
+## Usage Guide
+1. Run `main.py`
+2. Specify which branch of the workflow you'd like to run:
+   - If you'd like to run the whole process -> type `both`
+   - If you'd just like to run the website section + linkage -> type `web`
+   - If you'd just like to run the PDF extraction -> type `pdf`
+
+## Project Code Flow
+- In reference to the `main.py` file, the general flow of our code structure goes as follows if you run **both** processes
+- The diagram is separated by the two colors indicating what functions are triggered by each branch: web (green) and pdf (orange)
+
+
+```mermaid
+flowchart LR
+        S([Start]) --> A[URLs]
+        S --> F[PDFs]
+        A --> B[Web Scraper] --> C[Classifier] --> D[Website Summarization]
+        F--> G[GPT Risk Analysis]
+        D --> E[Link Website Events with PDF Risk Analysis]
+        G --> E
+ %% Assign classes
+    class S startNode;
+    class A,B,C,D,E urlsPath;
+    class F,G pdfsPath;
+ %% Define styles
+    classDef startNode fill:#a2d2ff,stroke:#333,stroke-width:2px;
+    classDef urlsPath fill:#b7e4c7,stroke:#333,stroke-width:1px;
+    classDef pdfsPath fill:#ffb480,stroke:#333,stroke-width:1px;
+```
+
+
 ## Key Components 
 ### 1. Classification Model (`classifier/`)
 - Main file to run classifier on website articles (`run_classifier.py`)
@@ -83,10 +114,3 @@ The high-level overview on the final product can be seen in the workflow diagram
    - Currently configured for `Python 3.13`
    - Store .env file for OpenAI key in the root directory `dssg_era/`
 4. Install dependencies from `requirements.txt`
-
-## Usage Guide
-1. Run `main.py`
-2. Specify which branch of the workflow you'd like to run:
-   - If you'd just like to run the website section + linkage -> type `web`
-   - If you'd just like to run the PDF extraction -> type `pdf`
-   - If you'd like to run the whole process -> type `both`

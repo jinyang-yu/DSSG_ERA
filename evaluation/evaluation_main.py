@@ -4,16 +4,7 @@ import json
 from pathlib import Path 
 from scripts import llm_as_judge
 
-def initialize_evaluated_file():
-    """Initialize the evaluated.json file if it doesn't exist."""
-    if not os.path.exists('evaluated.json'):
-        with open('evaluated.json', 'w') as f:
-            json.dump({"Evaluated": []}, f)
-        print("Created evaluated.json file")
-
 def run_evaluation(root_io_path):
-    initialize_evaluated_file()
-
     input_folder = root_io_path + "/pdf_scraper/outputs/test"
     input__risks_folder = root_io_path + "/risk_analysis/output/file_search_2/test"
     output_base_dir = os.path.join(root_io_path, "evaluation", "outputs")

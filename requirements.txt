@@ -78,7 +78,7 @@ networkx==3.5
 newspaper3k==0.2.8
 nltk==3.9.1
 numpy>=2.0.2
-openai>=1.99.0
+openai>=1.99.8
 oauthlib==3.3.1
 packaging==25.0
 pandas==2.3.1

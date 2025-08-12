@@ -59,7 +59,7 @@ def pdfs_risk_analysis(client, folder_path, record_file="risk_analysis/processed
 
     # Step 2: Loop through all PDF files in the folder
     for filename in os.listdir(folder_path):
-        if filename.endswith(".txt") and filename not in processed:
+        if filename.endswith(".pdf") and filename not in processed:
             full_path = os.path.join(folder_path, filename)
             file_id = upload_file.create_file(client, full_path)
             print(f"Uploaded: {filename}")
@@ -108,6 +108,3 @@ def pdfs_risk_analysis(client, folder_path, record_file="risk_analysis/processed
             # Step 3: Record this file as processed
             with open(record_file, "a") as f:
                 f.write(filename + "\n")
-
-
-

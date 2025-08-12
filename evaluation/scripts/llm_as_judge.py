@@ -1,24 +1,27 @@
 import os
 import json
 import openai
+import re
 from dotenv import load_dotenv
 
 # === OpenAI Setup ===
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
-# === Paths ===
-EXTRACTED_TEXT_DIR = "pdf_scraper/outputs"
-JSON_DIR = 'risk_analysis/output'
-EVALUATION_DIR = "evaluation/outputs/llm_as_judge"
-RUNS_TO_EVALUATE = [1]  
+openai.api_key = os.getenv("OPENAI_API_KEY") 
 
 # === Model Config ===
 MODEL = "gpt-4" 
 temperature=0.3 
 MAX_CHARS = 5000
+RUNS_TO_EVALUATE = list(range(1, 2)) 
 
 # === Functions ===
+def texts_(text_files_dir):
+    return [f for f in os.listdir(text_files_dir) if f.endswith(".txt")]
+
+def ensure_dir(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
+        
 def load_text_file(path):
     with open(path, "r", encoding="utf-8") as f:
         return f.read()
@@ -79,13 +82,17 @@ Your evaluation:
         return None
 
 # === Run Main Pipeline Function ===
-def run_llm_as_judge():
-    text_files = [f for f in os.listdir(EXTRACTED_TEXT_DIR) if f.endswith(".txt")]
+def run_llm_as_judge(text_files_dir, input__risks_folder, output_folder):
+    text_files = [f for f in os.listdir(text_files_dir) if f.endswith(".txt")]
     print(f"Found {len(text_files)} extracted source reports")
 
     for txt_file in text_files:
-        source_path = os.path.join(EXTRACTED_TEXT_DIR, txt_file)
-        summary_path = os.path.join(JSON_DIR, f"{os.path.splitext(txt_file)[0]}.pdf.json")
+        source_path = os.path.join(text_files_dir, txt_file)
+
+        # Normalize the base name if needed (e.g., replace spaces with underscores)
+        base_name = os.path.splitext(txt_file)[0].replace(" ", "_")
+        summary_filename = f"{base_name}_file_search_2.json"
+        summary_path = os.path.join(input__risks_folder, summary_filename)
 
         if not os.path.exists(source_path):
             print(f"Skipping {txt_file} — source text missing.")
@@ -94,9 +101,10 @@ def run_llm_as_judge():
         source_text = load_text_file(source_path)
 
         for run in RUNS_TO_EVALUATE:
-            verdict_path = os.path.join(EVALUATION_DIR, os.path.splitext(txt_file)[0], f"llm_faithfulness_run{run}.txt")
+            verdict_path = os.path.join(output_folder, os.path.splitext(txt_file)[0], f"llm_faithfulness_run{run}.txt")
 
             if not os.path.exists(summary_path):
+                print(f"Looking for summary: {summary_path}")
                 print(f"Skipping Run {run} for {txt_file} — summary file not found.")
                 continue
 
@@ -112,4 +120,3 @@ def run_llm_as_judge():
                 print(f"Verdict saved to {verdict_path}")
             else:
                 print(f"Failed to get verdict for {txt_file} Run {run}")
-

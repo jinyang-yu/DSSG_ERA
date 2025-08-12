@@ -4,7 +4,7 @@ from pathlib import Path
 from sentence_transformers import SentenceTransformer, util
 
 # === Paths ===
-risk_folder = Path("risk_analysis/output")
+risk_folder = Path("risk_analysis/output/files_search_2")
 summary_folder = Path("risk_pairing/outputs/websites_with_summary")
 output_folder = Path("results")
 output_folder.mkdir(parents=True, exist_ok=True)

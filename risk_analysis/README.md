@@ -1,6 +1,24 @@
 # DSSG_ERA_GPT_Risk_Analysis
 The scripts are built according to two ways of input: file input and file search, and there is an overarching main script which is run_risk_analysis where you get to choose which pipeline you want to use.
 
+## Folder Structure 
+```
+├── output/                         # Stores outputs from pdf risk analysis
+│   ├── file_input_1/               # Outputs from file input 1 pass
+│   ├── file_input_2/               # Outputs from file input 2 pass
+│   ├── file_search_1/              # Outputs from file search 1 pass (taking pdf)
+│   ├── file_search_2/              # Outputs from file search 2 pass (taking pdf)
+│   ├── file_search_txt_1/          # Outputs from file search 1 pass (taking txt)
+│   ├── file_search_txt_2/          # Outputs from file search 2 pass (taking txt)
+│
+├── scripts/                        # Evaluation scripts
+│   ├── file_input.py               # Script for file input both 1 pass and 2 pass
+│   ├── file_search.py              # Script for file search both 1 pass and 2 pass
+│   ├── instructions.txt            # developer instructions
+|run_risk_analysis.py               # Main python file to run risk analysis  
+|processed_files.txt                # Track the pdfs that have been processed already  
+```
+
 ## file input
 - Consists of two functions: one for one-pass and the other for two-pass
 - Each function takes 6 parameters:

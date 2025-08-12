@@ -4,9 +4,9 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import os
 
-from risk_analysis import upload_file
-from risk_analysis import file_input
-from risk_analysis import file_search
+from DSSG_ERA.risk_analysis.scripts import upload_file
+from DSSG_ERA.risk_analysis.scripts import file_input
+from DSSG_ERA.risk_analysis.scripts import file_search
 
 
 def pdfs_risk_analysis(client, folder_path, record_file="risk_analysis/processed_files.txt", method="file_input", pass_type = 1):

@@ -35,7 +35,9 @@ The scripts are built according to two ways of input: file input and file search
 - The main file for GPT risk analysis
 - The function takes 6 parameters:
     - a client object
-    - folder_path for the folder that stores the pdfs, and the function will take the entire file folder and process them using a for loop
+    - folder_path to the folder that stores the input, and the function will take the entire file folder and process them using a for loop
+        - for pdf: 'data/inputs/pdfs'
+        - for text file: 'pdf_scraper/outputs'
     - record_file is the file that records the file that you have processed so that the function won't run risk analysis over the same file more than once
     - method is the way of input, set to file_input by default
     - pass type is where you get to choose 1 pass or 2 pass, default is 1

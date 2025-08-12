@@ -73,5 +73,14 @@ The high-level overview on the final product can be seen in the workflow diagram
 - `risk_analysis/file_search.py`: Risk analysis through file search run on **GPT 4.1 mini** (default)
 
 ## Installation Instructions 
+1. Clone this repository
+3. Create and activate a virtual environment
+   - Currently configured for `Python 3.13`
+4. Install dependencies from `requirements.txt`
 
 ## Usage Guide
+1. Run `main.py`
+2. Specify which branch of the workflow you'd like to run:
+   - If you'd just like to run the website section + linkage -> type `web`
+   - If you'd just like to run the PDF extraction -> type `pdf`
+   - If you'd like to run the whole process -> run web branch first then pdf

@@ -63,6 +63,12 @@ The high-level overview on the final product can be seen in the workflow diagram
   - `inputs/websites/urls.json`: URL configuration for website branch
 - Results: Extracted PDF risk files with linked website risk events
 
+### 8. OpenAI models
+- `classifier/model/chat4o_mini.py`: Uses **GPT 4o-mini model** to classify risk-relevant articles
+- `evaluation/scripts/llm_as_judge.py`: **GPT 4** implemented for LLM-as-a-judge evaluation
+- `risk_analysis/file_input.py`: Risk analysis through file input run on **GPT 4.1 mini** (default)
+- `risk_analysis/file_search.py`: Risk analysis through file search run on **GPT 4.1 mini** (default)
+
 ## Installation Instructions 
 
 ## Usage Guide

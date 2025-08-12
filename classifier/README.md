@@ -38,7 +38,7 @@ The CatBoost model lacks strong quality training data, and thus if this approach
 
 **How to Run Version 2**
 
-In run_classifier.py, comment out gpt_main, and uncomment out the line for catboost_main:
+In `run_classifier.py`, comment out gpt_main, and uncomment out the line for catboost_main:
 ```Python 
 # to run GPT classification 
 # risk_labelled_data = gpt_main(data)
@@ -47,7 +47,7 @@ In run_classifier.py, comment out gpt_main, and uncomment out the line for catbo
 risk_labelled_data = catboost_main(data)
 ```
 ## Results 
-The articles that were classified as "risk" and passsed through the filter, is under *risk_events_date.json* in output/. 
+The articles that were classified as "risk" and passsed through the filter, is under `risk_events_date.json` in `output/`. 
 
 The file is of the same format as the web-scraped json file content, however it contains all articles from all sources that were included in the specific iteration. It has additional keys under "risk" for the binary output from the classification model and "cleaned_text", that is the cleaned up article content with boilerplate removed.
 

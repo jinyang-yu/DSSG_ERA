@@ -51,7 +51,7 @@ The high-level overview on the final product can be seen in the workflow diagram
   - `scraper/website_scraper.py`: Uses BeautifulSoup + Playwright for dynamically rendered content (base)
   - `scraper/dynamic_web_scraper.py`: Implements loading buttons + pagination (v2)
 - `output/urls/visited_urls.json`: Tracker for all visited URLS
-- `output/raw_results/`: Files for all raw web-scraped files
+- `output/raw_results/`: Results for all raw web-scraped content 
 - Updates Google Sheets on Mckinsey PDF reports to manually check 
 - Function: Takes input, extracts title, content, url & date -> saves file for each source per run
 

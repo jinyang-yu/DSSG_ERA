@@ -528,68 +528,66 @@ class DynamicWebScraper:
       # 1) fetch and parse main page data 
       if self.use_playwright == 0: 
         title, text, soup = await self.fetch_html_async(session, main_url)
-      else:
-        title, text, soup = await self.fetch_html_with_playwright(main_url)
       
-      if not soup or not text.strip():
-        print(f"Skipping URL due to fetch failure or empty content: {main_url}")
-        return results, pdf_list
-        
-      links = self.extract_links(main_url, soup)
-      filtered_links = self.matcher.batch_match(links, self.keywords)
-      
-      prefiltered_links = {
-        url: title
-        for url, title in filtered_links.items()
-        if (has_long_title(title))
-          and url not in visited
-          and url not in self.visited_urls
-          and not is_url_blocked(url, self.config)
-        }
-      
-      for link in links:
-        visited.add(link)
-        if link.rstrip("/") != main_url.rstrip("/"):
-          self.visited_urls.add(link)
-      
-      # print(f"Found {len(prefiltered_links)} links to scrape from main page.")
-      # for link in prefiltered_links.keys():
-      #   print(f"Scheduling scraping of URL: {link}")
-      
-      tasks = [
-            self.fetch_html_async(session, link)
-            for link in prefiltered_links.keys()
-        ]
-      
-      fetched_results = await asyncio.gather(*tasks)
-          
-      for (title, text, soup), link in zip(fetched_results, prefiltered_links.keys()):
         if not soup or not text.strip():
-          print(f"Skipping URL due to fetch failure or empty content: {link}")
-          continue
-        if (not soup or not has_long_title(title) or link.rstrip("/") == main_url.rstrip("/")):
-          continue
-        
-        published = None
-        try:
-          published = extract_published_date(soup)
-        except Exception:
-          pass
-
-        if published and published.year != 2025:
-          continue
-        
-        if self.domain == "mckinsey.com" and report_filter(soup):
-          pdf_list.append(link)
-        
-        if text:
-          results.append({
-            "url": link,
-            "title": title,
-            "content": text,
-            "published": published.isoformat() if published else None
-            })
+          print(f"Skipping URL due to fetch failure or empty content: {main_url}")
+          return results, pdf_list
           
+        links = self.extract_links(main_url, soup)
+        filtered_links = self.matcher.batch_match(links, self.keywords)
+        
+        prefiltered_links = {
+          url: title
+          for url, title in filtered_links.items()
+          if (has_long_title(title))
+            and url not in visited
+            and url not in self.visited_urls
+            and not is_url_blocked(url, self.config)
+          }
+        
+        for link in links:
+          visited.add(link)
+          if link.rstrip("/") != main_url.rstrip("/"):
+            self.visited_urls.add(link)
+        
+        # print(f"Found {len(prefiltered_links)} links to scrape from main page.")
+        # for link in prefiltered_links.keys():
+        #   print(f"Scheduling scraping of URL: {link}")
+        
+        tasks = [
+              self.fetch_html_async(session, link)
+              for link in prefiltered_links.keys()
+          ]
+        
+        fetched_results = await asyncio.gather(*tasks)
+            
+        for (title, text, soup), link in zip(fetched_results, prefiltered_links.keys()):
+          if not soup or not text.strip():
+            print(f"Skipping URL due to fetch failure or empty content: {link}")
+            continue
+          if (not soup or not has_long_title(title) or link.rstrip("/") == main_url.rstrip("/")):
+            continue
+          
+          published = None
+          try:
+            published = extract_published_date(soup)
+          except Exception:
+            pass
+
+          if published and published.year != 2025:
+            continue
+          
+          if self.domain == "mckinsey.com" and report_filter(soup):
+            pdf_list.append(link)
+          
+          if text:
+            results.append({
+              "url": link,
+              "title": title,
+              "content": text,
+              "published": published.isoformat() if published else None
+              })
+            
       else:
         results, pdf_list = await self.playwright_and_crawl(main_url, keywords, max_pages=10)
           

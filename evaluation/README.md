@@ -13,7 +13,7 @@ This folder contains the files to run evaluation on model output using an LLM-as
 
 ## Workflow
 1. Gathers text files from pdf_scraper/outputs. This acts as the ground truth by which GPT-generated risk reports are compared to. 
-2. Gathers json files from risk_analysis/output/file_search_2. 
+2. Gathers json files from risk_analysis/output/file_search_txt_2. 
 3. For each report, the text file and risk-related json file is fed to gpt-4 with a prompt asking for a         ranking of 1-5 based on factual faithfulness:
   - 1: The json summary file is completely unfaithful: there are more than 7 risks and/or related features      (e.g., description, drivers, trends, etc.) that are not present in the raw text file
   - 2: The json summary file is somewhat unfaithful: there are 5-6 risks and/or related features (e.g.,           description, drivers, trends, etc.) that are not present in the raw text file
@@ -26,11 +26,11 @@ This folder contains the files to run evaluation on model output using an LLM-as
   - A short justification (2-3 sentences)
 
 ## Key Considerations 
-- The current set-up assumes that risk-analysis json files are saved in 'risk_analysis/output/file_search_2'. If this needs to be changed to other methods of risk extraction, please complete the following:
+- The current set-up assumes that risk-analysis json files are saved in 'risk_analysis/output/file_search_txt_2'. If this needs to be changed to other methods of risk extraction, please complete the following:
   - In evaluation_main.py, change line 9:
-    input__risks_folder = root_io_path + "/risk_analysis/output/file_search_2/test" #specifically  change         file_search_2 to, e.g., file_input_2 
+    input__risks_folder = root_io_path + "/risk_analysis/output/file_search_txt_2/test" #specifically  change         file_search_txt_2 to, e.g., file_input_2 
   - In llm_as_judge.py, change line 94:
-    summary_filename = f"{base_name}_file_search_2.json" ##specifically change file_search_2 to,e.g., file_input_2 
+    summary_filename = f"{base_name}_file_search_txt_2.json" ##specifically change file_search_txt_2 to,e.g., file_input_txt_2 
 
 
 

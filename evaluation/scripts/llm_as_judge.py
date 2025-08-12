@@ -91,7 +91,7 @@ def run_llm_as_judge(text_files_dir, input__risks_folder, output_folder):
 
         # Normalize the base name if needed (e.g., replace spaces with underscores)
         base_name = os.path.splitext(txt_file)[0].replace(" ", "_")
-        summary_filename = f"{base_name}_file_search_2.json"
+        summary_filename = f"{base_name}_file_search_txt_2.json"
         summary_path = os.path.join(input__risks_folder, summary_filename)
 
         if not os.path.exists(source_path):

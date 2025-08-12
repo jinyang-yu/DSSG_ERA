@@ -6,7 +6,7 @@ from scripts import llm_as_judge
 
 def run_evaluation(root_io_path):
     input_folder = root_io_path + "/pdf_scraper/outputs/test"
-    input__risks_folder = root_io_path + "/risk_analysis/output/file_search_2/test"
+    input__risks_folder = root_io_path + "/risk_analysis/output/file_search_txt_2/test"
     output_base_dir = os.path.join(root_io_path, "evaluation", "outputs")
 
     print("Starting LLM as a Judge process...")
@@ -19,4 +19,3 @@ def run_evaluation(root_io_path):
 if __name__ == "__main__":
     root_dir = os.path.dirname(os.path.realpath(__file__)) + "/.."
     run_evaluation(root_io_path=root_dir)
-

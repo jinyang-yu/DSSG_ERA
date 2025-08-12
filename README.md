@@ -37,8 +37,11 @@ The high-level overview on the final product can be seen in the workflow diagram
   - `file_input.py`: Analysis through file input
   - `file_search.py`: Analysis through file search
 - `processed_files.txt`: Tracker for all processed reports
-- `output/`
-- Function:
+- `output/`: Risk analysis output, each subfolder contains the output for a specific input method and pass configuration. The folder names indicate both the input type (file input, file search) and the number of processing passes performed during the analysis. The naming convention follows this pattern:
+    - File input 1: Results from file input processing with a single pass
+    - File search txt 2: Results from text file search processing with 2 passes
+- Function: Take the input folder for pdfs, iterate through the PDF folder using a for loop to identify all unprocessed PDF files. For each unprocessed PDF, execute the risk analysis using the specified method (file input, file search) and designated number of passes (1, 2).
+
 ### 4. Summarizing Website Articles (`risk_pairing/`)
 - Summarizes each article content (`scripts/news_article_summarization.py`)
 

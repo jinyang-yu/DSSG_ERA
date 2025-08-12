@@ -29,7 +29,8 @@ The high-level overview on the final product can be seen in the workflow diagram
 - Function: Joins all web-scraped files, cleans content through REGEX, feeds into classifier -> saves filtered content & its metadata
 ### 2. Evaluation (`evaluation/`)
 - Runs scripts for LLM-as-a-judge, using GPT model as a proxy for a human evaluator (`evaluation_main.py`)
-- Function:
+- `outputs/LLM_as_a_judge`: Output evaluation text file per pdf report
+- Function: Run evaluation on the risk analysis model's output using an LLM-as-a-judge approach. Each report will output a file with a ranking of 1 (i.e., worst) - 5 (i.e., best) for factual faithfulness. 
   
 ### 3. GPT Risk Analysis (`risk_analysis/`)
 - Initializes overall GPT risk analysis on PDF reports (`run_risk_analysis.py`)
@@ -44,9 +45,13 @@ The high-level overview on the final product can be seen in the workflow diagram
 
 ### 4. Summarizing Website Articles (`risk_pairing/`)
 - Summarizes each article content (`scripts/news_article_summarization.py`)
+- `outputs/website_with_summary`: Output summarization json file per website
+- Function: Summarizes website articles using a two part process where (1) extracts relevant sentences using BERT (extractive summarization), and then (2) summarizes the extracted chunk using BART (abstractive summarization).
 
 ### 5. Linking Web and PDF Content (`risk_pairing/`)
 - Links website content to PDF extracted risks (`/scripts/link_websites_to_risks.py`) 
+- `results`: Output of risk analysis plus linked website articles.
+- Function: Uses cosine similarity to link risk descriptions to website summaries based on if (1) above 0.80 for cosine similarity and (2) if there are more than 10 articles with above 0.80, only the top ten are linked to each risk in the main results folder. 
 
 ### 6. Web-Scraping Tool (`web_scraper/`)
 - Main running script to start web-scraping (`run_scraper.py`)

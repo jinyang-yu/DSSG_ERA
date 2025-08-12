@@ -1,0 +1,259 @@
+{
+  "risks": [
+    {
+      "risk_name": "Extreme Weather and Natural Disasters",
+      "risk_description": "Extreme weather events such as extreme heat, heavy rainfall, flooding, and wildfires pose significant operational risks, including physical harm to personnel, infrastructure damage, and supply chain disruptions. These risks are becoming more immediate and tangible, affecting business continuity and safety.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Frequency and Severity of Extreme Weather",
+          "driver_description": "Rising global temperatures and climate change are causing more frequent and severe heatwaves, floods, and wildfires."
+        },
+        {
+          "driver_name": "Operational Environment Vulnerabilities",
+          "driver_description": "High demand for electricity during heatwaves can cause outages, complicating mitigation efforts."
+        },
+        {
+          "driver_name": "Lack of Mitigation Plans",
+          "driver_description": "25% of organisations reported having no plans in place to mitigate climate or sustainability risks."
+        }
+      ],
+      "risk_recommendations": [
+        "Incorporate climate risk into day-to-day risk management plans.",
+        "Develop actionable and tested plans for evacuation and emergency response.",
+        "Establish primary and secondary communication methods.",
+        "Equip personnel, assets, and sites with necessary protective equipment.",
+        "Monitor risk environment continuously and update plans accordingly."
+      ],
+      "trend": "Extreme weather is now ranked as the top risk to operations by 2030 (43%), surpassing cyber attacks and interstate conflict. The impact of extreme weather is increasing and becoming more immediate.",
+      "likelihood": "High, with 76% of organisations reporting direct effects from extreme weather.",
+      "impact": "Severe physical risks to staff, operational disruptions, infrastructure damage, and potential failure to meet UN emissions targets.",
+      "risk_indicator": "Frequency and impact of extreme weather events; percentage of organisations affected by extreme weather (76%).",
+      "risk_event": [
+        "Europe’s hottest summer on record causing nearly 62,000 heat-related deaths.",
+        "Wildfires in Hawaii and Canada.",
+        "Flooding in China.",
+        "50-degree Celsius temperatures in South America."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Manufacturing industry is most impacted (86%) due to dispersed operations.",
+        "Media industry highly impacted (83%) due to reporting on extreme weather events."
+      ]
+    },
+    {
+      "risk_name": "Cyber Security Threats",
+      "risk_description": "Cyber security remains a top operational risk, with increasing attacks targeting organisations. Risks include data breaches, operational disruptions, and reputational damage.",
+      "risk_driver": [
+        {
+          "driver_name": "Complex IT Environments",
+          "driver_description": "Diverse and decentralized IT systems increase vulnerability."
+        },
+        {
+          "driver_name": "Shadow IT",
+          "driver_description": "Use of IT systems outside central control heightens risk exposure."
+        }
+      ],
+      "risk_recommendations": [
+        "Invest in comprehensive cyber security training for staff.",
+        "Centralise IT controls and governance.",
+        "Regularly update and patch systems to address vulnerabilities."
+      ],
+      "trend": "Cyber attacks are ranked as the second biggest risk to operations by 2030 (40%), closely following extreme weather.",
+      "likelihood": "High likelihood of occurrence given current trends.",
+      "impact": "Potential for severe operational disruption, data loss, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Geopolitical Instability and Conflict",
+      "risk_description": "Political instability, regime changes, militant threats, and influence from authoritarian governments create operational risks, especially in regions like Africa, Middle East, and Europe.",
+      "risk_driver": [
+        {
+          "driver_name": "Spread of Militancy",
+          "driver_description": "Increase in militant Islamist groups causing violence and instability."
+        },
+        {
+          "driver_name": "Military Coups and Regime Changes",
+          "driver_description": "Frequent military takeovers undermining democratic systems."
+        },
+        {
+          "driver_name": "Foreign Influence",
+          "driver_description": "Growing influence of Russia and China in unstable regions."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop crisis management plans and conduct regular training.",
+        "Monitor geopolitical risk environment continuously.",
+        "Plan evacuation and emergency responses tailored to specific locations.",
+        "Leverage ground support and protective services."
+      ],
+      "trend": "Political instability and militant threats are increasing, with 54% of respondents identifying spread of militancy as a top risk in Africa, and 53% identifying geopolitical tensions in MENA.",
+      "likelihood": "High in affected regions, with ongoing conflicts and instability.",
+      "impact": "Operational disruptions, threats to personnel safety, reputational damage, and financial losses.",
+      "risk_indicator": null,
+      "risk_event": [
+        "Wagner Group plane crash in August 2023 resulting in loss of key leaders.",
+        "Military coups in Burkina Faso, Chad, Gabon, Guinea, Mali, Niger, and Sudan.",
+        "Al-Qaeda attack on Tigantourine gas facility in Algeria in 2013."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Africa faces high risks from militancy and regime changes.",
+        "MENA region faces geopolitical tensions, Islamist insurgencies, and autocratic rule.",
+        "Europe and CIS impacted by Russia-Ukraine conflict and macroeconomic risks."
+      ]
+    },
+    {
+      "risk_name": "Personalised Travel Risk and Traveller Safety",
+      "risk_description": "Failure to adequately assess and manage individual traveller risk profiles, including factors such as gender identity, sexual orientation, health, and travel experience, can lead to increased incidents and safety issues.",
+      "risk_driver": [
+        {
+          "driver_name": "Lack of Integration of Personal Risk Profiles",
+          "driver_description": "Only 39% of organisations integrate personal profiles into travel risk assessments despite 80% managing incidents related to personal risk."
+        },
+        {
+          "driver_name": "Data Sensitivity and Trust Issues",
+          "driver_description": "Challenges in collecting and using sensitive personal data without breaching trust."
+        },
+        {
+          "driver_name": "Legal and Cultural Risks for LGBTQ+ Travellers",
+          "driver_description": "Criminalisation and social risks in certain countries affecting traveller safety."
+        }
+      ],
+      "risk_recommendations": [
+        "Develop honest and transparent methods to collect sensitive personal information.",
+        "Ensure data security and privacy to build trust with travellers.",
+        "Tailor risk management strategies to individual traveller profiles.",
+        "Stay informed on legal and cultural landscapes affecting travellers."
+      ],
+      "trend": "Growing recognition of personalised risk assessment importance, with 76% reviewing travel risk management in line with ISO 31030.",
+      "likelihood": "High likelihood of incidents if personal risks are not managed.",
+      "impact": "Increased safety incidents, reputational damage, and potential legal issues.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Higher Education sector ranks gender identity and sexual orientation as top personal risk factors.",
+        "LGBTQ+ travellers face varying risks depending on destination country laws."
+      ]
+    },
+    {
+      "risk_name": "Adoption and Integration of Artificial Intelligence in Risk Management",
+      "risk_description": "Rapid evolution and adoption of AI technologies in travel risk management present opportunities but also risks related to trust, data security, regulatory compliance, and potential operational failures.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid Technological Change",
+          "driver_description": "Fast pace of AI development challenges organisations to integrate safely and effectively."
+        },
+        {
+          "driver_name": "Data Privacy and Security Concerns",
+          "driver_description": "Use of AI involves inputting sensitive data raising GDPR and security issues."
+        },
+        {
+          "driver_name": "Regulatory Uncertainty",
+          "driver_description": "Lack of preparedness in regulatory frameworks for AI developments."
+        }
+      ],
+      "risk_recommendations": [
+        "Use AI in conjunction with traditional intelligence sources for verification.",
+        "Develop internal processes for data input and AI software configuration.",
+        "Monitor regulatory developments and ensure compliance.",
+        "Proceed cautiously with AI adoption to avoid reputational risks."
+      ],
+      "trend": "72% of organisations plan to integrate AI into travel risk management within 6-12 months, with growing but cautious adoption.",
+      "likelihood": "Increasing likelihood of AI use and associated risks.",
+      "impact": "Potential operational improvements but also risks of data breaches, misinformation, and loss of human oversight.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null
+    },
+    {
+      "risk_name": "Macroeconomic Risks and Energy Supply Disruptions",
+      "risk_description": "Economic instability driven by geopolitical conflicts, inflation, and energy supply issues threatens operational continuity and financial stability.",
+      "risk_driver": [
+        {
+          "driver_name": "Russia-Ukraine Conflict",
+          "driver_description": "Ongoing conflict causing energy price spikes and supply chain disruptions."
+        },
+        {
+          "driver_name": "High Inflation and Interest Rates",
+          "driver_description": "Economic policies in response to geopolitical risks slowing growth and investor confidence."
+        },
+        {
+          "driver_name": "Energy Supply Uncertainty",
+          "driver_description": "Concerns over Russian natural gas supply and increased global LNG demand."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Macroeconomic risk ranked highest in Europe CIS (52%), with energy supply concerns at 51%. The conflict is expected to be protracted.",
+      "likelihood": "High likelihood of continued economic turbulence.",
+      "impact": "Disrupted supply chains, slowed economic growth, and increased operational costs.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Europe and CIS regions are most affected by these risks."
+      ]
+    },
+    {
+      "risk_name": "Food Insecurity in Asia Pacific",
+      "risk_description": "Food insecurity exacerbated by climate-induced disasters, rising global food prices, and supply chain disruptions poses risks to operational stability and social conditions.",
+      "risk_driver": [
+        {
+          "driver_name": "Climate-Induced Disasters",
+          "driver_description": "Increased frequency of floods and droughts damaging crops and infrastructure."
+        },
+        {
+          "driver_name": "Global Economic Factors",
+          "driver_description": "Rising food, fertiliser, and fuel prices, and devalued local currencies."
+        },
+        {
+          "driver_name": "Limited Social Safety Nets",
+          "driver_description": "Reduced capacity to support vulnerable populations due to slowed economic growth."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Food insecurity ranked as top risk in Asia Pacific (50%) with ongoing exacerbation.",
+      "likelihood": "High likelihood due to ongoing climate and economic pressures.",
+      "impact": "Operational risks due to social instability and supply chain challenges.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Countries most at risk include Afghanistan, Bangladesh, Laos, Myanmar, Pakistan, Sri Lanka, and Pacific Islands."
+      ]
+    },
+    {
+      "risk_name": "Narcotics Organisations and Political Violence in the Americas",
+      "risk_description": "Narcotics groups and associated political violence pose direct risks to lives, security forces, and civilians, destabilising regions and increasing criminality.",
+      "risk_driver": [
+        {
+          "driver_name": "Drug Trafficking and Turf Wars",
+          "driver_description": "Ongoing drug trafficking fuels violence and criminal control over territories."
+        },
+        {
+          "driver_name": "Weak Security Forces",
+          "driver_description": "Under-equipped and poorly trained security forces unable to effectively counter narcotics groups."
+        },
+        {
+          "driver_name": "Political Polarisation and Corruption",
+          "driver_description": "Social media-driven polarisation and inefficient judicial systems exacerbate instability."
+        }
+      ],
+      "risk_recommendations": null,
+      "trend": "Narcotics organisations ranked top risk in Americas (55%), with political violence (49%) and corruption (48%) also high.",
+      "likelihood": "High likelihood of continued violence and instability.",
+      "impact": "Threats to personnel safety, operational disruptions, and reputational risks.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Mexico’s Red Triangle region faces significant oil theft and narcotics-related risks.",
+        "Media companies face risks due to threats against investigative journalists."
+      ]
+    }
+  ]
+}

@@ -36,6 +36,8 @@ def join_json_data(folder_path: str, add_risk_col=False, classified_path="classi
                     file_df = pd.DataFrame(data)
                     df_all = pd.concat([df_all, file_df], ignore_index=True)
                     newly_classified.add(filename)
+        else:
+            continue
 
     save_classified_files(classified.union(newly_classified), classified_path)
     

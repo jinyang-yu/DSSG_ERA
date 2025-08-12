@@ -81,6 +81,7 @@ The high-level overview on the final product can be seen in the workflow diagram
 1. Clone this repository
 3. Create and activate a virtual environment
    - Currently configured for `Python 3.13`
+   - Store .env file for OpenAI key in the root directory `dssg_era/`
 4. Install dependencies from `requirements.txt`
 
 ## Usage Guide

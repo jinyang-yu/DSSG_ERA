@@ -29,18 +29,3 @@ def create_file(client, file_path):
             )
     print(result.id)
     return result.id
-
-
-## pdf
-#15: file-SqCHkX1XRASVm4Vupu7XhF
-#30: file-RqxNRExQvQoWdU5AHG7zVh
-#56: file-AZNwwYfm3dsnR6PfHMGcA6
-#124: file-Ukz48hJNZGaocEPwNqiUKE
-#162: file-Q4QoxrDUa4Tg8v1sZxdU4s
-
-## txt
-#15: file-HLA239UGcrkUdWaa7XV19K
-#30: file-YEugkTdrpbji8vVWPdgNMG
-#56: file-X5fciAQ8tSirbDkYJLyMCU
-#124: file-VY9wFKuar43pADvkjXyFfk
-#162: file-8xxCeunLdaTQQ4hE8uGfNx

@@ -9,7 +9,7 @@ from risk_analysis import file_input
 from risk_analysis import file_search
 
 
-def pdfs_risk_analysis(client, folder_path, record_file="risk_analysis/processed_files.txt", method="file_search", pass_type = 1):
+def pdfs_risk_analysis(client, folder_path, record_file="risk_analysis/processed_files.txt", method="file_input", pass_type = 1):
     
     # Load environment variables from .env file
     load_dotenv()

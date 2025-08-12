@@ -94,8 +94,7 @@ flowchart LR
 - Updates Google Sheets on Mckinsey PDF reports to manually check 
 - Function: Takes input, extracts title, content, url & date -> saves file for each source per run
 
-### 7. Data
-(`data/`)
+### 7. Data (`data/`)
 - Input:
   - `inputs/pdfs`: All PDF reports to run
   - `inputs/text`: Text files of PDF reports

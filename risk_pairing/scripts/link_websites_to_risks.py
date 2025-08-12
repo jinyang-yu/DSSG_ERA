@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer, util
 # === Paths ===
 risk_folder = Path("risk_analysis/output/file_search_txt_2")
 summary_folder = Path("risk_pairing/outputs/websites_with_summary")
-output_folder = Path("results")
+output_folder = Path("data/results")
 output_folder.mkdir(parents=True, exist_ok=True)
 
 # === Model Config ===

@@ -91,6 +91,10 @@ scraper = DynamicWebScraper(url= url, config=settings, visited_urls=visited_urls
 - **Mckinsey.com**:
     - The Mckinsey site consists of PDF reports that needs manual downloading that was not implemented in this version of the pipeline. Therefore, each run, it will check if any new reports have surfaced on the site and save these links separately into a Google Sheets file, which can be accessed [here](https://docs.google.com/spreadsheets/d/1L7xnQGCdX7L8Hczp1uqtrr8FMfyk5Yyf3ud2LZ2MfsA/edit?usp=sharing)
     - The Google Sheets API call was completed through a service account and the corresponding credentials, that should be saved under `credentials.json` in the root `web_scraper/` folder
+- **URLs Prone to Timeout & Fetch Failures**
+    - chronicle.com
+    - cbc.ca
+    - mckinsey.com
 
 
 

@@ -1,5 +1,7 @@
 # DSSG_ERA/main.py 
 import asyncio
+import warnings
+import os
 from openai import OpenAI
 from dotenv import load_dotenv
 from pathlib import Path
@@ -8,6 +10,11 @@ from classifier.run_classifier import run_classifier
 from risk_pairing.scripts.news_article_summarization import summarize_articles_from_json
 from risk_pairing.scripts.link_websites_to_risks import run_risk_summary_matching
 from risk_analysis.run_risk_analysis import pdfs_risk_analysis
+
+# gets rid of some warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+os.environ["TRANSFORMERS_VERBOSITY"] = "error" 
 
 async def web_main():
   """

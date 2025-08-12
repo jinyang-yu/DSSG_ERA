@@ -1,0 +1,506 @@
+{
+  "risks": [
+    {
+      "risk_name": "Cyber Security",
+      "risk_description": "Cyberattacks are expected to grow more aggressive and brazen, driven by increased remote/hybrid work and cloud-based technologies. Risks include ransomware, insider threats, state-sponsored hacking, and misuse of generative AI tools leading to data leaks.",
+      "risk_driver": [
+        {
+          "driver_name": "Remote and Hybrid Work",
+          "driver_description": "Increased remote work provides opportunities for insiders to collude with hackers and increases attack surfaces."
+        },
+        {
+          "driver_name": "Cloud Service Provider Vulnerabilities",
+          "driver_description": "Cloud providers are lucrative targets; breaches can expose multiple clients."
+        },
+        {
+          "driver_name": "Rapid Digital Transformation",
+          "driver_description": "Adoption of new digital platforms without proper risk assessments or updated policies increases vulnerabilities."
+        },
+        {
+          "driver_name": "Generative AI Misuse",
+          "driver_description": "Ungoverned use of AI tools like ChatGPT can lead to leaks of sensitive and proprietary data."
+        },
+        {
+          "driver_name": "Geopolitical Tensions",
+          "driver_description": "State-sponsored hacking from nations like Russia and China increases cyber risk."
+        }
+      ],
+      "risk_recommendations": [
+        "Verify cloud service providers have appropriate controls to mitigate cyber risks.",
+        "Conduct background checks on employees with access to sensitive data.",
+        "Implement software to detect and escalate inappropriate data access or transfers.",
+        "Perform regular cyber security audits and training.",
+        "Use dark web scans to detect stolen data and hacker discussions.",
+        "Prepare incident response plans and conduct tabletop exercises."
+      ],
+      "trend": "Cybersecurity risk has been a top concern for over a decade and is expected to increase in frequency and sophistication in 2024 and beyond.",
+      "likelihood": "Almost certain (very high likelihood) due to ongoing trends in remote work and geopolitical tensions.",
+      "impact": "Potential for severe operational disruption, data breaches, financial loss, reputational damage, and regulatory penalties.",
+      "risk_indicator": "Frequency and intensity of cyberattacks; unauthorized access incidents; dark web data exposure.",
+      "risk_event": null,
+      "suggested_audits": [
+        "Information Security Policy and Procedure Audit",
+        "Access Controls Audit",
+        "Network Security Audit",
+        "Vulnerability Assessment and Penetration Testing Audit",
+        "Security Patch Management Audit",
+        "Data Protection and Encryption Audit",
+        "Incident Response Preparedness Audit",
+        "Security Awareness Training Audit",
+        "Physical Security Audit",
+        "Endpoint Security Audit",
+        "Data Backup and Disaster Recovery Audit"
+      ],
+      "contextual_variations": [
+        "Public sector, major infrastructure, and organizations with large volumes of personal and proprietary data are especially vulnerable."
+      ],
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.855497419834137
+        }
+      ]
+    },
+    {
+      "risk_name": "Artificial Intelligence Risks",
+      "risk_description": "Rapid adoption of AI technologies introduces risks such as hallucinations (incorrect outputs), misuse of proprietary data, sophisticated social engineering attacks, ethical and bias issues, and operational failures.",
+      "risk_driver": [
+        {
+          "driver_name": "AI Hallucinations",
+          "driver_description": "AI can produce incorrect or misleading outputs unpredictably."
+        },
+        {
+          "driver_name": "Data Privacy and Intellectual Property",
+          "driver_description": "Inputting sensitive data into AI tools risks privacy breaches and IP theft."
+        },
+        {
+          "driver_name": "Sophisticated Social Engineering",
+          "driver_description": "Threat actors can use AI to craft believable attacks."
+        },
+        {
+          "driver_name": "Ethical and Bias Concerns",
+          "driver_description": "AI bias can lead to suboptimal or unfair decision-making."
+        }
+      ],
+      "risk_recommendations": [
+        "Maintain an inventory of AI-impacted systems and processes.",
+        "Implement risk assessment processes for AI technologies.",
+        "Set clear policies on acceptable AI usage.",
+        "Train users to validate AI outputs critically.",
+        "Monitor AI scalability and data handling capabilities."
+      ],
+      "trend": "AI adoption is rapidly increasing with growing recognition of associated risks; ignoring AI risks may lead to loss of competitive advantage.",
+      "likelihood": "High likelihood due to widespread AI adoption and rapid technological advances.",
+      "impact": "Operational disruptions, data breaches, reputational damage, and ethical/legal challenges.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8126914501190186
+        }
+      ]
+    },
+    {
+      "risk_name": "Privacy and Data Governance",
+      "risk_description": "Increasingly stringent privacy laws (e.g., Québec's Law 25) require organizations to update policies and controls to protect personal identifiable information (PII) and comply with multi-jurisdictional regulations.",
+      "risk_driver": [
+        {
+          "driver_name": "Stricter Privacy Regulations",
+          "driver_description": "New laws impose heavier compliance requirements and penalties."
+        },
+        {
+          "driver_name": "Data Movement and Storage Complexity",
+          "driver_description": "Data stored across jurisdictions and cloud systems complicates governance."
+        },
+        {
+          "driver_name": "Lack of Policies and Training",
+          "driver_description": "Absence of data governance policies and AI tool usage guidelines increases risk."
+        }
+      ],
+      "risk_recommendations": [
+        "Identify and secure all critical data locations and flows.",
+        "Develop and enforce comprehensive data governance policies.",
+        "Train employees on data privacy and AI tool usage.",
+        "Ensure compliance with applicable privacy laws.",
+        "Implement controls to prevent unauthorized third-party data access."
+      ],
+      "trend": "Privacy risk is increasing due to evolving regulations and heightened user awareness.",
+      "likelihood": "High likelihood given regulatory trends and data complexity.",
+      "impact": "Potential for regulatory fines, reputational damage, and loss of customer trust.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "IT/OT Governance",
+      "risk_description": "Limited budgets and legacy systems challenge organizations to prioritize technology investments, risking suboptimal decisions, security vulnerabilities, and operational inefficiencies.",
+      "risk_driver": [
+        {
+          "driver_name": "Budget Constraints",
+          "driver_description": "Insufficient funding for necessary IT and OT upgrades."
+        },
+        {
+          "driver_name": "Legacy Systems",
+          "driver_description": "Aging infrastructure beyond useful life increases risk."
+        },
+        {
+          "driver_name": "Third-Party Dependencies",
+          "driver_description": "Reliance on third parties without adequate vetting and controls."
+        }
+      ],
+      "risk_recommendations": [
+        "Establish governance processes involving IT, finance, operations, and audit.",
+        "Prioritize technology investments based on risk and value.",
+        "Vet and monitor third-party suppliers rigorously.",
+        "Conduct training and tabletop exercises for ransomware and cyberattack response."
+      ],
+      "trend": "Risk is growing as organizations struggle to balance innovation with cost and security.",
+      "likelihood": null,
+      "impact": "Operational disruptions, increased cyber risk, and inefficient resource use.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8194268941879272
+        }
+      ]
+    },
+    {
+      "risk_name": "Environmental, Social, and Governance (ESG)",
+      "risk_description": "Organizations face increasing regulatory and stakeholder pressure to meet ESG standards, including climate change mitigation, social responsibility, and governance transparency.",
+      "risk_driver": [
+        {
+          "driver_name": "New ESG Regulations",
+          "driver_description": "Standards like IFRS S1 & S2 and Canadian Bill S-211 increase compliance requirements."
+        },
+        {
+          "driver_name": "Climate Change and Environmental Impact",
+          "driver_description": "Record heat, wildfires, and emissions reporting pressures."
+        },
+        {
+          "driver_name": "Social and Governance Expectations",
+          "driver_description": "Focus on equity, diversity, inclusion, board representation, and transparency."
+        }
+      ],
+      "risk_recommendations": [
+        "Set realistic and defendable ESG targets aligned with industry peers.",
+        "Assess impacts of insufficient ESG progress.",
+        "Ensure data integrity for ESG metrics.",
+        "Develop rigorous EDI strategies linked to corporate strategy.",
+        "Engage communities and ensure supply chain transparency."
+      ],
+      "trend": "ESG risk is rising with increasing regulatory scrutiny and stakeholder expectations.",
+      "likelihood": null,
+      "impact": "Reputational damage, regulatory penalties, and operational challenges.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Labour Practices Audit",
+        "Supplier and Vendor Social Responsibility Audit",
+        "Community Engagement and Impact Audit",
+        "Social Impact Assessment Audit",
+        "Corporate Social Responsibility Reporting Audit",
+        "Supplier Diversity Audit",
+        "Social Governance and Oversight Audit"
+      ],
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "IT Third-Party Risk Management",
+      "risk_description": "Growing reliance on third-party technology providers increases exposure to cyber risks, quality issues, and operational disruptions if third parties lack resilience or controls.",
+      "risk_driver": [
+        {
+          "driver_name": "Increased Third-Party Usage",
+          "driver_description": "More contracts and reliance on SaaS and specialized vendors."
+        },
+        {
+          "driver_name": "Complacency in Oversight",
+          "driver_description": "Treating third-party risk management as a checkbox rather than ongoing process."
+        },
+        {
+          "driver_name": "Supply Chain Vulnerabilities",
+          "driver_description": "Weaknesses in third-party controls can propagate risks."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct detailed risk assessments before onboarding third parties.",
+        "Include risk mitigation accountability in contracts.",
+        "Ensure third parties have tested response and continuity plans.",
+        "Implement customized codes of conduct and cyber security training for third parties.",
+        "Regularly review and stress test third-party dependencies."
+      ],
+      "trend": "Risk is increasing with digital innovation and pandemic-driven outsourcing.",
+      "likelihood": null,
+      "impact": "Cybersecurity breaches, fraud, quality failures, and system outages.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Vendor and Outsourcing Resilience Audit"
+      ],
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8255504369735718
+        }
+      ]
+    },
+    {
+      "risk_name": "Merger and Acquisition (M&A) Integration",
+      "risk_description": "M&A activity carries risks including inherited cyber vulnerabilities, fraud, cultural conflicts, and integration challenges that can impact deal success and organizational stability.",
+      "risk_driver": [
+        {
+          "driver_name": "Poor Due Diligence",
+          "driver_description": "Failure to assess IT/OT controls, ESG compliance, fraud risk, and culture."
+        },
+        {
+          "driver_name": "Pandemic-Era Risks",
+          "driver_description": "Spike in fraud and rapid digital platform adoption increasing integration complexity."
+        }
+      ],
+      "risk_recommendations": [
+        "Include comprehensive risk assessments in due diligence covering IT/OT, ESG, fraud, and culture.",
+        "Set clear dealbreaker parameters and risk appetite.",
+        "Plan for post-merger integration costs and timelines carefully."
+      ],
+      "trend": "M&A activity is increasing with heightened awareness of associated risks.",
+      "likelihood": null,
+      "impact": "Financial loss, operational disruption, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8479295969009399
+        }
+      ]
+    },
+    {
+      "risk_name": "Digital Transformation",
+      "risk_description": "Accelerated digital transformation introduces risks from integration complexities, cyber vulnerabilities, policy gaps, and human resource challenges.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid Cloud Adoption",
+          "driver_description": "Cloud platforms introduce new processes and risk exposures."
+        },
+        {
+          "driver_name": "Legacy System Integration",
+          "driver_description": "Challenges in integrating new software with existing systems."
+        },
+        {
+          "driver_name": "Policy and Training Gaps",
+          "driver_description": "Outdated policies and insufficient training reduce control effectiveness."
+        },
+        {
+          "driver_name": "Human Resource Impact",
+          "driver_description": "Changing skill requirements and potential redundancies."
+        }
+      ],
+      "risk_recommendations": [
+        "Maintain an inventory of digital transformation changes.",
+        "Assess integration requirements and update controls, policies, and training.",
+        "Plan for resource needs with new capabilities.",
+        "Conduct risk assessments for new hardware and software."
+      ],
+      "trend": "Digital transformation risk is rising with ongoing technology adoption.",
+      "likelihood": null,
+      "impact": "Operational inefficiencies, security risks, and workforce challenges.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8338664174079895
+        }
+      ]
+    },
+    {
+      "risk_name": "Data Analytics and Continuous Monitoring",
+      "risk_description": "Increasing reliance on data analytics introduces risks related to data integrity, governance, and the balance between moving too fast or too slow in analytics maturity.",
+      "risk_driver": [
+        {
+          "driver_name": "Data Integrity Issues",
+          "driver_description": "Changes impacting data quality can lead to misleading insights."
+        },
+        {
+          "driver_name": "Governance and Strategy Gaps",
+          "driver_description": "Lack of clear analytics strategy and executive buy-in."
+        },
+        {
+          "driver_name": "Technical and Experience Deficits",
+          "driver_description": "Insufficient expertise at board and operational levels."
+        }
+      ],
+      "risk_recommendations": [
+        "Test data integrity regularly.",
+        "Assess reliance on third-party data and its quality.",
+        "Develop and secure executive buy-in for analytics strategy.",
+        "Add analytics expertise to board and operational teams."
+      ],
+      "trend": "Analytics risk is growing as organizations seek competitive advantage through data.",
+      "likelihood": null,
+      "impact": "Poor decision-making, loss of market share, and operational inefficiencies.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8040257692337036
+        }
+      ]
+    },
+    {
+      "risk_name": "Business Resilience (Including Third Parties)",
+      "risk_description": "Organizations face risks from insufficient preparation for crises, including lack of training, unclear roles, and unprepared third parties, leading to poor crisis response and high recovery costs.",
+      "risk_driver": [
+        {
+          "driver_name": "Insufficient Preparation",
+          "driver_description": "Lack of training, policy, and planning for business disruptions."
+        },
+        {
+          "driver_name": "Unaware Third Parties",
+          "driver_description": "Third parties not understanding their role in resilience."
+        },
+        {
+          "driver_name": "Past Disruption Unpreparedness",
+          "driver_description": "Failure to learn from previous crises."
+        }
+      ],
+      "risk_recommendations": [
+        "Maintain a list of probable risk scenarios and response plans.",
+        "Conduct mock tabletop exercises involving experts and third parties.",
+        "Perform post-incident analyses to improve preparedness.",
+        "Track peer crises to benchmark readiness."
+      ],
+      "trend": "Increasing recognition of the need for integrated resilience planning.",
+      "likelihood": null,
+      "impact": "Business and IT/OT disruption, communication failures, resource unavailability, and high reaction costs.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Business Resilience Audit",
+        "Communication and Stakeholder Management Audit",
+        "Incident Response Audit",
+        "Employee Continuity Audit",
+        "Vendor and Outsourcing Resilience Audit"
+      ],
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Capital Projects and Operations",
+      "risk_description": "Capital projects carry high risks of cost overruns, timeline delays, quality issues, and billing errors, exacerbated by inflation and complex project management challenges.",
+      "risk_driver": [
+        {
+          "driver_name": "Inflationary Pressures",
+          "driver_description": "Rising labour and material costs increase budget risks."
+        },
+        {
+          "driver_name": "Billing Errors",
+          "driver_description": "Common 1-3% billing inflation can lead to significant overpayments."
+        },
+        {
+          "driver_name": "Project Management Challenges",
+          "driver_description": "Lack of clear roles, oversight, and risk assessment can cause delays and quality issues."
+        }
+      ],
+      "risk_recommendations": [
+        "Use data analytics to identify invoice inconsistencies and recover overpayments.",
+        "Establish clear roles and responsibilities for project delivery and oversight.",
+        "Conduct rigorous risk assessments during planning.",
+        "Implement contract clauses for audit rights and dispute resolution.",
+        "Monitor project timelines and budgets closely."
+      ],
+      "trend": "Capital project risks remain high with ongoing inflation and complexity.",
+      "likelihood": null,
+      "impact": "Financial loss, operational disruption, safety risks, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Capital Expenditure Audit",
+        "Project Management Audit",
+        "Cost Control and Cost Estimation Audit",
+        "Contract Management Audit",
+        "Schedule Compliance Audit",
+        "Quality Assurance and Quality Control Audit",
+        "Procurement and Vendor Audit",
+        "Health, Safety, and Environment Audit",
+        "Resource Allocation and Utilization Audit",
+        "Change Order and Variance Analysis Audit",
+        "Internal Controls Audit",
+        "Compliance with Regulatory and Legal Requirements Audit",
+        "Asset Management Audit",
+        "Data and Documentation Management Audit",
+        "Project Closure and Lessons Learned Audit"
+      ],
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Fraud and Corruption",
+      "risk_description": "Economic pressures from inflation and cost of living increases elevate fraud risk through increased pressure and rationalization, compounded by opportunities from remote work and weak controls.",
+      "risk_driver": [
+        {
+          "driver_name": "Economic Pressure",
+          "driver_description": "Financial strain on employees and third parties increases motivation for fraud."
+        },
+        {
+          "driver_name": "Opportunity from Weak Controls",
+          "driver_description": "Remote work, incomplete policies, and poor training increase fraud opportunities."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct regular fraud risk assessments.",
+        "Implement dual signatures for large transactions.",
+        "Use AI tools to monitor suspicious activity.",
+        "Restrict login access to essential personnel.",
+        "Provide fraud training and encourage reporting.",
+        "Engage forensic experts for investigations."
+      ],
+      "trend": "Fraud risk is elevated due to economic conditions and operational changes.",
+      "likelihood": "Increased likelihood due to economic and operational factors.",
+      "impact": "Financial loss, legal issues, fines, business interruption, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": [
+        "Fraud Risk Assessment Audit",
+        "Anti-Corruption Compliance Audit",
+        "Whistleblower Program Audit",
+        "Expense Reimbursement Audit",
+        "Vendor and Supplier Audit",
+        "Employee Background Checks Audit"
+      ],
+      "contextual_variations": null,
+      "matched_articles": []
+    }
+  ]
+}

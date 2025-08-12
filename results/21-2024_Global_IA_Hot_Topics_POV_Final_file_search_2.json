@@ -1,0 +1,347 @@
+{
+  "risks": [
+    {
+      "risk_name": "Disruptive Technology Risk",
+      "risk_description": "The rapid evolution and adoption of disruptive technologies such as generative AI (GenAI), cloud computing, and machine learning present elevated risks including data governance, security, ethical concerns, and operational challenges.",
+      "risk_driver": [
+        {
+          "driver_name": "Rapid Pace of Change",
+          "driver_description": "The quickening evolution of technologies like GenAI increases complexity and risk exposure."
+        },
+        {
+          "driver_name": "Ethical and Regulatory Challenges",
+          "driver_description": "Issues such as bans on AI in biometric surveillance and requirements for AI-generated content disclosure create compliance risks."
+        },
+        {
+          "driver_name": "Lack of Governance and Control Frameworks",
+          "driver_description": "Organizations may lack appropriate policies, standards, and guidelines to manage AI and cloud risks effectively."
+        }
+      ],
+      "risk_recommendations": [
+        "Familiarize with underlying technologies and their capabilities and limitations.",
+        "Develop and harmonize a GenAI strategy aligned with enterprise AI and digital transformation plans.",
+        "Democratize discussions across disciplines about use cases and risks.",
+        "Adapt legacy risk frameworks to address bias, misinformation, transparency, and accountability.",
+        "Establish clear ownership of AI risks within the organization.",
+        "Set up or refine AI governance frameworks and implementation roadmaps with cross-functional input.",
+        "Pose questions about AI and automation adoption during risk assessments.",
+        "Educate senior leadership and broader organization on AI risks.",
+        "Upskill internal audit to audit algorithms and leverage intelligent solutions."
+      ],
+      "trend": "Disruptive technology risks are increasing in prominence due to rapid technological advances and regulatory developments, with GenAI poised to significantly impact business operations.",
+      "likelihood": null,
+      "impact": "Potential impacts include operational disruptions, compliance breaches, ethical violations, and reputational damage.",
+      "risk_indicator": null,
+      "risk_event": [
+        "June 2023 European Commission amendments banning AI use in biometric surveillance and requiring AI-generated content disclosure."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8204802870750427
+        }
+      ]
+    },
+    {
+      "risk_name": "Resilience Risk",
+      "risk_description": "The risk that organizations lack sufficient operational resilience to withstand and recover from disruptions, due to misalignment in understanding, planning, and execution across risk and control disciplines.",
+      "risk_driver": [
+        {
+          "driver_name": "Scarcity of Talent",
+          "driver_description": "A shortage of skilled personnel hinders resilience efforts."
+        },
+        {
+          "driver_name": "Competing Strategic Priorities",
+          "driver_description": "Other priorities may detract focus and resources from resilience."
+        },
+        {
+          "driver_name": "Lack of Organizational Understanding",
+          "driver_description": "Inconsistent definitions and goals for resilience across teams cause confusion."
+        }
+      ],
+      "risk_recommendations": [
+        "Identify and agree on what critical products, services, and outcomes need to be resilient.",
+        "Assess current resilience levels and identify exposure points in supply chains, technology, and third parties.",
+        "Determine acceptable impact tolerance to guide investment in resilience.",
+        "Establish a single accountable body for resilience with minimum requirements and proper reporting.",
+        "Avoid over-centralization that eliminates diversity and redundancy.",
+        "Design resilience deliberately, avoiding major points of failure and ensuring dual sourcing and succession planning.",
+        "Develop plans for continuing critical operations during disruptions and for rapid response and recovery.",
+        "Internal audit to act as a critical friend, illuminating blind spots and connecting resilience efforts."
+      ],
+      "trend": "Despite increased attention since 2020, many organizations remain insufficiently resilient, with regulatory changes such as the EU Digital Operational Resilience Act (DORA) and Critical Entities Resilience Directive driving increased focus.",
+      "likelihood": null,
+      "impact": "Severe operational disruptions, financial losses, and reputational damage if resilience is inadequate.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8076889514923096
+        }
+      ]
+    },
+    {
+      "risk_name": "Environmental, Social, and Governance (ESG) Risk",
+      "risk_description": "Risks arising from failure to meet ESG targets, inaccurate or misleading ESG reporting, and evolving regulatory requirements, potentially leading to reputational damage and loss of stakeholder trust.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Regulatory Requirements",
+          "driver_description": "New laws such as California's Climate Corporate Data Accountability Act require detailed emissions and climate risk disclosures."
+        },
+        {
+          "driver_name": "Greenwashing and Other Misleading Practices",
+          "driver_description": "Deceptive practices like greenwashing, blue washing, and pink washing undermine credibility."
+        },
+        {
+          "driver_name": "Lack of Alignment and Transparency",
+          "driver_description": "Misalignment between ESG strategy and business strategy, and poor monitoring of progress."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct current-state ESG program assessments to identify gaps and opportunities.",
+        "Evaluate and strengthen data, processes, and internal controls over sustainability information.",
+        "Incorporate ESG into internal audit plans and provide assurance on ESG reporting.",
+        "Build SOX-like frameworks for ESG risk, controls, and testing procedures.",
+        "Verify actions taken to meet ESG goals, not just the reported numbers.",
+        "Brief internal audit teams on ESG reporting standards and frameworks.",
+        "Monitor for signs of misleading practices and staff turnover related to ESG commitments."
+      ],
+      "trend": "ESG risks are growing due to global regulatory pushes for transparency and stakeholder demand for corporate responsibility.",
+      "likelihood": null,
+      "impact": "Reputational damage, loss of consumer trust, regulatory penalties, and financial risks related to climate change.",
+      "risk_indicator": null,
+      "risk_event": [
+        "September 2023 passage of California SB-253 and SB-261 mandating greenhouse gas emissions and climate risk disclosures."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Human Capital Management Risk",
+      "risk_description": "Risks related to talent shortages, evolving workforce models, and challenges in diversity, equity, and inclusion (DEI), impacting productivity, brand reputation, and cyber security.",
+      "risk_driver": [
+        {
+          "driver_name": "Talent Shortages",
+          "driver_description": "Ongoing scarcity of skilled workers affects organizational capability."
+        },
+        {
+          "driver_name": "Changing Work Models",
+          "driver_description": "Shift to skills-based work, flexible hours, and remote work require new management approaches."
+        },
+        {
+          "driver_name": "Increased Employee Expectations",
+          "driver_description": "Demand for meaningful work, personalized career paths, and inclusive culture."
+        }
+      ],
+      "risk_recommendations": [
+        "Assess maturity of talent recruitment and DEI efforts.",
+        "Perform culture audits and identify risks related to workforce management.",
+        "Advise on programs to address deficiencies in human capital management.",
+        "Provide assurance on social statistics published externally.",
+        "Focus on employee-centric strategies to retain in-demand talent."
+      ],
+      "trend": "Human capital risks are intensifying with evolving workforce expectations and increased regulatory scrutiny, as evidenced by a 50% increase in EEOC employment discrimination lawsuits in 2023.",
+      "likelihood": null,
+      "impact": "Reduced productivity, increased turnover, legal risks, and damage to brand reputation.",
+      "risk_indicator": null,
+      "risk_event": [
+        "143 new employment discrimination lawsuits filed by the US EEOC in fiscal year 2023, a 50% increase over 2022."
+      ],
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8137402534484863
+        }
+      ]
+    },
+    {
+      "risk_name": "Enterprise Trust Risk",
+      "risk_description": "The risk of losing stakeholder trust due to failure to meet expectations around competence, transparency, and ethical behavior, which can severely impact organizational performance and market value.",
+      "risk_driver": [
+        {
+          "driver_name": "Failure to Meet Stakeholder Expectations",
+          "driver_description": "Inadequate safeguarding of data, poor ESG stances, unsafe working conditions, and lack of transparency."
+        },
+        {
+          "driver_name": "Lack of Clear Ownership and Accountability",
+          "driver_description": "Unclear responsibility for building and maintaining trust."
+        },
+        {
+          "driver_name": "Organizational Culture Issues",
+          "driver_description": "Lack of psychological safety and defensive leadership attitudes."
+        }
+      ],
+      "risk_recommendations": [
+        "Make trust measurement a strategic priority with structured frameworks.",
+        "Embed trust-building in internal audit’s ways of working.",
+        "Define trust within enterprise and industry context and identify key stakeholder groups.",
+        "Use internal and external sensing to monitor trust levels.",
+        "Promote open dialogue and consistent trust-building actions over time."
+      ],
+      "trend": "Trust is increasingly recognized as critical to performance, with highly trusted companies outperforming low trust companies by up to 4 times in market value.",
+      "likelihood": null,
+      "impact": "Loss of trust can lead to significant market value decline, reduced employee motivation, and loss of customer loyalty.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Controls Modernization Risk",
+      "risk_description": "Risks arising from outdated or inefficient control environments that fail to keep pace with business complexity, digital transformation, and regulatory requirements, leading to increased risk of control failures and misstatements.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Business Complexity",
+          "driver_description": "More complex operations and regulatory environments challenge existing controls."
+        },
+        {
+          "driver_name": "Lack of Automation and Digitization",
+          "driver_description": "Manual controls and processes lead to inefficiencies and higher failure risk."
+        },
+        {
+          "driver_name": "Unoptimized Control Programs",
+          "driver_description": "Excessive controls testing and expanding control landscapes cause user dissatisfaction and risk of failure."
+        }
+      ],
+      "risk_recommendations": [
+        "Engage early with management to design risk-driven control programs.",
+        "Advise on digitizing and automating control performance, testing, and project management.",
+        "Challenge existing orthodoxies and optimize control frameworks continuously.",
+        "Align stakeholders and control owners through assurance-by-design processes.",
+        "Focus on making processes more effective rather than just implementing technology."
+      ],
+      "trend": "Controls modernization is gaining importance as organizations face persistent change and uncertainty, with a shift towards continuous controls monitoring.",
+      "likelihood": null,
+      "impact": "Control failures can lead to financial misstatements, compliance breaches, and operational inefficiencies.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.817129373550415
+        }
+      ]
+    },
+    {
+      "risk_name": "Digital Backbone and Technology Integration Risk",
+      "risk_description": "Risks related to fragmented and unintegrated digital and audit technologies that hinder the internal audit function’s ability to provide timely insights and efficient assurance.",
+      "risk_driver": [
+        {
+          "driver_name": "Disparate Platforms",
+          "driver_description": "Use of multiple unconnected systems for risk assessment, planning, execution, and monitoring."
+        },
+        {
+          "driver_name": "Limited Process Standardization",
+          "driver_description": "Lack of standardized processes impedes automation and digital transformation."
+        },
+        {
+          "driver_name": "Low Data Literacy and Change Management",
+          "driver_description": "Challenges in keeping up with business changes and emerging risks."
+        }
+      ],
+      "risk_recommendations": [
+        "Adopt a systematic and methodical approach to digital innovation.",
+        "Pilot proof of concepts and measure ROI to guide technology investments.",
+        "Build an integrated digital backbone to automate processes and drive efficiencies.",
+        "Promote a mindset of innovation and safe experimentation within internal audit.",
+        "Focus on process effectiveness alongside technology implementation.",
+        "Invest in data literacy and continuous learning."
+      ],
+      "trend": "Digital transformation in internal audit is accelerating but remains uneven, with many functions still in early stages of building integrated digital capabilities.",
+      "likelihood": null,
+      "impact": "Inefficient audit processes, delayed insights, and missed opportunities for risk anticipation.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8058087825775146
+        }
+      ]
+    },
+    {
+      "risk_name": "Regulatory Compliance and Reporting Risk",
+      "risk_description": "Risks of non-compliance with evolving regulatory and legislative requirements, including ESG disclosures and operational resilience mandates, potentially leading to penalties and reputational harm.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Regulatory Burden",
+          "driver_description": "New and complex regulations require enhanced compliance efforts."
+        },
+        {
+          "driver_name": "Inadequate Control Environments",
+          "driver_description": "Failure to adapt controls and reporting processes to meet new requirements."
+        }
+      ],
+      "risk_recommendations": [
+        "Incorporate regulatory compliance into internal audit plans.",
+        "Evaluate and strengthen internal controls over compliance and reporting.",
+        "Stay abreast of regulatory changes and update risk assessments accordingly.",
+        "Build frameworks to support accurate and timely disclosures."
+      ],
+      "trend": "Regulatory compliance risk is rising due to new laws such as DORA and climate-related financial disclosure mandates.",
+      "likelihood": null,
+      "impact": "Financial penalties, operational disruptions, and damage to stakeholder trust.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Organizational Purpose and Alignment Risk",
+      "risk_description": "Risks arising from misalignment between internal audit’s purpose and the broader organization’s purpose, leading to reduced impact, employee disengagement, and failure to support strategic objectives.",
+      "risk_driver": [
+        {
+          "driver_name": "Lack of Clear Purpose Communication",
+          "driver_description": "Internal audit perceived as a policing function rather than a value-adding partner."
+        },
+        {
+          "driver_name": "Employee Turnover and Low Engagement",
+          "driver_description": "High turnover or disengagement within internal audit teams."
+        },
+        {
+          "driver_name": "Routine and Status Quo Practices",
+          "driver_description": "Failure to innovate or differentiate internal audit’s approach."
+        }
+      ],
+      "risk_recommendations": [
+        "Articulate internal audit’s purpose in the context of the organization’s broader purpose.",
+        "Align the three lines of defense around purpose and clarify roles.",
+        "Develop recommendations to close perception gaps between leadership and employees.",
+        "Envision and implement future-oriented internal audit practices.",
+        "Communicate value and purpose clearly to internal audit teams and stakeholders."
+      ],
+      "trend": "Increasing recognition that purpose-driven internal audit functions deliver greater impact and competitive advantage.",
+      "likelihood": null,
+      "impact": "Reduced effectiveness of internal audit, loss of talent, and missed opportunities to support organizational goals.",
+      "risk_indicator": null,
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    }
+  ]
+}

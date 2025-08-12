@@ -1,0 +1,384 @@
+{
+  "risks": [
+    {
+      "risk_name": "Cybersecurity",
+      "risk_description": "Cybersecurity is a ubiquitous concern with organizations facing high or very high risk of cyber attacks and breaches, impacting data security and operational continuity.",
+      "risk_driver": [
+        {
+          "driver_name": "Technology Dependency",
+          "driver_description": "Increasing reliance on digital systems and IT infrastructure exposes organizations to cyber threats."
+        },
+        {
+          "driver_name": "Sophistication of Attacks",
+          "driver_description": "Cyber attacks are becoming more sophisticated, increasing the difficulty of defense."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct regular and continuous cybersecurity audits.",
+        "Integrate cybersecurity considerations into all audit engagements.",
+        "Invest in advanced cyber defense technologies and staff training."
+      ],
+      "trend": "Cybersecurity risk remains elevated compared to 2019 levels and is among the top three highest risks consistently.",
+      "likelihood": "78% of respondents rate cybersecurity as high or very high risk.",
+      "impact": "Potential for severe operational disruption, data breaches, financial loss, and reputational damage.",
+      "risk_indicator": "Frequency of cybersecurity audits conducted annually or continuously (approximately 70%).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Cybersecurity risk is consistently high across all organization types including publicly traded, financial services, nonprofit, and public sector."
+      ],
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8475573062896729
+        }
+      ]
+    },
+    {
+      "risk_name": "Information Technology (IT) Risk",
+      "risk_description": "Risks related to IT systems not covered under cybersecurity, including system failures, outdated infrastructure, and integration challenges.",
+      "risk_driver": [
+        {
+          "driver_name": "Complex IT Environments",
+          "driver_description": "Diverse and piecemeal IT systems increase complexity and risk of failure."
+        },
+        {
+          "driver_name": "Cloud Migration Challenges",
+          "driver_description": "Technical and cost challenges associated with migrating to cloud platforms."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct regular IT audits at least annually.",
+        "Invest in upgrading and integrating IT infrastructure.",
+        "Address supply chain challenges impacting IT investments."
+      ],
+      "trend": "IT risk remains a top risk with audit allocations increasing slightly since 2019.",
+      "likelihood": "46% of respondents rate IT risk as high or very high risk.",
+      "impact": "Operational inefficiencies, increased costs, and potential service disruptions.",
+      "risk_indicator": "Frequency of IT audits conducted annually or continuously (approximately 70%).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "IT risk is rated slightly lower in publicly traded organizations compared to financial services."
+      ],
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8344452381134033
+        }
+      ]
+    },
+    {
+      "risk_name": "Third-Party Relationships",
+      "risk_description": "Risks arising from reliance on third-party vendors and service providers, including IT service providers, which can introduce operational and compliance vulnerabilities.",
+      "risk_driver": [
+        {
+          "driver_name": "Vendor Dependency",
+          "driver_description": "Heavy reliance on third parties for critical services increases exposure to external risks."
+        },
+        {
+          "driver_name": "Regulatory and Compliance Risks",
+          "driver_description": "Third parties may not comply with regulatory requirements, impacting the organization."
+        }
+      ],
+      "risk_recommendations": [
+        "Increase audit frequency of third-party relationships to align with risk levels.",
+        "Implement robust third-party risk management frameworks.",
+        "Regularly review and monitor third-party compliance and performance."
+      ],
+      "trend": "Third-party relationships is the third highest risk area but audit frequency lags behind risk level by 33 percentage points.",
+      "likelihood": "44% of respondents rate third-party relationships as high or very high risk.",
+      "impact": "Operational disruptions, compliance breaches, and reputational damage.",
+      "risk_indicator": "Audit frequency of third-party relationships (only 58% audit at least every 5 years).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Third-party risk is rated higher in privately held organizations compared to other sectors."
+      ],
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8208354711532593
+        }
+      ]
+    },
+    {
+      "risk_name": "Compliance and Regulatory Risk (excluding ICFR)",
+      "risk_description": "Risks related to failure to comply with laws, regulations, and internal policies, excluding internal controls over financial reporting.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Regulatory Burden",
+          "driver_description": "Growing complexity and volume of regulations increase compliance challenges."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct regular compliance audits.",
+        "Enhance regulatory monitoring and training programs.",
+        "Implement proactive compliance management systems."
+      ],
+      "trend": "Compliance risk remains significant with moderate to high risk ratings by 37% of respondents.",
+      "likelihood": "37% rate this risk as high or very high.",
+      "impact": "Legal penalties, financial losses, and reputational harm.",
+      "risk_indicator": "Audit frequency for compliance/regulatory risk (9% continuous or annually, 15% every 2 to 5 years).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Compliance risk is rated lower in publicly traded organizations compared to financial services."
+      ],
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Operational Risk",
+      "risk_description": "Risks arising from failures in internal processes, people, and systems affecting day-to-day operations.",
+      "risk_driver": [
+        {
+          "driver_name": "Process Inefficiencies",
+          "driver_description": "Ineffective or outdated processes increase operational risk."
+        },
+        {
+          "driver_name": "Human Factors",
+          "driver_description": "Errors, fraud, or lack of training among staff contribute to operational failures."
+        }
+      ],
+      "risk_recommendations": [
+        "Increase focus on operational audits.",
+        "Implement process improvements and staff training.",
+        "Enhance risk management and monitoring systems."
+      ],
+      "trend": "Operational risk is consistently rated moderate to high by 61% of respondents.",
+      "likelihood": "61% rate operational risk as moderate to high.",
+      "impact": "Disruptions to business activities, financial losses, and reduced service quality.",
+      "risk_indicator": "Audit frequency for operational risk (27% continuous or annually, 17% every 2 to 5 years).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Enterprise Risk Management (ERM) and Related Processes",
+      "risk_description": "Risks related to the effectiveness of enterprise risk management frameworks and processes.",
+      "risk_driver": [
+        {
+          "driver_name": "ERM Framework Weaknesses",
+          "driver_description": "Inadequate risk identification, assessment, and mitigation processes."
+        }
+      ],
+      "risk_recommendations": [
+        "Regularly audit ERM processes.",
+        "Strengthen risk governance and reporting.",
+        "Enhance risk culture and awareness across the organization."
+      ],
+      "trend": "ERM risk is rated moderate to high by 48% of respondents.",
+      "likelihood": "48% rate ERM risk as moderate to high.",
+      "impact": "Increased exposure to unidentified or unmanaged risks.",
+      "risk_indicator": "Audit frequency for ERM and related processes (11% continuous or annually, 13% every 2 to 5 years).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8083359599113464
+        }
+      ]
+    },
+    {
+      "risk_name": "Fraud Risk",
+      "risk_description": "Risks related to fraudulent activities within the organization, including financial fraud and ethical breaches.",
+      "risk_driver": [
+        {
+          "driver_name": "Internal Control Weaknesses",
+          "driver_description": "Gaps in controls increase vulnerability to fraud."
+        },
+        {
+          "driver_name": "Ethical Culture",
+          "driver_description": "Weak ethical culture and whistleblower protections increase fraud risk."
+        }
+      ],
+      "risk_recommendations": [
+        "Integrate fraud considerations into all audits.",
+        "Conduct dedicated fraud investigations and audits.",
+        "Strengthen ethics programs and whistleblower protections."
+      ],
+      "trend": "Fraud risk is a key focus with 73% rating it moderate or higher risk.",
+      "likelihood": "73% rate fraud risk as moderate or higher.",
+      "impact": "Financial losses, legal consequences, and reputational damage.",
+      "risk_indicator": "Audit frequency for fraud risk (24% continuous or annually, 17% every 2 to 5 years).",
+      "risk_event": null,
+      "suggested_audits": [
+        "Fraud investigation audits"
+      ],
+      "contextual_variations": null,
+      "matched_articles": [
+        {
+          "url": "https://www.strategic-risk-global.com/cyber-/-technology-risks/rethinking-malware-how-risk-managers-should-prepare-for-systemic-cyber-events/1455844.article",
+          "title": "Rethinking malware: How risk managers should prepare for systemic cyber events",
+          "summary": "Survey by CyberCube and Munich Re suggests businesses still underestimate potential for a widespread, disruptive malware event. While a malware infection affecting 10% of global systems would be surprising, it would not be unimaginable. Traditional risk frameworks struggle to keep pace due to the speed and interconnected nature of modern attacks.",
+          "similarity_score": 0.8016117215156555
+        }
+      ]
+    },
+    {
+      "risk_name": "Governance and Culture Risk",
+      "risk_description": "Risks arising from ineffective governance structures and poor organizational culture impacting decision-making and compliance.",
+      "risk_driver": [
+        {
+          "driver_name": "Weak Governance",
+          "driver_description": "Lack of oversight and accountability."
+        },
+        {
+          "driver_name": "Negative Culture",
+          "driver_description": "Poor ethical standards and low employee engagement."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct governance and culture audits.",
+        "Enhance board and management oversight.",
+        "Promote ethical culture and employee engagement."
+      ],
+      "trend": "Governance and culture risk is rated moderate or higher by 68% of respondents.",
+      "likelihood": "68% rate governance and culture risk as moderate or higher.",
+      "impact": "Poor decision-making, compliance failures, and reputational harm.",
+      "risk_indicator": "Audit frequency for governance and culture (20% continuous or annually, 24% every 2 to 5 years).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Financial Reporting Risk (including ICFR)",
+      "risk_description": "Risks related to inaccuracies or failures in financial reporting and internal controls over financial reporting.",
+      "risk_driver": [
+        {
+          "driver_name": "Complex Financial Regulations",
+          "driver_description": "Increasing complexity of financial reporting standards."
+        },
+        {
+          "driver_name": "Internal Control Failures",
+          "driver_description": "Weaknesses in controls over financial reporting processes."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct frequent audits of financial reporting and ICFR.",
+        "Implement strong internal controls and compliance programs.",
+        "Ensure Sarbanes-Oxley (SOX) compliance where applicable."
+      ],
+      "trend": "Financial reporting risk remains significant, especially in publicly traded organizations with SOX requirements.",
+      "likelihood": "40% rate financial reporting risk as high or very high.",
+      "impact": "Financial misstatements, regulatory penalties, and loss of investor confidence.",
+      "risk_indicator": "Audit frequency for financial reporting (including ICFR) (15% continuous or annually, 24% every 2 to 5 years).",
+      "risk_event": null,
+      "suggested_audits": [
+        "Sarbanes-Oxley (SOX) program audits"
+      ],
+      "contextual_variations": [
+        "Higher audit allocation in publicly traded and SOX-implemented organizations."
+      ],
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Cost/Expense Reduction Risk",
+      "risk_description": "Risks related to the need for cost control and expense reduction impacting operational efficiency and financial health.",
+      "risk_driver": [
+        {
+          "driver_name": "Economic Pressures",
+          "driver_description": "Market and economic conditions driving the need for cost reductions."
+        }
+      ],
+      "risk_recommendations": [
+        "Increase audit focus on cost and expense reduction initiatives.",
+        "Implement robust financial monitoring and control mechanisms."
+      ],
+      "trend": "Cost/expense reduction risk is trending up since 2020 and is notably higher in nonprofit organizations.",
+      "likelihood": "48% rate cost/expense reduction risk as moderate or higher.",
+      "impact": "Financial strain, reduced service quality, and operational challenges.",
+      "risk_indicator": "Audit frequency for cost/expense reduction (6% continuous or annually, 31% every 2 to 5 years).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "Higher risk level in nonprofit organizations."
+      ],
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Sustainability and Non-Financial Reporting Risk",
+      "risk_description": "Risks related to sustainability practices and non-financial reporting, including environmental, social, and governance (ESG) factors.",
+      "risk_driver": [
+        {
+          "driver_name": "Increasing Stakeholder Expectations",
+          "driver_description": "Growing demand for transparency and sustainability reporting."
+        }
+      ],
+      "risk_recommendations": [
+        "Integrate sustainability considerations into audit plans.",
+        "Enhance reporting and compliance with ESG standards."
+      ],
+      "trend": "Sustainability risk is increasing, with more than 60% of public sector respondents rating it moderate to very high risk.",
+      "likelihood": "24% rate sustainability risk as high or very high.",
+      "impact": "Reputational damage, regulatory penalties, and loss of stakeholder trust.",
+      "risk_indicator": "Audit frequency for sustainability/non-financial reporting (3% continuous or annually, 8% every 2 to 5 years).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": [
+        "More prominent in public sector organizations."
+      ],
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Support for External Audit Risk",
+      "risk_description": "Risks related to the adequacy of support provided to external auditors, impacting audit quality and compliance.",
+      "risk_driver": [
+        {
+          "driver_name": "Resource Constraints",
+          "driver_description": "Limited resources and coordination challenges with external auditors."
+        }
+      ],
+      "risk_recommendations": [
+        "Enhance collaboration and support for external audit processes.",
+        "Allocate sufficient resources to facilitate external audits."
+      ],
+      "trend": "Support for external audit is audited more frequently than its risk level would suggest, with a 45 percentage point higher audit frequency than risk.",
+      "likelihood": "47% rate this risk as moderate or higher.",
+      "impact": "Potential for audit delays, increased costs, and compliance issues.",
+      "risk_indicator": "Audit frequency for support for external audit (24% continuous or annually, 26% every 2 to 5 years).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    },
+    {
+      "risk_name": "Governance and Culture Risk",
+      "risk_description": "Risks related to ineffective governance and poor organizational culture impacting overall risk management and compliance.",
+      "risk_driver": [
+        {
+          "driver_name": "Lack of Oversight",
+          "driver_description": "Insufficient board and management oversight."
+        },
+        {
+          "driver_name": "Poor Ethical Standards",
+          "driver_description": "Weak ethical culture and employee engagement."
+        }
+      ],
+      "risk_recommendations": [
+        "Conduct governance and culture audits regularly.",
+        "Promote ethical behavior and accountability."
+      ],
+      "trend": "Governance and culture risk is rated moderate or higher by 68% of respondents.",
+      "likelihood": "68% rate this risk as moderate or higher.",
+      "impact": "Poor decision-making, compliance failures, and reputational damage.",
+      "risk_indicator": "Audit frequency for governance and culture (20% continuous or annually, 24% every 2 to 5 years).",
+      "risk_event": null,
+      "suggested_audits": null,
+      "contextual_variations": null,
+      "matched_articles": []
+    }
+  ]
+}

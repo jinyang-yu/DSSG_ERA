@@ -89,4 +89,4 @@ The high-level overview on the final product can be seen in the workflow diagram
 2. Specify which branch of the workflow you'd like to run:
    - If you'd just like to run the website section + linkage -> type `web`
    - If you'd just like to run the PDF extraction -> type `pdf`
-   - If you'd like to run the whole process -> run web branch first then pdf
+   - If you'd like to run the whole process -> type `both`

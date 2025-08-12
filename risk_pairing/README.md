@@ -3,14 +3,14 @@ This folder contains the files to run (1) website article summarization and (2) 
 
 ## Folder Structure 
 ```
-├── outputs/                                          # Stores outputs from evaluation
+├── outputs/                                          # Stores outputs
 │   ├── websites_with_summary/                        # Outputs website jsons with the summary key            |                        
 ├── scripts/                                          # Linking scripts
 │   ├── link_websites_to_risks_topic_modelling.py     # Script for linking based on topic modelling (archived)
 │   ├── link_websites_to_risks.py                     # Using cosine similarity to link websites to risks
 │   ├── news_article_summarization.py                 # Summarizes website articles
 |
-├── risk_list.cvs                                     # List of risks from Risk Universe. Use in topic                                                                modelling
+├── risk_list.cvs                                     # List of risks from Risk Universe. Use in topic modelling
 ```
 
 ## Workflow

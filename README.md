@@ -9,14 +9,14 @@ The high-level overview on the final product can be seen in the workflow diagram
 ![Workflow Diagram](images/workflow_diagram.png)
 
 ## Table of Contents 
-1. [Classifier](DSSG_ERA/classifier) : Classification Model for Web Articles
-2. [Data](DSSG_ERA/data) : Input data and results files for the overarching pipeline
-3. [Evaluation](DSSG_ERA/evaluation) : Model and prompt evaluation folders
-4. [Images](DSSG_ERA/images) : Contains workflow diagram
-5. [PDF Scraper](DSSG_ERA/pdf_scraper) : Includes contents of PDF preprocessing
-6. [Risk Analysis](DSSG_ERA/risk_analysis) : Main folder for GPT risk analysis
-7. [Risk Pairing](DSSG_ERA/risk_pairing) : Pairing of website risk events with extracted PDF risks
-8. [Web Scraper](DSSG_ERA/web_scraper) : Website scraping tool
+1. [Classifier](/classifier) : Classification Model for Web Articles
+2. [Data](/data) : Input data and results files for the overarching pipeline
+3. [Evaluation](/evaluation) : Model and prompt evaluation folders
+4. [Images](/images) : Contains workflow diagram
+5. [PDF Scraper](/pdf_scraper) : Includes contents of PDF preprocessing
+6. [Risk Analysis](/risk_analysis) : Main folder for GPT risk analysis
+7. [Risk Pairing](/risk_pairing) : Pairing of website risk events with extracted PDF risks
+8. [Web Scraper](/web_scraper) : Website scraping tool
 
 ## Project Code Flow
 - In reference to the `main.py` file, the general flow of our code structure goes as follows if you run **both** processes
